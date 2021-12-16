@@ -23,8 +23,8 @@ $\oint a\times \underline B$
 # Requirements
 
 ## A. Design a Tchebyshev array factor of five elements with a main lobe / side lobe ratio of R=120. Optimize the inter-element spacing to minimize the beamwidth
-1.	determine the current coefficients (normalized to maximum)
-2.	evaluate the array tapering efficiency.
+1.	Determine the current coefficients (normalized to maximum)
+2.	Evaluate the array tapering efficiency.
 3.	Evaluate the beamwidth of the array factor and compare with a uniform array
 4.	Plot the array pattern (rectangular and polar diagrams)
 
@@ -36,8 +36,7 @@ $\oint a\times \underline B$
 
 
 ## C. Evaluate the performance of the overall array of patches in both broadside case and 45° off the boresight direction (PSI= 90°-45°)
-1.	identify phase coefficients for beam-steering
-2.	compute and plot the total array gain by using the pattern multiplication principle
-3.	compute and plot the total array gain by mean of a fullwave model of the array with Matlab MoM.
-4.	plot of the near field just over the array plane to analyze the fringing field from the edges and observe possible non-uniformity due to the inter-antenna coupling.
-
+1.	Identify phase coefficients for beam-steering
+2.	Compute and plot the total array gain by using the pattern multiplication principle
+3.	Compute and plot the total array gain by mean of a fullwave model of the array with Matlab MoM.
+4.	Plot of the near field just over the array plane to analyze the fringing field from the edges and observe possible non-uniformity due to the inter-antenna coupling.
