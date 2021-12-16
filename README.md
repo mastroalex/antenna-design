@@ -22,8 +22,8 @@ $\oint a\times \underline B$
 
 # Requirements
 
-## Design a Tchebyshev array factor of five elements with a main lobe/side lobe ratio of R=120. optimize the inter-element spacing to minimize the beamwidth
+## A. Design a Tchebyshev array factor of five elements with a main lobe/side lobe ratio of R=120. optimize the inter-element spacing to minimize the beamwidth
 
-## B
+## B. 
 
-## C
+## C. 
