@@ -1,6 +1,9 @@
 # antenna-design
 
-> 
+> Blasi Luca
+> Mastrofini Alessandro
+> Mucenica Leonard Stefan
+---
 
 ## ToDo
 
@@ -9,6 +12,5 @@
 - [ ] Controllare patch
 - [ ] Ottimizzazione parametri 
 
- $\oint A$
 
 # A
