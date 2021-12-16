@@ -4,7 +4,7 @@
  
 ### 16/12
 
- Ho testato la mesh sul 50 valori da 0.002 a 0.1 `MaxEdgeLength`.
+ Ho testato la mesh su 50 valori da 0.002 a 0.1 `MaxEdgeLength`.
 
 ```matlab
 mesh_val=linspace(0.001,0.1,50); 
