@@ -30,6 +30,7 @@ Andando sotto a 0.002 da problemi `Out of memory`.
 
 [Risultato](https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig/S11.pdf):
 
+Zona piatta quella tra 0.03 e 0.05 ? 
 <p align="center">
 <img src="https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig/S11.png" alt="Result" style="width:40%; border:0;">
 </p>
