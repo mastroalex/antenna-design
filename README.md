@@ -17,4 +17,4 @@
 
 # A
 
-$equation$
+$\oint a\times \underline B$
