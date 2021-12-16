@@ -1,9 +1,8 @@
 # antenna-design
  
-## A.
+## ToDo
 
-aakshbaks
- sdvjdkuvsv
-
-# B
-sdhasdhsd
+- [x] Tcheb
+- [ ] Ottimizzazione mesh 
+- [ ] Controllare patch
+- [ ] 
