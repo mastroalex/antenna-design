@@ -1,9 +1,20 @@
 # antenna-design
- 
-## A.
 
-aakshbaks
- sdvjdkuvsv
+> Blasi Luca
+> 
+> Mastrofini Alessandro
+> 
+> Mucenica Leonard Stefan
+---
 
-# B
-sdhasdhsd
+## ToDo
+
+- [x] Tcheb
+- [ ] Ottimizzazione mesh 
+- [ ] Controllare patch
+- [ ] Ottimizzazione parametri 
+
+
+# A
+
+$equation$
