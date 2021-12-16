@@ -26,9 +26,9 @@ rfplot(S)
 toc
 
 %%
-mesh_val=[0.00001 0.0001 0.001 .001];
+mesh_val=[0.001 0.01 0.1];
 for i=1:length(mesh_val)
-mesh(d,'MaxEdgeLength',mesh_val(i));
+mesh(p,'MaxEdgeLength',mesh_val(i));
 S=sparameters(p,f);
 SS(i)=abs(S.Parameters);
 end
