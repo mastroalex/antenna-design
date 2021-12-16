@@ -26,7 +26,7 @@ rfplot(S)
 toc
 
 %%
-mesh_val=linspace(0.001,0.1,70);
+mesh_val=linspace(0.002,0.1,100);
 SS=zeros(1,length(mesh_val));
 close all
 for i=1:length(mesh_val)

@@ -1,2 +1,34 @@
 # antenna-design
  
+ ## Test mesh optimization 
+ 
+ 16/12
+
+ Ho testato la mesh sul 50 valori da 0.002 a 0.1 `MaxEdgeLength`.
+
+```matlab
+mesh_val=linspace(0.001,0.1,50); 
+SS=zeros(1,length(mesh_val));
+close all
+for i=1:length(mesh_val)
+mesh(p,'MaxEdgeLength',mesh_val(i));
+S=sparameters(p,f);
+SS(i)=abs(S.Parameters);
+i %check iteration (very slow cycle)
+name=strcat('mesh_',num2str(mesh_val(i)),'.pdf');
+saveas(figure(i),name,'pdf'); %save open figure (be careful)
+close all
+end
+figure()
+plot(mesh_val,SS,'b-*') % plot and save results
+saveas(figure(1),'S11','pdf');
+```
+
+Andando sotto a 0.002 da problemi `Out of memory`. 
+
+Risultato:
+
+<p align="center">
+<img src="https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/S_param.png" alt="Result" style="width:20%; border:0;">
+</p>
+
