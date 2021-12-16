@@ -1,7 +1,9 @@
 # antenna-design
 
 > Blasi Luca
+> 
 > Mastrofini Alessandro
+> 
 > Mucenica Leonard Stefan
 ---
 
