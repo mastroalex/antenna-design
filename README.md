@@ -1,6 +1,12 @@
 # Design of folded patch
 
 **Wireless Electromagnetic Technologies** - University of Rome Tor Vergata
+
+<p align="center">
+![logo](https://www.baicr.it/wp-content/uploads/2017/06/Logo_Tor_Vergata-1.png "Raspberry pi")
+</p>
+
+![imm](https://www.baicr.it/wp-content/uploads/2017/06/Logo_Tor_Vergata-1.png)
 ___ 
 
 > Blasi Luca<br>
