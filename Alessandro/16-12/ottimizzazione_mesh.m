@@ -26,12 +26,24 @@ rfplot(S)
 toc
 
 %%
-mesh_val=[0.001 0.01 0.1];
+mesh_val=linspace(0.001,0.1,70);
+SS=zeros(1,length(mesh_val));
+close all
 for i=1:length(mesh_val)
+   % figure()
 mesh(p,'MaxEdgeLength',mesh_val(i));
+%drawnow;
 S=sparameters(p,f);
 SS(i)=abs(S.Parameters);
+i
+name=strcat('mesh_',num2str(mesh_val(i)),'.pdf');
+saveas(figure(i),name,'pdf');
+close all
 end
 figure()
-plot(mesh_val,SS)
+plot(mesh_val,SS,'b-*')
+saveas(figure(1),'S11','pdf');
 % meshconfig(antenna,'Auto')
+%%
+figure()
+plot(mesh_val,SS,'b-*')
