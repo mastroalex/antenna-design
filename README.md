@@ -20,9 +20,9 @@
 * [ ] Ottimizzazione parametri 
 
 
-# A
+# Note
 
-$\oint a\times \underline B$
+Prova formula: $\oint a\times \underline B$
 
 # Requirements
 
