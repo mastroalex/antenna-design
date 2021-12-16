@@ -26,9 +26,9 @@ saveas(figure(1),'S11','pdf');
 
 Andando sotto a 0.002 da problemi `Out of memory`. 
 
-Risultato:
+[Risultato](https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig/S11.pdf):
 
 <p align="center">
-<img src="https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/S_param.png" alt="Result" style="width:20%; border:0;">
+<img src="https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig/S11.png" alt="Result" style="width:80%; border:0;">
 </p>
-
+[Mesh migliore](https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig/mesh_0.002.pdf)
