@@ -10,10 +10,10 @@ ___
 
 ## ToDo
 
-- [x] Tcheb. factor
-- [ ] Ottimizzazione mesh 
-- [ ] Controllare patch
-- [ ] Ottimizzazione parametri 
+* [x] Tcheb. factor
+* [ ] Ottimizzazione mesh 
+* [ ] Controllare patch
+* [ ] Ottimizzazione parametri 
 
 
 # A
