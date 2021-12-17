@@ -1,10 +1,14 @@
+%% aggiorno l'antenna  con le nuove dimensioni calcolate da Stefan
+
 clear 
 
 d = dielectric('FR4');
 d.Thickness = 8e-4;
 f = 2.1e9;
-L = 0.0294;
-W = 0.0419; 
+%L = 0.0294;
+%W = 0.0419; 
+L=0.03;
+W=0.07;
 l = L/2-0.0114; %% now it's from the shortC
 p = pifa('Height',8e-4,'Substrate',d);
 p.Length = L;
@@ -15,6 +19,7 @@ gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
 
+show(p);
 %%
 S=sparameters(p,f);
 
