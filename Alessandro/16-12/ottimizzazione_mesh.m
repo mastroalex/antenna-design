@@ -19,11 +19,13 @@ p.GroundPlaneWidth = gpW;
 S=sparameters(p,f);
 
 %%
+close all
 tic
-freq_span=1.5e9:0.1e9:2.7e9;
+freq_span=linspace(1.5e9,2.7e9,10);
 S=sparameters(p,freq_span);
 rfplot(S)
 toc
+saveas(figure(1),'S11_20_testval','pdf');
 
 %%
 mesh_val=linspace(0.002,0.1,100);

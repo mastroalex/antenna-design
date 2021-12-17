@@ -20,16 +20,20 @@ p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
 
 show(p);
+tit=strcat('L=',num2str(L),'; W=',num2str(W));
+title(tit)
 %%
 S=sparameters(p,f);
 
 %%
+close all
 tic
-freq_span=1.5e9:0.1e9:2.7e9;
+freq_span=linspace(1.5e9,2.7e9,30);
 S=sparameters(p,freq_span);
 rfplot(S)
 toc
-
+saveas(figure(1),'S11_20_testval','pdf');
+save('S11.mat','S')
 %%
 mesh_val=linspace(0.002,0.1,100);
 SS=zeros(1,length(mesh_val));
@@ -49,6 +53,8 @@ figure()
 plot(mesh_val,SS,'b-*')
 saveas(figure(1),'S11','pdf');
 % meshconfig(antenna,'Auto')
+%aggiungi il mesh auto e plottalo in rosso !
+% !!!!!!!!! salva le variabili
 %%
 figure()
 plot(mesh_val,SS,'b-*')
