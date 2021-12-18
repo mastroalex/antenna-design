@@ -65,12 +65,11 @@ hold on
 plot(mesh_prop.MaxEdgeLength,20*log(SS_auto),'r-o')
 saveas(figure(2),'S11_log','pdf');
 
-%% refinement2
+%%
 f=1.955172413793104e9;
 mesh_val=linspace(0.0011,0.057,200);
 SS=zeros(1,length(mesh_val));
 close all
-meshconfig(p,'Manual');
 for i=1:length(mesh_val)
    % figure()
 mesh(p,'MaxEdgeLength',mesh_val(i));
