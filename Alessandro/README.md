@@ -36,3 +36,8 @@ Zona piatta quella tra 0.03 e 0.05 ?
 </p>
 
 Ho provato anche con 100 valori: [risultato](https://github.com/mastroalex/antenna-design/blob/main/Alessandro/16-12/mesh_fig_2/S11.pdf)
+
+### 17,18/12
+
+See [17,18/12 Readme](/17-12/README.md)
+
