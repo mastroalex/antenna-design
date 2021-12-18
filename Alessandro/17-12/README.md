@@ -82,6 +82,6 @@ Mesh:
 <img src="mesh_0.0038.png" alt="Result" style="width:100px; border:0;">
 <img src="mesh_0.01.png" alt="Result" style="width:100px; border:0;">
 
-S11 con mesh di 0.01:
+S11 con mesh di 0.01 su 60 punti:
 
 <img src="S11_mesh0_01.png" alt="Result" style="width:300px; border:0;">
