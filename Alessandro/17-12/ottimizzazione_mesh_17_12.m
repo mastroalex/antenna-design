@@ -190,7 +190,7 @@ saveas(figure(2),'S11_log','pdf');
 
 %% final refinement
 f=1.955172413793104e9;
-mesh_val=linspace(0.0019,0.01,200);
+mesh_val=linspace(0.002,0.01,200);
 SS=zeros(1,length(mesh_val));
 close all
 meshconfig(p,'Manual');

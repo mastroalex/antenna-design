@@ -85,3 +85,9 @@ Mesh:
 S11 con mesh di 0.01 su 60 punti:
 
 <img src="S11_mesh0_01.png" alt="Result" style="width:300px; border:0;">
+
+## Test estremo con 200 punti da 0.002 a 0.01
+
+<img src="S11_final_log.png" alt="Result" style="width:400px; border:0;">
+
+Sembra essere ok da 0.004
