@@ -8,8 +8,8 @@ lambda0 = physconst('Lightspeed')/f;
 k0=2*pi/lambda0;
 dL=0.000361;
 p = pifa('Height',8e-4,'Substrate',d);
-L = 0.0326;
-W = 0.0419;
+L = 0.0305;
+W = 0.0705;
 Gamma = zeros(length(L),length(W));
 Rr = zeros(length(W));
 l = zeros(length(L),length(W));
@@ -54,10 +54,9 @@ gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
 mesh(p, 'MaxEdgeLength',0.0033);
-Spar = sparameters(p,1.7e9:0.1e9:2.5e9);
-rfplot(Spar);
+Spar = sparameters(p,f);
 Gamma(i,j) = abs(Spar.Parameters);
     end
 end
-contourf(L,W,Gamma)
+contour(L,W,Gamma)
 toc
