@@ -91,3 +91,13 @@ S11 con mesh di 0.01 su 60 punti:
 <img src="S11_final_log.png" alt="Result" style="width:400px; border:0;">
 
 Sembra essere ok da 0.004
+
+Calcolato S11 con mesh 0.004 in 729.465552 secondi.
+
+<img src="S11_mesh0_004.png" alt="Result" style="width:400px; border:0;">
+
+E S11 con mesh 0.005 in 255.02993
+
+<img src="S11_mesh0_005.png" alt="Result" style="width:400px; border:0;">
+
+WTF si sposta la risoanza? Why ?
