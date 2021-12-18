@@ -5,7 +5,7 @@ Antenna:
 - L=0.0036
 - W=0.07
 
-<img src="Antenna.png" alt="Result" style="width:300px; border:0;">
+<img src="antenna.png" alt="Result" style="width:300px; border:0;">
 
 Su 30 punti:
 

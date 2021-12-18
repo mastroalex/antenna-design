@@ -4,7 +4,7 @@
 
 ### 17,18/12
 
-See [17,18/12 Readme](/17-12/README.md)
+See [17,18/12 Readme](/Alessandro/17-12/README.md)
  
 ### 16/12
 
