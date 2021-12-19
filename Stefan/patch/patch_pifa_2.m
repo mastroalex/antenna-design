@@ -12,8 +12,8 @@ p = pifa('Height',8e-4,'Substrate',d);
 
 %% SIMULAZIONE PER LIVELLO MESH 
 
-L = 0.0305;
-W = 0.0705;
+L = 0.0171;
+W = 0.0619;
 % Gamma = zeros(length(L),length(W));
 % Rr = zeros(length(W));
 % l = zeros(length(L),length(W));
@@ -24,7 +24,8 @@ Rin = 50;
 l = L/2-(L/pi)*acos(sqrt(Rin/Rr)); %% now it's from the shortC
 p.Length = L;
 p.Width = W;
-p.FeedWidth = l;
+p.ShortPinWidth = W;
+p.FeedOffset = [-L/2+l 0];
 gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
@@ -39,8 +40,8 @@ p.GroundPlaneWidth = gpW;
 % plot(v,Gamma);
 % show(p);
 % pattern(p,f);
-mesh(p, 'MaxEdgeLength',0.003);
-Sp = sparameters(p,1.7e9:0.05e9:2.8e9);
+mesh(p, 'MaxEdgeLength',0.005);
+Sp = sparameters(p,1.7e9:0.1e9:2.8e9);
 Gamm = abs(Sp.Parameters);
 rfplot(Sp);
 title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
@@ -49,8 +50,8 @@ ylabel('\Gamma_{dB}');
 
 %% SIMULAZIONE PER LIVELLO MESH 
 
-L = 0.0305;
-W = 0.0;
+L = 0.0171;
+W = 0.0619;
 % Gamma = zeros(length(L),length(W));
 % Rr = zeros(length(W));
 % l = zeros(length(L),length(W));
@@ -61,11 +62,13 @@ Rin = 50;
 l = L/2-(L/pi)*acos(sqrt(Rin/Rr)); %% now it's from the shortC
 p.Length = L;
 p.Width = W;
-p.FeedWidth = l;
+p.ShortPinWidth = W;
+p.FeedOffset = [L/2-l 0];
 gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
+tic
 parfor i=1:length(v)
 mesh(p,'MaxEdgeLength',v(i));
 drawnow
@@ -74,6 +77,7 @@ Gamma(i) = abs(Sp.Parameters);
 end 
 figure();
 plot(v,Gamma);
+toc
 % show(p);
 % pattern(p,f);
 % mesh(p, 'MaxEdgeLength',0.003);
@@ -83,6 +87,8 @@ plot(v,Gamma);
 % title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
 % xlabel('Frequenza (Hz)');
 % ylabel('\Gamma_{dB}');
+
+
 %% SIMULAZIONE CONTOURF
 L = 0.02:0.005:0.08;
 W = 0.02:0.005:0.08;
@@ -110,4 +116,13 @@ end
 contourf(L,W,Gamma)
 toc
 
-%% SIMULAZIONE 
+%% FREQUENZA DI RISONANZA
+LW = physconst('Lightspeed')/(4*f*sqrt(4.8));
+patch_pifa = design(p,f);
+mesh(patch_pifa, 'MaxEdgeLength',0.006);
+Sp = sparameters(patch_pifa,1.7e9:0.1e9:2.8e9);
+Gamm = abs(Sp.Parameters);
+rfplot(Sp);
+title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
+xlabel('Frequenza (Hz)');
+ylabel('\Gamma_{dB}');
