@@ -39,9 +39,9 @@ p.GroundPlaneWidth = gpW;
 % plot(v,Gamma);
 % show(p);
 % pattern(p,f);
-mesh(p, 'MaxEdgeLength',0.006);
-Sp = sparameters(p,2.2e9);
-Gamma = abs(Sp.Parameters);
+mesh(p, 'MaxEdgeLength',0.004);
+Sp = sparameters(p,1.7e9:0.05e9:2.8e9);
+Gamm = abs(Sp.Parameters);
 rfplot(Sp);
 title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
 xlabel('Frequenza (Hz)');
@@ -49,8 +49,11 @@ ylabel('\Gamma_{dB}');
 
 
 %% SIMULAZIONE CONTOURF
-L = linspace(0.01,0.05,)
+L = 0.02:0.005:0.08;
+W = 0.02:0.005:0.08;
 Rr = zeros(length(L));
+l = zeros(length(L),length(W));
+Gamma = zeros(length(L),length(W));
 tic
 for i=1:length(L)
     for j=1:length(W)
@@ -64,11 +67,12 @@ gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
-mesh(p, 'MaxEdgeLength',0.0055);
-Spar = sparameters(p,1.7e9:0.1e9:2.5e9);
-rfplot(Spar);
+mesh(p, 'MaxEdgeLength',0.009);
+Spar = sparameters(p,f);
 Gamma(i,j) = abs(Spar.Parameters);
     end
 end
 contourf(L,W,Gamma)
 toc
+
+%% SIMULAZIONE 
