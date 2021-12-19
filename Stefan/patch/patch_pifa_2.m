@@ -49,8 +49,8 @@ ylabel('\Gamma_{dB}');
 
 
 %% SIMULAZIONE CONTOURF
-L = linspace(0.01,0.05,10);
-W = linspace(0.03,0.07,10);
+L = linspace(0.02,0.08,15);
+W = linspace(0.02,0.08,15);
 Rr = zeros(length(L));
 l = zeros(length(L),length(W));
 Gamma = zeros(length(L),length(W));
@@ -69,9 +69,9 @@ p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
 mesh(p, 'MaxEdgeLength',0.006);
 Spar = sparameters(p,f);
-rfplot(Spar);
 Gamma(i,j) = abs(Spar.Parameters);
     end
 end
 contourf(L,W,Gamma)
 toc
+
