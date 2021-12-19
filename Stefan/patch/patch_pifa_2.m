@@ -39,18 +39,53 @@ p.GroundPlaneWidth = gpW;
 % plot(v,Gamma);
 % show(p);
 % pattern(p,f);
-mesh(p, 'MaxEdgeLength',0.006);
-Sp = sparameters(p,2.2e9);
+mesh(p, 'MaxEdgeLength',0.003);
+Sp = sparameters(p,1.7e9:0.05e9:2.8e9);
 Gamm = abs(Sp.Parameters);
 rfplot(Sp);
 title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
 xlabel('Frequenza (Hz)');
 ylabel('\Gamma_{dB}');
 
+%% SIMULAZIONE PER LIVELLO MESH 
 
+L = 0.0305;
+W = 0.0;
+% Gamma = zeros(length(L),length(W));
+% Rr = zeros(length(W));
+% l = zeros(length(L),length(W));
+v = 0.003:0.0005:0.009;
+% Gamma=zeros(length(v));
+Rr = (120*lambda0/W)*(1-(1/24)*(k0*h)^2)^(-1);
+Rin = 50;
+l = L/2-(L/pi)*acos(sqrt(Rin/Rr)); %% now it's from the shortC
+p.Length = L;
+p.Width = W;
+p.FeedWidth = l;
+gpL = 0.1;
+gpW = 0.1;
+p.GroundPlaneLength = gpL;
+p.GroundPlaneWidth = gpW;
+parfor i=1:length(v)
+mesh(p,'MaxEdgeLength',v(i));
+drawnow
+Sp = sparameters(p,f);
+Gamma(i) = abs(Sp.Parameters);
+end 
+figure();
+plot(v,Gamma);
+% show(p);
+% pattern(p,f);
+% mesh(p, 'MaxEdgeLength',0.003);
+% Sp = sparameters(p,1.7e9:0.05e9:2.8e9);
+% Gamm = abs(Sp.Parameters);
+% rfplot(Sp);
+% title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
+% xlabel('Frequenza (Hz)');
+% ylabel('\Gamma_{dB}');
 %% SIMULAZIONE CONTOURF
-L = linspace(0.02,0.08,15);
-W = linspace(0.02,0.08,15);
+L = 0.02:0.005:0.08;
+W = 0.02:0.005:0.08;
 Rr = zeros(length(L));
 l = zeros(length(L),length(W));
 Gamma = zeros(length(L),length(W));
@@ -67,7 +102,7 @@ gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
-mesh(p, 'MaxEdgeLength',0.006);
+mesh(p, 'MaxEdgeLength',0.009);
 Spar = sparameters(p,f);
 Gamma(i,j) = abs(Spar.Parameters);
     end
@@ -75,3 +110,4 @@ end
 contourf(L,W,Gamma)
 toc
 
+%% SIMULAZIONE 
