@@ -228,3 +228,20 @@ rfplot(S)
 toc
 saveas(figure(1),'S11_mesh0_005','fig');
 save('S11_mesh0_005.mat','S')
+
+%%
+meshconfig(p,'Manual');
+mesh(p,'MaxEdgeLength',0.006);
+S=sparameters(p,2.2e9);
+
+%%
+close all
+tic
+meshconfig(p,'Manual');
+mesh(p,'MaxEdgeLength',0.006);
+close all
+freq_span=linspace(1.5e9,2.7e9,50);
+S=sparameters(p,freq_span);
+rfplot(S)
+toc
+
