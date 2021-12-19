@@ -18,7 +18,8 @@ gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
-
+lambda=physconst('LightSpeed')/f;
+lambda4=lambda/4;
 show(p);
 tit=strcat('L=',num2str(L),'; W=',num2str(W));
 title(tit)
@@ -238,10 +239,37 @@ S=sparameters(p,2.2e9);
 close all
 tic
 meshconfig(p,'Manual');
-mesh(p,'MaxEdgeLength',0.006);
+mesh(p,'MaxEdgeLength',0.005);
 close all
-freq_span=linspace(1.5e9,2.7e9,50);
+freq_span=linspace(1.9e9,2.3e9,50);
 S=sparameters(p,freq_span);
 rfplot(S)
 toc
+%%
+
+mesh_val=0.003:0.0005:0.006;
+SS=zeros(1,length(mesh_val));
+close all
+meshconfig(p,'Manual');
+for i=1:length(mesh_val)
+   % figure()
+mesh(p,'MaxEdgeLength',mesh_val(i));
+%drawnow;
+S=sparameters(p,f);
+SS(i)=abs(S.Parameters);
+i
+
+close all
+end
+mesh_prop=meshconfig(p,'Auto');
+S=sparameters(p,f);
+SS_auto=abs(S.Parameters);
+figure()
+plot(mesh_val,SS,'b-*')
+hold on
+plot(mesh_prop.MaxEdgeLength,SS_auto,'r-o')
+figure()
+plot(mesh_val,20*log(SS),'b-*')
+hold on
+plot(mesh_prop.MaxEdgeLength,20*log(SS_auto),'r-o')
 
