@@ -190,7 +190,7 @@ saveas(figure(2),'S11_log','pdf');
 
 %% final refinement
 f=1.955172413793104e9;
-mesh_val=linspace(0.0019,0.01,200);
+mesh_val=linspace(0.002,0.01,200);
 SS=zeros(1,length(mesh_val));
 close all
 meshconfig(p,'Manual');
@@ -215,3 +215,16 @@ figure()
 plot(mesh_val,20*log(SS),'b-*')
 hold on
 plot(mesh_prop.MaxEdgeLength,20*log(SS_auto),'r-o')
+
+%%
+close all
+tic
+meshconfig(p,'Manual');
+mesh(p,'MaxEdgeLength',0.005);
+close all
+freq_span=linspace(1.5e9,2.7e9,50);
+S=sparameters(p,freq_span);
+rfplot(S)
+toc
+saveas(figure(1),'S11_mesh0_005','fig');
+save('S11_mesh0_005.mat','S')
