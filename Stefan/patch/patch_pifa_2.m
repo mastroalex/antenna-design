@@ -68,7 +68,7 @@ gpW = 0.1;
 p.GroundPlaneLength = gpL;
 p.GroundPlaneWidth = gpW;
 mesh(p, 'MaxEdgeLength',0.006);
-Spar = sparameters(p,1.7e9:0.1e9:2.5e9);
+Spar = sparameters(p,f);
 rfplot(Spar);
 Gamma(i,j) = abs(Spar.Parameters);
     end
