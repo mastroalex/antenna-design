@@ -21,8 +21,8 @@ p.Conductor.Thickness = 3.556e-05;
 % More properties 
 p.PatchCenterOffset=[p.Length/2 0];
 %Lfeed0=0.0022;
-Lfeed=0.012;
-p.FeedOffset=[Lfeed+p.Length/2 0];
+Lfeed=0.0125;
+p.FeedOffset=[p.Length-Lfeed 0];
 % Show
 figure;
 show(p) 

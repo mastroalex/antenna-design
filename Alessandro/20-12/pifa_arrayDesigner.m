@@ -12,8 +12,8 @@ p.Substrate.Name = 'FR4';
 p.Substrate.EpsilonR = 4.8;
 p.Substrate.LossTangent = 0.026;
 p.Substrate.Thickness = 0.0008;
-p.GroundPlaneLength = 0.1;
-p.GroundPlaneWidth = 0.1;
+p.GroundPlaneLength = 0.15;
+p.GroundPlaneWidth = 0.15;
 p.ShortPinWidth = 0.0419;
 p.Conductor.Name = 'Copper';
 p.Conductor.Conductivity = 5.96*1e7;
@@ -22,7 +22,7 @@ p.Conductor.Thickness = 3.556e-05;
 p.PatchCenterOffset=[p.Length/2 0];
 %Lfeed0=0.0022;
 Lfeed=0.0125;
-p.FeedOffset=[Lfeed 0];
+p.FeedOffset=[p.Length-Lfeed 0];
 % Show
 figure;
 show(p) 
