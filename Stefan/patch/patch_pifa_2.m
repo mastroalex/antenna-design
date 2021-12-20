@@ -9,11 +9,16 @@ f = 2.1e9;
 lambda0 = physconst('Lightspeed')/f;
 k0=2*pi/lambda0;
 p = pifa('Height',8e-4,'Substrate',d);
-
+p.Conductor.Name = 'Copper';
+p.Conductor.Conductivity = 5.96*1e7;
+p.Conductor.Thickness = 3.556e-05;
+p.PatchCenterOffset = [p.Length/2 0];
+lfeed = 0.0125;
+p.FeedOffset = [p.Length-lfeed 0];
 %% SIMULAZIONE PER LIVELLO MESH 
 
 L = 0.0171;
-W = 0.0619;
+W = 0.0419;
 % Gamma = zeros(length(L),length(W));
 % Rr = zeros(length(W));
 % l = zeros(length(L),length(W));
@@ -25,7 +30,6 @@ l = L/2-(L/pi)*acos(sqrt(Rin/Rr)); %% now it's from the shortC
 p.Length = L;
 p.Width = W;
 p.ShortPinWidth = W;
-p.FeedOffset = [-L/2+l 0];
 gpL = 0.1;
 gpW = 0.1;
 p.GroundPlaneLength = gpL;
@@ -40,8 +44,8 @@ p.GroundPlaneWidth = gpW;
 % plot(v,Gamma);
 % show(p);
 % pattern(p,f);
-mesh(p, 'MaxEdgeLength',0.005);
-Sp = sparameters(p,1.7e9:0.1e9:2.8e9);
+mesh(p, 'MaxEdgeLength',0.0035);
+Sp = sparameters(p,(1890:21:2310)*1e6);
 Gamm = abs(Sp.Parameters);
 rfplot(Sp);
 title('\Gamma_{dB} per L = 0.030 e W = 0.07 ');
