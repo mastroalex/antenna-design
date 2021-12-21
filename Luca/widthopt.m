@@ -6,14 +6,15 @@ epsr=4.800; %FR4 relative permettivity
 Rin=50; %input resistance, requested
 k0=2*pi*lambda;
 beta=2*pi*(sqrt(epsr)/lambda);
-L =linspace(0.01,0.1,5);
-W=linspace(0.001,0.1,1000);
+L =linspace(0.0165,0.0175,10); %range for L, it's testing on ten values
+W=linspace(0.01,0.06,100); %range for W, testing on 100 equally spaced values
 Lf=zeros(1,length(W));
 Lfun=zeros(1,length(W));
 Dm=zeros(1,length(W));
 Dmun=zeros(1,length(W));
 BWH=zeros(1,length(W));
 BWHun=zeros(1,length(W));
+Wval=zeros(1,length(L));
 for j=1:length(L)
 for i=1:length(W)
 Gf=W(i)/(120*lambda)*(1+0.5*(k0*h)^2);
@@ -33,17 +34,9 @@ Dmun(i)=Dm(i)/DmM;
 BWHM=max(BWH);
 BWHun(i)=BWH(i)/BWHM;
 end
-subplot(2,2,1);
-plot(W,Lf,'b',W,L(j),'r--',W,L(j)/2,'r');
-title('feed distance');
-subplot(2,2,2);
-plot(W,BWH,'g');
-title('Beam Width H-cut');
-subplot(2,2,3);
-plot(W,Dm,'r--'); 
-title('Directivity');
-subplot(2,2,4);
-plot(W,Lfun,'b',W,Dmun,'r--',W,BWHun,'g');
-title('Comparison after scaling');
-figure
-end
+figure 
+plot(W,BWHun,'g',W,Lfun,'r',W,Dmun,'b');
+%Wint=find(Lfun-Dmun<1e-11); %extracting the value of W which maximizes both the distance of the feed and the directivity
+%Wval(j)=Wint;
+end 
+Wfin=max(Wval);
