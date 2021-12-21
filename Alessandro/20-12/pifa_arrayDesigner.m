@@ -12,8 +12,10 @@ p.Substrate.Name = 'FR4';
 p.Substrate.EpsilonR = 4.8;
 p.Substrate.LossTangent = 0.026;
 p.Substrate.Thickness = 0.0008;
-p.GroundPlaneLength = 0.15;
-p.GroundPlaneWidth = 0.15;
+%p.GroundPlaneLength = 0.1;
+%p.GroundPlaneWidth = 0.1;
+p.GroundPlaneLength = 0.05;
+p.GroundPlaneWidth = 0.05;
 p.ShortPinWidth = 0.0419;
 p.Conductor.Name = 'Copper';
 p.Conductor.Conductivity = 5.96*1e7;
@@ -54,3 +56,38 @@ current(p, plotFrequency)
 %%
 mesh_info=meshconfig(p,'Auto');
 disp(strcat('Mesh level : ',string(mesh_info.MaxEdgeLength)))
+%%
+
+
+
+Lgp=[0.1 0.08 0.07 0.06 0.05 0.04];
+Wgp=[0.1 0.08 0.07 0.06 0.05];
+%Lgp=[0.06 0.05 0.04];
+%Wgp=[0.06 0.05];
+clear totale SSS
+for i=1:length(Lgp)
+    for j=1:length(Wgp)
+        
+p.GroundPlaneLength = Lgp(i);
+p.GroundPlaneWidth = Wgp(j);
+SSS=sparameters(p,1.95e9);
+totale(j,i)=abs(SSS.Parameters);
+    end
+end
+figure();
+contourf(Lgp,Wgp,totale);
+figure();
+contourf(Lgp,Wgp,20*log(totale))
+%%
+LGP=0.08;
+WGP=0.08;
+p.GroundPlaneLength = LGP;
+p.GroundPlaneWidth = WGP;
+freqRange = (1890:21:2310)*1e6;
+figure;
+tic
+s = sparameters(p, freqRange);
+rfplot(s);
+text=strcat('GP Length=',string(LGP),', GP Width',string(WGP));
+title(text)
+toc
