@@ -274,3 +274,42 @@ disp(j);
     end
 end
 toc
+
+%%
+
+% Define frequency range 
+freqRange = (1890:21:2310)*1e6;
+
+figure;
+impedance(p, freqRange)
+s = sparameters(p, freqRange); 
+figure;
+rfplot(s)
+
+%%
+meshMin= %% complete
+meshMax= %% complete
+
+freqRange = (1890:21:2310)*1e6;
+
+meshrange=linspace(meshMin,meshMax,20);
+
+frequenza=zeros(1,length(meshrange));
+
+% update mesh level from meshrange
+
+impedance(p, freqRange)
+
+s = sparameters(p, freqRange); 
+testo = strcat('\Gamma_{dB} for mesh ='," ", string(meshrange(i)));
+figure();
+rfplot(s)
+title(testo,'Interpreter','tex');
+stringa_salvataggio=strcat('S11_mesh_',string(meshrange(i)),'.mat');
+save(stringa_salvataggio,'s')
+slog=20*log10(abs(s.Parameters));
+ssintax=slog(:,:);
+frequenza(i)=s.Frequencies(ssintax==min(ssintax));
+figure;
+plot(meshrange,frequenza);
+title('Resonance F. vs mesh level')
