@@ -5,7 +5,8 @@
 %% Antenna Properties 
 
 p = design(pifa, 2100*1e6);
-p.Length = 0.0171;
+L=0.0171;
+p.Length = L;
 p.Width = 0.0419;
 p.Height = 0.0008;
 p.Substrate.Name = 'FR4';
@@ -14,17 +15,17 @@ p.Substrate.LossTangent = 0.026;
 p.Substrate.Thickness = 0.0008;
 %p.GroundPlaneLength = 0.1;
 %p.GroundPlaneWidth = 0.1;
-p.GroundPlaneLength = 0.05;
+p.GroundPlaneLength = 0.03;
 p.GroundPlaneWidth = 0.05;
 p.ShortPinWidth = 0.0419;
 p.Conductor.Name = 'Copper';
 p.Conductor.Conductivity = 5.96*1e7;
 p.Conductor.Thickness = 3.556e-05;
 % More properties 
-p.PatchCenterOffset=[p.Length/2 0];
+p.PatchCenterOffset=[0 0];
 %Lfeed0=0.0022;
 Lfeed=0.0125;
-p.FeedOffset=[p.Length-Lfeed 0];
+p.FeedOffset=[L/2-Lfeed 0];
 % Show
 figure;
 show(p) 
@@ -79,11 +80,12 @@ contourf(Lgp,Wgp,totale);
 figure();
 contourf(Lgp,Wgp,20*log(totale))
 %%
-LGP=0.08;
-WGP=0.08;
+LGP=0.03;
+WGP=0.05;
 p.GroundPlaneLength = LGP;
 p.GroundPlaneWidth = WGP;
-freqRange = (1890:21:2310)*1e6;
+%freqRange = linspace(1890,2310,200)*1e6;
+freqRange = linspace(1940,2300,100)*1e6;
 figure;
 tic
 s = sparameters(p, freqRange);
