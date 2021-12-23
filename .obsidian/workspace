@@ -1,45 +1,29 @@
 {
   "main": {
-    "id": "a388b20ffaa560fd",
+    "id": "b964e5398d041782",
     "type": "split",
     "children": [
       {
-        "id": "fd6030d5421488c8",
+        "id": "bdef169efe6c9432",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Alessandro/README.md",
-            "mode": "source"
-          }
-        },
-        "group": "f2b2feec24a8160a"
-      },
-      {
-        "id": "fd94184df64a3831",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Alessandro/README.md",
-            "mode": "preview"
-          }
-        },
-        "group": "f2b2feec24a8160a"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "732498a0b57659fe",
+    "id": "69c6d18fa6cba7c6",
     "type": "split",
     "children": [
       {
-        "id": "892f6104d75e7065",
+        "id": "8e8151edc161b843",
         "type": "tabs",
         "children": [
           {
-            "id": "493e34e9236b8587",
+            "id": "4f9afeb73c453c9f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +31,7 @@
             }
           },
           {
-            "id": "d5a8a1b8f0e15961",
+            "id": "8d9d6a70d1b9d88e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -68,20 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "bdec3555373197c1",
+    "id": "4a1090766a1970c2",
     "type": "split",
     "children": [
       {
-        "id": "fa003a069c69b25a",
+        "id": "cec26179df6d9f6f",
         "type": "tabs",
         "children": [
           {
-            "id": "9c202905486399af",
+            "id": "d0453cb7cdac4a7a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alessandro/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fd6030d5421488c8",
-  "lastOpenFiles": [
-    "Alessandro/README.md",
-    "Alessandro/16-12/mesh_fig/mesh_0.02.pdf",
-    "Alessandro/16-12/mesh_fig/mesh_0.1.pdf",
-    "Alessandro/16-12/mesh_fig/mesh_0.01.pdf"
-  ]
+  "active": "bdef169efe6c9432",
+  "lastOpenFiles": []
 }
