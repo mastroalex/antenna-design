@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  30 DEC 2021 07:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  30 DEC 2021 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,26 +644,50 @@ Overfull \hbox (1.90002pt too wide) in paragraph at lines 196--204
  []
 
 
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures///B/F_vs_mesh_leve
+l.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<figures///B/F_vs_mesh_level.pdf, id=21, 561.09625pt x 421.575pt>
+File: figures///B/F_vs_mesh_level.pdf Graphic file (type pdf)
+<use figures///B/F_vs_mesh_level.pdf>
+Package pdftex.def Info: figures///B/F_vs_mesh_level.pdf  used on input line 21
+0.
+(pdftex.def)             Requested size: 252.56088pt x 189.75845pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures///B/minGamma_vs_me
+sh_level.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
+> allowed
+<figures///B/minGamma_vs_mesh_level.pdf, id=22, 561.09625pt x 421.575pt>
+File: figures///B/minGamma_vs_mesh_level.pdf Graphic file (type pdf)
+<use figures///B/minGamma_vs_mesh_level.pdf>
+Package pdftex.def Info: figures///B/minGamma_vs_mesh_level.pdf  used on input 
+line 214.
+(pdftex.def)             Requested size: 252.56088pt x 189.75845pt.
+
+Overfull \hbox (1.90002pt too wide) in paragraph at lines 209--217
+[][] [] 
+ []
+
+
 LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
-(Font)              using `T1/ptm/n/n' instead on input line 213.
+(Font)              using `T1/ptm/n/n' instead on input line 226.
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 236--239
+Underfull \hbox (badness 2050) in paragraph at lines 249--252
 \T1/ptm/n/it/10 J. K. Au-thor, ``Name of pa-per,'' Ab-brev. Ti-tle of
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 236--239
+Underfull \hbox (badness 4168) in paragraph at lines 249--252
 \T1/ptm/n/it/10 Pe-ri-od-i-cal, vol. $\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , no. 
 $\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , pp. xxx--xxx, Ab-brev.
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 256.
+Package pdftex.def Info: figures//logo.png  used on input line 265.
 (pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -679,14 +703,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 Underfull \vbox (badness 4872) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 277--278
+Underfull \hbox (badness 1406) in paragraph at lines 290--291
 []\T1/ptm/n/it/10 J. K. Au-thor, pri-vate com-mu-ni-ca-tion, Ab-brev.
  []
 
 (./ojies-template.bbl
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 53.
+Package pdftex.def Info: figures//logo.png  used on input line 45.
 (pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -700,11 +724,14 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [3 <./figures//array_factor_polar.png (PNG copy)> <./figures//array_factor_rect
 angular.png (PNG copy)> <./figures//mesh_levels.png (PNG copy)>]
-Underfull \vbox (badness 1360) has occurred while \output is active []
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
 
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 174.
+Package pdftex.def Info: figures//logo.png  used on input line 164.
 (pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -727,12 +754,12 @@ Package epstopdf Info: Source file: <a1.eps>
 (epstopdf)                    size: 33788 bytes
 (epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
 .eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
-<a1-eps-converted-to.pdf, id=48, 72.27pt x 90.3375pt>
+<a1-eps-converted-to.pdf, id=50, 72.27pt x 90.3375pt>
 File: a1-eps-converted-to.pdf Graphic file (type pdf)
 <use a1-eps-converted-to.pdf>
-Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 360.
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 373.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 Package epstopdf Info: Source file: <a1.eps>
 (epstopdf)                    date: 2021-12-23 20:20:44
@@ -742,11 +769,11 @@ Package epstopdf Info: Source file: <a1.eps>
 (epstopdf)                    size: 33788 bytes
 (epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
 .eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 File: a1-eps-converted-to.pdf Graphic file (type pdf)
 <use a1-eps-converted-to.pdf>
-Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 360.
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 373.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 Package epstopdf Info: Source file: <a2.eps>
 (epstopdf)                    date: 2021-12-23 20:20:44
@@ -756,12 +783,12 @@ Package epstopdf Info: Source file: <a2.eps>
 (epstopdf)                    size: 30248 bytes
 (epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
 .eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
-<a2-eps-converted-to.pdf, id=51, 72.27pt x 90.3375pt>
+<a2-eps-converted-to.pdf, id=53, 72.27pt x 90.3375pt>
 File: a2-eps-converted-to.pdf Graphic file (type pdf)
 <use a2-eps-converted-to.pdf>
-Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 386.
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 399.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 Package epstopdf Info: Source file: <a2.eps>
 (epstopdf)                    date: 2021-12-23 20:20:44
@@ -771,11 +798,11 @@ Package epstopdf Info: Source file: <a2.eps>
 (epstopdf)                    size: 30248 bytes
 (epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
 .eps>
-(epstopdf)             \includegraphics on input line 386.
+(epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
 File: a2-eps-converted-to.pdf Graphic file (type pdf)
 <use a2-eps-converted-to.pdf>
-Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 386.
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 399.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 Package epstopdf Info: Source file: <a3.eps>
 (epstopdf)                    date: 2021-12-23 20:20:44
@@ -785,12 +812,12 @@ Package epstopdf Info: Source file: <a3.eps>
 (epstopdf)                    size: 32855 bytes
 (epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
 .eps>
-(epstopdf)             \includegraphics on input line 399.
+(epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
-<a3-eps-converted-to.pdf, id=54, 72.27pt x 90.3375pt>
+<a3-eps-converted-to.pdf, id=56, 72.27pt x 90.3375pt>
 File: a3-eps-converted-to.pdf Graphic file (type pdf)
 <use a3-eps-converted-to.pdf>
-Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 399.
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 412.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 Package epstopdf Info: Source file: <a3.eps>
 (epstopdf)                    date: 2021-12-23 20:20:44
@@ -800,15 +827,15 @@ Package epstopdf Info: Source file: <a3.eps>
 (epstopdf)                    size: 32855 bytes
 (epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
 .eps>
-(epstopdf)             \includegraphics on input line 399.
+(epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
 File: a3-eps-converted-to.pdf Graphic file (type pdf)
 <use a3-eps-converted-to.pdf>
-Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 399.
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 412.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 419.
+Package pdftex.def Info: figures//logo.png  used on input line 432.
 (pdftex.def)             Requested size: 24.11993pt x 24.21323pt.
 
 Overfull \hbox (505.12177pt too wide) has occurred while \output is active
@@ -821,16 +848,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
  []
 
 [5 <./a1-eps-converted-to.pdf> <./a2-eps-converted-to.pdf> <./a3-eps-converted-
-to.pdf>] (./ojies-template.aux)
+to.pdf> <./figures///B/F_vs_mesh_level.pdf> <./figures///B/minGamma_vs_mesh_lev
+el.pdf>] (./ojies-template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7841 strings out of 478994
- 122255 string characters out of 5858184
+ 7854 strings out of 478994
+ 122743 string characters out of 5858184
  691467 words of memory out of 5000000
- 25156 multiletter control sequences out of 15000+600000
+ 25166 multiletter control sequences out of 15000+600000
  495136 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,17n,131p,521b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -856,10 +884,10 @@ vetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb
 usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2
 021/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on ojies-template.pdf (5 pages, 1015560 bytes).
+Output written on ojies-template.pdf (5 pages, 1022531 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
