@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{tabularx}
@@ -30,6 +30,11 @@
 \usepackage{addfont}
 \addfont[1.5]{OT1}{simfon}{\simfon}
 \usepackage{listings}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
 \graphicspath{{figures/}} %Setting the graphicspat%h
 \graphicspath{{figures/}} %Setting the graphicspath
@@ -38,19 +43,79 @@
 \edef\input@path{{figures/}{}\input@path}% prepend
 \makeatother
 \usepackage{subcaption}
+
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+\usepackage{placeins}
+\usepackage{float}
 \begin{document}
 	{\fontfamily{lmss}\selectfont
 
+% \begin{center}
+% \input{gamma.tex}
+% \def\width{0.4\textwidth}\input{contour.tex}
+% \end{center}
+
+
+%%% MAIN TITLE %%% 
 \section*{\fontfamily{qag}\selectfont\color{Turquoise}Array of folded patches}
+%%% AUTHORS and PROFESSORS%%% 
 {\color{gray}\begin{center}{\small Wireless Electromagnetic Technologies - University of Rome Tor Vergata}\end{center}}
 \begin{flushright}
 {\small{{\color{Mahogany}Professor:} {\color{Turquoise} Marrocco Gaetano, }}}{\small{\color{Mahogany}Students: }}{\small{\color{Turquoise}Blasi Luca, }}{\small{\color{Turquoise}Mastrofini Alessandro, }}{\small{\color{Turquoise}Mucenica Stefan Leonard}}
 \end{flushright}
+%%% 
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Tchebyshev array factor design}
-The design of the Tchebyshev array factor will be made with five elements and a lobe/side lobe ratio of \textbf{\color{Mahogany}R\,=\,41.58\,dB}. In order to minimize the beamwidth, let's look for the optimal inter-spacing:
+The design parameters for the array are: 
+\begin{center}
+\begin{tabular}{||l|l||}
+\hline
+\textbf{\color{Mahogany}Parameter} & \textbf{\color{Mahogany}Value} \\
+\hline
+\# elements & $2N+1=5$\\
+\hline
+Mean lobe/side lobe
+ratio  & $R = 120 \cong\, 41.58\,dB$\\
+\hline 
+Frequency & $f\,=\,2.1\,GHz$\\
+\hline
+\end{tabular}
+\end{center}
+It's been specifically required to find the optimal inter-element spacing so that the minimum of the beamwidth will be reached:
+
 \begin{equation}
-d_{\max}\,=\,\lambda\,\left[1-\frac{1}{2\pi}\,\arccos\left(\frac{3\,-\,x_1}{1\,+\,x_1}\right)\right]\quad \text{with}\quad d_{\max}\,\in\,\left[\frac{\lambda}{2}\,,\,\lambda\right]
+\begin{gathered}
+d_{opt}\,{\color{Mahogany}\leadsto}\,\min\{BW_{fn}\}\\
+\\
+d_{opt}\,{\color{Mahogany}=}\,\lambda\,\left[1\,-\,\frac{\arccos\left(\frac{1}{\gamma}\right)}{\pi}\right]\\
+\\
+\gamma\,{\color{Mahogany}=}\,\cosh\left[\frac{1}{2N}\,\ln\left(R+\sqrt{R^2-1}\right)\right]
+\end{gathered}
 \end{equation}
+where $\lambda\,=\,\frac{c}{f}$ is the frequency in the free-space . 
+In this case, $d_{opt}\,\in\,\left(\frac{\lambda}{2}\,,\,\lambda\right]$, which means that 
+The coefficients $a$ and $b$ related to the Tchebyshev polynomial approximation for the array will be chosen by following the $d_{opt}\,\in\,\left(\frac{\lambda}{2}\,,\,\lambda\right]$ condition:
+\begin{equation}
+T_2\left[x=a+b\cos\,u\right]=\,C_0\,+\,2\,C_1\,\cos\,u\,+\,C_2\cos\,2u\,=\,(2a^2+b^2-1)\,+\,4ab\,\cos\,u+b^2\,\cos\,2u
+\end{equation}
+Once the amplitude current feed coefficients are computed ($C_n\,,\,n=\overline{0,2}$), the tapering efficiency can be calculated:
+\begin{equation}
+\eta_T\,=\,\frac{1}{2N+1}\,\frac{||C_0+2C_1+2_2||^2}{C_0^2+2C_1^2+2C_2^2}\end{equation}
+Let's consider two cases of uniform spacing array and:
+\begin{equation}
+\text{Uniform Amplitude (UA)}\quad {\color{Mahogany}||}\quad \text{Non-uniform Amplitude (NUA, Tchebyshev)}\end{equation}
+The comparison will show how 
+\begin{equation}
+\begin{gathered}
+BW_{fn}^{[UA]}\,{\color{Mahogany}<}\,BW_{fn}^{[NUA]}\\
+\\
+BW_{fn}^{[NUA]}\,{\color{Mahogany}=}\,2\frac{180}{\pi}\left[\frac{\pi}{2}-\arccos\left(\frac{\arccos\left(\frac{\cos\left(\frac{\pi}{2N}-a\right)}{b}\right)}{k_0d}\right)\right]\\
+\\
+BW_{fn}^{[UA]}\,{\color{Mahogany}=}\,\frac{2\lambda}{N\,d}\,\frac{180}{\pi}
+\end{gathered}
+\end{equation} 
 \begin{center}
 \begin{tabular}{||c|c||}
 \hline
@@ -58,21 +123,19 @@ d_{\max}\,=\,\lambda\,\left[1-\frac{1}{2\pi}\,\arccos\left(\frac{3\,-\,x_1}{1\,+
 
 & \textbf{\color{Mahogany}Value} \\
 \hline
-\textbf{Feed coefficients} $[A]$ &  \footnotesize{$\begin{bmatrix}
-C_{-2}\\
-C_{-1}\\
-C_0\\
-C_1\\
-C_2\\
-\end{bmatrix}\,=\,\begin{bmatrix}
-9.6\\
-29.8\\
-41.2\\
-29.8\\
-9.6\\
-\end{bmatrix}$}\\
+{Feed coefficients} $[A]$ &  \footnotesize{$\begin{matrix}
+C_0 & || &  C_1=C_{-1} & || & C_{2}=C_{-2} 
+\\
+41.2 & || & 29.8 & || & 9.6 \\
+\end{matrix}$}\\
 \hline 
-\textbf{Tapering efficiency} & \footnotesize{$\eta_T\,=\,79\,\%$}\\ 
+{Normalized feed coefficients to $C_{\max}$} &  \footnotesize{$\begin{matrix}
+C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^* 
+\\
+1.000 & || & 0.7215 & || & 0.2336 \\
+\end{matrix}$} \\
+\hline
+{Tapering efficiency} & \footnotesize{$\eta_T\,=\,79\,\%$}\\ 
 \hline 
 \textbf{Beamwidth} & $ \begin{matrix}
 \text{Tchebyshev} & || & \text{Uniform} \\
@@ -82,6 +145,14 @@ C_2\\
 \hline 
 \end{tabular}
 \end{center}
+Now, discussing the results is mandatory:
+\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Max/min feed ratio}Even if this is the design of a Non-Uniform Amplitude Array, the less the ratio $r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}$ is, the more efficient distribution of current is reached. In this particular design: 
+\begin{equation}
+r_{\max/\min}\,\cong\,4.39
+\end{equation}
+meaning that if a damage of the element with the $C_{\max}$ level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error [Balanis]. 
+
+
 
 \begin{center}
 \begin{figure}[h]
@@ -91,17 +162,118 @@ C_2\\
 \end{figure}
 \end{center}
 
+\newpage
+%%% POINT B %%%
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Rectangular folded patch design}
+The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate looks like:
+\begin{center}
+\includegraphics[scale=0.35]{patch_structure.pdf}
+\includegraphics[scale=0.35]{patch_structure_2.pdf}
+\includegraphics[scale=0.35]{patch_structure_3.pdf}
+\end{center}
+By imposing the particular condition by which the width of the rectangular shorting ($w_{sc}$) equals the patch width size ($W_{patch}$), the PIFA and the folded patch antenna will be two equivalent structures:
+\begin{equation}
+	W_{patch}\,=\,w_{sc}
+\end{equation}
+This remark on the PIFA is necessary because generally its structure is not equivalent to that of the folded patch antenna because of the possible variability of the shorting width ($w_{sc}$), which doesn't always satisfy the above imposed condition. That said, the design requirements are listed below: 
+	\begin{table}[h]
+		\begin{center}
+		% \FloatBarrier
+			{\fontfamily{lmss}\selectfont
+\begin{tabular}{||m{5cm}|m{5cm}||}
+\hline 
+	\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Folded patch design parameters}} 
+	\\
+	\hline
+	\cellcolor{mintbg}\textbf{Parameter/Component} & \cellcolor{mintbg}\textbf{Value/Type/Material}\\
+	\hline
+	Frequency & $2.1\,GHz$ \\
+	\hline
+	Matched input resistance & $R_{in}\,=\,50\,\Omega$\\
+	\hline
+	\cellcolor{pink} Substrate & \cellcolor{pink} FR4 \\
+	\hline
+    Relative permittivity & $\varepsilon_{FR4}\,=\,4.8$ \\
+
+	Relative permeability & $\mu_{FR4}\,\cong\,1$\\
+
+	Loss tangent & $\{\tan(\delta)\}_{FR4}\,=\,0.0260$\\
+
+	Thickness & $h_{FR4}\,=\,0.8\,mm$\\
+	\hline
+\cellcolor{pink} Patch
+
+(pre-optimized features) & \cellcolor{pink} Copper \\
+\hline
+%\begin{subtable}{0.25\textwidth}
+%	\begin{tabular}{|c|c|}
+%		\hline
+%		try & c\\
+%		\hline
+%	\end{tabular}
+%	
+%	\end{subtable} & \\
+%\hline
+Conductivity & $\kappa_{copper}\,=\,5.96^.10^7\,S/m$ \\
+
+Thickness & $h_{patch}\,=\,3.556\,^.\,10^{-5}\,m$\\
+
+Length & $L_{patch}\,\cong\,\frac{\lambda_{FR4}}{4}\,=\,0.0171\,m$\\
+
+Width & $W_{patch}\,\cong\,0.419\,m$\\
+
+	\hline
+\cellcolor{pink}Ground 
+
+(pre-optimized features)
+& \cellcolor{pink} Copper
+
+(same conductivity listed above) \\
+\hline
+Thickness & $h_{GND}\,=\,h_{patch}$
+\\
+Length & $L_{GND}\,=\,0.04\,m$\\
+Width & $W_{GND}\,=\,0.06\,m$\\
+\hline
+\cellcolor{pink}Feed & \cellcolor{pink} Coaxial cable \\
+\hline
+\end{tabular}}
+\end{center}
+\end{table}
+A preliminary evaluation of the patch parameters have been realized by leaning on a theoretical set of formulas [Balanis]. That's the reason why the characteristics of the patch shown into the table are called "\emph{pre-optimized features}" (same thing applies to the ground component). Thus, an optimization process of all those parameters will be performed in some following steps. Just before that, the formulas of the theoretical model will be pointed out:
+
+\begin{equation}
+	\begin{aligned}L_{patch}\,+\,W_{patch}\,-\,w_{sc}\,&{\color{Mahogany}=}\,\frac{\lambda_{FR4}}{4}\,+\,h_{FR4}\\
+		W_{patch}\,&{\color{Mahogany}=}\,\frac{\lambda}{2}\,\sqrt{\frac{2}{\varepsilon_{FR4}\,+\,1}}\\
+	\end{aligned}
+\end{equation}
+\begin{equation}
+	\begin{aligned}
+		\varepsilon_{eff}\,{\color{Mahogany}=}\,\frac{\varepsilon_{FR4}+1}{2}\,+\,\frac{\varepsilon_{FR4}-1}{2}\,\left(1+12\frac{h_{FR4}}{W_{patch}}\right)^{-\frac{1}{2}}\\
+		L_{eff}\,{\color{Mahogany}=}\,\frac{\lambda_{FR4}}{4}\\
+		\Delta L{\color{Mahogany}=}0.412\,h\,\left[\frac{(\varepsilon_{eff}+0.3)\,\left(\frac{W_{patch}}{h_{FR4}}+0.268\right)}{(\varepsilon_{eff}-0.258)\,\left(\frac{W_{patch}}{h_{FR4}}+0.8\right)}\right]\\
+		L\,=\,L_{eff}-2\Delta L
+	\end{aligned}
+\end{equation}
+\begin{equation}
+R_r\,{=}\,\frac{120\,\lambda}{W_{patch}}\,\left[1-\frac{1}{24}\,\left(2\pi\,\frac{h_{FR4}}{\lambda}\right)^{2}\right]^{-1}\\
+\end{equation}
+\begin{equation}
+	\begin{aligned}
+		\Theta_E\,&{\color{Mahogany}=}\,2\,\arccos\,\sqrt{\frac{7.03\,\lambda^2}{4\,(3\,L_e^2+h_{FR4}^2)\,\pi^2}}\\
+		\Theta_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,2\pi\,\frac{W_{patch}}{\lambda}}}\\
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\ell_{feed}\,{\color{Mahogany}=}\,\frac{L_{patch}}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
+\end{equation}
+Where $\Theta_i$ ($i=\{E,H\}$) are the half-power beamwidth values given by the E-cut and the H-cut. $\lambda\,=\,c/f$ is the free-space wavelength ($c=299 792 458\,m/s$ is the light-speed in the free space). $R_{in}$ is the input impedance (a resistance), while $R_r$ is the radiation resistance
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
 A FR4 substrate thickness of $h_{sub}\,=\,0.8\,mm$  has been selected so it could be considered as a thin one:
 \[\lambda_{sub}\,=\,0.0652\,m\quad \leadsto\quad \frac{h_{sub}}{\lambda_{sub}}\,\cong\,\frac{1}{81}\]
 In case of thin substrates ($h/\lambda\,\leq\,1/50$),  the \texttt{\color{Mahogany}Antenna Toolbox} suggests to mesh the antenna using dielectric in auto mode. The other two available substrate thicknesses ($1.0\,mm$ and $1.6\,mm$) have not been adopted because the \texttt{\color{Mahogany}Antenna Toolbox} reference doesn't give any information about accuracy of the results in case of $h_{sub}\,\in\,\left(\frac{\lambda}{50}\,,\,\frac{\lambda}{10}\right)$. 
-\begin{center}
-\begin{figure}[h]
-\includegraphics[scale=0.3]{mesh_levels.png}
-\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
-\end{figure}
-\end{center}
+
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
 \begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
 W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
@@ -117,7 +289,12 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \ell_{feed}\,{\color{Mahogany}=}\,\frac{L}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
 \end{equation}
 %% w_{feed} = 0.001 
-
+\begin{center}
+	\begin{figure}[h]
+		\includegraphics[scale=0.3]{mesh_levels.png}
+		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
+	\end{figure}
+\end{center}
 \begin{center}
 \begin{figure}
 \includegraphics[width = 0.3\linewidth]{gain_patch.png}
