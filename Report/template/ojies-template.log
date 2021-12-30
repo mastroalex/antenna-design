@@ -1,0 +1,912 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  23 DEC 2021 21:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ojies-template.tex
+(./ojies-template.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./ieeeojies.cls (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen138
+\@IEEEtrantmpdimenB=\dimen139
+\@IEEEtrantmpdimenC=\dimen140
+\@IEEEtrantmpcountA=\count179
+\@IEEEtrantmpcountB=\count180
+\@IEEEtrantmpcountC=\count181
+\@IEEEtrantmptoksA=\toks15
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+03.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen141
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen142
+\CLASSINFOnormalsizeunitybaselineskip=\dimen143
+\IEEEnormaljot=\dimen144
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen145
+\IEEEquantizedlengthdiff=\dimen146
+\IEEEquantizedtextheightdiff=\dimen147
+\IEEEilabelindentA=\dimen148
+\IEEEilabelindentB=\dimen149
+\IEEEilabelindent=\dimen150
+\IEEEelabelindent=\dimen151
+\IEEEdlabelindent=\dimen152
+\IEEElabelindent=\dimen153
+\IEEEiednormlabelsep=\dimen154
+\IEEEiedmathlabelsep=\dimen155
+\IEEEiedtopsep=\skip47
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@IEEEsubequation=\count186
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count187
+\c@table=\count188
+\@IEEEeqnnumcols=\count189
+\@IEEEeqncolcnt=\count190
+\@IEEEsubeqnnumrollback=\count191
+\@IEEEquantizeheightA=\dimen156
+\@IEEEquantizeheightB=\dimen157
+\@IEEEquantizeheightC=\dimen158
+\@IEEEquantizeprevdepth=\dimen159
+\@IEEEquantizemultiple=\count192
+\@IEEEquantizeboxA=\box47
+\@IEEEtmpitemindent=\dimen160
+\IEEEPARstartletwidth=\dimen161
+\c@IEEEbiography=\count193
+\@IEEEtranrubishbin=\box48
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count194
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)){/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-times.map): cannot open f
+ont map file
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-formata.map): cannot open
+ font map file
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file t1-giovannistd.map): cannot 
+open font map file
+\@draftversionrule=\dimen162
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+Package color Info: Redefining color black on input line 135.
+\figbox=\box49
+
+! Too many }'s.
+l.443   }
+         
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+\titlewidth=\skip50
+\abstractwidth=\skip51
+\c@addrCtr=\count195
+\abstractbox=\box50
+\indexbox=\box51
+\absht=\dimen163
+\kwdht=\dimen164
+\@tempcntc=\count196
+\titlepgskip=\skip52
+\maketitlebox=\box52
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen165
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen166
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count197
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count198
+\leftroot@=\count199
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count266
+\DOTSCASE@=\count267
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen167
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
+\dotsspace@=\muskip16
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks19
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks20
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks21
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count275
+\c@ALC@line=\count276
+\c@ALC@rem=\count277
+\c@ALC@depth=\count278
+\ALC@tlm=\skip56
+\algorithmicindent=\skip57
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
+\l__pdf_internal_box=\box55
+)
+(./ojies-template.aux)
+\openout1 = `ojies-template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+-- Lines per column: 56 (exact).
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Font Warning: Font shape `T1/ptm/n/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 11.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen176
+\scratchbox=\box56
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen177
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 34
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+
+LaTeX Font Warning: Font shape `T1/phv/n/n' undefined
+(Font)              using `T1/phv/m/n' instead on input line 34.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 8056) in paragraph at lines 57--62
+ []\T1/phv/b/n/10 INDEX TERMS[]  \T1/ptm/n/n/10 En-ter key words or phrases in 
+al-pha-bet-i-cal or-der, sep-a-rated by com-mas.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
+ \T1/ptm/n/n/10 For a list of sug-gested key-words, send a blank e-mail to key-
+words@ieee.org or visit
+ []
+
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.66 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Calculating math sizes for size <9.9> on input line 66.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 66.
+
+Underfull \hbox (badness 1817) in paragraph at lines 70--76
+\T1/ptm/n/n/10 at $[]$
+ []
+
+
+Underfull \vbox (badness 6792) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 93--98
+\T1/ptm/n/n/10 mod-i-fiers: ``zero-field-cooled mag-ne-ti-za-tion.'' Avoid dan-
+
+ []
+
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+
+! Undefined control sequence.
+<argument> ... \rightmark }}\hfill \headerlogoall 
+                                                  \mbox {}\vspace *{-1.5mm}\...
+l.99 U
+      se a zero before decimal points: ``0.25,'' not ``.25.'' Use
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[1
+
+
+]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
+0.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+80.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+LaTeX Font Warning: Font shape `TS1/ptm/n/n' undefined
+(Font)              using `TS1/ptm/m/n' instead
+(Font)              for symbol `textregistered' on input line 180.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+\T1/ptm/n/n/10 Schol-arOne\TS1/ptm/m/n/10 ® \T1/ptm/n/n/10 Manuscripts, at:
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 182--183
+[]\T1/ptm/n/n/10 Format your ar-ti-cle for sub-mis-sion by us-ing the
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 182--183
+\T1/ptm/n/n/10 ver-sion), avail-able on the OJ-IES Web site at: 
+ []
+
+
+Overfull \hbox (3.29341pt too wide) in paragraph at lines 184--185
+\T1/ptm/n/n/10 ($[]$).
+ []
+
+! Undefined control sequence.
+<argument> ... {}\\[-6.3mm]\mbox {}\headerlogoall 
+                                                  \hfill {\raisebox {-2pt}{\...
+l.199 T
+       he SI unit for magnetic field strength $H$ is A/m. However, if you wi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[2]
+Package epstopdf Info: Source file: <fig1.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 1482166 bytes
+(epstopdf)             Output file: <fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:32
+(epstopdf)                    size: 65406 bytes
+(epstopdf)             Command: <repstopdf --outfile=fig1-eps-converted-to.pdf 
+fig1.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+<fig1-eps-converted-to.pdf, id=19, 731.73375pt x 555.07375pt>
+File: fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use fig1-eps-converted-to.pdf>
+Package pdftex.def Info: fig1-eps-converted-to.pdf  used on input line 224.
+(pdftex.def)             Requested size: 237.40784pt x 180.0919pt.
+
+
+LaTeX Font Warning: Font shape `T1/ptm/n/it' undefined
+(Font)              using `T1/ptm/n/n' instead on input line 240.
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 244--245
+[]\T1/ptm/n/n/10 A gen-eral IEEE styleguide is avail-able at $[]$
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 300--301
+[]\T1/ptm/m/n/8 1 erg/(G$\OMS/cmsy/m/n/8 ^^A$\T1/ptm/m/n/8 g) $\OT1/cmr/m/n/8 =
+$ \T1/ptm/m/n/8 1 emu/g $\OMS/cmsy/m/n/8 !$ \T1/ptm/m/n/8 1
+ []
+
+
+Overfull \hbox (14.32645pt too wide) in paragraph at lines 274--334
+[][]
+ []
+
+! Undefined control sequence.
+<argument> ... \rightmark }}\hfill \headerlogoall 
+                                                  \mbox {}\vspace *{-1.5mm}\...
+l.341 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[3 <./fig1-eps-converted-to.pdf>]
+Underfull \hbox (badness 2020) in paragraph at lines 352--359
+\T1/ptm/n/n/10 Most charts, graphs, and ta-bles are one col-umn wide
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 389--394
+\T1/ptm/n/n/10 color space. Grayscale im-ages should be sub-mit-ted in
+ []
+
+! Undefined control sequence.
+<argument> ... {}\\[-6.3mm]\mbox {}\headerlogoall 
+                                                  \hfill {\raisebox {-2pt}{\...
+l.440 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[4]
+! Undefined control sequence.
+<argument> ... \rightmark }}\hfill \headerlogoall 
+                                                  \mbox {}\vspace *{-1.5mm}\...
+l.547 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[5]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+58.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Underfull \hbox (badness 4779) in paragraph at lines 559--564
+\T1/ptm/n/it/10 Contributions to the Trans-ac-tions, Jour-nals, and Let-
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 559--564
+\T1/ptm/n/it/10 ters may be sub-mit-ted elec-tron-i-cally on IEEE's on-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--564
+\T1/ptm/n/it/10 line manuscript sub-mis-sion and peer-review sys-tem,
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 559--564
+\T1/ptm/n/it/10 Schol-arOne\TS1/ptm/n/n/10 ® \T1/ptm/n/it/10 Manuscripts. You c
+an get a list-ing of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--564
+\T1/ptm/n/it/10 the pub-li-ca-tions that par-tic-i-pate in Schol-arOne at
+ []
+
+
+Overfull \hbox (2.73315pt too wide) in paragraph at lines 559--564
+[]$
+ []
+
+! Undefined control sequence.
+<argument> ... {}\\[-6.3mm]\mbox {}\headerlogoall 
+                                                  \hfill {\raisebox {-2pt}{\...
+l.644 \item A
+             uthors must convince both peer reviewers and the editors of the...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[6]
+Underfull \hbox (badness 2050) in paragraph at lines 682--685
+\T1/ptm/n/it/10 J. K. Au-thor, ``Name of pa-per,'' Ab-brev. Ti-tle of
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 682--685
+\T1/ptm/n/it/10 Pe-ri-od-i-cal, vol. $\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , no. 
+$\OML/cmm/m/it/10 x$\T1/ptm/n/it/10 , pp. xxx--xxx, Ab-brev.
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 686--689
+\T1/ptm/n/it/10 J.K. Au-thor. (year, month). Ti-tle. pre-sented at ab-
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 723--724
+[]\T1/ptm/n/it/10 J. K. Au-thor, pri-vate com-mu-ni-ca-tion, Ab-brev.
+ []
+
+! Undefined control sequence.
+<argument> ... \rightmark }}\hfill \headerlogoall 
+                                                  \mbox {}\vspace *{-1.5mm}\...
+l.726 \end{enumerate}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[7] (./ojies-template.bbl)
+Package epstopdf Info: Source file: <a1.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:33
+(epstopdf)                    size: 33788 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
+.eps>
+(epstopdf)             \includegraphics on input line 806.
+Package epstopdf Info: Output file is already uptodate.
+<a1-eps-converted-to.pdf, id=50, 72.27pt x 90.3375pt>
+File: a1-eps-converted-to.pdf Graphic file (type pdf)
+<use a1-eps-converted-to.pdf>
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 806.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a1.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:33
+(epstopdf)                    size: 33788 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1-eps-converted-to.pdf a1
+.eps>
+(epstopdf)             \includegraphics on input line 806.
+Package epstopdf Info: Output file is already uptodate.
+File: a1-eps-converted-to.pdf Graphic file (type pdf)
+<use a1-eps-converted-to.pdf>
+Package pdftex.def Info: a1-eps-converted-to.pdf  used on input line 806.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a2.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:33
+(epstopdf)                    size: 30248 bytes
+(epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
+.eps>
+(epstopdf)             \includegraphics on input line 832.
+Package epstopdf Info: Output file is already uptodate.
+<a2-eps-converted-to.pdf, id=53, 72.27pt x 90.3375pt>
+File: a2-eps-converted-to.pdf Graphic file (type pdf)
+<use a2-eps-converted-to.pdf>
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 832.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a2.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:33
+(epstopdf)                    size: 30248 bytes
+(epstopdf)             Command: <repstopdf --outfile=a2-eps-converted-to.pdf a2
+.eps>
+(epstopdf)             \includegraphics on input line 832.
+Package epstopdf Info: Output file is already uptodate.
+File: a2-eps-converted-to.pdf Graphic file (type pdf)
+<use a2-eps-converted-to.pdf>
+Package pdftex.def Info: a2-eps-converted-to.pdf  used on input line 832.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+
+! Undefined control sequence.
+<argument> ... {}\\[-6.3mm]\mbox {}\headerlogoall 
+                                                  \hfill {\raisebox {-2pt}{\...
+l.843 \end{IEEEbiography}
+                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[8 <./a1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <a3.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a3-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:34
+(epstopdf)                    size: 32855 bytes
+(epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
+.eps>
+(epstopdf)             \includegraphics on input line 845.
+Package epstopdf Info: Output file is already uptodate.
+<a3-eps-converted-to.pdf, id=62, 72.27pt x 90.3375pt>
+File: a3-eps-converted-to.pdf Graphic file (type pdf)
+<use a3-eps-converted-to.pdf>
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 845.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+Package epstopdf Info: Source file: <a3.eps>
+(epstopdf)                    date: 2021-12-23 20:20:44
+(epstopdf)                    size: 233823 bytes
+(epstopdf)             Output file: <a3-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-12-23 21:21:34
+(epstopdf)                    size: 32855 bytes
+(epstopdf)             Command: <repstopdf --outfile=a3-eps-converted-to.pdf a3
+.eps>
+(epstopdf)             \includegraphics on input line 845.
+Package epstopdf Info: Output file is already uptodate.
+File: a3-eps-converted-to.pdf Graphic file (type pdf)
+<use a3-eps-converted-to.pdf>
+Package pdftex.def Info: a3-eps-converted-to.pdf  used on input line 845.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+
+! Undefined control sequence.
+<argument> ... \rightmark }}\hfill \headerlogoall 
+                                                  \mbox {}\vspace *{-1.5mm}\...
+l.865 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \hbox (505.12177pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+[9
+
+ <./a2-eps-converted-to.pdf> <./a3-eps-converted-to.pdf>]
+(./ojies-template.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4244 strings out of 478994
+ 62269 string characters out of 5858184
+ 380990 words of memory out of 5000000
+ 21625 multiletter control sequences out of 15000+600000
+ 505884 words of font info for 163 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,13n,74p,795b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/h
+elvetic/uhvbo8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvro
+8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on ojies-template.pdf (9 pages, 377193 bytes).
+PDF statistics:
+ 138 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+
