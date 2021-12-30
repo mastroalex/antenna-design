@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{book}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{tabularx}
@@ -30,6 +30,9 @@
 \usepackage{addfont}
 \addfont[1.5]{OT1}{simfon}{\simfon}
 \usepackage{listings}
+
+\usepackage{caption}
+\usepackage{subcaption}
 
 \definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
@@ -159,13 +162,22 @@ meaning that if a damage of the element with the $C_{\max}$ level of feed occurs
 \end{figure}
 \end{center}
 
-
+\newpage
 %%% POINT B %%%
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Rectangular folded patch design}
-The design requirements are listed below: 
+The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate looks like:
 \begin{center}
-
+\includegraphics[scale=0.35]{patch_structure.pdf}
+\includegraphics[scale=0.35]{patch_structure_2.pdf}
+\includegraphics[scale=0.35]{patch_structure_3.pdf}
+\end{center}
+By imposing the particular condition by which the width of the rectangular shorting ($w_{sc}$) equals the patch width size ($W_{patch}$), the PIFA and the folded patch antenna will be two equivalent structures:
+\begin{equation}
+	W_{patch}\,=\,w_{sc}
+\end{equation}
+This remark on the PIFA is necessary because generally its structure is not equivalent to that of the folded patch antenna because of the possible variability of the shorting width ($w_{sc}$), which doesn't always satisfy the above imposed condition. That said, the design requirements are listed below: 
 	\begin{table}[h]
+		\begin{center}
 		% \FloatBarrier
 			{\fontfamily{lmss}\selectfont
 \begin{tabular}{||m{5cm}|m{5cm}||}
@@ -176,6 +188,8 @@ The design requirements are listed below:
 	\cellcolor{mintbg}\textbf{Parameter/Component} & \cellcolor{mintbg}\textbf{Value/Type/Material}\\
 	\hline
 	Frequency & $2.1\,GHz$ \\
+	\hline
+	Matched input resistance & $R_{in}\,=\,50\,\Omega$\\
 	\hline
 	\cellcolor{pink} Substrate & \cellcolor{pink} FR4 \\
 	\hline
@@ -209,7 +223,10 @@ Length & $L_{patch}\,\cong\,\frac{\lambda_{FR4}}{4}\,=\,0.0171\,m$\\
 Width & $W_{patch}\,\cong\,0.419\,m$\\
 
 	\hline
-\cellcolor{pink}Ground & \cellcolor{pink} Copper
+\cellcolor{pink}Ground 
+
+(pre-optimized features)
+& \cellcolor{pink} Copper
 
 (same conductivity listed above) \\
 \hline
@@ -221,19 +238,42 @@ Width & $W_{GND}\,=\,0.06\,m$\\
 \cellcolor{pink}Feed & \cellcolor{pink} Coaxial cable \\
 \hline
 \end{tabular}}
-\end{table}
 \end{center}
+\end{table}
+A preliminary evaluation of the patch parameters have been realized by leaning on a theoretical set of formulas [Balanis]. That's the reason why the characteristics of the patch shown into the table are called "\emph{pre-optimized features}" (same thing applies to the ground component). Thus, an optimization process of all those parameters will be performed in some following steps. Just before that, the formulas of the theoretical model will be pointed out:
 
+\begin{equation}
+	\begin{aligned}L_{patch}\,+\,W_{patch}\,-\,w_{sc}\,&{\color{Mahogany}=}\,\frac{\lambda_{FR4}}{4}\,+\,h_{FR4}\\
+		W_{patch}\,&{\color{Mahogany}=}\,\frac{\lambda}{2}\,\sqrt{\frac{2}{\varepsilon_{FR4}\,+\,1}}\\
+	\end{aligned}
+\end{equation}
+\begin{equation}
+	\begin{aligned}
+		\varepsilon_{eff}\,{\color{Mahogany}=}\,\frac{\varepsilon_{FR4}+1}{2}\,+\,\frac{\varepsilon_{FR4}-1}{2}\,\left(1+12\frac{h_{FR4}}{W_{patch}}\right)^{-\frac{1}{2}}\\
+		L_{eff}\,{\color{Mahogany}=}\,\frac{\lambda_{FR4}}{4}\\
+		\Delta L{\color{Mahogany}=}0.412\,h\,\left[\frac{(\varepsilon_{eff}+0.3)\,\left(\frac{W_{patch}}{h_{FR4}}+0.268\right)}{(\varepsilon_{eff}-0.258)\,\left(\frac{W_{patch}}{h_{FR4}}+0.8\right)}\right]\\
+		L\,=\,L_{eff}-2\Delta L
+	\end{aligned}
+\end{equation}
+\begin{equation}
+R_r\,{=}\,\frac{120\,\lambda}{W_{patch}}\,\left[1-\frac{1}{24}\,\left(2\pi\,\frac{h_{FR4}}{\lambda}\right)^{2}\right]^{-1}\\
+\end{equation}
+\begin{equation}
+	\begin{aligned}
+		\Theta_E\,&{\color{Mahogany}=}\,2\,\arccos\,\sqrt{\frac{7.03\,\lambda^2}{4\,(3\,L_e^2+h_{FR4}^2)\,\pi^2}}\\
+		\Theta_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,2\pi\,\frac{W_{patch}}{\lambda}}}\\
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\ell_{feed}\,{\color{Mahogany}=}\,\frac{L_{patch}}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
+\end{equation}
+Where $\Theta_i$ ($i=\{E,H\}$) are the half-power beamwidth values given by the E-cut and the H-cut. $\lambda\,=\,c/f$ is the free-space wavelength ($c=299 792 458\,m/s$ is the light-speed in the free space). $R_{in}$ is the input impedance (a resistance), while $R_r$ is the radiation resistance
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
 A FR4 substrate thickness of $h_{sub}\,=\,0.8\,mm$  has been selected so it could be considered as a thin one:
 \[\lambda_{sub}\,=\,0.0652\,m\quad \leadsto\quad \frac{h_{sub}}{\lambda_{sub}}\,\cong\,\frac{1}{81}\]
 In case of thin substrates ($h/\lambda\,\leq\,1/50$),  the \texttt{\color{Mahogany}Antenna Toolbox} suggests to mesh the antenna using dielectric in auto mode. The other two available substrate thicknesses ($1.0\,mm$ and $1.6\,mm$) have not been adopted because the \texttt{\color{Mahogany}Antenna Toolbox} reference doesn't give any information about accuracy of the results in case of $h_{sub}\,\in\,\left(\frac{\lambda}{50}\,,\,\frac{\lambda}{10}\right)$. 
-\begin{center}
-\begin{figure}[h]
-\includegraphics[scale=0.3]{mesh_levels.png}
-\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
-\end{figure}
-\end{center}
+
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
 \begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
 W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
@@ -249,7 +289,12 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \ell_{feed}\,{\color{Mahogany}=}\,\frac{L}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
 \end{equation}
 %% w_{feed} = 0.001 
-
+\begin{center}
+	\begin{figure}[h]
+		\includegraphics[scale=0.3]{mesh_levels.png}
+		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
+	\end{figure}
+\end{center}
 \begin{center}
 \begin{figure}
 \includegraphics[width = 0.3\linewidth]{gain_patch.png}
