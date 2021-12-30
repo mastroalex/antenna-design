@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.27)  23 DEC 2021 14:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  30 DEC 2021 15:35
 entering extended mode
-**C:/Users/sleon/Desktop/relazione_wet/relazione_wet.tex
-(C:/Users/sleon/Desktop/relazione_wet/relazione_wet.tex
+**./relazione_wet.tex
+(relazione_wet.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-22>
 (C:\Program Files\MiKTeX 2.9\tex/latex/base\book.cls
@@ -873,41 +873,353 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/simpsons\simpsons.sty
 Package: simpsons 
 )
-(C:\Program Files\MiKTeX 2.9\tex/latex/fontspec\fontspec.sty
-(C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2021-11-12 L3 Experimental document command parser
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/addfont\addfont.sty
+Package: addfont 2021/03/20 v. 1.1 Easier usage of fonts without LaTeX support.
+
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\twoopt.sty
+Package: twoopt 2016/05/16 v1.6 Definitions with two optional arguments (HO)
+))
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty
+\lst@mode=\count331
+\lst@gtempboxa=\box121
+\lst@token=\toks46
+\lst@length=\count332
+\lst@currlwidth=\dimen313
+\lst@column=\count333
+\lst@pos=\count334
+\lst@lostspace=\dimen314
+\lst@width=\dimen315
+\lst@newlines=\count335
+\lst@lineno=\count336
+\lst@maxwidth=\dimen316
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count337
+\lst@skipnumbers=\count338
+\lst@framebox=\box122
 )
-Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+(C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count339
+\c@subtable=\count340
+)
+\figureheight=\skip60
+\figurewidth=\skip61
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count341
+\float@exts=\toks47
+\float@box=\box123
+\@float@everytoks=\toks48
+\@floatcapt=\box124
+)
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 50.
+LaTeX Font Info:    Trying to load font information for T1+qbk on input line 50
+.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\t1qbk.fd
+File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
+) (relazione_wet.aux)
+\openout1 = `relazione_wet.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 50.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
+50.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 50.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
+50.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 50.
+
+(C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count342
+\scratchdimen=\dimen317
+\scratchbox=\box125
+\nofMPsegments=\count343
+\nofMParguments=\count344
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count345
+\MPscratchDim=\dimen318
+\MPnumerator=\count346
+\makeMPintoPDFobject=\count347
+\everyMPtoPDFconversion=\toks50
+) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+
+LaTeX hooks Warning: Generic hook
+(hooks)              'file/after/translations-basic-dictionary-english.trsl'
+(hooks)              is deprecated.
+(hooks)              Use hook
+(hooks)              'file/translations-basic-dictionary-english.trsl/after'
+(hooks)              instead.
 
 
-! Fatal Package fontspec Error: The fontspec package requires either XeTeX or
-(fontspec)                      LuaTeX.
-(fontspec)                      
-(fontspec)                      You must change your typesetting engine to,
-(fontspec)                      e.g., "xelatex" or "lualatex"instead of
-(fontspec)                      "latex" or "pdflatex".
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/translations/dicts\transla
+tions-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 50.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
-Type <return> to continue.
- ...                                              
-                                                  
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-? 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 754.70935pt, 36.135pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=489.10287pt
+* \textheight=754.70935pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-49.94128pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Emergency stop.
-<read *> 
-         
-l.45 \msg_fatal:nn {fontspec} {cannot-use-pdftex}
-                                                 
-*** (cannot \read from terminal in nonstop modes)
+(C:\Program Files\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
- 
+(C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+\c@lstlisting=\count348
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
+1.
+(C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 60
+.
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\t1qag.fd
+File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 70.
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 72.
+
+
+LaTeX Font Warning: Font shape `T1/qbk/m/sl' in size <12> not available
+(Font)              Font shape `T1/qbk/m/it' tried instead on input line 144.
+
+[1{C:/Users/sleon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+<figures//array_factor_polar.png, id=17, 727.518pt x 727.0362pt>
+File: figures//array_factor_polar.png Graphic file (type png)
+<use figures//array_factor_polar.png>
+Package pdftex.def Info: figures//array_factor_polar.png  used on input line 15
+6.
+(pdftex.def)             Requested size: 218.25708pt x 218.11253pt.
+<figures//array_factor_rectangular.png, id=18, 997.326pt x 617.1858pt>
+File: figures//array_factor_rectangular.png Graphic file (type png)
+<use figures//array_factor_rectangular.png>
+Package pdftex.def Info: figures//array_factor_rectangular.png  used on input l
+ine 157.
+(pdftex.def)             Requested size: 299.2001pt x 185.15717pt.
+
+Overfull \hbox (30.91031pt too wide) in paragraph at lines 156--158
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[]\T1/lmss/m/n/12 (same con-duc-tiv-ity listed
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+30.
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [2 <./figures//array_factor_polar.png (PNG copy)> <./figures//array_factor_re
+ctangular.png (PNG copy)>]
+<figures//mesh_levels.png, id=23, 1143.3114pt x 627.3036pt>
+File: figures//mesh_levels.png Graphic file (type png)
+<use figures//mesh_levels.png>
+Package pdftex.def Info: figures//mesh_levels.png  used on input line 233.
+(pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./figures//mesh_levels.png (PNG copy)>]
+<figures//gain_patch.png, id=29, 776.1798pt x 509.7444pt>
+File: figures//gain_patch.png Graphic file (type png)
+<use figures//gain_patch.png>
+Package pdftex.def Info: figures//gain_patch.png  used on input line 255.
+(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
+<figures//gain_patch_v.png, id=30, 391.2216pt x 285.2256pt>
+File: figures//gain_patch_v.png Graphic file (type png)
+<use figures//gain_patch_v.png>
+Package pdftex.def Info: figures//gain_patch_v.png  used on input line 256.
+(pdftex.def)             Requested size: 146.73235pt x 106.97673pt.
+<figures//gain_patch_h.png, id=31, 776.1798pt x 509.7444pt>
+File: figures//gain_patch_h.png Graphic file (type png)
+<use figures//gain_patch_h.png>
+Package pdftex.def Info: figures//gain_patch_h.png  used on input line 257.
+(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
+<figures//gamma.png, id=32, 1164.5106pt x 627.7854pt>
+File: figures//gamma.png Graphic file (type png)
+<use figures//gamma.png>
+Package pdftex.def Info: figures//gamma.png  used on input line 263.
+(pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
+<figures//impedances.png, id=33, 1163.0652pt x 636.4578pt>
+File: figures//impedances.png Graphic file (type png)
+<use figures//impedances.png>
+Package pdftex.def Info: figures//impedances.png  used on input line 264.
+(pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
+
+Overfull \hbox (2.556pt too wide) in paragraph at lines 263--265
+[][] [] 
+ []
+
+[4 <./figures//gain_patch.png (PNG copy)> <./figures//gain_patch_v.png (PNG cop
+y)> <./figures//gain_patch_h.png (PNG copy)> <./figures//gamma.png (PNG copy)> 
+<./figures//impedances.png (PNG copy)>] (relazione_wet.aux) ) 
 Here is how much of TeX's memory you used:
- 32086 strings out of 478647
- 784395 string characters out of 2853193
- 1161858 words of memory out of 3000000
- 49772 multiletter control sequences out of 15000+600000
- 403787 words of font info for 29 fonts, out of 8000000 for 9000
+ 34895 strings out of 478647
+ 840305 string characters out of 2853193
+ 1182858 words of memory out of 3000000
+ 52455 multiletter control sequences out of 15000+600000
+ 490432 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,0n,94p,768b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 99i,17n,94p,733b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/
+MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.
+9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex
+-gyre/q-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sft
+t1200.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/st
+ix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/st
+ix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/publi
+c/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/typ
+e1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/font
+s/type1/public/stix/stix-mathsf.pfb>
+Output written on relazione_wet.pdf (4 pages, 915844 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+

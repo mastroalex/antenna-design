@@ -30,6 +30,8 @@
 \usepackage{addfont}
 \addfont[1.5]{OT1}{simfon}{\simfon}
 \usepackage{listings}
+
+\definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
 \graphicspath{{figures/}} %Setting the graphicspat%h
 \graphicspath{{figures/}} %Setting the graphicspath
@@ -43,6 +45,8 @@
 \pgfplotsset{plot coordinates/math parser=false}
 \newlength\figureheight
 \newlength\figurewidth
+\usepackage{placeins}
+\usepackage{float}
 \begin{document}
 	{\fontfamily{lmss}\selectfont
 
@@ -155,7 +159,71 @@ meaning that if a damage of the element with the $C_{\max}$ level of feed occurs
 \end{figure}
 \end{center}
 
+
+%%% POINT B %%%
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Rectangular folded patch design}
+The design requirements are listed below: 
+\begin{center}
+
+	\begin{table}[h]
+		% \FloatBarrier
+			{\fontfamily{lmss}\selectfont
+\begin{tabular}{||m{5cm}|m{5cm}||}
+\hline 
+	\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Folded patch design parameters}} 
+	\\
+	\hline
+	\cellcolor{mintbg}\textbf{Parameter/Component} & \cellcolor{mintbg}\textbf{Value/Type/Material}\\
+	\hline
+	Frequency & $2.1\,GHz$ \\
+	\hline
+	\cellcolor{pink} Substrate & \cellcolor{pink} FR4 \\
+	\hline
+    Relative permittivity & $\varepsilon_{FR4}\,=\,4.8$ \\
+
+	Relative permeability & $\mu_{FR4}\,\cong\,1$\\
+
+	Loss tangent & $\{\tan(\delta)\}_{FR4}\,=\,0.0260$\\
+
+	Thickness & $h_{FR4}\,=\,0.8\,mm$\\
+	\hline
+\cellcolor{pink} Patch
+
+(pre-optimized features) & \cellcolor{pink} Copper \\
+\hline
+%\begin{subtable}{0.25\textwidth}
+%	\begin{tabular}{|c|c|}
+%		\hline
+%		try & c\\
+%		\hline
+%	\end{tabular}
+%	
+%	\end{subtable} & \\
+%\hline
+Conductivity & $\kappa_{copper}\,=\,5.96^.10^7\,S/m$ \\
+
+Thickness & $h_{patch}\,=\,3.556\,^.\,10^{-5}\,m$\\
+
+Length & $L_{patch}\,\cong\,\frac{\lambda_{FR4}}{4}\,=\,0.0171\,m$\\
+
+Width & $W_{patch}\,\cong\,0.419\,m$\\
+
+	\hline
+\cellcolor{pink}Ground & \cellcolor{pink} Copper
+
+(same conductivity listed above) \\
+\hline
+Thickness & $h_{GND}\,=\,h_{patch}$
+\\
+Length & $L_{GND}\,=\,0.04\,m$\\
+Width & $W_{GND}\,=\,0.06\,m$\\
+\hline
+\cellcolor{pink}Feed & \cellcolor{pink} Coaxial cable \\
+\hline
+\end{tabular}}
+\end{table}
+\end{center}
+
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
 A FR4 substrate thickness of $h_{sub}\,=\,0.8\,mm$  has been selected so it could be considered as a thin one:
 \[\lambda_{sub}\,=\,0.0652\,m\quad \leadsto\quad \frac{h_{sub}}{\lambda_{sub}}\,\cong\,\frac{1}{81}\]
