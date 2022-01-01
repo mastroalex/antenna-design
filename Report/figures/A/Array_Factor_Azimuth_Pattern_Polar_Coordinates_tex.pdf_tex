@@ -1,0 +1,79 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Array_Factor_Azimuth_Pattern_Polar_Coordinates_tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{353.8140564bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.15997713)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Array_Factor_Azimuth_Pattern_Polar_Coordinates_tex.pdf}}%
+    \put(0.88682126,1.12817962){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}el=0°\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Array_Factor_Azimuth_Pattern_Polar_Coordinates_tex.pdf}}%
+    \put(0.46851897,1.12973786){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.71861606,1.06392326){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\\\end{tabular}}}}%
+    \put(0.88213297,0.89298306){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.93799517,0.66623064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.87502985,0.44136552){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
+    \put(0.70932418,0.27720857){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}220\end{tabular}}}}%
+    \put(0.45999142,0.21216524){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
+    \put(0.2338884,0.26636801){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
+    \put(0.05579354,0.42897638){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
+    \put(-0.00460385,0.67211457){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
+    \put(0.04805028,0.89821759){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.22149919,1.05927723){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0.61908976,1.08926901){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny 10\end{tabular}}}}%
+    \put(0.59099426,1.0085753){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny 0\end{tabular}}}}%
+    \put(0.56684829,0.9338366){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny -10\end{tabular}}}}%
+    \put(0.54516718,0.85020943){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny -20\end{tabular}}}}%
+    \put(0.51884013,0.76813093){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\tiny -30\end{tabular}}}}%
+    \put(0.49725101,1.02604062){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*\end{tabular}}}}%
+    \put(0.21559087,0.09377244){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}*: 4.639 dB\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
