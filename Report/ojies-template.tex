@@ -4,11 +4,14 @@
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\graphicspath{{figures/}} %Setting the graphicspat%h
-\graphicspath{{figures/}} %Setting the graphicspath
+\usepackage{import}
+%\graphicspath{{figures/}} %Setting the graphicspat%h
+\graphicspath{{figures/}{figures/A/}{figures/B/}} %Setting the graphicspath
 \makeatletter
-\providecommand*{\input@path}{}
-\edef\input@path{{figures/}{}\input@path}% prepend
+
+%\providecommand*{\input@path}{}
+%\edef\input@path{{figures/}{{figures/A/}{figures/B/}}\input@path}% prepend
+\def\input@path{{figures/}{figures/A/}{figures/B/}}
 \makeatother
 \usepackage{subcaption}
 \usepackage{multicol}
@@ -211,13 +214,37 @@ In case of thin substrates ($h/\lambda\,\leq\,1/50$),  the \texttt{Antenna Toolb
 			\subcaption{}
 		\end{subfigure}
 		\begin{subfigure}[t]{0.5\textwidth}
-			\includegraphics[width = \linewidth]{/B/minGamma_vs_mesh_level.pdf}
+			\includegraphics[width = \linewidth]{minGamma_vs_mesh_level.pdf}
 			\subcaption{}		
 		\end{subfigure}
 	
 	\end{figure*}
 \end{center}
 \subsection{Overall array performance evaluation}
+
+\begin{center}
+	\begin{figure}[t]
+	\def\svgwidth{\linewidth}
+	\small{\input{Array_Factor_Azimuth_Pattern_Polar_Coordinates_tex.pdf_tex}}
+\caption{Polar pattern in azimuth cut for the array factor of the Tchebyshef array (CITA SEZIONE). The maximus is identified by the (*) peak of 4.639 dB.}	
+\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[t]
+		\def\svgwidth{\linewidth}
+		\small{\input{Array_Factor_Azimuth_Pattern_Rectangular_Coordinates_tex.pdf_tex}}
+		\caption{Rectangular pattern of the array factor of the Tchebyshef array (CITA SEZIONE).}	
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure*}[t]
+		\def\svgwidth{\linewidth}
+		\small{\input{Second_Contour_LOG_tex.pdf_tex}}
+		\caption{Rectangular pattern of the array factor of the Tchebyshef array (CITA SEZIONE).}	
+	\end{figure*}
+\end{center}
 
 \section{Reference Examples}
 
