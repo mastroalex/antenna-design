@@ -1,5 +1,8 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage{indentfirst} 
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{siunitx}
@@ -14,7 +17,7 @@
 \usepackage{caption}
 %\usepackage{lmodern}
 \usepackage{multicol}
-\usepackage[margin=0.75in,bottom=0.5in]{geometry}
+\usepackage[margin=0.75in,bottom=0.7in]{geometry}
 %%\usepackage{avant}
 %Per grafica vettoriale tramite InkScape%
 \usepackage{color}
@@ -33,7 +36,18 @@
 \usepackage{cleveref}
 
 \usepackage{caption}
+\DeclareCaptionFont{quack}{\fontfamily{lmss}\selectfont}
+\captionsetup{font={color=gray,quack},labelfont={color=black,bf}}
 \usepackage{subcaption}
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries\fontfamily{qag}\selectfont\color{Turquoise}}
+\titleformat*{\subsection}{\large\bfseries\fontfamily{qag}\selectfont\color{Turquoise}}
+\titleformat*{\subsubsection}{\itshape\bfseries\fontfamily{qag}\selectfont\color{Turquoise}}
+
+
+%\fontfamily{qag}\selectfont\color{Turquoise}
+%\fontfamily{qag}\selectfont\color{Turquoise}
+%\color{Turquoise} 
 
 \definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
@@ -51,7 +65,35 @@
 \newlength\figurewidth
 \usepackage{placeins}
 \usepackage{float}
+\usepackage{blindtext}
+
+\title{\fontfamily{qag}\selectfont\color{Turquoise}Design of an array of folded patches}
+\author{Blasi Luca, Mastrofini Alessandro, Mucenica Stefan Leonard}
+\date{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+%\lhead{Guides and tutorials}
+\fancypagestyle{plain}{
+	\renewcommand{\headrulewidth}{0.5pt}
+	\lhead{\small Wireless Electromagnetic Technologies \\
+		Professor: Marrocco Gaetano\\
+	University of Rome Tor Vergata\\2022}
+	\rhead{\includegraphics[height=70pt]{logo.png} }
+}
+\usepackage{lastpage}
+\fancyfoot[C]{\thepage\  of \pageref{LastPage}}
+
+\usepackage[
+backend=bibtex,
+style=numeric
+]{biblatex} %Imports biblatex package
+\addbibresource{mybib.bib} %Import the bibliography file
+
 \begin{document}
+
 	{\fontfamily{lmss}\selectfont
 
 % \begin{center}
@@ -61,15 +103,24 @@
 
 
 %%% MAIN TITLE %%% 
-\section*{\fontfamily{qag}\selectfont\color{Turquoise}Array of folded patches}
+\begingroup
+\let\center\flushleft
+\let\endcenter\endflushleft
+\maketitle
+\endgroup
+
 %%% AUTHORS and PROFESSORS%%% 
-{\color{gray}\begin{center}{\small Wireless Electromagnetic Technologies - University of Rome Tor Vergata}\end{center}}
-\begin{flushright}
-{\small{{\color{Mahogany}Professor:} {\color{Turquoise} Marrocco Gaetano, }}}{\small{\color{Mahogany}Students: }}{\small{\color{Turquoise}Blasi Luca, }}{\small{\color{Turquoise}Mastrofini Alessandro, }}{\small{\color{Turquoise}Mucenica Stefan Leonard}}
-\end{flushright}
+
+
 %%% 
-\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Tchebyshev array factor design}
-The design parameters for the array are: 
+\begin{abstract}
+\end{abstract}
+\section*{Abstract}
+\section*{Tchebyshev array factor design}
+\section*{Tchebyshev array factor design}
+
+\indent The design parameters for the array are: 
+
 \begin{center}
 \begin{tabular}{||l|l||}
 \hline
@@ -147,11 +198,13 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 \end{tabular}
 \end{center}
 Now, discussing the results is mandatory:
-\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Max/min feed ratio}Even if this is the design of a Non-Uniform Amplitude Array, the less the ratio $r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}$ is, the more efficient distribution of current is reached. In this particular design: 
+\subsection*{Max/min feed ratio}
+
+Even if this is the design of a Non-Uniform Amplitude Array, the less the ratio $r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}$ is, the more efficient distribution of current is reached. In this particular design: 
 \begin{equation}
 r_{\max/\min}\,\cong\,4.39
 \end{equation}
-meaning that if a damage of the element with the $C_{\max}$ level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error [Balanis]. 
+meaning that if a damage of the element with the $C_{\max}$ level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error \cite{Balanis1}. 
 
 
 
@@ -159,23 +212,30 @@ meaning that if a damage of the element with the $C_{\max}$ level of feed occurs
 \begin{figure}[h]
 \includegraphics[scale=0.3]{array_factor_polar.png}
 \includegraphics[scale=0.3]{array_factor_rectangular.png}
-\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Array factor polar (left) and rectangular (right) diagrams}}
+\caption{{Array factor polar (left) and rectangular (right) diagrams}}
 \end{figure}
 \end{center}
 
 \newpage
 %%% POINT B %%%
-\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Rectangular folded patch design}
-The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate looks like:
+\section*{Rectangular folded patch design}
+
+The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate is shown in \cref{fig:patch_structure} .
+
+\begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.35]{patch_structure.pdf}
 \includegraphics[scale=0.35]{patch_structure_2.pdf}
 \includegraphics[scale=0.35]{patch_structure_3.pdf}
 \end{center}
+\caption{PIFA realized with dielectric substrate}
+\label{fig:patch_structure}
+\end{figure}
 By imposing the particular condition by which the width of the rectangular shorting ($w_{sc}$) equals the patch width size ($W_{patch}$), the PIFA and the folded patch antenna will be two equivalent structures:
 \begin{equation}
 	W_{patch}\,=\,w_{sc}
 \end{equation}
+
 This remark on the PIFA is necessary because generally its structure is not equivalent to that of the folded patch antenna because of the possible variability of the shorting width ($w_{sc}$), which doesn't always satisfy the above imposed condition. That said, the design requirements are listed below: 
 	\begin{table}[h]
 		\begin{center}
@@ -282,8 +342,8 @@ Where $\Theta_i$ ($i=\{E,H\}$) are the half-power beamwidth values given by the 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Refinement with \texttt{\color{BurntOrange}MatLab MoM}}
-\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required this project ($h_{FR4}^{(i)}\,=\,\{h_{FR4}^{(1)},h_{FR4}^{(2)},h_{FR4}^{(3)}\}=\{0.8,1.0,1.6\}\,mm$)
+\subsection*{Refinement with \texttt{\color{BurntOrange}MatLab MoM}}
+\subsection*{Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required this project ($h_{FR4}^{(i)}\,=\,\{h_{FR4}^{(1)},h_{FR4}^{(2)},h_{FR4}^{(3)}\}=\{0.8,1.0,1.6\}\,mm$)
 	\begin{table}[h]
 	\begin{center}
 		%%% \FloatBarrier
@@ -316,13 +376,13 @@ information about the mesh density level that should be adopted for the design o
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%
 
-\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
+\subsection*{Mesh density refinement}
 Although a mesh density choice has already been made by selecting the best maximum edge length $e_{\max}$, the accuracy achievable by using the mesh automatic mode in the case of substrates belonging to the  \emph{thin substrate range} will be proved hereafter. An initial study of the mesh density level influence on the reflection coefficient ($\Gamma$ in $dB$) evaluated at the resonant frequency ($f=2.1\,GHz$) has been realized, thus a  $\Gamma_{2.1\,GHz}=F(e_{\max})$ function has been plotted with an initial step of $\Delta e_{\max} = 2.5^.1^{-4}\,m$ between every two mesh densities related to their specific $e_{\max}$. This first simulation considered a broader range of $e_{\max}$ variation: $[2.5^.10^{-4}\,m\,,\,6.0^.10^{-4}\,m]$. 
 \begin{figure}[h]
 \begin{center}
 
 		\includegraphics[scale=0.3]{mesh_first_test.pdf}
-		\caption{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
+		\caption{{Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
 		\label{fig:mesh_first_test}
 \end{center}
 
@@ -345,7 +405,7 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 			\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
 			\caption{}
 		\end{subfigure}
-		\captionof{figure}{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
+		\caption{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
 	\end{center}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -354,7 +414,7 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters refinement}
+\subsection*{Patch parameters refinement}
 After the selection of the maximum edge length of the mesh (consequently, of its density level), a more refined computation of the reflection computation will be made, depending on the patch (i.e. on its length and width), but also on the feed location. Firstly, only a parametrical variation of the feed position across the patch length direction has been considered, depending on variations of $L_{patch}$ and $W_{patch}$. This means that the first refinement of the feed position has been evaluated starting from its theoretical equation (depending indirectly by $W_{patch}$). The change of the feed location has been taken into account in the computation of every step of the simulation, thus in every evaluation of the reflection coefficient. The patch size variations provoked wide modifications of the reflection coefficient, which values depending on that have been represented by an initial contour plot (with variations of the patch size in a broader range and with a larger step between one value and another). After that, a simulation in a narrower range variation of the patch size has been run in order to choose from there a set of values of $\Gamma$ (i.e. a set of couples $(L_{patch},W_{patch})$) that should put the patch antenna in the best resonant condition. A set of 20 values has been selected from the second simulation range for the next and more specific simulation. In this third case, the reflection coefficient has been plotted in a range around the resonant frequency ($[2.0\,GHz, 2.2\,GHz]$) in order to find which is the best combination for the patch size that makes actually resonate the antenna at the project frequency. Another determining and discriminating factor was the input impedance ($Z_{in}=R_{in}+\jmath Y_{in}$, where the real part of $Z_{in}$ is the imput resistance, while the imaginary one is the input reactance), because a impedance matching (at $50\,\Omega$) needed to be achieved for the project. In the ideal case, of course, a reflection coefficient $\Gamma^{(id)}=0.00\,\to\,-\infty\,dB$ would be required in order to reach the perfect impedance matching (perfect matching with input resistance at $50.00\,\Omega$ and null reactance). As a real result, before an accurate matching, the $\Gamma$ value related to all the couple candidates ($(L_{patch},W_{patch})$) spaced ranged from $-24\,dB$ to $-30\,dB$. Another design choice contributed to the final patch size choice: the feed location varying across the patch width direction. Thus, a parametrical impedance matching depending on that has been run on the best couple candidates. The resulting values are:
 \begin{equation*}
 	\Gamma_{final}=-54.94\,dB\qquad R_{in}=49.86\,\Omega\qquad Y_{in}=0.11\,S
@@ -421,7 +481,7 @@ After the selection of the maximum edge length of the mesh (consequently, of its
 \end{figure}
 %%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
 
-\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
+\subsection*{Patch parameters}
 \begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
 W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
 \end{aligned}
@@ -439,7 +499,7 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \begin{center}
 	\begin{figure}[h]
 		\includegraphics[scale=0.3]{mesh_levels.png}
-		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
+		\caption{{Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
 	\end{figure}
 \end{center}
 \begin{center}
@@ -447,17 +507,17 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \includegraphics[width = 0.3\linewidth]{gain_patch.png}
 \includegraphics[width = 0.3\linewidth]{gain_patch_v.png}
 \includegraphics[width = 0.3\linewidth]{gain_patch_h.png}
-\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)}
+\caption{Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)}
 \end{figure}
 \end{center}
 \begin{center}
 \begin{figure}
 \includegraphics[width = 0.5\linewidth]{gamma.png}
 \includegraphics[width = 0.5\linewidth]{impedances.png}
-\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$}
+\caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$}
 \end{figure}
 \end{center}
-\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Overall array performance evaluation}
+\section*{Overall array performance evaluation}
 
 
 
@@ -466,14 +526,9 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 
 
 
+\section*{References}
 
-
-
-
-
-
-
-
+\printbibliography
 
 }
 \end{document}
