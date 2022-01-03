@@ -309,8 +309,14 @@ information about the mesh density level that should be adopted for the design o
 \textbf{\color{Mahogany}\emph{Thinner substrate choice} rationale}. The quality factor depending on $tan\delta$ is generally low in the FR4 substrate case. This means the FR4 is a big power dispersor. Since increasing $h_{FR4}$ will provoke just more losses in terms of a radiation efficiency drop and since the only thickness values of $0.8\,mm$ and $1.0\,mm$ would give reliable/accurate results in the \texttt{\color{Mahogany}Antenna Toolbox} simulations, the $0.8\,mm$ will be adopted.
 	\end{minipage}}
 \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+
 \paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
-Although a mesh density choice has already been made, the accuracy achievable by using the mesh automatic mode in the case of substrates belonging to the  \emph{thin substrate range} will be proved hereafter. An initial study of the mesh density level influence on the reflection coefficient ($\Gamma$ in $dB$) evaluated at the resonant frequency ($f=2.1\,GHz$) has been realized. 
+Although a mesh density choice has already been made by selecting the best maximum edge length $e_{\max}$, the accuracy achievable by using the mesh automatic mode in the case of substrates belonging to the  \emph{thin substrate range} will be proved hereafter. An initial study of the mesh density level influence on the reflection coefficient ($\Gamma$ in $dB$) evaluated at the resonant frequency ($f=2.1\,GHz$) has been realized, thus a  $\Gamma_{2.1\,GHz}=F(e_{\max})$ function has been plotted with an initial step of $\Delta e_{\max} = 2.5^.1^{-4}\,m$ between every two mesh densities related to their specific $e_{\max}$. This first simulation considered a broader range of $e_{\max}$ variation: $[2.5^.10^{-4}\,m\,,\,6.0^.10^{-4}\,m]$. 
 \begin{figure}[h]
 \begin{center}
 
@@ -318,7 +324,15 @@ Although a mesh density choice has already been made, the accuracy achievable by
 		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
 \end{center}
 	\end{figure}
-Since the resulting plot has shown big uncertainty of the $\Gamma_{dB}$ value at almost every frequency (primarily due to the big step selected between one density level and another), some more detailed test have been made. Specifically, the step has been reduced from a $\Delta s_m=2.5^.10^-4$ variation on the mesh density level to $\Delta s_m=1.0^.10^{-4}$. Moreover, considering the frequency $f^*$ at which $\min(\Gamma_{dB})$ is obtained, depending ofn variations of the mesh density level, not only the standard test comparing $s_m$ and $\Gamma_{dB}$ has been run, but also some mesh refinement plotting representing the relationship between $f^*$ vs $s_m$, $\Delta f^*$ vs $s_m$ and also $\Gamma_{dB}(f^*)$ vs $s_m$ have been taken into account. This led to more parameter relationships and to the setting of the mesh density choice $s_m$ that has been selected inside a more accurate range. 
+Since the resulting plot has shown big uncertainty of the reflection coefficient value at the resonant frequency ($\Gamma_{2.1\,GHz}$) at almost every mesh $e_{\max}$ level (primarily due to the big step selected between one density level and another), some more detailed tests have been run, by considering a slightly narrower range ($[2.5^.10^{-4}\,m\,,\,5.0^{-4}\,m]$ ) and a tchicker evaluation of the maximum edge values (so that the mesh variation step has been remarkably reduced to $1.0^{-4}\,m$). Specifically, the step between two mesh densities level in terms of the maximum edge length of each one has been reduced from a $\Delta e_m=2.5^.10^-4$ to $\Delta e_m=1.0^.10^{-4}$. In all these simulation, an important fact needs to be noted. Even very small variation on the maximum edge length value involved considerable inconsistencies in almost every part of the mesh range in terms of big variations of the frequency at wich $\Gamma$ reaches its minimum.  
+Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtained, instead of evaluationg it at the theoretical resonating frequency value at every mesh level, not only the standard test comparing $e_{\max}$ and $\Gamma$ has been run, but also some mesh refinement plots representing the relationship between $f^*$ and $e_{\max}$, $\Delta f^*$ and $e_{\max}$ and also $\Gamma_{dB}(f^*)$ and $e_{\max}$ have been taken into account (where $\Delta f^*$ is the difference between $f^*$ and the resonant frequency $f=2.1\,GHz$). More parameter relationships have been collected and this led to the setting of the mesh density choice in terms of $e_{\max}$ that has been selected inside the most stable region (i.e. showing the smallest deviation of the reflection coefficient minimum from the resonant frequency). In the end it's been specifically taken the 'automatic' $e_{\max}$ ($=3.5^{-4}\,m$) suggested by the \texttt{\color{Mahogany}Antenna Toolbox}, since this value  belongs to the stable region and seems to give the most accurate results. The $e_{\max}$ values belonging to the stable region ($[3.1\,^.\,10^{-4}\,m,3.7^.10^{-4}\,m]$) exibit slight deviations from the resonant frequency ($\Delta f^*\,\cong\,[0.01\,GHz,0.03\,GHz]$) and the minima of the reflection coefficient vary as follows: $[-24\,dB\,,\,-33\,dB]$. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters refinement}
 %%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
 \begin{figure}[h]
 	\begin{center}
