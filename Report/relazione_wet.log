@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  30 DEC 2021 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  2 JAN 2022 20:12
 entering extended mode
 **./relazione_wet.tex
 (relazione_wet.tex
@@ -1165,76 +1165,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
  []
 
 [3 <./figures//patch_structure.pdf> <./figures//patch_structure_2.pdf> <./figur
-es//patch_structure_3.pdf>] [4]
-<figures//mesh_levels.png, id=2525, 1143.3114pt x 627.3036pt>
-File: figures//mesh_levels.png Graphic file (type png)
-<use figures//mesh_levels.png>
-Package pdftex.def Info: figures//mesh_levels.png  used on input line 294.
-(pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
-<figures//gain_patch.png, id=2526, 776.1798pt x 509.7444pt>
-File: figures//gain_patch.png Graphic file (type png)
-<use figures//gain_patch.png>
-Package pdftex.def Info: figures//gain_patch.png  used on input line 300.
-(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-<figures//gain_patch_v.png, id=2527, 391.2216pt x 285.2256pt>
-File: figures//gain_patch_v.png Graphic file (type png)
-<use figures//gain_patch_v.png>
-Package pdftex.def Info: figures//gain_patch_v.png  used on input line 301.
-(pdftex.def)             Requested size: 146.73235pt x 106.97673pt.
-<figures//gain_patch_h.png, id=2528, 776.1798pt x 509.7444pt>
-File: figures//gain_patch_h.png Graphic file (type png)
-<use figures//gain_patch_h.png>
-Package pdftex.def Info: figures//gain_patch_h.png  used on input line 302.
-(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-<figures//gamma.png, id=2529, 1164.5106pt x 627.7854pt>
-File: figures//gamma.png Graphic file (type png)
-<use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 308.
-(pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
-<figures//impedances.png, id=2530, 1163.0652pt x 636.4578pt>
-File: figures//impedances.png Graphic file (type png)
-<use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 309.
-(pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
+es//patch_structure_3.pdf>]
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 308--310
-[][] [] 
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/m/n' instead on input line 284.
+
+[4]
+LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 310.
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 310.
+
+<figures//mesh_first_test.pdf, id=2524, 918.43124pt x 494.84875pt>
+File: figures//mesh_first_test.pdf Graphic file (type pdf)
+<use figures//mesh_first_test.pdf>
+Package pdftex.def Info: figures//mesh_first_test.pdf  used on input line 317.
+(pdftex.def)             Requested size: 275.5315pt x 148.45576pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures//minGamma_vs_mesh_level.pdf): PDF 
+inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures//minGamma_vs_mesh_level.pdf, id=2525, 561.09625pt x 421.575pt>
+File: figures//minGamma_vs_mesh_level.pdf Graphic file (type pdf)
+<use figures//minGamma_vs_mesh_level.pdf>
+Package pdftex.def Info: figures//minGamma_vs_mesh_level.pdf  used on input lin
+e 327.
+(pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
+
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 327--328
+[][] 
  []
 
 
-Package caption Warning: Unused \captionsetup[sub] on input line 46.
-See the caption package documentation for explanation.
 
-[5 <./figures//mesh_levels.png (PNG copy)> <./figures//gain_patch.png (PNG copy
-)> <./figures//gain_patch_v.png (PNG copy)> <./figures//gain_patch_h.png (PNG c
-opy)>] [6 <./figures//gamma.png (PNG copy)> <./figures//impedances.png (PNG cop
-y)>] (relazione_wet.aux) ) 
+pdfTeX warning: pdflatex.exe (file ./figures//DeltaF_vs_mesh_level.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures//DeltaF_vs_mesh_level.pdf, id=2526, 561.09625pt x 421.575pt>
+File: figures//DeltaF_vs_mesh_level.pdf Graphic file (type pdf)
+<use figures//DeltaF_vs_mesh_level.pdf>
+Package pdftex.def Info: figures//DeltaF_vs_mesh_level.pdf  used on input line 
+331.
+(pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
+
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 331--332
+[][] 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figures//F_vs_mesh_level.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<figures//F_vs_mesh_level.pdf, id=2527, 561.09625pt x 421.575pt>
+File: figures//F_vs_mesh_level.pdf Graphic file (type pdf)
+<use figures//F_vs_mesh_level.pdf>
+Package pdftex.def Info: figures//F_vs_mesh_level.pdf  used on input line 335.
+(pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
+
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 335--336
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./figures//mesh_first_test.pdf>]
+<figures//mesh_levels.png, id=2544, 1143.3114pt x 627.3036pt>
+File: figures//mesh_levels.png Graphic file (type png)
+<use figures//mesh_levels.png>
+Package pdftex.def Info: figures//mesh_levels.png  used on input line 358.
+(pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
+<figures//gain_patch.png, id=2545, 776.1798pt x 509.7444pt>
+File: figures//gain_patch.png Graphic file (type png)
+<use figures//gain_patch.png>
+Package pdftex.def Info: figures//gain_patch.png  used on input line 364.
+(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
+<figures//gain_patch_v.png, id=2546, 391.2216pt x 285.2256pt>
+File: figures//gain_patch_v.png Graphic file (type png)
+<use figures//gain_patch_v.png>
+Package pdftex.def Info: figures//gain_patch_v.png  used on input line 365.
+(pdftex.def)             Requested size: 146.73235pt x 106.97673pt.
+<figures//gain_patch_h.png, id=2547, 776.1798pt x 509.7444pt>
+File: figures//gain_patch_h.png Graphic file (type png)
+<use figures//gain_patch_h.png>
+Package pdftex.def Info: figures//gain_patch_h.png  used on input line 366.
+(pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
+<figures//gamma.png, id=2548, 1164.5106pt x 627.7854pt>
+File: figures//gamma.png Graphic file (type png)
+<use figures//gamma.png>
+Package pdftex.def Info: figures//gamma.png  used on input line 372.
+(pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
+<figures//impedances.png, id=2549, 1163.0652pt x 636.4578pt>
+File: figures//impedances.png Graphic file (type png)
+<use figures//impedances.png>
+Package pdftex.def Info: figures//impedances.png  used on input line 373.
+(pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
+
+Overfull \hbox (2.556pt too wide) in paragraph at lines 372--374
+[][] [] 
+ []
+
+[6 <./figures//minGamma_vs_mesh_level.pdf> <./figures//DeltaF_vs_mesh_level.pdf
+> <./figures//F_vs_mesh_level.pdf> <./figures//mesh_levels.png (PNG copy)>]
+[7 <./figures//gain_patch.png (PNG copy)> <./figures//gain_patch_v.png (PNG cop
+y)> <./figures//gain_patch_h.png (PNG copy)> <./figures//gamma.png (PNG copy)> 
+<./figures//impedances.png (PNG copy)>] (relazione_wet.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 34905 strings out of 478647
- 841077 string characters out of 2853193
+ 34949 strings out of 478647
+ 842469 string characters out of 2853193
  1181419 words of memory out of 3000000
- 52462 multiletter control sequences out of 15000+600000
- 490011 words of font info for 121 fonts, out of 8000000 for 9000
+ 52501 multiletter control sequences out of 15000+600000
+ 495960 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,94p,789b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super
-/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/
-Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qagb.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/cm-super/sftt1200.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.
-9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roam
-ing/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/App
-Data/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet.pdf (6 pages, 1311260 bytes).
+ 99i,17n,94p,1430b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.9
+/fonts/enc/dvips/tex-gyre/q-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/q
+bkr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><
+C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathcal.
+pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mat
+hex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix
+-mathit.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/
+stix-mathrm.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/s
+tix/stix-mathscr.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
+lic/stix/stix-mathsf.pfb>
+Output written on relazione_wet.pdf (7 pages, 1365528 bytes).
 PDF statistics:
- 2593 PDF objects out of 2984 (max. 8388607)
+ 2630 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

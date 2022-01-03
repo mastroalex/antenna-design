@@ -269,11 +269,75 @@ R_r\,{=}\,\frac{120\,\lambda}{W_{patch}}\,\left[1-\frac{1}{24}\,\left(2\pi\,\fra
 	\ell_{feed}\,{\color{Mahogany}=}\,\frac{L_{patch}}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
 \end{equation}
 Where $\Theta_i$ ($i=\{E,H\}$) are the half-power beamwidth values given by the E-cut and the H-cut. $\lambda\,=\,c/f$ is the free-space wavelength ($c=299 792 458\,m/s$ is the light-speed in the free space). $R_{in}$ is the input impedance (a resistance), while $R_r$ is the radiation resistance
-\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
-A FR4 substrate thickness of $h_{sub}\,=\,0.8\,mm$  has been selected so it could be considered as a thin one:
-\[\lambda_{sub}\,=\,0.0652\,m\quad \leadsto\quad \frac{h_{sub}}{\lambda_{sub}}\,\cong\,\frac{1}{81}\]
-In case of thin substrates ($h/\lambda\,\leq\,1/50$),  the \texttt{\color{Mahogany}Antenna Toolbox} suggests to mesh the antenna using dielectric in auto mode. The other two available substrate thicknesses ($1.0\,mm$ and $1.6\,mm$) have not been adopted because the \texttt{\color{Mahogany}Antenna Toolbox} reference doesn't give any information about accuracy of the results in case of $h_{sub}\,\in\,\left(\frac{\lambda}{50}\,,\,\frac{\lambda}{10}\right)$. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Refinement with \texttt{\color{BurntOrange}MatLab MoM}}
+\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required this project ($h_{FR4}^{(i)}\,=\,\{h_{FR4}^{(1)},h_{FR4}^{(2)},h_{FR4}^{(3)}\}=\{0.8,1.0,1.6\}\,mm$)
+	\begin{table}[h]
+	\begin{center}
+		%%% \FloatBarrier
+		{\fontfamily{lmss}\selectfont
+			\begin{tabular}{||m{3cm}|m{3cm}|m{3cm}||}
+				\hline 
+				\rowcolor{lightgray}\multicolumn{3}{|c|}{\textbf{FR4 substrate project thickness levels available}} 
+				\\
+				\hline
+				\cellcolor{pink}$h_{FR4}^{(1)}=0.8\,mm$ & 
+					\cellcolor{pink}$h_{FR4}^{(2)}=1.0\,mm$ & 
+						\cellcolor{pink}$h_{FR4}^{(3)}=1.6\,mm$  \\
+				\hline
+				
+			\end{tabular}}\end{center}\end{table}
+\FloatBarrier
+The \texttt{\color{Mahogany}Antenna Toolbox} gives specific
+information about the mesh density level that should be adopted for the design of the patch antenna components. The only issue is that these details are given only for particular ranges of the ratio indicator called \emph{relative thickness} or \emph{electrical thickness} $h_{\lambda}$. The electrical thickness depends on the ratio between the substrate thickness ($h_{FR4}$) and the wavelength related to the substrate medium ($\lambda_{FR4}$). When a mesh is configured in the \texttt{\color{Mahogany}Antenna Toolbox} environment, a specific parameter needs to be adjusted: the maximum edge length of the generic triangle covering the geometry of the antenna ($e_{\max}$). In the case of a relative length $h_\lambda$ comparable to $1/10$, it's recommended to select a $e_{\max}\,\cong\,\lambda/10$. A substrate thickness respecting this relationship is called a \emph{thick substrate}. None of the available substrates verify this condition. Among them, only the thinnest substrate and the second to last one (thus $h_{FR4}=0.8\,mm$ and $h_{FR4}=1.0\,mm$) are part of a range which the \texttt{\color{Mahogany}Antenna Toolbox} provides instructions of. It's the \emph{thin substrate range}: the automatic mesh mode should be adopted for a thin substrate, namely having a relative thickness less or equal than one fifth ($h_\lambda\,\leq{1/50}$). In the specific project case: 
+\begin{equation}
+	h_{FR4}=0.8\,mm\,\leadsto\,h_{\lambda}\,=\,\frac{1}{81}\qquad 	h_{FR4}=1.0\,mm\,\leadsto\,h_{\lambda}\,=\,\frac{1}{62}
+\end{equation}
+\begin{center}
+	\fbox{\begin{minipage}{0.7\linewidth}
+\textbf{\color{Mahogany}\emph{Thinner substrate choice} rationale}. The quality factor depending on $tan\delta$ is generally low in the FR4 substrate case. This means the FR4 is a big power dispersor. Since increasing $h_{FR4}$ will provoke just more losses in terms of a radiation efficiency drop and since the only thickness values of $0.8\,mm$ and $1.0\,mm$ would give reliable/accurate results in the \texttt{\color{Mahogany}Antenna Toolbox} simulations, the $0.8\,mm$ will be adopted.
+	\end{minipage}}
+\end{center}
+\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Mesh density refinement}
+Although a mesh density choice has already been made, the accuracy achievable by using the mesh automatic mode in the case of substrates belonging to the  \emph{thin substrate range} will be proved hereafter. An initial study of the mesh density level influence on the reflection coefficient ($\Gamma$ in $dB$) evaluated at the resonant frequency ($f=2.1\,GHz$) has been realized. 
+\begin{figure}[h]
+\begin{center}
 
+		\includegraphics[scale=0.3]{mesh_first_test.pdf}
+		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
+\end{center}
+	\end{figure}
+Since the resulting plot has shown big uncertainty of the $\Gamma_{dB}$ value at almost every frequency (primarily due to the big step selected between one density level and another), some more detailed test have been made. Specifically, the step has been reduced from a $\Delta s_m=2.5^.10^-4$ variation on the mesh density level to $\Delta s_m=1.0^.10^{-4}$. Moreover, considering the frequency $f^*$ at which $\min(\Gamma_{dB})$ is obtained, depending ofn variations of the mesh density level, not only the standard test comparing $s_m$ and $\Gamma_{dB}$ has been run, but also some mesh refinement plotting representing the relationship between $f^*$ vs $s_m$, $\Delta f^*$ vs $s_m$ and also $\Gamma_{dB}(f^*)$ vs $s_m$ have been taken into account. This led to more parameter relationships and to the setting of the mesh density choice $s_m$ that has been selected inside a more accurate range. 
+%%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
+\begin{figure}[h]
+	\begin{center}
+
+		\begin{subfigure}{0.3\linewidth}
+\includegraphics[scale=0.3]{minGamma_vs_mesh_level.pdf}
+\caption{}
+\end{subfigure}
+	\begin{subfigure}{0.3\linewidth}
+\includegraphics[scale=0.3]{DeltaF_vs_mesh_level.pdf}
+\caption{}
+\end{subfigure}
+	\begin{subfigure}{0.3\linewidth}
+\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
+\caption{}
+\end{subfigure}
+\captionof{figure}{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
+	\end{center}
+\end{figure}
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
 \begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
 W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
