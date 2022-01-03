@@ -326,6 +326,24 @@ Although a mesh density choice has already been made by selecting the best maxim
 	\end{figure}
 Since the resulting plot has shown big uncertainty of the reflection coefficient value at the resonant frequency ($\Gamma_{2.1\,GHz}$) at almost every mesh $e_{\max}$ level (primarily due to the big step selected between one density level and another), some more detailed tests have been run, by considering a slightly narrower range ($[2.5^.10^{-4}\,m\,,\,5.0^{-4}\,m]$ ) and a tchicker evaluation of the maximum edge values (so that the mesh variation step has been remarkably reduced to $1.0^{-4}\,m$). Specifically, the step between two mesh densities level in terms of the maximum edge length of each one has been reduced from a $\Delta e_m=2.5^.10^-4$ to $\Delta e_m=1.0^.10^{-4}$. In all these simulation, an important fact needs to be noted. Even very small variation on the maximum edge length value involved considerable inconsistencies in almost every part of the mesh range in terms of big variations of the frequency at wich $\Gamma$ reaches its minimum.  
 Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtained, instead of evaluationg it at the theoretical resonating frequency value at every mesh level, not only the standard test comparing $e_{\max}$ and $\Gamma$ has been run, but also some mesh refinement plots representing the relationship between $f^*$ and $e_{\max}$, $\Delta f^*$ and $e_{\max}$ and also $\Gamma_{dB}(f^*)$ and $e_{\max}$ have been taken into account (where $\Delta f^*$ is the difference between $f^*$ and the resonant frequency $f=2.1\,GHz$). More parameter relationships have been collected and this led to the setting of the mesh density choice in terms of $e_{\max}$ that has been selected inside the most stable region (i.e. showing the smallest deviation of the reflection coefficient minimum from the resonant frequency). In the end it's been specifically taken the 'automatic' $e_{\max}$ ($=3.5^{-4}\,m$) suggested by the \texttt{\color{Mahogany}Antenna Toolbox}, since this value  belongs to the stable region and seems to give the most accurate results. The $e_{\max}$ values belonging to the stable region ($[3.1\,^.\,10^{-4}\,m,3.7^.10^{-4}\,m]$) exibit slight deviations from the resonant frequency ($\Delta f^*\,\cong\,[0.01\,GHz,0.03\,GHz]$) and the minima of the reflection coefficient vary as follows: $[-24\,dB\,,\,-33\,dB]$. 
+\begin{figure}[h]
+	\begin{center}
+		
+		\begin{subfigure}{0.3\linewidth}
+			\includegraphics[scale=0.3]{minGamma_vs_mesh_level.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.3\linewidth}
+			\includegraphics[scale=0.3]{DeltaF_vs_mesh_level.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.3\linewidth}
+			\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
+			\caption{}
+		\end{subfigure}
+		\captionof{figure}{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
+	\end{center}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -333,25 +351,72 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters refinement}
-%%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
+After the selection of the maximum edge length of the mesh (consequently, of its density level), a more refined computation of the reflection computation will be made, depending on the patch (i.e. on its length and width), but also on the feed location. Firstly, only a parametrical variation of the feed position across the patch length direction has been considered, depending on variations of $L_{patch}$ and $W_{patch}$. This means that the first refinement of the feed position has been evaluated starting from its theoretical equation (depending indirectly by $W_{patch}$). The change of the feed location has been taken into account in the computation of every step of the simulation, thus in every evaluation of the reflection coefficient. The patch size variations provoked wide modifications of the reflection coefficient, which values depending on that have been represented by an initial contour plot (with variations of the patch size in a broader range and with a larger step between one value and another). After that, a simulation in a narrower range variation of the patch size has been run in order to choose from there a set of values of $\Gamma$ (i.e. a set of couples $(L_{patch},W_{patch})$) that should put the patch antenna in the best resonant condition. A set of 20 values has been selected from the second simulation range for the next and more specific simulation. In this third case, the reflection coefficient has been plotted in a range around the resonant frequency ($[2.0\,GHz, 2.2\,GHz]$) in order to find which is the best combination for the patch size that makes actually resonate the antenna at the project frequency. Another determining and discriminating factor was the input impedance ($Z_{in}=R_{in}+\jmath Y_{in}$, where the real part of $Z_{in}$ is the imput resistance, while the imaginary one is the input reactance), because a impedance matching (at $50\,\Omega$) needed to be achieved for the project. In the ideal case, of course, a reflection coefficient $\Gamma^{(id)}=0.00\,\to\,-\infty\,dB$ would be required in order to reach the perfect impedance matching (perfect matching with input resistance at $50.00\,\Omega$ and null reactance). As a real result, before an accurate matching, the $\Gamma$ value related to all the couple candidates ($(L_{patch},W_{patch})$) spaced ranged from $-24\,dB$ to $-30\,dB$. Another design choice contributed to the final patch size choice: the feed location varying across the patch width direction. Thus, a parametrical impedance matching depending on that has been run on the best couple candidates. The resulting values are:
+\begin{equation*}
+	\Gamma_{final}=-54.94\,dB\qquad R_{in}=49.86\,\Omega\qquad Y_{in}=0.11\,S
+\end{equation*}
 \begin{figure}[h]
 	\begin{center}
-
-		\begin{subfigure}{0.3\linewidth}
-\includegraphics[scale=0.3]{minGamma_vs_mesh_level.pdf}
-\caption{}
-\end{subfigure}
-	\begin{subfigure}{0.3\linewidth}
-\includegraphics[scale=0.3]{DeltaF_vs_mesh_level.pdf}
-\caption{}
-\end{subfigure}
-	\begin{subfigure}{0.3\linewidth}
-\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
-\caption{}
-\end{subfigure}
-\captionof{figure}{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
-	\end{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
+		\end{subfigure}
+	\caption{\fontfamily{lmss}\selectfont
+		\color{gray}First and second (refined) contour plots depending on the patch size ($L_{patch} and W_{patch}$ variations)}
+	\end{center}  
 \end{figure}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.25]{gamma1.pdf}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+		\includegraphics[scale=0.25]{gamma3.pdf}
+	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+	\includegraphics[scale=0.25]{gamma4.pdf}
+\end{subfigure}
+	\caption{\fontfamily{lmss}\selectfont
+	\color{gray}Some of the best $\Gamma$ plots depending on specific patch size candidates ($L_{patch},W_{patch}$)}
+	\end{center}  
+\end{figure}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.25]{gamma_wfeed.pdf}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.25]{matching_wfeed.pdf}
+		\end{subfigure}
+		\caption{\fontfamily{lmss}\selectfont
+		\color{gray}
+	Final $\Gamma$ and impedance matching plots after further refinement including $w_{feed}$ change}
+	\end{center}  
+\end{figure}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.5]{gain_3D_pifa.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.5]{gain_azimuth_pifa.pdf}
+		\caption{}	\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+		\includegraphics[scale=0.5]{gain_elevation_pifa.pdf}
+	\caption{}	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+	\includegraphics[scale=0.5]{pifa_currents.pdf}
+	\caption{} \end{subfigure}
+		\caption{\fontfamily{lmss}\selectfont
+			\color{gray}
+		Gain patterns (a) in 3D, (b) in the nulle elevation plane, (c) in the null azimuth plane and (d) 3D current plot on the patch antenna }
+	\end{center}  
+\end{figure}
+%%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
+
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
 \begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
 W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
