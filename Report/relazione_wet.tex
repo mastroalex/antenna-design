@@ -416,44 +416,68 @@ After the selection of the maximum edge length of the mesh (consequently, of its
 	\end{center}  
 \end{figure}
 %%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
-
-\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Patch parameters}
-\begin{equation}\begin{aligned}L\,+\,W\,-\,w_{SC}\,&{\color{Mahogany}=}\,\frac{\lambda}{4}\,+\,h_{sub}\\
-W\,&{\color{Mahogany}=}\,\frac{\lambda_0}{2}\,\sqrt{\frac{2}{\varepsilon_r\,+\,1}}\\
-\end{aligned}
-\end{equation}
-\begin{equation}
-\begin{aligned}
-BW_E\,&{\color{Mahogany}=}\,2\,\arccos\,\sqrt{\frac{7.03\,\lambda_0^2}{4\,(3\,L_e^2+h^2)\,\pi^2}}\\
-BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
-\end{aligned}
-\end{equation}
-\begin{equation}
-\ell_{feed}\,{\color{Mahogany}=}\,\frac{L}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
-\end{equation}
-%% w_{feed} = 0.001 
-\begin{center}
-	\begin{figure}[h]
-		\includegraphics[scale=0.3]{mesh_levels.png}
-		\captionof{figure}{{\color{gray}\fontfamily{lmss}\selectfont Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
-	\end{figure}
-\end{center}
-\begin{center}
-\begin{figure}
-\includegraphics[width = 0.3\linewidth]{gain_patch.png}
-\includegraphics[width = 0.3\linewidth]{gain_patch_v.png}
-\includegraphics[width = 0.3\linewidth]{gain_patch_h.png}
-\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}From the PIFA pifa to a PCB stack}
+Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Designer} among with the \texttt{\color{Mahogany}PCB Antenna Designer} have been used so that all the parameters required for the project could be analyzed. Just before that, a comparison between the single antenna realized with the PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Designer} allows the plotting of some patterns such as the directivity, a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. All this discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
+\begin{itemize}
+	\item \textbf{Single PIFA and PCB stack comparison}.
+	\begin{equation}
+	MSE_{az}\cong 0.16\,dB\qquad MSE_{el}=0.055\,dB
+	\end{equation}
+	\item \textbf{Overall PCB and PIFA arrays comparison}. In this case the comparison has been made between
+	\begin{itemize}
+		\item The main lobe ($ML$) levels in the two arrays (as a difference between the two directivity (i.e. $D_0$)values corresponding to that angle): 
+		\item 
+		\begin{equation}
+			\begin{aligned}
+			\Delta D_{0,az}^{(ML)} &= 2.37\,dB\qquad \Delta D_{0,az}^{(SL)} = 0.02\,dB\\
+			\Delta D_{0,el}^{(ML)} &= 1.93\,dB\qquad \Delta D_{0,el}^{(SL)} = 4.01\,dB
+			\end{aligned}
+		\end{equation}
+		\item The first side lobe levels in the two arrays
+	\end{itemize}
+both in the broadside case. 
+\end{itemize}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_azymuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{\fontfamily{lmss}\selectfont
+			\color{gray}
+			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+	\end{center}  
 \end{figure}
-\end{center}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_azimuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{\fontfamily{lmss}\selectfont
+			\color{gray}
+			PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+	\end{center}  
+\end{figure}
+
 \begin{center}
 \begin{figure}
 \includegraphics[width = 0.5\linewidth]{gamma.png}
 \includegraphics[width = 0.5\linewidth]{impedances.png}
-\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$}
+\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$. This are the resulting plots before $W_{feed}$ optimization. }
 \end{figure}
 \end{center}
-\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Overall array performance evaluation}
+
 
 
 
