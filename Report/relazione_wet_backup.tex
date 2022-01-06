@@ -281,7 +281,6 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Refinement with \texttt{\color{BurntOrange}MatLab MoM}}
 	\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required this project ($h_{FR4}^{(i)}\,=\,\{h_{FR4}^{(1)},h_{FR4}^{(2)},h_{FR4}^{(3)}\}=\{0.8,1.0,1.6\}\,mm$)
 	\begin{table}[h]
 		\begin{center}
@@ -477,9 +476,16 @@
 			\captionof{figure}{\color{gray}\fontfamily{lmss}\selectfont Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$. This are the resulting plots before $W_{feed}$ optimization. }
 		\end{figure}
 	\end{center}
-	
-	
-	
+\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
+In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that the total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in Eqn. x, where $n=\{1,5\}$ 
+\begin{equation}
+	\begin{aligned}
+		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\
+	\alpha_n&=n\,\alpha\,d_{opt}=nu_0
+\end{aligned}
+\end{equation}
+\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
+In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle. It will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
 	
 	
 	
