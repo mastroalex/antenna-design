@@ -1,0 +1,12 @@
+SINGLE ANTENNA COMPARISON
+azimuth cut mse = 0.16049 dB
+elevation cut mse = 0.055 dB
+
+ARRAY COMPARISON 
+MAIN LOBE Comparison (90°) : C1=0.38 C2=2.75; Delta=
+First SIDE LOBE Comparison (126.26°) : C1=-36.36, C2=-36.34; Delta
+
+elevation
+ML 10.54, 8.61 
+SL -30.68, -34.69
+
