@@ -27,7 +27,7 @@ p = design(pifa, f);
 W= 0.0351; 
 L = 0.0158; 
 
-h = 0.0016; % substrate thickness and patch height
+h = 0.0008; % substrate thickness and patch height
 lambda0 = physconst('Lightspeed')/f; % free space wavelength at given frequency
 k0=2*pi/lambda0; % propagation constant
 
