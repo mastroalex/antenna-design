@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  4 JAN 2022 17:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  6 JAN 2022 11:51
 entering extended mode
-**./relazione_wet.tex
-(relazione_wet.tex
+**./relazione_wet_backup.tex
+(relazione_wet_backup.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-22>
 (C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls
@@ -930,8 +930,9 @@ LaTeX Font Info:    Trying to load font information for T1+qbk on input line 53
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\t1qbk.fd
 File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
-) (relazione_wet.aux)
-\openout1 = `relazione_wet.aux'.
+)
+(relazione_wet_backup.aux)
+\openout1 = `relazione_wet_backup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
@@ -1165,22 +1166,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
  []
 
 [3 <./figures//patch_structure.pdf> <./figures//patch_structure_2.pdf> <./figur
-es//patch_structure_3.pdf>]
-
-LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 284.
-
-[4]
+es//patch_structure_3.pdf>] [4]
 LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 310.
+(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 309.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 310.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 309.
 
 <figures//mesh_first_test.pdf, id=2524, 918.43124pt x 494.84875pt>
 File: figures//mesh_first_test.pdf Graphic file (type pdf)
 <use figures//mesh_first_test.pdf>
-Package pdftex.def Info: figures//mesh_first_test.pdf  used on input line 323.
+Package pdftex.def Info: figures//mesh_first_test.pdf  used on input line 322.
 (pdftex.def)             Requested size: 275.5315pt x 148.45576pt.
 
 
@@ -1190,10 +1186,10 @@ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures//minGamma_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//minGamma_vs_mesh_level.pdf>
 Package pdftex.def Info: figures//minGamma_vs_mesh_level.pdf  used on input lin
-e 333.
+e 332.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 333--334
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 332--333
 [][] 
  []
 
@@ -1205,10 +1201,10 @@ clusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures//DeltaF_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//DeltaF_vs_mesh_level.pdf>
 Package pdftex.def Info: figures//DeltaF_vs_mesh_level.pdf  used on input line 
-337.
+336.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 337--338
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 336--337
 [][] 
  []
 
@@ -1219,10 +1215,10 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 <figures//F_vs_mesh_level.pdf, id=2527, 561.09625pt x 421.575pt>
 File: figures//F_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//F_vs_mesh_level.pdf>
-Package pdftex.def Info: figures//F_vs_mesh_level.pdf  used on input line 341.
+Package pdftex.def Info: figures//F_vs_mesh_level.pdf  used on input line 340.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 341--342
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 340--341
 [][] 
  []
 
@@ -1233,11 +1229,11 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 <figures//First_Contour_LOG.pdf, id=2544, 1065.9825pt x 651.43375pt>
 File: figures//First_Contour_LOG.pdf Graphic file (type pdf)
 <use figures//First_Contour_LOG.pdf>
-Package pdftex.def Info: figures//First_Contour_LOG.pdf  used on input line 361
+Package pdftex.def Info: figures//First_Contour_LOG.pdf  used on input line 360
 .
 (pdftex.def)             Requested size: 266.49496pt x 162.85803pt.
 
-Overfull \hbox (21.94353pt too wide) in paragraph at lines 361--362
+Overfull \hbox (21.94353pt too wide) in paragraph at lines 360--361
 [][] 
  []
 
@@ -1249,62 +1245,62 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figures//Second_Contour_LOG.pdf Graphic file (type pdf)
 <use figures//Second_Contour_LOG.pdf>
 Package pdftex.def Info: figures//Second_Contour_LOG.pdf  used on input line 36
-4.
+3.
 (pdftex.def)             Requested size: 257.21031pt x 152.56963pt.
 
-Overfull \hbox (12.65887pt too wide) in paragraph at lines 364--365
+Overfull \hbox (12.65887pt too wide) in paragraph at lines 363--364
 [][] 
  []
 
 <figures//gamma1.pdf, id=2546, 939.51pt x 494.84875pt>
 File: figures//gamma1.pdf Graphic file (type pdf)
 <use figures//gamma1.pdf>
-Package pdftex.def Info: figures//gamma1.pdf  used on input line 373.
+Package pdftex.def Info: figures//gamma1.pdf  used on input line 372.
 (pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
 <figures//gamma3.pdf, id=2547, 941.5175pt x 521.95pt>
 File: figures//gamma3.pdf Graphic file (type pdf)
 <use figures//gamma3.pdf>
-Package pdftex.def Info: figures//gamma3.pdf  used on input line 376.
+Package pdftex.def Info: figures//gamma3.pdf  used on input line 375.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
 <figures//gamma4.pdf, id=2548, 939.51pt x 494.84875pt>
 File: figures//gamma4.pdf Graphic file (type pdf)
 <use figures//gamma4.pdf>
-Package pdftex.def Info: figures//gamma4.pdf  used on input line 379.
+Package pdftex.def Info: figures//gamma4.pdf  used on input line 378.
 (pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
 <figures//gamma_wfeed.pdf, id=2549, 941.5175pt x 521.95pt>
 File: figures//gamma_wfeed.pdf Graphic file (type pdf)
 <use figures//gamma_wfeed.pdf>
-Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 388.
+Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 387.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
 <figures//matching_wfeed.pdf, id=2550, 939.51pt x 504.88625pt>
 File: figures//matching_wfeed.pdf Graphic file (type pdf)
 <use figures//matching_wfeed.pdf>
-Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 391.
+Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 390.
 (pdftex.def)             Requested size: 234.87692pt x 126.22124pt.
 <figures//gain_3D_pifa.pdf, id=2551, 421.575pt x 316.18124pt>
 File: figures//gain_3D_pifa.pdf Graphic file (type pdf)
 <use figures//gain_3D_pifa.pdf>
-Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 401.
+Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 400.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 <figures//gain_azimuth_pifa.pdf, id=2552, 421.575pt x 316.18124pt>
 File: figures//gain_azimuth_pifa.pdf Graphic file (type pdf)
 <use figures//gain_azimuth_pifa.pdf>
-Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 405
+Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 404
 .
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 <figures//gain_elevation_pifa.pdf, id=2553, 421.575pt x 317.185pt>
 File: figures//gain_elevation_pifa.pdf Graphic file (type pdf)
 <use figures//gain_elevation_pifa.pdf>
 Package pdftex.def Info: figures//gain_elevation_pifa.pdf  used on input line 4
-08.
+07.
 (pdftex.def)             Requested size: 210.78697pt x 158.5921pt.
 <figures//pifa_currents.pdf, id=2554, 421.575pt x 316.18124pt>
 File: figures//pifa_currents.pdf Graphic file (type pdf)
 <use figures//pifa_currents.pdf>
-Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 411.
+Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 410.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 
-LaTeX Warning: Float too large for page by 11.55338pt on input line 417.
+LaTeX Warning: Float too large for page by 11.55338pt on input line 416.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1321,7 +1317,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6 <./figures//minGamma_vs_mesh_level.pdf> <./figures//DeltaF_vs_mesh_level.pdf
 > <./figures//F_vs_mesh_level.pdf>]
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 4
-26.
+25.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
@@ -1335,7 +1331,7 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 447.
+ input line 446.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
 
@@ -1347,7 +1343,7 @@ ed
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 451.
+on input line 450.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1357,10 +1353,10 @@ t>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 461.
+n input line 460.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 461--462
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 460--461
 [][] 
  []
 
@@ -1369,10 +1365,10 @@ Overfull \hbox (102.34724pt too wide) in paragraph at lines 461--462
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 465.
+ on input line 464.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 465--466
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 464--465
 [][] 
  []
 
@@ -1382,15 +1378,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures//gamma.png, id=2589, 1164.5106pt x 627.7854pt>
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 475.
+Package pdftex.def Info: figures//gamma.png  used on input line 474.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
 <figures//impedances.png, id=2590, 1163.0652pt x 636.4578pt>
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 476.
+Package pdftex.def Info: figures//impedances.png  used on input line 475.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 475--477
+Overfull \hbox (2.556pt too wide) in paragraph at lines 474--476
 [][] [] 
  []
 
@@ -1401,37 +1397,34 @@ on_pifa.pdf> <./figures//pifa_currents.pdf>] [11 <./figures//pifa_pcb_null_azym
 uth_comparison.pdf> <./figures//pifa_pcb_null_elevation_comparison.pdf>]
 [12 <./figures//pifa_pcb_array_azimuth_comparison.pdf> <./figures//pifa_pcb_arr
 ay_elevation_comparison.pdf> <./figures//gamma.png (PNG copy)> <./figures//impe
-dances.png (PNG copy)>] (relazione_wet.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
+dances.png (PNG copy)>] (relazione_wet_backup.aux) ) 
 Here is how much of TeX's memory you used:
- 35059 strings out of 478647
- 846416 string characters out of 2853193
- 1181419 words of memory out of 3000000
- 52596 multiletter control sequences out of 15000+600000
+ 35057 strings out of 478647
+ 846475 string characters out of 2853193
+ 1181426 words of memory out of 3000000
+ 52594 multiletter control sequences out of 15000+600000
  496336 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,94p,2666b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-su
-per/cm-super-t1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmsso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qag
-b.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/sleon/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/
-Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppD
-ata/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/
-AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sl
-eon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Use
-rs/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet.pdf (12 pages, 1779216 bytes).
+ 99i,17n,94p,2674b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX 2.
+9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvip
+s/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qagb.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/c
+m-super/sftt1200.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/pub
+lic/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type
+1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fo
+nts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on relazione_wet_backup.pdf (12 pages, 1783859 bytes).
 PDF statistics:
  2902 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

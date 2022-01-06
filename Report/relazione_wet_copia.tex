@@ -67,8 +67,8 @@
 \usepackage{float}
 \usepackage{blindtext}
 
-\title{\fontfamily{qag}\selectfont\color{Turquoise}Design of an array of folded patches}
-\author{Blasi Luca, Mastrofini Alessandro, Mucenica Stefan Leonard}
+\title{\fontfamily{qag}\selectfont\color{Turquoise}\textbf{Design of an array of folded patches}}
+\author{\small \color{gray} Authors: Blasi Luca, Mastrofini Alessandro, Mucenica Stefan Leonard}
 \date{}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -78,7 +78,7 @@
 %\lhead{Guides and tutorials}
 \fancypagestyle{plain}{
 	\renewcommand{\headrulewidth}{0.5pt}
-	\lhead{\small Wireless Electromagnetic Technologies \\
+	\lhead{\small\fontfamily{lmss}\selectfont\color{gray} Wireless Electromagnetic Technologies \\
 		Professor: Marrocco Gaetano\\
 	University of Rome Tor Vergata\\2022}
 	\rhead{\includegraphics[height=70pt]{logo.png} }
@@ -116,25 +116,39 @@ style=numeric
 \begin{abstract}
 \end{abstract}
 \section*{Abstract}
-\section*{Tchebyshev array factor design}
+
+
 \section*{Tchebyshev array factor design}
 
-\indent The design parameters for the array are: 
+\indent The design parameters for the array are (\textbf{\cref{table:design_cheb_par}}): 
+		% \FloatBarrier
 
-\begin{center}
-\begin{tabular}{||l|l||}
-\hline
-\textbf{\color{Mahogany}Parameter} & \textbf{\color{Mahogany}Value} \\
-\hline
-\# elements & $2N+1=5$\\
-\hline
-Mean lobe/side lobe
-ratio  & $R = 120 \cong\, 41.58\,dB$\\
-\hline 
-Frequency & $f\,=\,2.1\,GHz$\\
-\hline
-\end{tabular}
+			\begin{table}[h]
+			\begin{center}
+						{\fontfamily{lmss}\selectfont
+			\begin{tabular}{||m{5cm}|m{5cm}||}
+				\hline 
+				\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Array factor design parameters}} 
+				\\
+				\hline
+				\cellcolor{mintbg}\textbf{Parameters} & \cellcolor{mintbg}\textbf{Value}\\
+				\hline
+				\hline
+				\textbf{\color{Mahogany}Parameter} & \textbf{\color{Mahogany}Value} \\
+				\hline
+				\# elements & $2N+1=5$\\
+				\hline
+				Mean lobe/side lobe
+				ratio  & $R = 120 \cong\, 41.58\,dB$\\
+				\hline 
+				Frequency & $f\,=\,2.1\,GHz$\\
+				\hline
+\end{tabular}}
+\caption{Table trial}
+\label{table:design_cheb_par}
 \end{center}
+\end{table}
+
 It's been specifically required to find the optimal inter-element spacing so that the minimum of the beamwidth will be reached:
 
 \begin{equation}
@@ -517,7 +531,72 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$}
 \end{figure}
 \end{center}
-\section*{Overall array performance evaluation}
+	\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}From the PIFA pifa to a PCB stack}
+Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Designer} among with the \texttt{\color{Mahogany}PCB Antenna Designer} have been used so that all the parameters required for the project could be analyzed. Just before that, a comparison between the single antenna realized with the PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Designer} allows the plotting of some patterns such as the directivity, a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. All this discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
+\begin{itemize}
+	\item \textbf{Single PIFA and PCB stack comparison}.
+	\begin{equation}
+		MSE_{az}\cong 0.16\,dB\qquad MSE_{el}=0.055\,dB
+	\end{equation}
+	\item \textbf{Overall PCB and PIFA arrays comparison}. In this case the comparison has been made between
+	\begin{itemize}
+		\item The main lobe ($ML$) levels in the two arrays (as a difference between the two directivity (i.e. $D_0$)values corresponding to that angle): 
+		\item 
+		\begin{equation}
+			\begin{aligned}
+				\Delta D_{0,az}^{(ML)} &= 2.37\,dB\qquad \Delta D_{0,az}^{(SL)} = 0.02\,dB\\
+				\Delta D_{0,el}^{(ML)} &= 1.93\,dB\qquad \Delta D_{0,el}^{(SL)} = 4.01\,dB
+			\end{aligned}
+		\end{equation}
+		\item The first side lobe levels in the two arrays
+	\end{itemize}
+	both in the broadside case. 
+\end{itemize}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_azymuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{
+			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+	\end{center}  
+\end{figure}
+\begin{figure}[h]
+	\begin{center}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_azimuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{
+			PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+	\end{center}  
+\end{figure}
+
+\begin{center}
+	\begin{figure}
+		\includegraphics[width = 0.5\linewidth]{gamma.png}
+		\includegraphics[width = 0.5\linewidth]{impedances.png}
+		\caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$. This are the resulting plots before $W_{feed}$ optimization. }
+	\end{figure}
+\end{center}
+\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
+In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that the total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in Eqn. x, where $n=\{1,5\}$ 
+\begin{equation}
+	\begin{aligned}
+		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\
+		\alpha_n&=n\,\alpha\,d_{opt}=nu_0
+	\end{aligned}
+\end{equation}
+\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
+In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle. It will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
+
 
 
 
@@ -531,4 +610,5 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \printbibliography
 
 }
+
 \end{document}
