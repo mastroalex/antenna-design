@@ -128,10 +128,12 @@ PhaseShiftBits = 0;
 
 % Plot Array Geometry
 figure;
+%viewArray(tcheB,'ShowNormal',false,...
+%  'ShowTaper',false,'ShowIndex','None',...
+%  'ShowLocalCoordinates',true,'ShowAnnotation',false,...
+%  'Orientation',[0;0;0]);
 viewArray(tcheB,'ShowNormal',false,...
-  'ShowTaper',false,'ShowIndex','None',...
-  'ShowLocalCoordinates',true,'ShowAnnotation',false,...
-  'Orientation',[0;0;0]);
+  'ShowTaper',false,'ShowIndex','None');
 
 % Steering weights (for broadside, the result is w=ones(5,1)) 
 format = 'polar';
@@ -262,6 +264,10 @@ title('Array model with PCB stacks');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%
+figure;
+efficiency(kfa,2.1e9)
+
 %% ARRAY PLOTS WITH PIFAs VS PCBs
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -324,6 +330,20 @@ polarpattern(pcb_array_real_azimuth_broadside);
 hold on
 polarpattern(pcb_array_ideal_azimuth_broadside);
 
+% ELEVATION 
+pcb_array_real_elevation_broadside = pattern(kfa,2.1e9,0,-180:180,'Type','directivity');
+pcb_array_ideal_elevation_broadside = patternMultiply(kfa,2.1e9,0,-180:180,'Type','directivity');
+
+figure;
+pattern(kfa,2.1e9,0,-180:180,'Type','directivity');
+figure;
+patternMultiply(kfa,2.1e9,0,-180:180,'Type','directivity');
+figure;
+polarpattern(pcb_array_real_elevation_broadside);
+hold on
+polarpattern(pcb_array_ideal_elevation_broadside);
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% ELECTRIC AND MAGNETIC %%%%%%%%%%%%%%%%%
 %%%%%%% NEAR FIELDS %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -334,17 +354,18 @@ L_max = 4*dopt+0.0158;
 LL = linspace(-L_max/2,L_max/2,10);
 [X,Y]=meshgrid(LL,LL); 
 fre=0.62*sqrt((L_max)^3/lambda0);
-pfre=[X(:)';Y(:)';(fre/2)*ones(1,prod(size(X)))];
+pfre_broadside=[X(:)';Y(:)';(fre/2)*ones(1,prod(size(X)))];
 figure;
-EHfields(kfa,2.1e9,pfre);
-EHfields_broadside = EHfields(kfa,2.1e9,pfre);
+EHfields(kfa,2.1e9,pfre_broadside);
+
 
 Xsp = [-2*dopt -dopt 0 dopt 2*dopt];
 Ysp = [0 0 0 0 0]; 
 fre=0.62*sqrt((L_max)^3/lambda0);
-pfresnel=[Xsp(:)';Ysp(:)';(fre/2)*ones(1,prod(size(Xsp)))];
+pfresnel_broadside = [Xsp(:)';Ysp(:)';(fre/2)*ones(1,prod(size(Xsp)))];
 figure;
-EHfields(kfa,2.1e9,pfresnel);
+EHfields(kfa,2.1e9,pfresnel_broadside);
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% BEAMSTEETING %%%%%%%%%%%%%
 %%%%%% AT 45° OFF %%%%%%%%%%%%%%%
@@ -398,7 +419,143 @@ polarpattern(pcb_array_azimuth_steering_45);
 hold on
 polarpattern(pifa_array_azimuth_steering_45); 
 
-figrure; 
+figure; 
 polarpattern(pcb_array_elevation_steering_45);
 hold on
 polarpattern(pifa_array_elevation_steering_45);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% REAL/IDEAL GAIN PATTERNS %%%%%%%%%%%
+%%%%%% ACTUALLY ONLY DIRECTIVITY %%%%%%%%%%
+%%%%%% WITH patternMultiply %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+pcb_array_real_azimuth_steering_45 = pattern(kfa,2.1e9,-180:180,0,'Type','directivity');
+pcb_array_ideal_azimuth_steering_45 = patternMultiply(kfa,2.1e9,-180:180,0,'Type','directivity');
+
+figure;
+pattern(kfa,2.1e9,-180:180,0,'Type','directivity');
+figure;
+patternMultiply(kfa,2.1e9,-180:180,0,'Type','directivity');
+figure;
+polarpattern(pcb_array_real_azimuth_steering_45);
+hold on
+polarpattern(pcb_array_ideal_azimuth_steering_45);
+
+% ELEVATION 
+pcb_array_real_elevation_steering_45 = pattern(kfa,2.1e9,0,-180:180,'Type','directivity');
+pcb_array_ideal_elevation_steering_45 = patternMultiply(kfa,2.1e9,0,-180:180,'Type','directivity');
+
+figure;
+pattern(kfa,2.1e9,0,-180:180,'Type','directivity');
+figure;
+patternMultiply(kfa,2.1e9,0,-180:180,'Type','directivity');
+figure;
+polarpattern(pcb_array_real_elevation_steering_45);
+hold on
+polarpattern(pcb_array_ideal_elevation_steering_45);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% ELECTRIC AND MAGNETIC %%%%%%%%%%%%%%%%%
+%%%%%%% NEAR FIELDS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+L_max = 4*dopt+0.0158; 
+
+LL = linspace(-L_max/2,L_max/2,10);
+[X,Y]=meshgrid(LL,LL); 
+fre=0.62*sqrt((L_max)^3/lambda0);
+pfre_steering_45=[X(:)';Y(:)';(fre/2)*ones(1,prod(size(X)))];
+figure;
+EHfields(kfa,2.1e9,pfre_steering_45);
+
+
+Xsp = [-2*dopt -dopt 0 dopt 2*dopt];
+Ysp = [0 0 0 0 0]; 
+fre=0.62*sqrt((L_max)^3/lambda0);
+pfresnel_steering_45 = [Xsp(:)';Ysp(:)';(fre/2)*ones(1,prod(size(Xsp)))];
+figure;
+EHfields(kfa,2.1e9,pfresnel_steering_45);
+
+%%
+pk_pcb_array_azimuth_broadside=findpeaks(pcb_array_azimuth_broadside,'MinPeakDistance',6);
+sort_pcb_array_azimuth_broadside=sort(pk_pcb_array_azimuth_broadside,'descend');
+pk_ML_pcb_array_azimuth_broadside=sort_pcb_array_azimuth_broadside(1);
+pk_SL_pcb_array_azimuth_broadside=sort_pcb_array_azimuth_broadside(3);
+
+pk_pifa_array_azimuth_broadside=findpeaks(pifa_array_azimuth_broadside,'MinPeakDistance',6);
+sort_pifa_array_azimuth_broadside=sort(pk_pifa_array_azimuth_broadside,'descend');
+pk_ML_pifa_array_azimuth_broadside=sort_pifa_array_azimuth_broadside(1);
+pk_SL_pifa_array_azimuth_broadside=sort_pifa_array_azimuth_broadside(3);
+
+ER_ML_pcb_pifa_azimuth_broadside=pk_ML_pifa_array_azimuth_broadside-pk_ML_pcb_array_azimuth_broadside;
+ER_SL_pcb_pifa_azimuth_broadside=pk_SL_pifa_array_azimuth_broadside-pk_SL_pcb_array_azimuth_broadside;
+disp(strcat('Error ML azimuth broadside: '," ",string(ER_ML_pcb_pifa_azimuth_broadside)));
+disp(strcat('Error SL azimuth broadside: '," ",string(ER_SL_pcb_pifa_azimuth_broadside)));
+
+ERP_ML_pcb_pifa_azimuth_broadside=(pk_ML_pifa_array_azimuth_broadside-pk_ML_pcb_array_azimuth_broadside)/pk_ML_pifa_array_azimuth_broadside;
+ERP_SL_pcb_pifa_azimuth_broadside=(pk_SL_pifa_array_azimuth_broadside-pk_SL_pcb_array_azimuth_broadside)/pk_SL_pifa_array_azimuth_broadside;
+disp(strcat('Error % ML azimuth broadside: '," ",string(ERP_ML_pcb_pifa_azimuth_broadside)));
+disp(strcat('Error % SL azimuth broadside: '," ",string(ERP_SL_pcb_pifa_azimuth_broadside)));
+disp(" ")
+pk_pcb_array_elevation_broadside=findpeaks(pcb_array_elevation_broadside,'MinPeakDistance',6);
+sort_pcb_array_elevation_broadside=sort(pk_pcb_array_elevation_broadside,'descend');
+pk_ML_pcb_array_elevation_broadside=sort_pcb_array_elevation_broadside(1);
+pk_SL_pcb_array_elevation_broadside=sort_pcb_array_elevation_broadside(3);
+
+pk_pifa_array_elevation_broadside=findpeaks(pifa_array_elevation_broadside,'MinPeakDistance',6);
+sort_pifa_array_elevation_broadside=sort(pk_pifa_array_elevation_broadside,'descend');
+pk_ML_pifa_array_elevation_broadside=sort_pifa_array_elevation_broadside(1);
+pk_SL_pifa_array_elevation_broadside=sort_pifa_array_elevation_broadside(3);
+
+ER_ML_pcb_pifa_elevation_broadside=pk_ML_pifa_array_elevation_broadside-pk_ML_pcb_array_elevation_broadside;
+ER_SL_pcb_pifa_elevation_broadside=pk_SL_pifa_array_elevation_broadside-pk_SL_pcb_array_elevation_broadside;
+disp(strcat('Error ML elevation broadside: '," ",string(ER_ML_pcb_pifa_elevation_broadside)));
+disp(strcat('Error SL elevation broadside: '," ",string(ER_SL_pcb_pifa_elevation_broadside)));
+
+ERP_ML_pcb_pifa_elevation_broadside=(pk_ML_pifa_array_elevation_broadside-pk_ML_pcb_array_elevation_broadside)/pk_ML_pifa_array_elevation_broadside;
+ERP_SL_pcb_pifa_elevation_broadside=(pk_SL_pifa_array_elevation_broadside-pk_SL_pcb_array_elevation_broadside)/pk_SL_pifa_array_elevation_broadside;
+disp(strcat('Error % ML elevation broadside: '," ",string(ERP_ML_pcb_pifa_elevation_broadside)));
+disp(strcat('Error % SL elevation broadside: '," ",string(ERP_SL_pcb_pifa_elevation_broadside)));
+
+%
+
+pk_pcb_array_azimuth_steering_45=findpeaks(pcb_array_azimuth_steering_45,'MinPeakWidth',6);
+sort_pcb_array_azimuth_steering_45=sort(pk_pcb_array_azimuth_steering_45,'descend');
+pk_ML_pcb_array_azimuth_steering_45=sort_pcb_array_azimuth_steering_45(1);
+pk_SL_pcb_array_azimuth_steering_45=sort_pcb_array_azimuth_steering_45(5);
+
+pk_pifa_array_azimuth_steering_45=findpeaks(pifa_array_azimuth_steering_45,'MinPeakWidth',6)
+sort_pifa_array_azimuth_steering_45=sort(pk_pifa_array_azimuth_steering_45,'descend')
+pk_ML_pifa_array_azimuth_steering_45=sort_pifa_array_azimuth_steering_45(1);
+pk_SL_pifa_array_azimuth_steering_45=sort_pifa_array_azimuth_steering_45(5);
+
+ER_ML_pcb_pifa_azimuth_steering_45=pk_ML_pifa_array_azimuth_steering_45-pk_ML_pcb_array_azimuth_steering_45;
+ER_SL_pcb_pifa_azimuth_steering_45=pk_SL_pifa_array_azimuth_steering_45-pk_SL_pcb_array_azimuth_steering_45;
+disp(strcat('Error ML azimuth steering_45: '," ",string(ER_ML_pcb_pifa_azimuth_steering_45)));
+disp(strcat('Error SL azimuth steering_45: '," ",string(ER_SL_pcb_pifa_azimuth_steering_45)));
+
+ERP_ML_pcb_pifa_azimuth_steering_45=(pk_ML_pifa_array_azimuth_steering_45-pk_ML_pcb_array_azimuth_steering_45)/pk_ML_pifa_array_azimuth_steering_45;
+ERP_SL_pcb_pifa_azimuth_steering_45=(pk_SL_pifa_array_azimuth_steering_45-pk_SL_pcb_array_azimuth_steering_45)/pk_SL_pifa_array_azimuth_steering_45;
+disp(strcat('Error % ML azimuth steering_45: '," ",string(ERP_ML_pcb_pifa_azimuth_steering_45)));
+disp(strcat('Error % SL azimuth steering_45: '," ",string(ERP_SL_pcb_pifa_azimuth_steering_45)));
+disp(" ")
+pk_pcb_array_elevation_steering_45=findpeaks(pcb_array_elevation_steering_45,'MinPeakWidth',6);
+sort_pcb_array_elevation_steering_45=sort(pk_pcb_array_elevation_steering_45,'descend');
+pk_ML_pcb_array_elevation_steering_45=sort_pcb_array_elevation_steering_45(1);
+pk_SL_pcb_array_elevation_steering_45=sort_pcb_array_elevation_steering_45(5);
+
+pk_pifa_array_elevation_steering_45=findpeaks(pifa_array_elevation_steering_45,'MinPeakWidth',6);
+sort_pifa_array_elevation_steering_45=sort(pk_pifa_array_elevation_steering_45,'descend');
+pk_ML_pifa_array_elevation_steering_45=sort_pifa_array_elevation_steering_45(1);
+pk_SL_pifa_array_elevation_steering_45=sort_pifa_array_elevation_steering_45(5);
+
+ER_ML_pcb_pifa_elevation_steering_45=pk_ML_pifa_array_elevation_steering_45-pk_ML_pcb_array_elevation_steering_45;
+ER_SL_pcb_pifa_elevation_steering_45=pk_SL_pifa_array_elevation_steering_45-pk_SL_pcb_array_elevation_steering_45;
+disp(strcat('Error ML elevation steering_45: '," ",string(ER_ML_pcb_pifa_elevation_steering_45)));
+disp(strcat('Error SL elevation steering_45: '," ",string(ER_SL_pcb_pifa_elevation_steering_45)));
+
+ERP_ML_pcb_pifa_elevation_steering_45=(pk_ML_pifa_array_elevation_steering_45-pk_ML_pcb_array_elevation_steering_45)/pk_ML_pifa_array_elevation_steering_45;
+ERP_SL_pcb_pifa_elevation_steering_45=(pk_SL_pifa_array_elevation_steering_45-pk_SL_pcb_array_elevation_steering_45)/pk_SL_pifa_array_elevation_steering_45;
+disp(strcat('Error % ML elevation steering_45: '," ",string(ERP_ML_pcb_pifa_elevation_steering_45)));
+disp(strcat('Error % SL elevation steering_45: '," ",string(ERP_SL_pcb_pifa_elevation_steering_45)));
