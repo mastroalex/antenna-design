@@ -371,6 +371,8 @@ pifa_array_gain_azimuth_broadside=gain_broadside(2.1e9,[-180:180;zeros(1,361)]);
 pifa_array_gain_elevation_broadside=gain_broadside(2.1e9,[zeros(1,181);-90:90]);
 pcb_array_gain_azimuth_broadside = pattern(kfa,2.1e9,-180:180,0,'Type','gain');
 pcb_array_gain_elevation_broadside = pattern(kfa,2.1e9,0,-180:180,'Type','gain');
+pcb_array_ideal_gain_azimuth_broadside=patternMultiply(kfa,2.1e9,-180:180,0,'Type','gain');
+pcb_array_ideal_gain_elevation_broadside=patternMultiply(kfa,2.1e9,0,-180:180,'Type','gain');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%% BEAMSTEETING %%%%%%%%%%%%%
@@ -490,6 +492,8 @@ pifa_array_gain_elevation_45 = gain_45(2.1e9,[zeros(1,181);-90:90],w);
 pcb_array_gain_azimuth_45 = pattern(kfa,2.1e9,-180:180,0,'Type','gain');
 pcb_array_gain_elevation_45 = pattern(kfa,2.1e9,0,-180:180,'Type','gain');
 toc
+
+
 %%
 [pk_pifa_array_azimuth_broadside pk_pifa_array_azimuth_broadside_index]=findpeaks(pifa_array_azimuth_broadside,'MinPeakDistance',6,'SortStr','descend');
 %sort_pifa_array_azimuth_broadside=sort(pk_pifa_array_azimuth_broadside,'descend');
