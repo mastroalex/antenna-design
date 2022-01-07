@@ -120,7 +120,12 @@ style=numeric
 
 \section*{Tchebyshev array factor design}
 
-\indent The design parameters for the array are (\textbf{\cref{table:design_cheb_par}}): 
+\indent A Tchebyshev array factor will be designed in this part, so that the specific structure of the single element of the array is disregarded for the moment. The array is represented by a linear distribution of five elements ($n_{el}=5$), which are supposed to be uniformly spaced and with a non-uniform amplitude for the feed arrangement, that anyway is going to be symmetrical (starting from the element in the middle, located in the origin of the geometrical axes). Also the "\emph{mean lobe to side lobet ratio}" ($R$) will be one of the input design variables. Thus, the variables of this design part are the \emph{element inter-spacing} ($d_{opt}$, which needs to be optimal such that the beamwidth is minimized), the feed amplitude of the single antenna (each one represented by a $C_i$, with $i\in\{-2,-1,0,1,2\}$, the $i^{th}$ \emph{current coefficient} - these unknowns are actually just three and not five, due to the symmetrical amplitude distribution hyphotesis), the operating \emph{resonant frequency} required for the single antenna ($f$) and some other quantities related to them, such as the \emph{tapering efficiency} ($\eta_T$) and the \emph{beamwidth} ($BW_{fn}$). Moreover, the difference between the beamwidth of the Tchebyshev array (\emph{Uniform Spacing Non Uniform Amplitude} case, shorten $NUA$) and  that of a uniform array having the same number of elements and inter-spacing value but a uniform amplitude feed distribution  (\emph{Uniform Spacing Uniform Amplitude}, shorten $UA$) will be discussed. The input design variables related to the Tchebyshev array factor (i.e. $n_{el}$, $R$ and $f$)are listed in \textbf{\cref{table:input design cheb}}. 
+
+\indent 
+
+Starting from the optimal inter-element spacing, it requires some secondary variables in orderer to be evaluated. Firstly, a coefficient ($\gamma$, depending on $R$ and indirectly on the number of array elements) neeeds to be calculated, among with the wavelength in the free space ($\lambda$, as the ratio between the light speed in the free space - $c$ - and the operating frequency $f$). Having those quantities, $d_{opt}$ minimizing the $BW_{fn}$ can be computed by using the \textbf{\cref{eq:test}} group. 
+
 		% \FloatBarrier
 
 			\begin{table}[h]
@@ -128,15 +133,12 @@ style=numeric
 						{\fontfamily{lmss}\selectfont
 			\begin{tabular}{||m{5cm}|m{5cm}||}
 				\hline 
-				\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Array factor design parameters}} 
+				\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Array factor input design variabiles}} 
 				\\
 				\hline
-				\cellcolor{mintbg}\textbf{Parameters} & \cellcolor{mintbg}\textbf{Value}\\
+				\cellcolor{mintbg}\textbf{Parameter} & \cellcolor{mintbg}\textbf{Value}\\
 				\hline
-				\hline
-				\textbf{\color{Mahogany}Parameter} & \textbf{\color{Mahogany}Value} \\
-				\hline
-				\# elements & $2N+1=5$\\
+				\# elements & $n_{el}=2N+1=5$\\
 				\hline
 				Mean lobe/side lobe
 				ratio  & $R = 120 \cong\, 41.58\,dB$\\
@@ -145,13 +147,11 @@ style=numeric
 				\hline
 \end{tabular}}
 \caption{Table trial}
-\label{table:design_cheb_par}
+\label{table:input design cheb}
 \end{center}
 \end{table}
 
-It's been specifically required to find the optimal inter-element spacing so that the minimum of the beamwidth will be reached:
-
-\begin{equation}
+{\begin{equation}
 \begin{gathered}
 d_{opt}\,{\color{Mahogany}\leadsto}\,\min\{BW_{fn}\}\\
 \\
@@ -159,20 +159,31 @@ d_{opt}\,{\color{Mahogany}=}\,\lambda\,\left[1\,-\,\frac{\arccos\left(\frac{1}{\
 \\
 \gamma\,{\color{Mahogany}=}\,\cosh\left[\frac{1}{2N}\,\ln\left(R+\sqrt{R^2-1}\right)\right]
 \end{gathered}
+\label{eq:test}
 \end{equation}
-where $\lambda\,=\,\frac{c}{f}$ is the frequency in the free-space . 
-In this case, $d_{opt}\,\in\,\left(\frac{\lambda}{2}\,,\,\lambda\right]$, which means that 
-The coefficients $a$ and $b$ related to the Tchebyshev polynomial approximation for the array will be chosen by following the $d_{opt}\,\in\,\left(\frac{\lambda}{2}\,,\,\lambda\right]$ condition:
+}
+
+\indent 
+
+The array factor evaluation through the Tchebyshev polynomial comes as the next step. The Tchebyshev polynomial approximation to the second order ($T_2(x)$) is sufficient so the current coefficients can be obtained, remembering that a symmetrical amplitude distribution hypothesis has been made. In this case the current coefficients $C_i\,,\,i\in\{-2,-1,0,1,2\}$ follow the rule $C_i=C_{-i}$, thus their symbolic representation can be simplified as follows: $C_n\,,\,n\in\{0,1,2\}$ (or just $n\,=\,\overline{0,2}$). Since the \emph{Riblet variation} to the \emph{Dolph-Tchebyshev synthesis model} has been used, the variable of $T_2(x)$ becomes $x\,=\,a\,+\,b\cos(u)$ and the formulation for $d_{opt}\,\in\,({\lambda}/{2},\lambda]$ differs from the standard model. The coefficients $a$ and $b$ are related to the maximum value selected in the sub-domain of $T_2(x)$ (the window of visible radiation lobes). This maximum, called for example $x_1$, corresponds to the main lobe in which it can be convertend by evaluating the array factor $|T_2(x_1)|$ (some additional references to the specific formulas that need to be used in order to compute can be found in \textbf{\cite{Balanis1}} and \textbf{\cite{ewa}}). That said, the current coefficients can be extracted from $T_2(x)$ (so by using \textbf{\cref{eq:tcheby poly coeff}}). Resulting uniquely out of a $C_n$ dependence, the tapering efficiency is obtained by using \textbf{\cref{eq:tapering efficiency}}.
+
+\indent 
+
+Next, both non uniform amplitude (Tchebyshev array, $NUA$) and uniform amplitude ($UA$)  cases are compared. The comparison shows how the $BW_{fn}$ in the $UA$ case (i.e $BW_{fn}^{[UA]}$) is narrower than that of $NUA$ case (i.e. $BW_{fn}^{[NUA]}$). This result (see \textbf{\cref{eq:tcheby beamwidth}} and \textbf{\cref{table:tcheby results}}) is generally effective and the comparison has been made to show that this particular design case confirms the general condition. 
+
+\indent 
+
+All the numerical quantities related to the Tchebyshev array design are gathered together in \textbf{\cref{table:tcheby results}}. After these quantities are calculated, some important design considerations can be made about the array efficiency. A Non-Uniform Amplitude Array Factor has been designed by using the Riblet variation of the Dolph-Tchebyshev array synthesis model. Considering the \emph{maximum to minimum feed ratio}: \[r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}\] 
+the less $r_{\max/\min}$ is, the more efficient distribution of current is reached. In this particular design, the requirement was to to find the $d_{opt}$ which minimizes the beamwidth, starting from the input design variables. Thus, the $r_{\max/\min}$ is a straight consequence of the current coefficients and its optimal value has not been the seek of this project. Anyway, for this design, $r_{\max/\min}\,\cong\,4.39$ meaning that if a damage of the element with the $C_{\max}$ (i.e. $C_0$) level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error (see \textbf{\cite{Balanis1}}). 
+
 \begin{equation}
 T_2\left[x=a+b\cos\,u\right]=\,C_0\,+\,2\,C_1\,\cos\,u\,+\,C_2\cos\,2u\,=\,(2a^2+b^2-1)\,+\,4ab\,\cos\,u+b^2\,\cos\,2u
+\label{eq:tcheby poly coeff}
 \end{equation}
-Once the amplitude current feed coefficients are computed ($C_n\,,\,n=\overline{0,2}$), the tapering efficiency can be calculated:
 \begin{equation}
-\eta_T\,=\,\frac{1}{2N+1}\,\frac{||C_0+2C_1+2_2||^2}{C_0^2+2C_1^2+2C_2^2}\end{equation}
-Let's consider two cases of uniform spacing array and:
-\begin{equation}
-\text{Uniform Amplitude (UA)}\quad {\color{Mahogany}||}\quad \text{Non-uniform Amplitude (NUA, Tchebyshev)}\end{equation}
-The comparison will show how 
+\eta_T\,=\,\frac{1}{2N+1}\,\frac{||C_0+2C_1+2_2||^2}{C_0^2+2C_1^2+2C_2^2}
+\label{eq:tapering efficiency}
+\end{equation}
 \begin{equation}
 \begin{gathered}
 BW_{fn}^{[UA]}\,{\color{Mahogany}<}\,BW_{fn}^{[NUA]}\\
@@ -181,13 +192,18 @@ BW_{fn}^{[NUA]}\,{\color{Mahogany}=}\,2\frac{180}{\pi}\left[\frac{\pi}{2}-\arcco
 \\
 BW_{fn}^{[UA]}\,{\color{Mahogany}=}\,\frac{2\lambda}{N\,d}\,\frac{180}{\pi}
 \end{gathered}
-\end{equation} 
+\label{eq:tcheby beamwidth}
+\end{equation}
+\begin{table}[h] 
 \begin{center}
-\begin{tabular}{||c|c||}
+		{\fontfamily{lmss}\selectfont
+\begin{tabular}{||m{6cm}|m{6cm}||}
 \hline
 \textbf{\color{Mahogany}Parameter}
 
-& \textbf{\color{Mahogany}Value} \\
+& \textbf{\color{Mahogany}Value} 
+
+\\
 \hline
 {Feed coefficients} $[A]$ &  \footnotesize{$\begin{matrix}
 C_0 & || &  C_1=C_{-1} & || & C_{2}=C_{-2} 
@@ -209,18 +225,12 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 50.6^\circ & || & 34.8^\circ\\
 \end{matrix} $ \\
 \hline 
-\end{tabular}
+\end{tabular}}
+\caption{Tchebyshev array design results}
+\label{table:tcheby results}
 \end{center}
+\end{table}
 Now, discussing the results is mandatory:
-\subsection*{Max/min feed ratio}
-
-Even if this is the design of a Non-Uniform Amplitude Array, the less the ratio $r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}$ is, the more efficient distribution of current is reached. In this particular design: 
-\begin{equation}
-r_{\max/\min}\,\cong\,4.39
-\end{equation}
-meaning that if a damage of the element with the $C_{\max}$ level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error \cite{Balanis1}. 
-
-
 
 \begin{center}
 \begin{figure}[h]
@@ -596,8 +606,6 @@ In this last part of the project, the array factor and the the element antenna (
 \end{equation}
 \subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
 In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle. It will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
-
-
 
 
 

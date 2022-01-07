@@ -38,5 +38,27 @@
     \field{title}{Antenna Theory: Analysis and Design}
     \field{year}{2016}
   \endentry
+
+  \entry{ewa}{book}{}
+    \name{author}{1}{}{%
+      {{hash=OSJ}{%
+         family={Orfandis},
+         familyi={O\bibinitperiod},
+         given={Sophocles\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The MathWorks, Inc.}%
+    }
+    \strng{namehash}{OSJ1}
+    \strng{fullhash}{OSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Electromagnetic Waves and Antennas}
+    \field{year}{1999-2016}
+  \endentry
 \enddatalist
 \endinput
