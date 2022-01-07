@@ -176,6 +176,10 @@ Next, both non uniform amplitude (Tchebyshev array, $NUA$) and uniform amplitude
 All the numerical quantities related to the Tchebyshev array design are gathered together in \textbf{\cref{table:tcheby results}}. After these quantities are calculated, some important design considerations can be made about the array efficiency. A Non-Uniform Amplitude Array Factor has been designed by using the Riblet variation of the Dolph-Tchebyshev array synthesis model. Considering the \emph{maximum to minimum feed ratio}: \[r_{\max/\min}\,=\,\frac{C_{\max}}{C_{\min}}\] 
 the less $r_{\max/\min}$ is, the more efficient distribution of current is reached. In this particular design, the requirement was to to find the $d_{opt}$ which minimizes the beamwidth, starting from the input design variables. Thus, the $r_{\max/\min}$ is a straight consequence of the current coefficients and its optimal value has not been the seek of this project. Anyway, for this design, $r_{\max/\min}\,\cong\,4.39$ meaning that if a damage of the element with the $C_{\max}$ (i.e. $C_0$) level of feed occurs, most part of the efficiency will be lost. In any case, the tapering efficiency shows how it will not be possible to take advantage of $21\,\%$ of the array in an ideal situation, remembering that this design model can be discerned by the real circumstance in terms of the Tchebyshev error (see \textbf{\cite{Balanis1}}). 
 
+\indent
+
+In the end, the 2D array patterns resulting by the use of the calculated parameters are shown in \textbf{\cref{fig:array factor}}. Two polar patterns and thei corresponding rectangular ones have been plotted (in the azimuth cut plane and in the elevation cut one). 
+
 \begin{equation}
 T_2\left[x=a+b\cos\,u\right]=\,C_0\,+\,2\,C_1\,\cos\,u\,+\,C_2\cos\,2u\,=\,(2a^2+b^2-1)\,+\,4ab\,\cos\,u+b^2\,\cos\,2u
 \label{eq:tcheby poly coeff}
@@ -230,13 +234,13 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 \label{table:tcheby results}
 \end{center}
 \end{table}
-Now, discussing the results is mandatory:
 
 \begin{center}
 \begin{figure}[h]
 \includegraphics[scale=0.3]{array_factor_polar.png}
 \includegraphics[scale=0.3]{array_factor_rectangular.png}
 \caption{{Array factor polar (left) and rectangular (right) diagrams}}
+\label{fig:array factor}
 \end{figure}
 \end{center}
 
