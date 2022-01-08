@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  8 JAN 2022 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  8 JAN 2022 15:28
 entering extended mode
 **./relazione_wet_copia.tex
 (relazione_wet_copia.tex
@@ -1673,9 +1673,6 @@ File: figures//gamma3.pdf Graphic file (type pdf)
 <use figures//gamma3.pdf>
 Package pdftex.def Info: figures//gamma3.pdf  used on input line 512.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <figures//gamma_wfeed.pdf, id=2572, 941.5175pt x 521.95pt>
 File: figures//gamma_wfeed.pdf Graphic file (type pdf)
 <use figures//gamma_wfeed.pdf>
@@ -1743,9 +1740,24 @@ File: figures//gain_patch_h.png Graphic file (type png)
 Package pdftex.def Info: figures//gain_patch_h.png  used on input line 580.
 (pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
 [9 <./figures//gamma.png (PNG copy)> <./figures//impedances.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 5
-87.
+<figures//pcb_shorting_pins_3d_view.pdf, id=2588, 1156.32pt x 564.1075pt>
+File: figures//pcb_shorting_pins_3d_view.pdf Graphic file (type pdf)
+<use figures//pcb_shorting_pins_3d_view.pdf>
+Package pdftex.def Info: figures//pcb_shorting_pins_3d_view.pdf  used on input 
+line 594.
+(pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
+<figures//pcb_shorting_pins_top_view.pdf, id=2589, 1156.32pt x 564.1075pt>
+File: figures//pcb_shorting_pins_top_view.pdf Graphic file (type pdf)
+<use figures//pcb_shorting_pins_top_view.pdf>
+Package pdftex.def Info: figures//pcb_shorting_pins_top_view.pdf  used on input
+ line 595.
+(pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 6
+01.
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 ) [10 <./figures//First_Contour_LOG.pdf> <./figures//Second_Contour_LOG.pdf>]
@@ -1758,7 +1770,7 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 608.
+ input line 622.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
 
@@ -1770,7 +1782,7 @@ ed
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 612.
+on input line 626.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1780,10 +1792,10 @@ t>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 621.
+n input line 635.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 621--622
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 635--636
 [][] 
  []
 
@@ -1792,10 +1804,10 @@ Overfull \hbox (102.34724pt too wide) in paragraph at lines 621--622
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 625.
+ on input line 639.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 625--626
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 639--640
 [][] 
  []
 
@@ -1804,34 +1816,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 634.
+Package pdftex.def Info: figures//gamma.png  used on input line 648.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 635.
+Package pdftex.def Info: figures//impedances.png  used on input line 649.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 634--636
+Overfull \hbox (2.556pt too wide) in paragraph at lines 648--650
 [][] [] 
  []
 
-LaTeX Font Info:    Font shape `T1/lmss/b/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/it' tried instead on input line 647.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 647.
-
-[11 <./figures//gamma1.pdf> <./figures//gamma3.pdf>]
-
+[11 <./figures//gamma1.pdf> <./figures//gamma3.pdf>] [12 <./figures//gamma_wfee
+d.pdf> <./figures//matching_wfeed.pdf>] 
 AED: lastpage setting LastPage
-[12 <./figures//gamma_wfeed.pdf> <./figures//matching_wfeed.pdf>] [13 <./figure
-s//gain_3D_pifa.pdf> <./figures//gain_azimuth_pifa.pdf> <./figures//gain_elevat
-ion_pifa.pdf> <./figures//pifa_currents.pdf>] [14 <./figures//mesh_levels.png (
-PNG copy)> <./figures//gain_patch.png (PNG copy)> <./figures//gain_patch_v.png 
-(PNG copy)> <./figures//gain_patch_h.png (PNG copy)>] [15 <./figures//pifa_pcb_
-null_azymuth_comparison.pdf> <./figures//pifa_pcb_null_elevation_comparison.pdf
->] [16 <./figures//pifa_pcb_array_azimuth_comparison.pdf> <./figures//pifa_pcb_
-array_elevation_comparison.pdf>] (relazione_wet_copia.aux)
+[13] [14 <./figures//gain_3D_pifa.pdf> <./figures//gain_azimuth_pifa.pdf> <./fi
+gures//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>] [15 <./figures/
+/mesh_levels.png (PNG copy)> <./figures//gain_patch.png (PNG copy)> <./figures/
+/gain_patch_v.png (PNG copy)> <./figures//gain_patch_h.png (PNG copy)> <./figur
+es//pcb_shorting_pins_3d_view.pdf> <./figures//pcb_shorting_pins_top_view.pdf>]
+[16 <./figures//pifa_pcb_null_azymuth_comparison.pdf> <./figures//pifa_pcb_null
+_elevation_comparison.pdf>] [17 <./figures//pifa_pcb_array_azimuth_comparison.p
+df> <./figures//pifa_pcb_array_elevation_comparison.pdf>]
+(relazione_wet_copia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1840,13 +1847,13 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45719 strings out of 478647
- 1059430 string characters out of 2853193
- 1583045 words of memory out of 3000000
- 63137 multiletter control sequences out of 15000+600000
- 532117 words of font info for 162 fonts, out of 8000000 for 9000
+ 45734 strings out of 478647
+ 1060172 string characters out of 2853193
+ 1583133 words of memory out of 3000000
+ 63152 multiletter control sequences out of 15000+600000
+ 526555 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,22n,94p,2949b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,22n,94p,3081b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
 les/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2.9/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
@@ -1855,20 +1862,19 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/q
-agbi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkb.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/cm-super/sftt1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/cm-super/sftt1440.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/font
-s/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9
-/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (16 pages, 2235319 bytes).
+bkb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/cm-super/sftt1440.pfb><C:/Users/sleon/AppData/Roaming/MiK
+TeX/2.9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roamin
+g/MiKTeX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Ro
+aming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppDat
+a/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sle
+on/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on relazione_wet_copia.pdf (17 pages, 2312160 bytes).
 PDF statistics:
- 2917 PDF objects out of 2984 (max. 8388607)
+ 2959 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
