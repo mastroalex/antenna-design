@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  8 JAN 2022 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  8 JAN 2022 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,7 +1239,20 @@ LaTeX Font Info:    Trying to load font information for T1+qbk on input line 95
 (c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qbk.fd
 File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
 )
-(./relazione_wet_copia.aux)
+(./relazione_wet_copia.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
 \openout1 = `relazione_wet_copia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1259,8 +1272,7 @@ LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 95.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
 95.
-
-(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
+ (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
 LaTeX Font Info:    ... okay on input line 95.
@@ -1405,9 +1417,12 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9
 7.
  (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+) [1
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+qag on input line 10
 9.
+
 (c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qag.fd
 File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 )
@@ -1466,7 +1481,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 123.
-<figures//logo.png, id=4, 336.384pt x 337.698pt>
+<figures//logo.png, id=10, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
 Package pdftex.def Info: figures//logo.png  used on input line 163.
@@ -1480,59 +1495,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-62.35004pt}.
 
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 163.
-
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
- <./figures//logo.png>]
-
-LaTeX Warning: Reference `eq:tcheby poly coeff' on page 1 undefined on input li
-ne 168.
-
-
-LaTeX Warning: Reference `eq:tapering efficiency' on page 1 undefined on input 
-line 168.
-
-
-LaTeX Warning: Reference `eq:tcheby beamwidth' on page 1 undefined on input lin
-e 172.
-
-
-LaTeX Warning: Reference `table:tcheby results' on page 1 undefined on input li
-ne 172.
-
-
-LaTeX Warning: Reference `table:tcheby results' on page 1 undefined on input li
-ne 176.
-
-
-LaTeX Warning: Reference `fig:array factor' on page 1 undefined on input line 1
-81.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 186.
-
-[2]
+[2 <./figures//logo.png>] [3]
 Underfull \hbox (badness 3965) in paragraph at lines 218--218
 []|\T1/lmss/m/n/12 Normalized feed coef-fi-cients to
  []
 
-<figures//array_factor_polar.png, id=26, 727.518pt x 727.0362pt>
+<figures//array_factor_polar.png, id=28, 727.518pt x 727.0362pt>
 File: figures//array_factor_polar.png Graphic file (type png)
 <use figures//array_factor_polar.png>
 Package pdftex.def Info: figures//array_factor_polar.png  used on input line 24
-0.
+1.
 (pdftex.def)             Requested size: 218.25708pt x 218.11253pt.
-<figures//array_factor_rectangular.png, id=27, 997.326pt x 617.1858pt>
+<figures//array_factor_rectangular.png, id=29, 997.326pt x 617.1858pt>
 File: figures//array_factor_rectangular.png Graphic file (type png)
 <use figures//array_factor_rectangular.png>
 Package pdftex.def Info: figures//array_factor_rectangular.png  used on input l
-ine 241.
+ine 242.
 (pdftex.def)             Requested size: 299.2001pt x 185.15717pt.
 
-Overfull \hbox (30.91031pt too wide) in paragraph at lines 240--242
-[][] [] 
+Overfull \hbox (92.18102pt too wide) in paragraph at lines 240--243
+[]\T1/qbk/m/n/12 <<<<<<< HEAD [] [] 
  []
 
 
@@ -1546,17 +1528,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.245 ...factor_with_toolbox_polar_az_tex.pdf_tex}
+l.248 ...factor_with_toolbox_polar_az_tex.pdf_tex}
                                                   }^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 44581 strings out of 478579
- 1018809 string characters out of 5857457
- 1577561 words of memory out of 5000000
- 61826 multiletter control sequences out of 15000+600000
- 514292 words of font info for 153 fonts, out of 8000000 for 9000
+ 44645 strings out of 478579
+ 1020421 string characters out of 5857457
+ 1579044 words of memory out of 5000000
+ 61891 multiletter control sequences out of 15000+600000
+ 511237 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,22n,97p,1889b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
