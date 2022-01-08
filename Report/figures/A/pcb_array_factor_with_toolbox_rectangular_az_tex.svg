@@ -19,14 +19,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="2.3928954"
-     inkscape:cx="231.10078"
-     inkscape:cy="182.41499"
-     inkscape:window-width="3440"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="1.2782552"
+     inkscape:cx="241.73577"
+     inkscape:cy="81.360905"
+     inkscape:window-width="1718"
+     inkscape:window-height="1360"
+     inkscape:window-x="-7"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs4">
@@ -329,112 +329,132 @@
      id="layer1"
      inkscape:label="Layer 1">
     <text
-       class="cls-3"
+       class="cls-2"
+       id="text46"
+       style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
+       x="4.1232238"
+       y="363.21368">-200</text>
+    <text
+       class="cls-2"
        id="text48"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="10.006967"
-       y="361.82086">-200</text>
+       x="58.373222"
+       y="363.21368">-150</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text50"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="64.256966"
-       y="361.82086">-150</text>
+       x="112.62322"
+       y="363.21368">-100</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text52"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="118.50697"
-       y="361.82086">-100</text>
+       x="169.37325"
+       y="363.21368">-50</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text54"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="175.25696"
-       y="361.82086">-50</text>
+       x="228.62325"
+       y="363.21368">0</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text56"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="234.50696"
-       y="361.82086">0</text>
+       x="279.8732"
+       y="363.21368">50</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text58"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="285.75699"
-       y="361.82086">50</text>
+       x="331.6232"
+       y="363.21368">100</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text60"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="337.50699"
-       y="361.82086">100</text>
+       x="385.87323"
+       y="363.21368">150</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text62"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="391.75699"
-       y="361.82086">150</text>
+       x="440.12323"
+       y="363.21368">200</text>
     <text
-       class="cls-3"
-       id="text64"
+       class="cls-2"
+       id="text104"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="446.00699"
-       y="361.82086">200</text>
+       x="-6.7213883"
+       y="350.81903">-70</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text106"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="351.32086">-70</text>
+       x="-6.7213883"
+       y="308.009">-60</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text108"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="308.51086">-60</text>
+       x="-6.7213883"
+       y="265.19901">-50</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text110"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="265.70087">-50</text>
+       x="-6.7213883"
+       y="222.37901">-40</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text112"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="222.88084">-40</text>
+       x="-6.7213883"
+       y="179.569">-30</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text114"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="180.07085">-30</text>
+       x="-6.7213883"
+       y="136.759">-20</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text116"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="137.26085">-20</text>
+       x="-6.7213883"
+       y="93.949005">-10</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text118"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="0.50696689"
-       y="94.450851">-10</text>
+       x="3.2786193"
+       y="51.129002">0</text>
     <text
-       class="cls-3"
+       class="cls-2"
        id="text120"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="10.506967"
-       y="51.630852">0</text>
+       x="-2.7213883"
+       y="8.3190031">10</text>
     <text
-       class="cls-3"
-       id="text122"
-       style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="4.5069671"
-       y="8.8208523">10</text>
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif"
+       x="0.59465927"
+       y="-6.8252234"
+       id="text2885"><tspan
+         sodipodi:role="line"
+         id="tspan2883"
+         x="0.59465927"
+         y="-6.8252234">$dB$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;line-height:1.25;font-family:sans-serif"
+       x="456.92737"
+       y="377.26321"
+       id="text2885-2"><tspan
+         sodipodi:role="line"
+         id="tspan2883-2"
+         x="456.92737"
+         y="377.26321">(deg)</tspan></text>
   </g>
 </svg>
