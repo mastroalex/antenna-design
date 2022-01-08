@@ -39,6 +39,28 @@
     \field{year}{2016}
   \endentry
 
+  \entry{makarov}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MSN}{%
+         family={Makarov},
+         familyi={M\bibinitperiod},
+         given={Sergey\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {A John Wiley \& Sons, Inc., publication}%
+    }
+    \strng{namehash}{MSN1}
+    \strng{fullhash}{MSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Antenna and EM modeling with MATLAB}
+    \field{year}{202}
+  \endentry
+
   \entry{ewa}{book}{}
     \name{author}{1}{}{%
       {{hash=OSJ}{%
