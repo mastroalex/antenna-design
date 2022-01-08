@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  8 JAN 2022 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  8 JAN 2022 16:31
 entering extended mode
 **./relazione_wet_copia.tex
 (relazione_wet_copia.tex
@@ -1744,20 +1744,20 @@ Package pdftex.def Info: figures//gain_patch_h.png  used on input line 580.
 File: figures//pcb_shorting_pins_3d_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_3d_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_3d_view.pdf  used on input 
-line 594.
+line 596.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
 <figures//pcb_shorting_pins_top_view.pdf, id=2589, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_top_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_top_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_top_view.pdf  used on input
- line 595.
+ line 597.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 6
-01.
+03.
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 ) [10 <./figures//First_Contour_LOG.pdf> <./figures//Second_Contour_LOG.pdf>]
@@ -1770,7 +1770,7 @@ pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 622.
+ input line 624.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
 
@@ -1782,7 +1782,7 @@ ed
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 626.
+on input line 628.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1792,10 +1792,10 @@ t>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 635.
+n input line 637.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 635--636
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 637--638
 [][] 
  []
 
@@ -1804,10 +1804,10 @@ Overfull \hbox (102.34724pt too wide) in paragraph at lines 635--636
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 639.
+ on input line 641.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 639--640
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 641--642
 [][] 
  []
 
@@ -1816,14 +1816,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 648.
+Package pdftex.def Info: figures//gamma.png  used on input line 650.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 649.
+Package pdftex.def Info: figures//impedances.png  used on input line 651.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 648--650
+Overfull \hbox (2.556pt too wide) in paragraph at lines 650--652
 [][] [] 
  []
 
@@ -1872,7 +1872,7 @@ aming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppDat
 a/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/Ap
 pData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sle
 on/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (17 pages, 2312160 bytes).
+Output written on relazione_wet_copia.pdf (17 pages, 2312548 bytes).
 PDF statistics:
  2959 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
