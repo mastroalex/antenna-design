@@ -51,13 +51,15 @@
 
 \definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
-\graphicspath{{figures/}} %Setting the graphicspat%h
-\graphicspath{{figures/}} %Setting the graphicspath
+%\graphicspath{{figures/}} %Setting the graphicspat%h
+%\graphicspath{{figures/}} %Setting the graphicspath
+\graphicspath{{figures/}{figures/A/}{figures/B/}} %Setting the graphicspath
 \makeatletter
-\providecommand*{\input@path}{}
-\edef\input@path{{figures/}{}\input@path}% prepend
+%\providecommand*{\input@path}{}
+%\edef\input@path{{figures/}{}\input@path}% prepend
+\def\input@path{{figures/}{figures/A/}{figures/B/}{figures/C/}}
 \makeatother
-\usepackage{subcaption}
+\usepackage{import}
 
 \pgfplotsset{compat=newest}
 \pgfplotsset{plot coordinates/math parser=false}
@@ -237,9 +239,33 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 
 \begin{center}
 \begin{figure}[h]
-\includegraphics[scale=0.3]{array_factor_polar.png}
-\includegraphics[scale=0.3]{array_factor_rectangular.png}
-\caption{{Array factor polar (left) and rectangular (right) diagrams}}
+		\begin{subfigure}{0.4\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex}}
+		\caption{}
+		%\includegraphics[scale=0.3]{array_factor_polar.png}
+	\end{subfigure}
+			\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex}}
+		\caption{}
+			\end{subfigure}
+			\hfill
+	\begin{subfigure}{0.4\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pcb_array_factor_with_toolbox_polar_el_tex.pdf_tex}}
+	\caption{}
+		%\includegraphics[scale=0.3]{array_factor_polar.png}
+	\end{subfigure}
+			\hfill
+	\begin{subfigure}{0.5\linewidth}
+	\def\svgwidth{\linewidth}
+\tiny{\input{pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+	\hfill
+\caption{{Array factor polar, in azimuth (a) and elevation (c) cut, and rectangular  in azimuth (b) and elevation (d) cut, diagrams}}
 \label{fig:array factor}
 \end{figure}
 \end{center}
