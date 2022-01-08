@@ -1,0 +1,86 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pcb_array_factor_with_toolbox_polar_el_tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{256.01250458bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.99622086)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pcb_array_factor_with_toolbox_polar_el_tex.pdf}}%
+    \put(0.58652423,0.85547062){\rotatebox{-15}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}}%
+    \put(0.54252245,0.75352247){\rotatebox{-15}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}}%
+    \put(0.51407657,0.64741439){\rotatebox{-15}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}}%
+    \put(0.48565998,0.54130628){\rotatebox{-15}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}}%
+    \put(0.92541391,0.35926439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}345\end{tabular}}}}%
+    \put(0.964992,0.48189512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.93713209,0.60455513){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.88979064,0.71883667){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.81450132,0.8169764){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
+    \put(0.71636158,0.89226571){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0.60205079,0.93960715){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}75\end{tabular}}}}%
+    \put(0.47942006,0.95577823){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.34507115,0.93960715){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}105\end{tabular}}}}%
+    \put(0.23078962,0.89226571){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0.13264989,0.8169764){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}135\end{tabular}}}}%
+    \put(0.0573313,0.71883667){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.00998986,0.60455513){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}165\end{tabular}}}}%
+    \put(-0.00615193,0.48189512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
+    \put(0.00998986,0.35926439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}195\end{tabular}}}}%
+    \put(0.0573313,0.24498288){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
+    \put(0.13264989,0.14684315){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}225\end{tabular}}}}%
+    \put(0.23078962,0.07152449){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
+    \put(0.34507115,0.02421237){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}255\end{tabular}}}}%
+    \put(0.46770188,0.00804132){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
+    \put(0.59033261,0.02421237){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}285\end{tabular}}}}%
+    \put(0.7046434,0.07152449){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0.80278314,0.14684315){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}315\end{tabular}}}}%
+    \put(0.87807247,0.24498288){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

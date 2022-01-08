@@ -1,0 +1,21 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  8 JAN 2022 16:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**pcb_array_factor_with_toolbox_polar_el_tex.tex
+
+! Emergency stop.
+<*> pcb_array_factor_with_toolbox_polar_el_tex.tex
+                                                  
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 3 strings out of 478579
+ 145 string characters out of 5857457
+ 291841 words of memory out of 5000000
+ 18007 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

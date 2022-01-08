@@ -87,7 +87,7 @@
 }
 \usepackage{lastpage}
 \fancyfoot[C]{\thepage\  of \pageref{LastPage}}
-\usepackage{lipsum}
+
 \usepackage[
 backend=bibtex,
 style=numeric
@@ -118,7 +118,6 @@ style=numeric
 \begin{abstract}
 \end{abstract}
 \section*{Abstract}
-\textcolor{blue}{\lipsum[1-2]}
 
 
 \section*{Tchebyshev array factor design}
@@ -131,7 +130,7 @@ Starting from the optimal inter-element spacing, it requires some secondary vari
 
 		% \FloatBarrier
 
-			\begin{table}[b!]
+			\begin{table}[h]
 			\begin{center}
 						{\fontfamily{lmss}\selectfont
 			\begin{tabular}{||m{5cm}|m{5cm}||}
@@ -201,7 +200,7 @@ BW_{fn}^{[UA]}\,{\color{Mahogany}=}\,\frac{2\lambda}{N\,d}\,\frac{180}{\pi}
 \end{gathered}
 \label{eq:tcheby beamwidth}
 \end{equation}
-\begin{table}[bt!] 
+\begin{table}[h] 
 \begin{center}
 		{\fontfamily{lmss}\selectfont
 \begin{tabular}{||m{6cm}|m{6cm}||}
@@ -237,7 +236,9 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 \label{table:tcheby results}
 \end{center}
 \end{table}
-\begin{figure*}[bt!]
+
+\begin{center}
+\begin{figure}[h]
 		\begin{subfigure}{0.4\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex}}
@@ -245,7 +246,7 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 		%\includegraphics[scale=0.3]{array_factor_polar.png}
 	\end{subfigure}
 			\hfill
-	\begin{subfigure}{0.55\linewidth}
+	\begin{subfigure}{0.5\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex}}
 		\caption{}
@@ -258,7 +259,7 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 		%\includegraphics[scale=0.3]{array_factor_polar.png}
 	\end{subfigure}
 			\hfill
-	\begin{subfigure}{0.55\linewidth}
+	\begin{subfigure}{0.5\linewidth}
 	\def\svgwidth{\linewidth}
 \tiny{\input{pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex}}
 	\caption{}
@@ -266,14 +267,14 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 	\hfill
 \caption{{Array factor polar, in azimuth (a) and elevation (c) cut, and rectangular  in azimuth (b) and elevation (d) cut, diagrams}}
 \label{fig:array factor}
-\end{figure*}
-
+\end{figure}
+\end{center}
 
 \newpage
 %%% POINT B %%%
 \section*{Rectangular folded patch design}
 
-The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate is shown in \textbf{\cref{fig:patch_structure}}. A particular condition is imposed to the PIFA, by which the width of the rectangular shorting pin ($w_{sc}$) equals the patch width size ($W_{patch}$), so that the PIFA and the folded patch antenna will be two equivalent structures (see \textbf{\cref{eq:shorting condition}}). This remark on the PIFA is necessary because generally its structure is not equivalent to that of the folded patch antenna because of the possible variability of the shorting width ($w_{sc}$), which doesn't always satisfy the above imposed condition. This condition on $w_{sc}$ represents one of the input variables of the PIFA design, such as the matched input resistance ($R_{in}$), the resonant frequency ($f$) and the substrate characteristics (see \textbf{\cref{table:pifa design parameters}}). A preliminary evaluation of the patch parameters have been realized by leaning on a theoretical set of formulas (see \textbf{\cite{Balanis1}}). That's the reason why the characteristics of the patch shown into the \textbf{\cref{table:pifa design parameters}} are called "\emph{pre-optimized features}" (same thing applies to the ground component). Thus, an optimization process of all these and other parameters will be performed in some following steps. Just before that, now the theoretical model will be shortly pointed out: it furnishes a provisional set of results (that will be adjusted afterward) . Firstly length and the width of the patch starting from the $w_{sc}=W_{patch}$ imposed condition, the substrate wavelength and thickness (i.e. $\lambda_{FR4}$ and $h_{FR4}$) are calculated (\textbf{\cref{eq:patch size}}). Then, other parameters, such as the effective permittivity $\varepsilon_{eff}$  and length ($L_{eff}$) in \textbf{\cref{eq:patch effective}}, the radiation resistance ($R_r$) in \textbf{\cref{eq:radiation resistance}}, the half-power beamwidth in the E-cut ($\Theta_E$) and the H-cut ($\Theta_H$) in \textbf{\cref{eq:beamwidth EH cuts}} and eventually the feed location ($\ell_{feed}$) in the patch length direction with respect to the free edge (\textbf{\cref{eq:feed length coordinate}}) have been calculated. 
+The main components of a rectangular folded patch are: the patch, the substrate (generally accessory, but used in this project), the ground, the rectangular shorting pin between the patch and the ground, and the feed. More details about them will be presented in a short while. Before that, some other remarks are necessary: this antenna will be the element of the array, which will be designed starting actually from a PIFA (\emph{Planar Inverted F Antenna}), given the limitations of the \texttt{\color{Mahogany}Antenna Toolbox}, which will be discussed and overcome later on. A general PIFA realized with a dielectric substrate is shown in \cref{fig:patch_structure} .
 
 \begin{figure}[h]
 \begin{center}
@@ -281,13 +282,15 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 \includegraphics[scale=0.35]{patch_structure_2.pdf}
 \includegraphics[scale=0.35]{patch_structure_3.pdf}
 \end{center}
-\caption{PIFA realized with a dielectric substrate}
+\caption{PIFA realized with dielectric substrate}
 \label{fig:patch_structure}
 \end{figure}
+By imposing the particular condition by which the width of the rectangular shorting ($w_{sc}$) equals the patch width size ($W_{patch}$), the PIFA and the folded patch antenna will be two equivalent structures:
 \begin{equation}
 	W_{patch}\,=\,w_{sc}
-	\label{eq:shorting condition}
 \end{equation}
+
+This remark on the PIFA is necessary because generally its structure is not equivalent to that of the folded patch antenna because of the possible variability of the shorting width ($w_{sc}$), which doesn't always satisfy the above imposed condition. That said, the design requirements are listed below: 
 	\begin{table}[h]
 		\begin{center}
 		% \FloatBarrier
@@ -350,17 +353,14 @@ Width & $W_{GND}\,=\,0.06\,m$\\
 \cellcolor{pink}Feed & \cellcolor{pink} Coaxial cable \\
 \hline
 \end{tabular}}
-\caption{Project input parameters (frequency, matching and substrate features) and theoretical (pre-optimized) features of the patch and ground PIFA components}
-\label{table:pifa design parameters}
 \end{center}
-
 \end{table}
+A preliminary evaluation of the patch parameters have been realized by leaning on a theoretical set of formulas [Balanis]. That's the reason why the characteristics of the patch shown into the table are called "\emph{pre-optimized features}" (same thing applies to the ground component). Thus, an optimization process of all those parameters will be performed in some following steps. Just before that, the formulas of the theoretical model will be pointed out:
 
 \begin{equation}
 	\begin{aligned}L_{patch}\,+\,W_{patch}\,-\,w_{sc}\,&{\color{Mahogany}=}\,\frac{\lambda_{FR4}}{4}\,+\,h_{FR4}\\
 		W_{patch}\,&{\color{Mahogany}=}\,\frac{\lambda}{2}\,\sqrt{\frac{2}{\varepsilon_{FR4}\,+\,1}}\\
 	\end{aligned}
-\label{eq:patch size}
 \end{equation}
 \begin{equation}
 	\begin{aligned}
@@ -369,24 +369,21 @@ Width & $W_{GND}\,=\,0.06\,m$\\
 		\Delta L{\color{Mahogany}=}0.412\,h\,\left[\frac{(\varepsilon_{eff}+0.3)\,\left(\frac{W_{patch}}{h_{FR4}}+0.268\right)}{(\varepsilon_{eff}-0.258)\,\left(\frac{W_{patch}}{h_{FR4}}+0.8\right)}\right]\\
 		L\,=\,L_{eff}-2\Delta L
 	\end{aligned}
-\label{eq:patch effective}
 \end{equation}
 \begin{equation}
 R_r\,{=}\,\frac{120\,\lambda}{W_{patch}}\,\left[1-\frac{1}{24}\,\left(2\pi\,\frac{h_{FR4}}{\lambda}\right)^{2}\right]^{-1}\\
-\label{eq:radiation resistance}
 \end{equation}
 \begin{equation}
 	\begin{aligned}
 		\Theta_E\,&{\color{Mahogany}=}\,2\,\arccos\,\sqrt{\frac{7.03\,\lambda^2}{4\,(3\,L_e^2+h_{FR4}^2)\,\pi^2}}\\
 		\Theta_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,2\pi\,\frac{W_{patch}}{\lambda}}}\\
 	\end{aligned}
-\label{eq:beamwidth EH cuts}
-\end{equation}
-\begin{equation}
-	\ell_{feed}\,{\color{Mahogany}=}\,\frac{L_{patch}}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
-	\label{eq:feed length coordinate}
 \end{equation}
 
+\begin{equation}
+	\ell_{feed}\,{\color{Mahogany}=}\,\frac{L_{patch}}{\pi}\,\arccos\,\sqrt{\frac{R_{in}}{R_r}}
+\end{equation}
+Where $\Theta_i$ ($i=\{E,H\}$) are the half-power beamwidth values given by the E-cut and the H-cut. $\lambda\,=\,c/f$ is the free-space wavelength ($c=299 792 458\,m/s$ is the light-speed in the free space). $R_{in}$ is the input impedance (a resistance), while $R_r$ is the radiation resistance
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -400,9 +397,7 @@ R_r\,{=}\,\frac{120\,\lambda}{W_{patch}}\,\left[1-\frac{1}{24}\,\left(2\pi\,\fra
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Refinement with \texttt{\color{BurntOrange}MatLab MoM}}
-\subsection*{Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required in this project (see \textbf{\cref{table:substrate tchickness}}). In this part it will be explained why choosing a thinner substrate (if the $FR4$ is used) is more convienient. This choice will be motivated both in relation to the physical behaviour (radiation efficiency) and to the limits of the \texttt{\color{BurntOrange}Matlab} tools that have been used (in terms of the mesh density level selection in a range that gives more reliable results). \FloatBarrier
-The \texttt{\color{Mahogany}Antenna Toolbox} gives specific
-information about the mesh density level that should be adopted for the design of the patch antenna components. The only issue is that these details are given only for particular ranges of the ratio indicator called \emph{relative thickness} or \emph{electrical thickness} $h_{\lambda}$ (see \textbf{\cite{makarov}}). The electrical thickness depends on the ratio between the substrate thickness ($h_{FR4}$) and the wavelength related to the substrate medium ($\lambda_{FR4}$). When a mesh is configured in the \texttt{\color{Mahogany}Antenna Toolbox} environment, a specific parameter needs to be adjusted: the maximum edge length of the generic triangle covering the geometry of the antenna ($e_{\max}$). In the case of a relative length $h_\lambda$ comparable to $1/10$, it's recommended to select an $e_{\max}\,\cong\,\lambda/10$. A substrate thickness respecting this relationship is called a \emph{thick substrate}. None of the available substrates verifies this condition. Among them, only the thinnest substrate and the second to last one (thus $h_{FR4}=0.8\,mm$ and $h_{FR4}=1.0\,mm$) are part of a range which the \texttt{\color{Mahogany}Antenna Toolbox} provides instructions of. It's the \emph{thin substrate range}: the automatic mesh mode should be adopted for a thin substrate, namely having a relative thickness less or equal than one fifth ($h_\lambda\,\leq{1/50}$). An evaluation of the $h_\lambda$ of two substrates respecting this condition is shown in \textbf{\cref{eq:substrate relative thickness}}. This leads to a full explanation of actual substrate thickness chosen for this project. The thinner substrate choice rationale starts with the consideration of its quality factor ($Q$) depending on the loss tangent ($tan\delta$) is generally low in the FR4 substrate case (being the two quantities inversely proportional, i.e. $Q\,\propto\,1/tan\delta$, and being $(\tan\delta)$ very high compared to that of other more efficient substrates). This means the FR4 is a big power dispersor. Since increasing $h_{FR4}$ will provoke just more losses in terms of a radiation efficiency drop and since the only thickness values of $0.8\,mm$ and $1.0\,mm$ would give reliable/accurate results in the \texttt{\color{Mahogany}Antenna Toolbox} simulations, the $0.8\,mm$ tchickness level will be adopted. 
+\subsection*{Substrate thickness selection}Three thickness levels were available for the $FR4$ substrate required this project ($h_{FR4}^{(i)}\,=\,\{h_{FR4}^{(1)},h_{FR4}^{(2)},h_{FR4}^{(3)}\}=\{0.8,1.0,1.6\}\,mm$)
 	\begin{table}[h]
 	\begin{center}
 		%%% \FloatBarrier
@@ -417,18 +412,18 @@ information about the mesh density level that should be adopted for the design o
 						\cellcolor{pink}$h_{FR4}^{(3)}=1.6\,mm$  \\
 				\hline
 				
-			\end{tabular}}
-		\caption{Three levels of $FR4$ substrate thickness are shown above. In the antenna industry, the $FR4$ substrate thickness generally ranges from $0.8\,mm$ and $3.6\,mm$}
-	\label{table:substrate tchickness}\end{center}\end{table}
+			\end{tabular}}\end{center}\end{table}
+\FloatBarrier
+The \texttt{\color{Mahogany}Antenna Toolbox} gives specific
+information about the mesh density level that should be adopted for the design of the patch antenna components. The only issue is that these details are given only for particular ranges of the ratio indicator called \emph{relative thickness} or \emph{electrical thickness} $h_{\lambda}$. The electrical thickness depends on the ratio between the substrate thickness ($h_{FR4}$) and the wavelength related to the substrate medium ($\lambda_{FR4}$). When a mesh is configured in the \texttt{\color{Mahogany}Antenna Toolbox} environment, a specific parameter needs to be adjusted: the maximum edge length of the generic triangle covering the geometry of the antenna ($e_{\max}$). In the case of a relative length $h_\lambda$ comparable to $1/10$, it's recommended to select a $e_{\max}\,\cong\,\lambda/10$. A substrate thickness respecting this relationship is called a \emph{thick substrate}. None of the available substrates verify this condition. Among them, only the thinnest substrate and the second to last one (thus $h_{FR4}=0.8\,mm$ and $h_{FR4}=1.0\,mm$) are part of a range which the \texttt{\color{Mahogany}Antenna Toolbox} provides instructions of. It's the \emph{thin substrate range}: the automatic mesh mode should be adopted for a thin substrate, namely having a relative thickness less or equal than one fifth ($h_\lambda\,\leq{1/50}$). In the specific project case: 
 \begin{equation}
 	h_{FR4}=0.8\,mm\,\leadsto\,h_{\lambda}\,=\,\frac{1}{81}\qquad 	h_{FR4}=1.0\,mm\,\leadsto\,h_{\lambda}\,=\,\frac{1}{62}
-	\label{eq:substrate relative thickness}
 \end{equation}
-%\begin{center}
-%	\fbox{\begin{minipage}{0.7\linewidth}
-%\textbf{\color{Mahogany}\emph{Thinner substrate choice} rationale}. The quality factor depending on $tan\delta$ is generally low in the FR4 substrate case. This means the FR4 is a big power dispersor. Since increasing $h_{FR4}$ will provoke just more losses in terms of a radiation efficiency drop and since the only thickness values of $0.8\,mm$ and $1.0\,mm$ would give reliable/accurate results in the \texttt{\color{Mahogany}Antenna Toolbox} simulations, the $0.8\,mm$ will be adopted.
-%	\end{minipage}}
-%\end{center}
+\begin{center}
+	\fbox{\begin{minipage}{0.7\linewidth}
+\textbf{\color{Mahogany}\emph{Thinner substrate choice} rationale}. The quality factor depending on $tan\delta$ is generally low in the FR4 substrate case. This means the FR4 is a big power dispersor. Since increasing $h_{FR4}$ will provoke just more losses in terms of a radiation efficiency drop and since the only thickness values of $0.8\,mm$ and $1.0\,mm$ would give reliable/accurate results in the \texttt{\color{Mahogany}Antenna Toolbox} simulations, the $0.8\,mm$ will be adopted.
+	\end{minipage}}
+\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
@@ -442,32 +437,29 @@ Although a mesh density choice has already been made by selecting the best maxim
 
 		\includegraphics[scale=0.3]{mesh_first_test.pdf}
 		\caption{{Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
-		\label{fig:first mesh test}
+		\label{fig:mesh_first_test}
 \end{center}
 
 	\end{figure}
 
-Since the resulting plot  (\textbf{\cref{fig:first mesh test}}) has shown big uncertainty of the reflection coefficient value at the resonant frequency ($\Gamma_{2.1\,GHz}$) at almost every mesh $e_{\max}$ level (primarily due to the big step selected between one density level and another), some more detailed tests have been run, by considering a slightly narrower range ($[2.5^.10^{-4}\,m\,,\,5.0^{-4}\,m]$) and a tchicker evaluation of the maximum edge values (so that the mesh variation step has been remarkably reduced to $1.0^{-4}\,m$). Specifically, the step between two mesh density levels in terms of the maximum edge length of each one has been reduced from a $\Delta e_m=2.5^.10^{-4}$ to $\Delta e_m=1.0^.10^{-4}$. In all those simulations, an important fact needs to be noted. Even very small variations on the maximum edge length value involved considerable inconsistencies in almost every part of the mesh range in terms of considerable variations of the frequency at wich $\Gamma$ reaches its minimum ($\min(\Gamma)$, therefore the resonant frequency of the antenna changes very easily).  
-Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtained, instead of evaluationg it at the theoretical resonating frequency value at every mesh level, not only the standard test comparing $e_{\max}$ and $\Gamma$ has been run, but also some mesh refinement plots representing the relationship between $f^*$ and $e_{\max}$ (\textbf{\cref{eq:f vs mesh}}), $\Delta f^*$ and $e_{\max}$ (\textbf{\cref{eq:Df vs mesh}}) and also $\min(\Gamma)$ and $e_{\max}$ (\textbf{\cref{eq:minG vs mesh}}) have been taken into account (where $\Delta f^*$ is the difference between $f^*$ and the resonant frequency $f=2.1\,GHz$). More parameter relationships have been collected and this led to the setting of the mesh density choice in terms of $e_{\max}$ that has been selected inside the most stable region (i.e. showing the smallest deviation of the reflection coefficient minimum from the resonant frequency). In the end it's been specifically taken the 'automatic' $e_{\max}$ ($=3.5^{-4}\,m$) suggested by the \texttt{\color{Mahogany}Antenna Toolbox}, since this value  belongs to the stable region and seems to give the most accurate results. The $e_{\max}$ values belonging to the stable region ($[3.1\,^.\,10^{-4}\,m,3.7^.10^{-4}\,m]$) exibit slight deviations from the resonant frequency ($\Delta f^*\,\in\,[0.01\,GHz,0.03\,GHz]$) and the minimum of the reflection coefficient varies in the range $[-24\,dB\,,\,-33\,dB]$. 
+Since the resulting plot  (\cref{fig:mesh_first_test}) has shown big uncertainty of the reflection coefficient value at the resonant frequency ($\Gamma_{2.1\,GHz}$) at almost every mesh $e_{\max}$ level (primarily due to the big step selected between one density level and another), some more detailed tests have been run, by considering a slightly narrower range ($[2.5^.10^{-4}\,m\,,\,5.0^{-4}\,m]$ ) and a tchicker evaluation of the maximum edge values (so that the mesh variation step has been remarkably reduced to $1.0^{-4}\,m$). Specifically, the step between two mesh densities level in terms of the maximum edge length of each one has been reduced from a $\Delta e_m=2.5^.10^-4$ to $\Delta e_m=1.0^.10^{-4}$. In all these simulation, an important fact needs to be noted. Even very small variation on the maximum edge length value involved considerable inconsistencies in almost every part of the mesh range in terms of big variations of the frequency at wich $\Gamma$ reaches its minimum.  
+Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtained, instead of evaluationg it at the theoretical resonating frequency value at every mesh level, not only the standard test comparing $e_{\max}$ and $\Gamma$ has been run, but also some mesh refinement plots representing the relationship between $f^*$ and $e_{\max}$, $\Delta f^*$ and $e_{\max}$ and also $\Gamma_{dB}(f^*)$ and $e_{\max}$ have been taken into account (where $\Delta f^*$ is the difference between $f^*$ and the resonant frequency $f=2.1\,GHz$). More parameter relationships have been collected and this led to the setting of the mesh density choice in terms of $e_{\max}$ that has been selected inside the most stable region (i.e. showing the smallest deviation of the reflection coefficient minimum from the resonant frequency). In the end it's been specifically taken the 'automatic' $e_{\max}$ ($=3.5^{-4}\,m$) suggested by the \texttt{\color{Mahogany}Antenna Toolbox}, since this value  belongs to the stable region and seems to give the most accurate results. The $e_{\max}$ values belonging to the stable region ($[3.1\,^.\,10^{-4}\,m,3.7^.10^{-4}\,m]$) exibit slight deviations from the resonant frequency ($\Delta f^*\,\cong\,[0.01\,GHz,0.03\,GHz]$) and the minima of the reflection coefficient vary as follows: $[-24\,dB\,,\,-33\,dB]$. 
 \begin{figure}[h]
 	\begin{center}
 		
 		\begin{subfigure}{0.3\linewidth}
 			\includegraphics[scale=0.3]{minGamma_vs_mesh_level.pdf}
 			\caption{}
-			\label{eq:minG vs mesh}
 		\end{subfigure}
 		\begin{subfigure}{0.3\linewidth}
 			\includegraphics[scale=0.3]{DeltaF_vs_mesh_level.pdf}
 			\caption{}
-			\label{eq:Df vs mesh}
 		\end{subfigure}
 		\begin{subfigure}{0.3\linewidth}
 			\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
 			\caption{}
-			\label{eq:f vs mesh}
 		\end{subfigure}
-		\caption{\fontfamily{lmss}\selectfont (a) ($e_{\max},\Gamma$) plot, (b) ($e_{\max},\Delta f$) plot, and (c) ($e_{\max},f$) plots} 
+		\caption{\fontfamily{lmss}\selectfont (a) ($s_m,\Gamma_{dB}$) plot, (b) ($s_m,\Delta f$) plot, and (c) ($s_m,f$) plot} 
 	\end{center}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -477,58 +469,23 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection*{Patch parameters refinement}
-After the selection of the maximum edge length of the mesh (consequently, of its density level), a more refined computation of the reflection coefficient will be made, depending on the patch size (i.e. on its length and width), but also on the feed location. Firstly, only a parametrical variation of the feed position across the patch length direction has been considered, depending on variations of $L_{patch}$ and $W_{patch}$. This means that the first refinement of the feed position has been evaluated starting from its theoretical equation (depending indirectly by $W_{patch}$). The change of the feed location has been taken into account in the computation of every step of the simulation, thus in every evaluation of the reflection coefficient, keeping $e_{\max}$ as a constant (the previously selected length). The patch size variations provoked wide modifications of the reflection coefficient, which values depending on that have been represented by an initial contour plot (with variations of the patch size in a broader range and with a larger step between one value and another, see \textbf{\cref{fig:first contour}}). After that, another simulation (\textbf{\cref{fig:second contour}}) in a narrower range of the patch size variation has been run in order to choose from there a set of $\Gamma$ values (i.e. a set of coupled values $(L_{patch},W_{patch})$) that should put the patch antenna in the best resonant condition (which means that a $\Gamma$ as close as possible to zero in the linear scale and as negative as possible in the $dB$, logarithmic scale is sought). The logarithmic ($dB$ scale) was used for the contour plots because this way the resulting $\Gamma$ values are easier to distinguish from one another even grafically and mathematically. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% se c'è tempo e spazio ancora nella relazione %%%%%%%%%
-%% discutere anche sul VSWR %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% che dev'essere il più vicino ad 1 %%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patch}$). has been selected from the second simulation range so that a more specific simulation could be run. In this third case (\textbf{\cref{fig:Gamma couple LpWp}}), the reflection coefficient has been plotted in a range around the resonant frequency ($[2.0\,GHz, 2.2\,GHz]$) in order to find which is the best combination for the patch size that makes actually resonate the antenna at the project frequency. Another determining and discriminating factor was the input impedance ($Z_{in}=R_{in}+\jmath Y_{in}$, where the real part of $Z_{in}$ is the imput resistance, while the imaginary one is the input reactance), because a impedance matching (at $50\,\Omega$) needed to be achieved for the project. In the ideal case, of course, a reflection coefficient $\Gamma^{(id)}=0.00\,\to\,-\infty\,dB$ would be required in order to reach the perfect impedance matching (perfect matching with input resistance at $50.00\,\Omega$ and null reactance). As an actual result, before seeking a better matching, the $\Gamma$ value related to all the couple candidates ($(L_{patch},W_{patch})$) spaced ranged from $-24\,dB$ to $-30\,dB$. The two best candidates of the $\Gamma$ value related to the coupled size ($L_{patch},W_{patch}$) are plotted in \textbf{\cref{fig:Gamma couple LpWp}}. Two refined plots (with narrower frequency steps in the same range) of $\Gamma$ and $Z$ for one of the candidates are represented in \textbf{\cref{fig:Gamma and Z previa wfeed}}. An additional design strategy contributed to the final patch size choice: the feed location varying across the patch width direction ($w_{feed}$). Thus, a parametrical impedance matching study depending on that has been run on the best couple candidates and a few others from the set of 20. The resulting values are listed in \textbf{\cref{table:Gamma and Z}} and the plots are shown in \textbf{\cref{fig:Gamma and Z}}
-	\begin{figure}
-		\begin{center}[h]
-		\includegraphics[width = 0.5\linewidth]{gamma.png}
-		\includegraphics[width = 0.5\linewidth]{impedances.png}
-		\caption{Reflection coefficient (left) and impedance (right) plots depending on $f\,\in\,[2.0,2.1\,GHz]$}
-        \label{fig:Gamma and Z previa wfeed}
-	\end{center}
-	\end{figure}
-
-\begin{table}
-	\begin{center}
-	{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{2cm}|m{2cm}||}
-\hline
-\textbf{Parameter} & \textbf{Value}\\
-\hline
-	$\Gamma_{final}$ & $-54.94\,dB$\\
-	\hline
-	 $R_{in}$ & $49.86\,\Omega$ \\
-	 \hline
-	 $Y_{in}$ & $ 0.11\,S$ \\
-\hline
-		\end{tabular}}
-	\caption{Final $\Gamma$ and impedance matching values after $w_{feed}$ change}
-	\label{table:Gamma and Z}
-	\end{center}
-\end{table}
+After the selection of the maximum edge length of the mesh (consequently, of its density level), a more refined computation of the reflection computation will be made, depending on the patch (i.e. on its length and width), but also on the feed location. Firstly, only a parametrical variation of the feed position across the patch length direction has been considered, depending on variations of $L_{patch}$ and $W_{patch}$. This means that the first refinement of the feed position has been evaluated starting from its theoretical equation (depending indirectly by $W_{patch}$). The change of the feed location has been taken into account in the computation of every step of the simulation, thus in every evaluation of the reflection coefficient. The patch size variations provoked wide modifications of the reflection coefficient, which values depending on that have been represented by an initial contour plot (with variations of the patch size in a broader range and with a larger step between one value and another). After that, a simulation in a narrower range variation of the patch size has been run in order to choose from there a set of values of $\Gamma$ (i.e. a set of couples $(L_{patch},W_{patch})$) that should put the patch antenna in the best resonant condition. A set of 20 values has been selected from the second simulation range for the next and more specific simulation. In this third case, the reflection coefficient has been plotted in a range around the resonant frequency ($[2.0\,GHz, 2.2\,GHz]$) in order to find which is the best combination for the patch size that makes actually resonate the antenna at the project frequency. Another determining and discriminating factor was the input impedance ($Z_{in}=R_{in}+\jmath Y_{in}$, where the real part of $Z_{in}$ is the imput resistance, while the imaginary one is the input reactance), because a impedance matching (at $50\,\Omega$) needed to be achieved for the project. In the ideal case, of course, a reflection coefficient $\Gamma^{(id)}=0.00\,\to\,-\infty\,dB$ would be required in order to reach the perfect impedance matching (perfect matching with input resistance at $50.00\,\Omega$ and null reactance). As a real result, before an accurate matching, the $\Gamma$ value related to all the couple candidates ($(L_{patch},W_{patch})$) spaced ranged from $-24\,dB$ to $-30\,dB$. Another design choice contributed to the final patch size choice: the feed location varying across the patch width direction. Thus, a parametrical impedance matching depending on that has been run on the best couple candidates. The resulting values are:
+\begin{equation*}
+	\Gamma_{final}=-54.94\,dB\qquad R_{in}=49.86\,\Omega\qquad Y_{in}=0.11\,S
+\end{equation*}
 \begin{figure}[h]
 	\begin{center}
 		\begin{subfigure}{0.5\linewidth}
 			\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
-			\caption{}
-			\label{fig:first contour}
 		\end{subfigure}
 		\begin{subfigure}{0.5\linewidth}
 			\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
-			\caption{}
-			\label{fig:second contour}
 		\end{subfigure}
 	\caption{\fontfamily{lmss}\selectfont
-		\color{gray}First (a) and second (b) contour plots depending on the patch size ($L_{patch} and W_{patch}$ variations)}
+		\color{gray}First and second (refined) contour plots depending on the patch size ($L_{patch} and W_{patch}$ variations)}
 	\end{center}  
 \end{figure}
-\begin{figure}
+\begin{figure}[h]
 	\begin{center}
 		\begin{subfigure}{0.5\linewidth}
 			\includegraphics[scale=0.25]{gamma1.pdf}
@@ -536,9 +493,11 @@ A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patc
 		\begin{subfigure}{0.5\linewidth}
 		\includegraphics[scale=0.25]{gamma3.pdf}
 	\end{subfigure}
+	\begin{subfigure}{0.5\linewidth}
+	\includegraphics[scale=0.25]{gamma4.pdf}
+\end{subfigure}
 	\caption{\fontfamily{lmss}\selectfont
-	\color{gray}The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
-\label{fig:Gamma couple LpWp}
+	\color{gray}Some of the best $\Gamma$ plots depending on specific patch size candidates ($L_{patch},W_{patch}$)}
 	\end{center}  
 \end{figure}
 \begin{figure}[h]
@@ -552,7 +511,6 @@ A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patc
 		\caption{\fontfamily{lmss}\selectfont
 		\color{gray}
 	Final $\Gamma$ and impedance matching plots after further refinement including $w_{feed}$ change}
-\label{fig:Gamma and Z}
 	\end{center}  
 \end{figure}
 \begin{figure}[h]
@@ -606,24 +564,15 @@ BW_H\,&{\color{Mahogany}=}\,2\,\arccos\sqrt{\frac{1}{2\,+\,k_0\,W}}\\
 \caption{Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)}
 \end{figure}
 \end{center}
-	\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}From the PIFA to a PCB stack approximation}
-Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Analyzer} has been used to create that type of structure, starting from the Tchebyshev array factor design made in the first part and from the previous optimization process of a single PIFA. In the last part the overall array of PIFAs needs to be analyzed by means of beamsteering for particular angles, total gain, electric and magnetic field patterns. Unfortunately, not all of this information can be extracted by using uniquely the the \texttt{\color{Mahogany}Sensor Array Analyzer} tool. This fact led to the use of another tool, the \texttt{\color{Mahogany}PCB Antenna Designer}, so that all the parameters required for the project could be analyzed. With this last tool, a similar structure to that of the PIFA has been realized and introduced as the antenna element of the array distribution. Just before moving to the array analysis, a comparison between the single antenna being a PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. Thus, the PIFA and the PCB stack designed are not perfectly identical, but their single and overall performance inside the array had shown a slight quantifiable difference. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins (see \textbf{\cref{fig:pcb shorting}}) close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D gain patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Analyzer} allows the plotting of some patterns such as the directivity (but not of the gain), a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. In that case the error is presented as a comparison between the main lobe levels in the PIFA array and the PCB array cases, but also in terms of a first side lobe levels of the two arrays. This discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% creare una tabella  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% in cui inserire i corretti dati di confronto %%%%%%%%
-%%% inseriti in una tabella dopo che comincia %%%%%%%%%%%
-%%% "Overall patch antenna array performante" %%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
-	\begin{figure}[h]
-		\includegraphics[scale=0.2]{pcb_shorting_pins_3d_view.pdf}
-			\includegraphics[scale=0.2]{pcb_shorting_pins_top_view.pdf}
-		\caption{3D view and top view of the PIFA approximation realized with a PCB stack and cylindrical shorting pins}
-		\label{fig:pcb shorting}
-	\end{figure}
+\begin{figure}
+\includegraphics[width = 0.5\linewidth]{gamma.png}
+\includegraphics[width = 0.5\linewidth]{impedances.png}
+\caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$}
+\end{figure}
 \end{center}
+	\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}From the PIFA pifa to a PCB stack}
+Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Designer} among with the \texttt{\color{Mahogany}PCB Antenna Designer} have been used so that all the parameters required for the project could be analyzed. Just before that, a comparison between the single antenna realized with the PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Designer} allows the plotting of some patterns such as the directivity, a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. All this discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
 \begin{itemize}
 	\item \textbf{Single PIFA and PCB stack comparison}.
 	\begin{equation}
@@ -677,27 +626,24 @@ Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generat
 		\caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$. This are the resulting plots before $W_{feed}$ optimization. }
 	\end{figure}
 \end{center}
-\section*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
-In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that their total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in \textbf{\cref{eq:phase coefficients}}. 
+\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
+In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that the total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in Eqn. x, where $n=\{1,5\}$ 
 \begin{equation}
 	\begin{aligned}
 		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\
-		\alpha_n&=n\,\alpha\,d_{opt}=nu_0\qquad \left(n=\overline{1,5}\right)
-		\label{eq:phase coefficients}
+		\alpha_n&=n\,\alpha\,d_{opt}=nu_0
 	\end{aligned}
 \end{equation}
-% \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
-\indent 
-
-In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle (aproximate/ideal total gain). There's one main problem: not all the commands needed can extract (at least not directly) the gain pattern. In that cases, the directivity pattern can be shown and converted into a gain pattern by weighting its values through the radiation efficiency ($\eta_R$). $\eta_R$ can be both calculated with a tool command (not in the \texttt{\color{Mahogany}Sensor Array Designer}) and by means of the mathematical formulation. The ideal total gain can be extracted by using directly the \texttt{\color{Turquoise}patternMultiply} command (which actually gets )will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
+\subsubsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
+In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle. It will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
 
 
 
 
 
 
-\newpage 
-%\section*{References}
+
+\section*{References}
 
 \printbibliography
 

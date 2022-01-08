@@ -1,0 +1,80 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pcb_array_factor_with_toolbox_rectangular_az_tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{394.65692854bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.7370946)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf}}%
+    \put(0.02439894,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-200\end{tabular}}}}%
+    \put(0.12749481,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-150\end{tabular}}}}%
+    \put(0.23059068,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-100\end{tabular}}}}%
+    \put(0.33843753,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-50\end{tabular}}}}%
+    \put(0.45103532,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.54843001,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0.64677492,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0.74987079,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.85296666,0.00632327){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf}}%
+    \put(-0.00060315,0.036405){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-70\end{tabular}}}}%
+    \put(-0.00060315,0.11776046){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}%
+    \put(-0.00060315,0.19911593){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-50\end{tabular}}}}%
+    \put(-0.00060315,0.28049039){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}%
+    \put(-0.00060315,0.36184585){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30\end{tabular}}}}%
+    \put(-0.00060315,0.44320132){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
+    \put(-0.00060315,0.5245568){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0.0184007,0.60593127){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.00699839,0.68728674){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf}}%
+    \put(0.01416802,0.71369612){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$dB$\end{tabular}}}}%
+    \put(0.91907033,0.00628018){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}(deg)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
