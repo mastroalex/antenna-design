@@ -613,7 +613,7 @@ ERP_ML_pcb_pifa_elevation_steering_45=(pk_ML_pifa_array_elevation_steering_45-pk
 ERP_SL_pcb_pifa_elevation_steering_45=(pk_SL_pifa_array_elevation_steering_45-pk_SL_pcb_array_elevation_steering_45)/pk_SL_pifa_array_elevation_steering_45;
 disp(strcat('Error % ML elevation steering 45: '," ",string(ERP_ML_pcb_pifa_elevation_steering_45)));
 disp(strcat('Error % SL elevation steering 45: '," ",string(ERP_SL_pcb_pifa_elevation_steering_45)));
-%%
+%% Azimuth array factor plot
 
 af_azimuth_polar = 2*arrayFactor(kfa,2.1e9,-180:180,0);
 figure;polarpattern(af_azimuth_polar,'TitleTop','pcb array factor with arrayFactor()');
@@ -635,6 +635,35 @@ polarpattern(FdB,'TitleTop','pcb array factor Toolbox vs mathematics','LineStyle
 hold off
 
 figure;plot(-180:180,af_azimuth_polar);
+hold on
+plot(-180:180,FdB,'LineStyle','--');
+title('pcb array factor Toolbox vs mathematics');
+legend('ToolBox', 'Calculated');
+hold off
+
+%% Elevation array factor plot
+
+
+af_elevation_polar = 2*arrayFactor(kfa,2.1e9,-180:180,0);
+figure;polarpattern(af_elevation_polar,'TitleTop','pcb array factor with arrayFactor()');
+figure;plot(-180:180,af_elevation_polar);title('pcb array factor with arrayFactor()');
+
+pat_dotchy_el = pattern(dotchy,2.1e9,-180:180,0,'Type','directivity');
+pat_kfa_el = pattern(kfa,2.1e9,-180:180,0,'Type','directivity');
+Df_az = 10.^((pat_kfa_el-pat_dotchy_el)/10);
+F = sqrt(Df_az*(dot(chebc,chebc)/0.79));
+Fn = sqrt(Df_az*(dot(chebn,chebn)/0.79));
+FdB = 20*log10(Fn);
+figure; 
+polarpattern(FdB,'TitleTop','pcb array factor with mathematics'); 
+figure;plot(-180:180,FdB);title('pcb array factor with mathematics');
+
+figure;polarpattern(af_elevation_polar);
+hold on
+polarpattern(FdB,'TitleTop','pcb array factor Toolbox vs mathematics','LineStyle',{'-','--'},'LegendLabels',{'ToolBox', 'Calculated'}); 
+hold off
+
+figure;plot(-180:180,af_elevation_polar);
 hold on
 plot(-180:180,FdB,'LineStyle','--');
 title('pcb array factor Toolbox vs mathematics');
