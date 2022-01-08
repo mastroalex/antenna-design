@@ -51,13 +51,15 @@
 
 \definecolor{mintbg}{rgb}{.63,.79,.95}
 %% 
-\graphicspath{{figures/}} %Setting the graphicspat%h
-\graphicspath{{figures/}} %Setting the graphicspath
+%\graphicspath{{figures/}} %Setting the graphicspat%h
+%\graphicspath{{figures/}} %Setting the graphicspath
+\graphicspath{{figures/}{figures/A/}{figures/B/}} %Setting the graphicspath
 \makeatletter
-\providecommand*{\input@path}{}
-\edef\input@path{{figures/}{}\input@path}% prepend
+%\providecommand*{\input@path}{}
+%\edef\input@path{{figures/}{}\input@path}% prepend
+\def\input@path{{figures/}{figures/A/}{figures/B/}{figures/C/}}
 \makeatother
-\usepackage{subcaption}
+\usepackage{import}
 
 \pgfplotsset{compat=newest}
 \pgfplotsset{plot coordinates/math parser=false}
@@ -85,7 +87,7 @@
 }
 \usepackage{lastpage}
 \fancyfoot[C]{\thepage\  of \pageref{LastPage}}
-
+\usepackage{lipsum}
 \usepackage[
 backend=bibtex,
 style=numeric
@@ -116,6 +118,7 @@ style=numeric
 \begin{abstract}
 \end{abstract}
 \section*{Abstract}
+\textcolor{blue}{\lipsum[1-2]}
 
 
 \section*{Tchebyshev array factor design}
@@ -128,7 +131,7 @@ Starting from the optimal inter-element spacing, it requires some secondary vari
 
 		% \FloatBarrier
 
-			\begin{table}[h]
+			\begin{table}[b!]
 			\begin{center}
 						{\fontfamily{lmss}\selectfont
 			\begin{tabular}{||m{5cm}|m{5cm}||}
@@ -198,7 +201,7 @@ BW_{fn}^{[UA]}\,{\color{Mahogany}=}\,\frac{2\lambda}{N\,d}\,\frac{180}{\pi}
 \end{gathered}
 \label{eq:tcheby beamwidth}
 \end{equation}
-\begin{table}[h] 
+\begin{table}[bt!] 
 \begin{center}
 		{\fontfamily{lmss}\selectfont
 \begin{tabular}{||m{6cm}|m{6cm}||}
@@ -234,12 +237,19 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 \label{table:tcheby results}
 \end{center}
 \end{table}
+<<<<<<< Updated upstream
+\begin{figure*}[bt!]
+=======
 
 \begin{center}
 \begin{figure}[h]
+<<<<<<< HEAD
 \includegraphics[scale=0.3]{array_factor_polar.png}
 \includegraphics[scale=0.3]{array_factor_rectangular.png}
 \caption{{Array factor polar (left) and rectangular (right) diagrams}}
+=======
+>>>>>>> parent of 5d48665 (report)
+>>>>>>> Stashed changes
 		\begin{subfigure}{0.4\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex}}
@@ -247,7 +257,7 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 		%\includegraphics[scale=0.3]{array_factor_polar.png}
 	\end{subfigure}
 			\hfill
-	\begin{subfigure}{0.5\linewidth}
+	\begin{subfigure}{0.55\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex}}
 		\caption{}
@@ -260,17 +270,16 @@ C_0^* & || &  C_1^*=C_{-1}^* & || & C_{2}^*=C_{-2}^*
 		%\includegraphics[scale=0.3]{array_factor_polar.png}
 	\end{subfigure}
 			\hfill
-	\begin{subfigure}{0.5\linewidth}
+	\begin{subfigure}{0.55\linewidth}
 	\def\svgwidth{\linewidth}
 \tiny{\input{pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex}}
 	\caption{}
 \end{subfigure}
 	\hfill
 \caption{{Array factor polar, in azimuth (a) and elevation (c) cut, and rectangular  in azimuth (b) and elevation (d) cut, diagrams}}
->>>>>>> parent of 5d48665 (report)
 \label{fig:array factor}
-\end{figure}
-\end{center}
+\end{figure*}
+
 
 \newpage
 %%% POINT B %%%
@@ -689,10 +698,8 @@ In this last part of the project, the array factor and the the element antenna (
 		\label{eq:phase coefficients}
 	\end{aligned}
 \end{equation}
-% \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
-\indent 
-
-In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle (aproximate/ideal total gain). There's one main problem: not all the commands needed can extract (at least not directly) the gain pattern. In that cases, the directivity pattern can be shown and converted into a gain pattern by weighting its values through the radiation efficiency ($\eta_R$). $\eta_R$ can be both calculated with a tool command (not in the \texttt{\color{Mahogany}Sensor Array Designer}) and by means of the mathematical formulation. The ideal total gain can be extracted by using directly the \texttt{\color{Turquoise}patternMultiply} command (which actually gets )will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
+\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
+In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by mean of a fullwave model (with no approximation) and by using the pattern multiplication principle. It will be indirectly plotted because of tool limitation, specifically related to the \texttt{\color{Turquoise}patternMultiply}, which doesn't get any gain plot, but it can get the directivity plot. Since these two are proportional, so that the gain is obtainable by multiplying the directivity by the radiation efficiency ($\eta_R$). 
 
 
 
