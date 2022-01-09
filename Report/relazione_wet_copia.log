@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  8 JAN 2022 17:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  9 JAN 2022 16:22
 entering extended mode
 **./relazione_wet_copia.tex
 (relazione_wet_copia.tex
@@ -950,6 +950,9 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen321
 \titlewidthfirst=\dimen322
 )
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+)
 \figureheight=\skip62
 \figurewidth=\skip63
 
@@ -1005,12 +1008,19 @@ rs
 (C:\Program Files\MiKTeX 2.9\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
 )
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count361
+\l__lipsum_a_int=\count362
+\l__lipsum_b_int=\count363
+
+(C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.ltd.tex))
 (C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count361
+\lrq@indent=\count364
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1019,48 +1029,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count362
-\c@listtotal=\count363
-\c@listcount=\count364
-\c@liststart=\count365
-\c@liststop=\count366
-\c@citecount=\count367
-\c@citetotal=\count368
-\c@multicitecount=\count369
-\c@multicitetotal=\count370
-\c@instcount=\count371
-\c@maxnames=\count372
-\c@minnames=\count373
-\c@maxitems=\count374
-\c@minitems=\count375
-\c@citecounter=\count376
-\c@maxcitecounter=\count377
-\c@savedcitecounter=\count378
-\c@uniquelist=\count379
-\c@uniquename=\count380
-\c@refsection=\count381
-\c@refsegment=\count382
-\c@maxextratitle=\count383
-\c@maxextratitleyear=\count384
-\c@maxextraname=\count385
-\c@maxextradate=\count386
-\c@maxextraalpha=\count387
-\c@abbrvpenalty=\count388
-\c@highnamepenalty=\count389
-\c@lownamepenalty=\count390
-\c@maxparens=\count391
-\c@parenlevel=\count392
-\blx@tempcnta=\count393
-\blx@tempcntb=\count394
-\blx@tempcntc=\count395
-\blx@maxsection=\count396
-\blx@maxsegment@0=\count397
-\blx@notetype=\count398
-\blx@parenlevel@text=\count399
-\blx@parenlevel@foot=\count400
-\blx@sectionciteorder@0=\count401
-\blx@entrysetcounter=\count402
-\blx@biblioinstance=\count403
+\c@tabx@nest=\count365
+\c@listtotal=\count366
+\c@listcount=\count367
+\c@liststart=\count368
+\c@liststop=\count369
+\c@citecount=\count370
+\c@citetotal=\count371
+\c@multicitecount=\count372
+\c@multicitetotal=\count373
+\c@instcount=\count374
+\c@maxnames=\count375
+\c@minnames=\count376
+\c@maxitems=\count377
+\c@minitems=\count378
+\c@citecounter=\count379
+\c@maxcitecounter=\count380
+\c@savedcitecounter=\count381
+\c@uniquelist=\count382
+\c@uniquename=\count383
+\c@refsection=\count384
+\c@refsegment=\count385
+\c@maxextratitle=\count386
+\c@maxextratitleyear=\count387
+\c@maxextraname=\count388
+\c@maxextradate=\count389
+\c@maxextraalpha=\count390
+\c@abbrvpenalty=\count391
+\c@highnamepenalty=\count392
+\c@lownamepenalty=\count393
+\c@maxparens=\count394
+\c@parenlevel=\count395
+\blx@tempcnta=\count396
+\blx@tempcntb=\count397
+\blx@tempcntc=\count398
+\blx@maxsection=\count399
+\blx@maxsegment@0=\count400
+\blx@notetype=\count401
+\blx@parenlevel@text=\count402
+\blx@parenlevel@foot=\count403
+\blx@sectionciteorder@0=\count404
+\blx@entrysetcounter=\count405
+\blx@biblioinstance=\count406
 \labelnumberwidth=\skip73
 \labelalphawidth=\skip74
 \biblabelsep=\skip75
@@ -1072,9 +1082,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language84
-\c@mincomprange=\count404
-\c@maxcomprange=\count405
-\c@mincompwidth=\count406
+\c@mincomprange=\count407
+\c@maxcomprange=\count408
+\c@mincompwidth=\count409
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1085,74 +1095,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count407
-\c@savedafterword=\count408
-\c@annotator=\count409
-\c@savedannotator=\count410
-\c@author=\count411
-\c@savedauthor=\count412
-\c@bookauthor=\count413
-\c@savedbookauthor=\count414
-\c@commentator=\count415
-\c@savedcommentator=\count416
-\c@editor=\count417
-\c@savededitor=\count418
-\c@editora=\count419
-\c@savededitora=\count420
-\c@editorb=\count421
-\c@savededitorb=\count422
-\c@editorc=\count423
-\c@savededitorc=\count424
-\c@foreword=\count425
-\c@savedforeword=\count426
-\c@holder=\count427
-\c@savedholder=\count428
-\c@introduction=\count429
-\c@savedintroduction=\count430
-\c@namea=\count431
-\c@savednamea=\count432
-\c@nameb=\count433
-\c@savednameb=\count434
-\c@namec=\count435
-\c@savednamec=\count436
-\c@translator=\count437
-\c@savedtranslator=\count438
-\c@shortauthor=\count439
-\c@savedshortauthor=\count440
-\c@shorteditor=\count441
-\c@savedshorteditor=\count442
-\c@labelname=\count443
-\c@savedlabelname=\count444
-\c@institution=\count445
-\c@savedinstitution=\count446
-\c@lista=\count447
-\c@savedlista=\count448
-\c@listb=\count449
-\c@savedlistb=\count450
-\c@listc=\count451
-\c@savedlistc=\count452
-\c@listd=\count453
-\c@savedlistd=\count454
-\c@liste=\count455
-\c@savedliste=\count456
-\c@listf=\count457
-\c@savedlistf=\count458
-\c@location=\count459
-\c@savedlocation=\count460
-\c@organization=\count461
-\c@savedorganization=\count462
-\c@origlocation=\count463
-\c@savedoriglocation=\count464
-\c@origpublisher=\count465
-\c@savedorigpublisher=\count466
-\c@publisher=\count467
-\c@savedpublisher=\count468
-\c@language=\count469
-\c@savedlanguage=\count470
-\c@origlanguage=\count471
-\c@savedoriglanguage=\count472
-\c@pageref=\count473
-\c@savedpageref=\count474
+\c@afterword=\count410
+\c@savedafterword=\count411
+\c@annotator=\count412
+\c@savedannotator=\count413
+\c@author=\count414
+\c@savedauthor=\count415
+\c@bookauthor=\count416
+\c@savedbookauthor=\count417
+\c@commentator=\count418
+\c@savedcommentator=\count419
+\c@editor=\count420
+\c@savededitor=\count421
+\c@editora=\count422
+\c@savededitora=\count423
+\c@editorb=\count424
+\c@savededitorb=\count425
+\c@editorc=\count426
+\c@savededitorc=\count427
+\c@foreword=\count428
+\c@savedforeword=\count429
+\c@holder=\count430
+\c@savedholder=\count431
+\c@introduction=\count432
+\c@savedintroduction=\count433
+\c@namea=\count434
+\c@savednamea=\count435
+\c@nameb=\count436
+\c@savednameb=\count437
+\c@namec=\count438
+\c@savednamec=\count439
+\c@translator=\count440
+\c@savedtranslator=\count441
+\c@shortauthor=\count442
+\c@savedshortauthor=\count443
+\c@shorteditor=\count444
+\c@savedshorteditor=\count445
+\c@labelname=\count446
+\c@savedlabelname=\count447
+\c@institution=\count448
+\c@savedinstitution=\count449
+\c@lista=\count450
+\c@savedlista=\count451
+\c@listb=\count452
+\c@savedlistb=\count453
+\c@listc=\count454
+\c@savedlistc=\count455
+\c@listd=\count456
+\c@savedlistd=\count457
+\c@liste=\count458
+\c@savedliste=\count459
+\c@listf=\count460
+\c@savedlistf=\count461
+\c@location=\count462
+\c@savedlocation=\count463
+\c@organization=\count464
+\c@savedorganization=\count465
+\c@origlocation=\count466
+\c@savedoriglocation=\count467
+\c@origpublisher=\count468
+\c@savedorigpublisher=\count469
+\c@publisher=\count470
+\c@savedpublisher=\count471
+\c@language=\count472
+\c@savedlanguage=\count473
+\c@origlanguage=\count474
+\c@savedoriglanguage=\count475
+\c@pageref=\count476
+\c@savedpageref=\count477
 \shorthandwidth=\skip81
 \shortjournalwidth=\skip82
 \shortserieswidth=\skip83
@@ -1188,19 +1198,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count475
-\c@textcitetotal=\count476
-\c@textcitemaxnames=\count477
-\c@biburlbigbreakpenalty=\count478
-\c@biburlbreakpenalty=\count479
-\c@biburlnumpenalty=\count480
-\c@biburlucpenalty=\count481
-\c@biburllcpenalty=\count482
+\c@textcitecount=\count478
+\c@textcitetotal=\count479
+\c@textcitemaxnames=\count480
+\c@biburlbigbreakpenalty=\count481
+\c@biburlbreakpenalty=\count482
+\c@biburlnumpenalty=\count483
+\c@biburlucpenalty=\count484
+\c@biburllcpenalty=\count485
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count483
+\c@smartand=\count486
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1212,8 +1222,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count484
-\c@bbx:relatedtotal=\count485
+\c@bbx:relatedcount=\count487
+\c@bbx:relatedtotal=\count488
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1242,9 +1252,9 @@ File: biblatex.cfg
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count486
-\@quotereset=\count487
-LaTeX Font Info:    Trying to load font information for T1+qbk on input line 95
+\@quotelevel=\count489
+\@quotereset=\count490
+LaTeX Font Info:    Trying to load font information for T1+qbk on input line 97
 .
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\t1qbk.fd
 File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
@@ -1252,49 +1262,49 @@ File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
 (relazione_wet_copia.aux)
 \openout1 = `relazione_wet_copia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 97.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-95.
+97.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 97.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-95.
+97.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 97.
 
 (C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count488
+\scratchcounter=\count491
 \scratchdimen=\dimen323
 \scratchbox=\box126
-\nofMPsegments=\count489
-\nofMParguments=\count490
+\nofMPsegments=\count492
+\nofMParguments=\count493
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count491
+\MPscratchCnt=\count494
 \MPscratchDim=\dimen324
-\MPnumerator=\count492
-\makeMPintoPDFobject=\count493
+\MPnumerator=\count495
+\makeMPintoPDFobject=\count496
 \everyMPtoPDFconversion=\toks51
 ) (C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1379,10 +1389,10 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-\c@lstlisting=\count494
+\c@lstlisting=\count497
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 95.
+(lastpage)             ! on input line 97.
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
 (C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/lbx\british.lbx
@@ -1417,80 +1427,84 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'relazione_wet_copia.bbl' found.
 
 (relazione_wet_copia.bbl)
-Package biblatex Info: Reference section=0 on input line 95.
-Package biblatex Info: Reference segment=0 on input line 95.
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 9
-7.
+9.
  (C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for T1+qag on input line 10
-9.
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 11
+1.
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\t1qag.fd
 File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 109.
+ne 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 109.
+e 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 109.
+ine 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 109.
+e 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 109.
+ne 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 109.
+e 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 109.
+e 111.
 
 (C:\Users\sleon\AppData\Roaming\MiKTeX\2.9\tex/latex/stix\ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 116.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
 (Font)              Font shape `T1/lmss/bx/n' tried instead on input line 118.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 120.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+|\T1/qag/b/n/17.28 Tchebyshev ar-ray factor
+ []
+
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 123.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 126.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 123.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 126.
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 163.
+Package pdftex.def Info: figures//logo.png  used on input line 131.
 (pdftex.def)             Requested size: 69.72394pt x 70.0pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 74.35004pt, for example:
@@ -1502,90 +1516,209 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1{C:/Users/sleon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./figures//logo.png>] [2]
-Underfull \hbox (badness 3965) in paragraph at lines 218--218
+Overfull \hbox (24.32353pt too wide) detected at line 210
+[][][]
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 229--229
 []|\T1/lmss/m/n/12 Normalized feed coef-fi-cients to
  []
 
-<figures//array_factor_polar.png, id=24, 727.518pt x 727.0362pt>
-File: figures//array_factor_polar.png Graphic file (type png)
-<use figures//array_factor_polar.png>
-Package pdftex.def Info: figures//array_factor_polar.png  used on input line 24
-0.
-(pdftex.def)             Requested size: 218.25708pt x 218.11253pt.
-<figures//array_factor_rectangular.png, id=25, 997.326pt x 617.1858pt>
-File: figures//array_factor_rectangular.png Graphic file (type png)
-<use figures//array_factor_rectangular.png>
-Package pdftex.def Info: figures//array_factor_rectangular.png  used on input l
-ine 241.
-(pdftex.def)             Requested size: 299.2001pt x 185.15717pt.
-
-Overfull \hbox (30.91031pt too wide) in paragraph at lines 240--242
-[][] [] 
+(figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=23, page=1, 255.
+60243pt x 254.99266pt>
+File: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf Graphic file (t
+ype pdf)
+<use figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 195.63815pt x 195.17378pt.
+)
+(figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=24, page=1
+, 386.25206pt x 287.97841pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_a
+z_tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 269.00807pt x 200.56404pt.
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=25, page=2
+, 386.25206pt x 287.97841pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, page 2>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_a
+z_tex.pdf , page2 used on input line 66.
+(pdftex.def)             Requested size: 269.00807pt x 200.56404pt.
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=26, page=3
+, 386.25206pt x 287.97841pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, page 3>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_a
+z_tex.pdf , page3 used on input line 76.
+(pdftex.def)             Requested size: 269.00807pt x 200.56404pt.
+)
+(figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=27, page=1, 256.
+97256pt x 256.00142pt>
+File: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf Graphic file (t
+ype pdf)
+<use figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 195.63815pt x 194.89902pt.
+)
+(figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=28, page=1
+, 384.89145pt x 286.4054pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_e
+l_tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 269.00807pt x 200.18085pt.
+) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+|\T1/qag/b/n/17.28 Rectangular fol-ded patch
  []
 
-[3 <./figures//array_factor_polar.png (PNG copy)> <./figures//array_factor_rect
-angular.png (PNG copy)>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-51.
- (C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd
+85.
+(C:\Program Files\MiKTeX 2.9\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<figures//patch_structure.pdf, id=30, 488.82625pt x 329.23pt>
+
+LaTeX Warning: Reference `table:pifa design parameters' on page 1 undefined on 
+input line 285.
+
+
+LaTeX Warning: Reference `table:pifa design parameters' on page 1 undefined on 
+input line 285.
+
+[4 <./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf> <./figures/A//
+pcb_array_factor_with_toolbox_rectangular_az_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_az_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_az_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_az_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_p
+olar_el_tex.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_el_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 286.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/m/n' instead on input line 286.
+
+
+LaTeX Warning: Reference `table:substrate tchickness' on page 1 undefined on in
+put line 287.
+
+
+LaTeX Warning: Reference `fig:first mesh test' on page 1 undefined on input lin
+e 295.
+
+[5] [6]
+<figures//patch_structure.pdf, id=52, 488.82625pt x 329.23pt>
 File: figures//patch_structure.pdf Graphic file (type pdf)
 <use figures//patch_structure.pdf>
-Package pdftex.def Info: figures//patch_structure.pdf  used on input line 255.
+Package pdftex.def Info: figures//patch_structure.pdf  used on input line 310.
 (pdftex.def)             Requested size: 171.09174pt x 115.23222pt.
-<figures//patch_structure_2.pdf, id=31, 421.575pt x 316.18124pt>
+<figures//patch_structure_2.pdf, id=53, 421.575pt x 316.18124pt>
 File: figures//patch_structure_2.pdf Graphic file (type pdf)
 <use figures//patch_structure_2.pdf>
-Package pdftex.def Info: figures//patch_structure_2.pdf  used on input line 256
+Package pdftex.def Info: figures//patch_structure_2.pdf  used on input line 311
 .
 (pdftex.def)             Requested size: 147.55345pt x 110.66508pt.
-<figures//patch_structure_3.pdf, id=32, 421.575pt x 316.18124pt>
+<figures//patch_structure_3.pdf, id=54, 421.575pt x 316.18124pt>
 File: figures//patch_structure_3.pdf Graphic file (type pdf)
 <use figures//patch_structure_3.pdf>
-Package pdftex.def Info: figures//patch_structure_3.pdf  used on input line 257
+Package pdftex.def Info: figures//patch_structure_3.pdf  used on input line 312
 .
 (pdftex.def)             Requested size: 147.55345pt x 110.66508pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
 []\T1/lmss/m/n/12 (same con-duct-iv-ity lis-ted
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./figures//patch_structure.pdf> <./figures//patch_structure_2.pdf> <./figur
-es//patch_structure_3.pdf>]
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 377.
+Overfull \hbox (74.97609pt too wide) in paragraph at lines 326--384
+ [] 
+ []
 
 
-LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 377.
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
 
-[5]
-<figures//mesh_first_test.pdf, id=2530, 918.43124pt x 494.84875pt>
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Overfull \hbox (58.92331pt too wide) in paragraph at lines 437--448
+ [] 
+ []
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+<figures//mesh_first_test.pdf, id=55, 918.43124pt x 494.84875pt>
 File: figures//mesh_first_test.pdf Graphic file (type pdf)
 <use figures//mesh_first_test.pdf>
-Package pdftex.def Info: figures//mesh_first_test.pdf  used on input line 418.
+Package pdftex.def Info: figures//mesh_first_test.pdf  used on input line 469.
 (pdftex.def)             Requested size: 275.5315pt x 148.45576pt.
 
+Overfull \hbox (35.98006pt too wide) in paragraph at lines 469--470
+ [] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
+
+
+Package multicol Warning: Floats and marginpars not allowed inside `multicols' 
+environment!.
 
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//minGamma_vs_mesh_level.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//minGamma_vs_mesh_level.pdf, id=2531, 561.09625pt x 421.575pt>
+<figures//minGamma_vs_mesh_level.pdf, id=56, 561.09625pt x 421.575pt>
 File: figures//minGamma_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//minGamma_vs_mesh_level.pdf>
 Package pdftex.def Info: figures//minGamma_vs_mesh_level.pdf  used on input lin
-e 431.
+e 479.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 431--432
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 479--480
 [][] 
  []
 
@@ -1593,14 +1726,14 @@ Overfull \hbox (21.59782pt too wide) in paragraph at lines 431--432
 
 pdfTeX warning: pdflatex.exe (file ./figures//DeltaF_vs_mesh_level.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//DeltaF_vs_mesh_level.pdf, id=2532, 561.09625pt x 421.575pt>
+<figures//DeltaF_vs_mesh_level.pdf, id=57, 561.09625pt x 421.575pt>
 File: figures//DeltaF_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//DeltaF_vs_mesh_level.pdf>
 Package pdftex.def Info: figures//DeltaF_vs_mesh_level.pdf  used on input line 
-436.
+484.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 436--437
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 484--485
 [][] 
  []
 
@@ -1608,40 +1741,41 @@ Overfull \hbox (21.59782pt too wide) in paragraph at lines 436--437
 
 pdfTeX warning: pdflatex.exe (file ./figures//F_vs_mesh_level.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//F_vs_mesh_level.pdf, id=2533, 561.09625pt x 421.575pt>
+<figures//F_vs_mesh_level.pdf, id=58, 561.09625pt x 421.575pt>
 File: figures//F_vs_mesh_level.pdf Graphic file (type pdf)
 <use figures//F_vs_mesh_level.pdf>
-Package pdftex.def Info: figures//F_vs_mesh_level.pdf  used on input line 441.
+Package pdftex.def Info: figures//F_vs_mesh_level.pdf  used on input line 489.
 (pdftex.def)             Requested size: 168.33017pt x 126.47346pt.
 
-Overfull \hbox (21.59782pt too wide) in paragraph at lines 441--442
+Overfull \hbox (21.59782pt too wide) in paragraph at lines 489--490
 [][] 
  []
 
-[6] [7 <./figures//mesh_first_test.pdf> <./figures//minGamma_vs_mesh_level.pdf>
- <./figures//DeltaF_vs_mesh_level.pdf> <./figures//F_vs_mesh_level.pdf>]
-<figures//gamma.png, id=2566, 1164.5106pt x 627.7854pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures//gamma.png, id=59, 1164.5106pt x 627.7854pt>
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 466.
+Package pdftex.def Info: figures//gamma.png  used on input line 505.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
-<figures//impedances.png, id=2567, 1163.0652pt x 636.4578pt>
+<figures//impedances.png, id=60, 1163.0652pt x 636.4578pt>
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 467.
+Package pdftex.def Info: figures//impedances.png  used on input line 506.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//First_Contour_LOG.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//First_Contour_LOG.pdf, id=2568, 1065.9825pt x 651.43375pt>
+<figures//First_Contour_LOG.pdf, id=61, 1065.9825pt x 651.43375pt>
 File: figures//First_Contour_LOG.pdf Graphic file (type pdf)
 <use figures//First_Contour_LOG.pdf>
-Package pdftex.def Info: figures//First_Contour_LOG.pdf  used on input line 493
+Package pdftex.def Info: figures//First_Contour_LOG.pdf  used on input line 532
 .
 (pdftex.def)             Requested size: 266.49496pt x 162.85803pt.
 
-Overfull \hbox (21.94353pt too wide) in paragraph at lines 493--494
+Overfull \hbox (21.94353pt too wide) in paragraph at lines 532--533
 [][] 
  []
 
@@ -1649,165 +1783,223 @@ Overfull \hbox (21.94353pt too wide) in paragraph at lines 493--494
 
 pdfTeX warning: pdflatex.exe (file ./figures//Second_Contour_LOG.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//Second_Contour_LOG.pdf, id=2569, 1028.84375pt x 610.28pt>
+<figures//Second_Contour_LOG.pdf, id=62, 1028.84375pt x 610.28pt>
 File: figures//Second_Contour_LOG.pdf Graphic file (type pdf)
 <use figures//Second_Contour_LOG.pdf>
-Package pdftex.def Info: figures//Second_Contour_LOG.pdf  used on input line 49
-8.
+Package pdftex.def Info: figures//Second_Contour_LOG.pdf  used on input line 53
+7.
 (pdftex.def)             Requested size: 257.21031pt x 152.56963pt.
 
-Overfull \hbox (12.65887pt too wide) in paragraph at lines 498--499
+Overfull \hbox (12.65887pt too wide) in paragraph at lines 537--538
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gamma1.pdf, id=2570, 939.51pt x 494.84875pt>
+<figures//gamma1.pdf, id=63, 939.51pt x 494.84875pt>
 File: figures//gamma1.pdf Graphic file (type pdf)
 <use figures//gamma1.pdf>
-Package pdftex.def Info: figures//gamma1.pdf  used on input line 509.
+Package pdftex.def Info: figures//gamma1.pdf  used on input line 548.
 (pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
-<figures//gamma3.pdf, id=2571, 941.5175pt x 521.95pt>
+<figures//gamma3.pdf, id=64, 941.5175pt x 521.95pt>
 File: figures//gamma3.pdf Graphic file (type pdf)
 <use figures//gamma3.pdf>
-Package pdftex.def Info: figures//gamma3.pdf  used on input line 512.
+Package pdftex.def Info: figures//gamma3.pdf  used on input line 551.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-<figures//gamma_wfeed.pdf, id=2572, 941.5175pt x 521.95pt>
+<figures//gamma_wfeed.pdf, id=65, 941.5175pt x 521.95pt>
 File: figures//gamma_wfeed.pdf Graphic file (type pdf)
 <use figures//gamma_wfeed.pdf>
-Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 522.
+Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 561.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-<figures//matching_wfeed.pdf, id=2573, 939.51pt x 504.88625pt>
+<figures//matching_wfeed.pdf, id=66, 939.51pt x 504.88625pt>
 File: figures//matching_wfeed.pdf Graphic file (type pdf)
 <use figures//matching_wfeed.pdf>
-Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 525.
+Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 564.
 (pdftex.def)             Requested size: 234.87692pt x 126.22124pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gain_3D_pifa.pdf, id=2574, 421.575pt x 316.18124pt>
+<figures//gain_3D_pifa.pdf, id=67, 421.575pt x 316.18124pt>
 File: figures//gain_3D_pifa.pdf Graphic file (type pdf)
 <use figures//gain_3D_pifa.pdf>
-Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 536.
+Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 575.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-<figures//gain_azimuth_pifa.pdf, id=2575, 421.575pt x 316.18124pt>
+<figures//gain_azimuth_pifa.pdf, id=68, 421.575pt x 316.18124pt>
 File: figures//gain_azimuth_pifa.pdf Graphic file (type pdf)
 <use figures//gain_azimuth_pifa.pdf>
-Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 540
+Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 579
 .
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-<figures//gain_elevation_pifa.pdf, id=2576, 421.575pt x 317.185pt>
+<figures//gain_elevation_pifa.pdf, id=69, 421.575pt x 317.185pt>
 File: figures//gain_elevation_pifa.pdf Graphic file (type pdf)
 <use figures//gain_elevation_pifa.pdf>
 Package pdftex.def Info: figures//gain_elevation_pifa.pdf  used on input line 5
-43.
+82.
 (pdftex.def)             Requested size: 210.78697pt x 158.5921pt.
-<figures//pifa_currents.pdf, id=2577, 421.575pt x 316.18124pt>
+<figures//pifa_currents.pdf, id=70, 421.575pt x 316.18124pt>
 File: figures//pifa_currents.pdf Graphic file (type pdf)
 <use figures//pifa_currents.pdf>
-Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 546.
+Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 585.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 
-LaTeX Warning: Float too large for page by 26.00716pt on input line 552.
+LaTeX Warning: Float too large for page by 26.00716pt on input line 591.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
-<figures//mesh_levels.png, id=2581, 1143.3114pt x 627.3036pt>
+<figures//mesh_levels.png, id=71, 1143.3114pt x 627.3036pt>
 File: figures//mesh_levels.png Graphic file (type png)
 <use figures//mesh_levels.png>
-Package pdftex.def Info: figures//mesh_levels.png  used on input line 572.
+Package pdftex.def Info: figures//mesh_levels.png  used on input line 596.
 (pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gain_patch.png, id=2582, 776.1798pt x 509.7444pt>
+<figures//gain_patch.png, id=72, 776.1798pt x 509.7444pt>
 File: figures//gain_patch.png Graphic file (type png)
 <use figures//gain_patch.png>
-Package pdftex.def Info: figures//gain_patch.png  used on input line 578.
+Package pdftex.def Info: figures//gain_patch.png  used on input line 602.
 (pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-<figures//gain_patch_v.png, id=2583, 391.2216pt x 285.2256pt>
+<figures//gain_patch_v.png, id=73, 391.2216pt x 285.2256pt>
 File: figures//gain_patch_v.png Graphic file (type png)
 <use figures//gain_patch_v.png>
-Package pdftex.def Info: figures//gain_patch_v.png  used on input line 579.
+Package pdftex.def Info: figures//gain_patch_v.png  used on input line 603.
 (pdftex.def)             Requested size: 146.73235pt x 106.97673pt.
-<figures//gain_patch_h.png, id=2584, 776.1798pt x 509.7444pt>
+<figures//gain_patch_h.png, id=74, 776.1798pt x 509.7444pt>
 File: figures//gain_patch_h.png Graphic file (type png)
 <use figures//gain_patch_h.png>
-Package pdftex.def Info: figures//gain_patch_h.png  used on input line 580.
+Package pdftex.def Info: figures//gain_patch_h.png  used on input line 604.
 (pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-[9 <./figures//gamma.png (PNG copy)> <./figures//impedances.png (PNG copy)>]
-<figures//pcb_shorting_pins_3d_view.pdf, id=2588, 1156.32pt x 564.1075pt>
+[7 <./figures//patch_structure.pdf> <./figures//patch_structure_2.pdf> <./figur
+es//patch_structure_3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 618--618
+[]|\T1/lmss/m/n/12 Broadside
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 619--626
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 627--634
+[][] 
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 635--642
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 643--650
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[]|\T1/lmss/m/n/12 Off
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+\T1/lmss/m/n/12 Boresight
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 661--668
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 669--676
+[][] 
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 677--684
+[][] 
+ []
+
+
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 685--692
+[][] 
+ []
+
+
+Overfull \hbox (39.03246pt too wide) in paragraph at lines 614--695
+ [] 
+ []
+
+
+Overfull \hbox (11.59874pt too wide) in paragraph at lines 709--724
+ [] 
+ []
+
+<figures//pcb_shorting_pins_3d_view.pdf, id=2569, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_3d_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_3d_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_3d_view.pdf  used on input 
-line 596.
+line 730.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
-<figures//pcb_shorting_pins_top_view.pdf, id=2589, 1156.32pt x 564.1075pt>
+<figures//pcb_shorting_pins_top_view.pdf, id=2570, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_top_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_top_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_top_view.pdf  used on input
- line 597.
+ line 731.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 6
-03.
-(C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\ts1qbk.fd
-File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
-) [10 <./figures//First_Contour_LOG.pdf> <./figures//Second_Contour_LOG.pdf>]
+
 
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_azymuth_comparison.
 pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
-<figures//pifa_pcb_null_azymuth_comparison.pdf, id=2603, 763.85374pt x 703.6287
+<figures//pifa_pcb_null_azymuth_comparison.pdf, id=2571, 763.85374pt x 703.6287
 5pt>
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 624.
+ input line 739.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_elevation_compariso
 n.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<figures//pifa_pcb_null_elevation_comparison.pdf, id=2604, 673.51625pt x 627.34
+<figures//pifa_pcb_null_elevation_comparison.pdf, id=2572, 673.51625pt x 627.34
 375pt>
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 628.
+on input line 743.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//pifa_pcb_array_azimuth_comparison.pdf, id=2605, 1156.32pt x 564.1075p
+<figures//pifa_pcb_array_azimuth_comparison.pdf, id=2573, 1156.32pt x 564.1075p
 t>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 637.
+n input line 752.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 637--638
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 752--753
 [][] 
  []
 
-<figures//pifa_pcb_array_elevation_comparison.pdf, id=2606, 1156.32pt x 564.107
+<figures//pifa_pcb_array_elevation_comparison.pdf, id=2574, 1156.32pt x 564.107
 5pt>
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 641.
+ on input line 756.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 641--642
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 756--757
 [][] 
  []
 
@@ -1816,19 +2008,76 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 650.
+Package pdftex.def Info: figures//gamma.png  used on input line 765.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 651.
+Package pdftex.def Info: figures//impedances.png  used on input line 766.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 650--652
+Overfull \hbox (2.556pt too wide) in paragraph at lines 765--767
 [][] [] 
  []
 
-[11 <./figures//gamma1.pdf> <./figures//gamma3.pdf>] [12 <./figures//gamma_wfee
-d.pdf> <./figures//matching_wfeed.pdf>] 
+[8 <./figures//minGamma_vs_mesh_level.pdf> <./figures//DeltaF_vs_mesh_level.pdf
+> <./figures//F_vs_mesh_level.pdf>] [9 <./figures//gamma.png (PNG copy)> <./fig
+ures//impedances.png (PNG copy)>] [10 <./figures//First_Contour_LOG.pdf> <./fig
+ures//Second_Contour_LOG.pdf>] [11 <./figures//gamma1.pdf> <./figures//gamma3.p
+df>]
+<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=2639, 317.185pt x 316.18
+124pt>
+File: figures//pcb_pifa_array_azimuth_90_comparison.pdf Graphic file (type pdf)
+
+<use figures//pcb_pifa_array_azimuth_90_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_azimuth_90_comparison.pdf  use
+d on input line 781.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (36.31639pt too wide) in paragraph at lines 781--782
+[][] 
+ []
+
+<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=2640, 317.185pt x 316.
+18124pt>
+File: figures//pcb_pifa_array_elevation_90_comparison.pdf Graphic file (type pd
+f)
+<use figures//pcb_pifa_array_elevation_90_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_elevation_90_comparison.pdf  u
+sed on input line 785.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (36.31639pt too wide) in paragraph at lines 785--786
+[][] 
+ []
+
+<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=2641, 317.185pt x 316.18
+124pt>
+File: figures//pcb_pifa_array_azimuth_45_comparison.pdf Graphic file (type pdf)
+
+<use figures//pcb_pifa_array_azimuth_45_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_azimuth_45_comparison.pdf  use
+d on input line 790.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (36.31639pt too wide) in paragraph at lines 790--791
+[][] 
+ []
+
+<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=2642, 317.185pt x 316.
+18124pt>
+File: figures//pcb_pifa_array_elevation_45_comparison.pdf Graphic file (type pd
+f)
+<use figures//pcb_pifa_array_elevation_45_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_elevation_45_comparison.pdf  u
+sed on input line 794.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (36.31639pt too wide) in paragraph at lines 794--795
+[][] 
+ []
+
+[12 <./figures//gamma_wfeed.pdf> <./figures//matching_wfeed.pdf>]
+
 AED: lastpage setting LastPage
 [13] [14 <./figures//gain_3D_pifa.pdf> <./figures//gain_azimuth_pifa.pdf> <./fi
 gures//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>] [15 <./figures/
@@ -1837,44 +2086,49 @@ gures//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>] [15 <./figures/
 es//pcb_shorting_pins_3d_view.pdf> <./figures//pcb_shorting_pins_top_view.pdf>]
 [16 <./figures//pifa_pcb_null_azymuth_comparison.pdf> <./figures//pifa_pcb_null
 _elevation_comparison.pdf>] [17 <./figures//pifa_pcb_array_azimuth_comparison.p
-df> <./figures//pifa_pcb_array_elevation_comparison.pdf>]
-(relazione_wet_copia.aux)
+df> <./figures//pifa_pcb_array_elevation_comparison.pdf>] [18 <./figures//pcb_p
+ifa_array_azimuth_90_comparison.pdf> <./figures//pcb_pifa_array_elevation_90_co
+mparison.pdf> <./figures//pcb_pifa_array_azimuth_45_comparison.pdf> <./figures/
+/pcb_pifa_array_elevation_45_comparison.pdf>] (relazione_wet_copia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 \openout1 = `relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45734 strings out of 478647
- 1060172 string characters out of 2853193
- 1583133 words of memory out of 3000000
- 63152 multiletter control sequences out of 15000+600000
- 526555 words of font info for 160 fonts, out of 8000000 for 9000
+ 46245 strings out of 478647
+ 1075869 string characters out of 2853193
+ 1701770 words of memory out of 3000000
+ 63635 multiletter control sequences out of 15000+600000
+ 534173 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,22n,94p,3081b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2.9/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/q
-bkb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sftt1440.pfb><C:/Users/sleon/AppData/Roaming/MiK
-TeX/2.9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roamin
-g/MiKTeX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Ro
-aming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppDat
-a/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/Ap
-pData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sle
-on/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (17 pages, 2312548 bytes).
+les/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/tex-gyre/qbkb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre
+/qbkr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1440.pfb><C:/Users/sleon/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/s
+leon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Use
+rs/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:
+/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pf
+b><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-maths
+f.pfb>
+Output written on relazione_wet_copia.pdf (18 pages, 2261269 bytes).
 PDF statistics:
- 2959 PDF objects out of 2984 (max. 8388607)
+ 2968 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
