@@ -21,7 +21,7 @@
      showgrid="false"
      inkscape:zoom="2.2921207"
      inkscape:cx="236.46224"
-     inkscape:cy="190.435"
+     inkscape:cy="295.14153"
      inkscape:window-width="3440"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -138,39 +138,6 @@
      x2="472.77"
      y2="9.21"
      id="line34" />
-  <text
-     class="cls-3"
-     transform="translate(31.77 361.37)"
-     id="text52">2.<tspan
-   class="cls-4"
-   x="7.2"
-   y="0"
-   id="tspan36">5</tspan><tspan
-   class="cls-5"
-   x="89.23"
-   y="0"
-   id="tspan38">3</tspan><tspan
-   x="171.6"
-   y="0"
-   id="tspan40">3.</tspan><tspan
-   class="cls-6"
-   x="178.8"
-   y="0"
-   id="tspan42">5</tspan><tspan
-   class="cls-7"
-   x="260.82"
-   y="0"
-   id="tspan44">4</tspan><tspan
-   x="343.19"
-   y="0"
-   id="tspan46">4.</tspan><tspan
-   class="cls-8"
-   x="350.39"
-   y="0"
-   id="tspan48">5</tspan><tspan
-   x="432.42"
-   y="0"
-   id="tspan50">5</tspan></text>
   <line
      class="cls-2"
      x1="38.77"
@@ -313,40 +280,49 @@
      id="line100" />
   <text
      class="cls-3"
-     transform="translate(18.77 350.87)"
-     id="text102">-40</text>
+     id="text102"
+     x="-12.205681"
+     y="350.87">-40</text>
   <text
      class="cls-3"
-     transform="translate(18.77 308.06)"
-     id="text104">-35</text>
+     id="text104"
+     x="-12.205681"
+     y="308.06">-35</text>
   <text
      class="cls-3"
-     transform="translate(18.77 265.25)"
-     id="text106">-30</text>
+     id="text106"
+     x="-12.205681"
+     y="265.25">-30</text>
   <text
      class="cls-3"
-     transform="translate(18.77 222.43)"
-     id="text108">-25</text>
+     id="text108"
+     x="-12.205681"
+     y="222.42999">-25</text>
   <text
      class="cls-3"
-     transform="translate(18.77 179.62)"
-     id="text110">-20</text>
+     id="text110"
+     x="-12.205681"
+     y="179.62">-20</text>
   <text
      class="cls-3"
-     transform="translate(18.77 136.81)"
-     id="text112">-15</text>
+     id="text112"
+     x="-12.205681"
+     y="136.81">-15</text>
   <text
      class="cls-3"
-     transform="translate(18.77 94)"
-     id="text114">-10</text>
+     id="text114"
+     x="-12.205681"
+     y="94">-10</text>
   <text
      class="cls-3"
-     transform="translate(24.77 51.18)"
-     id="text116">-5</text>
+     id="text116"
+     x="-6.2056808"
+     y="51.18">-5</text>
   <text
      class="cls-3"
-     transform="translate(28.77 8.37)"
-     id="text118">0</text>
+     id="text118"
+     x="-2.2056808"
+     y="8.3699999">0</text>
   <polyline
      class="cls-13"
      points="38.77 210.79 45.06 216.02 51.35 232.85 57.64 201.88 63.93 243.81 70.22 315.65 76.51 204.02 82.8 242.23 89.09 203.39 95.38 215.07 101.67 215.86 107.95 237.37 114.25 199.05 120.53 244.49 126.83 208.5 133.12 5.49 139.41 276.48 145.69 280.22 151.98 194.34 158.27 288.06 164.56 247.12 170.85 214.59 177.14 274.13 183.43 269.94 189.72 271.92 196.01 243.42 202.3 238.13 208.59 257.67 214.88 230.7 221.17 231.43 227.46 249.2 233.75 196.75 240.04 272.55 246.33 219.75 252.62 232.06 258.91 238.16 265.2 197.03 271.49 227.26 277.78 235.07 284.07 199.04 290.36 195.38 296.65 203.01 302.94 331.65 309.23 226.95 315.52 188.35 321.81 279.57 328.1 210.59 334.39 216.89 340.68 191.73 346.97 214.19 353.26 177.32 359.55 202.17 365.84 201.95 372.13 5.51 378.42 194.32 384.71 186.55 391 187.69 397.29 180.18 403.58 178.64 409.87 192.74 416.16 194.74 422.45 179.97 428.74 175.84 435.03 173.42 441.32 184.69 447.61 192.87 453.9 186.15 460.19 181.18 466.48 5.5 472.77 195.1"
@@ -355,38 +331,82 @@
   <text
      xml:space="preserve"
      style="font-size:16px;line-height:1.25;font-family:sans-serif"
-     x="180.60291"
-     y="385.73206"
+     x="123.45058"
+     y="410.59982"
      id="text16234"><tspan
        sodipodi:role="line"
        id="tspan16232"
-       x="180.60291"
-       y="385.73206">\texttt{MaxEdgeLength}</tspan></text>
-  <text
-     class="cls-3"
-     id="text64"
-     style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-     x="465.02466"
-     y="381.10876">$\cdot 10^{-3}$ (m)</text>
+       x="123.45058"
+       y="410.59982">\texttt{MaxEdgeLength} $\left(\cdot 10^{-3}\right)$</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:16px;line-height:1.25;font-family:sans-serif"
      x="-214.41069"
-     y="3.1950755"
+     y="-27.780605"
      id="text10224"
      transform="rotate(-90)"><tspan
        sodipodi:role="line"
        id="tspan10222"
        x="-214.41069"
-       y="3.1950755">$\left|\Gamma\right|_{\min}$</tspan></text>
+       y="-27.780605">$\left|\Gamma\right|_{\min ,\text{dB}}$</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:16px;line-height:1.25;font-family:sans-serif"
-     x="21.96685"
-     y="-15.600001"
-     id="text1640"><tspan
+     x="30.539404"
+     y="375.5376"
+     id="text2057"><tspan
        sodipodi:role="line"
-       id="tspan1638"
-       x="21.96685"
-       y="-15.600001">(dB)</tspan></text>
+       id="tspan2055"
+       x="30.539404"
+       y="375.5376">2.5</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1.25;font-family:sans-serif"
+     x="118.23112"
+     y="375.5376"
+     id="text4127"><tspan
+       sodipodi:role="line"
+       id="tspan4125"
+       x="118.23112"
+       y="375.5376">3</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1.25;font-family:sans-serif"
+     x="202.43262"
+     y="375.5376"
+     id="text4593"><tspan
+       sodipodi:role="line"
+       id="tspan4591"
+       x="202.43262"
+       y="375.5376">3.5</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1.25;font-family:sans-serif"
+     x="291.43317"
+     y="375.5376"
+     id="text4969"><tspan
+       sodipodi:role="line"
+       id="tspan4967"
+       x="291.43317"
+       y="375.5376">4</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1.25;font-family:sans-serif"
+     x="379.56119"
+     y="375.4165"
+     id="text5291"><tspan
+       sodipodi:role="line"
+       id="tspan5289"
+       x="379.56119"
+       y="375.4165">4.5</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;line-height:1.25;font-family:sans-serif"
+     x="466.38031"
+     y="375.4165"
+     id="text5801"><tspan
+       sodipodi:role="line"
+       id="tspan5799"
+       x="466.38031"
+       y="375.4165">5</tspan></text>
 </svg>

@@ -291,127 +291,128 @@
        class="cls-3"
        id="text46"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="136.4693"
-       y="521.2356">2.5</text>
+       x="137.43251"
+       y="535.68378">2.5</text>
     <text
        class="cls-3"
        id="text48"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="268.20929"
-       y="521.2356">3</text>
+       x="269.17249"
+       y="535.68378">3</text>
     <text
        class="cls-3"
        id="text50"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="391.5593"
-       y="521.2356">3.5</text>
+       x="392.52249"
+       y="535.68378">3.5</text>
     <text
        class="cls-3"
        id="text52"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="523.29926"
-       y="521.2356">4</text>
+       x="524.26245"
+       y="535.68378">4</text>
     <text
        class="cls-3"
        id="text54"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="646.63928"
-       y="521.2356">4.5</text>
+       x="647.60248"
+       y="535.68378">4.5</text>
     <text
        class="cls-3"
        id="text56"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="778.37927"
-       y="521.2356">5</text>
+       x="779.34247"
+       y="535.68378">5</text>
     <text
        class="cls-3"
        id="text58"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="901.72925"
-       y="521.2356">5.5</text>
+       x="902.69244"
+       y="535.68378">5.5</text>
     <text
        class="cls-3"
        id="text60"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="1033.4694"
-       y="521.2356">6</text>
+       x="1034.4326"
+       y="535.68378">6</text>
     <text
        class="cls-3"
        id="text64"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="1032.3175"
-       y="543.41479">$\cdot 10^{-3}$ (m)</text>
+       x="1033.2808"
+       y="557.86298">$\cdot 10^{-3}$ (m)</text>
     <text
        class="cls-3"
        id="text100"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="502.26669">-60</text>
     <text
        class="cls-3"
        id="text102"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="425.96664">-50</text>
     <text
        class="cls-3"
        id="text104"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="349.66666">-40</text>
     <text
        class="cls-3"
        id="text106"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="273.36667">-30</text>
     <text
        class="cls-3"
        id="text108"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="197.06668">-20</text>
     <text
        class="cls-3"
        id="text110"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="116.0004"
+       x="94.809761"
        y="120.76666">-10</text>
     <text
        class="cls-3"
        id="text112"
        style="font-size:10px;font-family:ArialMT, Arial;fill:#262626"
-       x="125.0004"
+       x="103.80976"
        y="44.466671">0</text>
     <text
        xml:space="preserve"
        style="font-size:16px;line-height:1.25;font-family:sans-serif"
-       x="62.608696"
-       y="292.81604"
-       id="text10224"><tspan
+       x="-285.78412"
+       y="60.973942"
+       id="text10224"
+       transform="rotate(-90)"><tspan
          sodipodi:role="line"
          id="tspan10222"
-         x="62.608696"
-         y="292.81604">$|\Gamma|$</tspan></text>
+         x="-285.78412"
+         y="60.973942">$\left|\Gamma\right|_{\min}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;line-height:1.25;font-family:sans-serif"
-       x="487.23746"
-       y="552.88293"
+       x="495.90634"
+       y="562.51508"
        id="text16234"><tspan
          sodipodi:role="line"
          id="tspan16232"
-         x="487.23746"
-         y="552.88293">\texttt{MaxEdgeLength}</tspan></text>
+         x="495.90634"
+         y="562.51508">\texttt{MaxEdgeLength}</tspan></text>
   </g>
   <text
      xml:space="preserve"
      style="font-size:16px;line-height:1.25;font-family:sans-serif"
-     x="125.21739"
-     y="23.117058"
+     x="106.91639"
+     y="9.6321077"
      id="text1640"><tspan
        sodipodi:role="line"
        id="tspan1638"
-       x="125.21739"
-       y="23.117058">(dB)</tspan></text>
+       x="106.91639"
+       y="9.6321077">(dB)</tspan></text>
 </svg>

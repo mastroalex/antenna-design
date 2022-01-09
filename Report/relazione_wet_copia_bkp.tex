@@ -464,27 +464,29 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 		\begin{subfigure}[t]{0.32\linewidth}
 				\def\svgwidth{\linewidth}
 			\tiny{\input{minGamma_vs_mesh_level_tex.pdf_tex}}
-			\hfill
 			%\includegraphics[scale=0.3]{minGamma_vs_mesh_level.pdf}
 			\caption{}
 			\label{eq:minG vs mesh}
 		\end{subfigure}
+	\hfill
 		\begin{subfigure}[t]{0.32\linewidth}
 			%\includegraphics[scale=0.3]{DeltaF_vs_mesh_level.pdf}
 				\def\svgwidth{\linewidth}
 			\tiny{\input{DeltaF_vs_mesh_level_tex.pdf_tex}}
-			\hfill
+			
 			\caption{}
 			\label{eq:Df vs mesh}
 		\end{subfigure}
+	\hfill
 		\begin{subfigure}[t]{0.32\linewidth}
 			%\includegraphics[scale=0.3]{F_vs_mesh_level.pdf}
 				\def\svgwidth{\linewidth}
 			\tiny{\input{F_vs_mesh_level_tex.pdf_tex}}
-		\hfill
+	
 			\caption{}
 			\label{eq:f vs mesh}
 		\end{subfigure}
+		\hfill
 		\caption{Comparison of the meshing parameter $e_{\max}$ with minimum of reflection coefficient (a), variation of the resonant frequency with respect to the design one (the dotted line represents the value with respect to automatic meshing) (b), resonant frequency identified by the minimum of $\Gamma$ (c)} 
 	\end{center}
 \end{figure}
@@ -504,16 +506,25 @@ After the selection of the maximum edge length of the mesh (consequently, of its
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patch}$). has been selected from the second simulation range so that a more specific simulation could be run. In this third case (\textbf{\cref{fig:Gamma couple LpWp}}), the reflection coefficient has been plotted in a range around the resonant frequency ($[2.0\,GHz, 2.2\,GHz]$) in order to find which is the best combination for the patch size that makes actually resonate the antenna at the project frequency. Another determining and discriminating factor was the input impedance ($Z_{in}=R_{in}+\jmath Y_{in}$, where the real part of $Z_{in}$ is the imput resistance, while the imaginary one is the input reactance), because a impedance matching (at $50\,\Omega$) needed to be achieved for the project. In the ideal case, of course, a reflection coefficient $\Gamma^{(id)}=0.00\,\to\,-\infty\,dB$ would be required in order to reach the perfect impedance matching (perfect matching with input resistance at $50.00\,\Omega$ and null reactance). As an actual result, before seeking a better matching, the $\Gamma$ value related to all the couple candidates ($(L_{patch},W_{patch})$) spaced ranged from $-24\,dB$ to $-30\,dB$. The two best candidates of the $\Gamma$ value related to the coupled size ($L_{patch},W_{patch}$) are plotted in \textbf{\cref{fig:Gamma couple LpWp}}. Two refined plots (with narrower frequency steps in the same range) of $\Gamma$ and $Z$ for one of the candidates are represented in \textbf{\cref{fig:Gamma and Z previa wfeed}}. An additional design strategy contributed to the final patch size choice: the feed location varying across the patch width direction ($w_{feed}$). Thus, a parametrical impedance matching study depending on that has been run on the best couple candidates and a few others from the set of 20. The resulting values are listed in \textbf{\cref{table:Gamma and Z}} and the plots are shown in \textbf{\cref{fig:Gamma and Z}}
-	\begin{figure}
-		\begin{center}[h]
-		\includegraphics[width = 0.5\linewidth]{gamma.png}
-		\includegraphics[width = 0.5\linewidth]{impedances.png}
-		\caption{Reflection coefficient (left) and impedance (right) plots depending on $f\,\in\,[2.0,2.1\,GHz]$}
+	\begin{figure}[bt!]
+		\begin{subfigure}[t]{0.49\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{gamma_pre_wfeed_tex.pdf_tex}}
+		%\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[t]{0.47\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{impedence_pre_wfeed_tex.pdf_tex}}
+		%\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
+		\caption{}
+	\end{subfigure}
+		\caption{Reflection coefficient (a) and impedance (b) plots depending on $f\,\in\,[2.0,2.1\,GHz]$}
         \label{fig:Gamma and Z previa wfeed}
-	\end{center}
 	\end{figure}
 
-\begin{table}
+\begin{table}[bt!]
 	\begin{center}
 	{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{2cm}|m{2cm}||}
 \hline
@@ -530,21 +541,23 @@ A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patc
 	\label{table:Gamma and Z}
 	\end{center}
 \end{table}
-\begin{figure}[h]
-	\begin{center}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
+\begin{figure}[bt!]
+		\begin{subfigure}{0.48\linewidth}
+			\def\svgwidth{\linewidth}
+			\tiny{\input{First_Contour_LOG_tex.pdf_tex}}
+			%\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
 			\caption{}
 			\label{fig:first contour}
 		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
+	\hfill
+		\begin{subfigure}{0.48\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{Second_Contour_LOG_2_tex.pdf_tex}}
+			%\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
 			\caption{}
 			\label{fig:second contour}
 		\end{subfigure}
-	\caption{\fontfamily{lmss}\selectfont
-		\color{gray}First (a) and second (b) contour plots depending on the patch size ($L_{patch} and W_{patch}$ variations)}
-	\end{center}  
+	\caption{First (a) and second (b) contour plots depending on the patch size ($L_{patch}$ and $W_{patch}$ variations)}
 \end{figure}
 \begin{figure}
 	\begin{center}

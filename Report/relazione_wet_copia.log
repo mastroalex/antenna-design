@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JAN 2022 08:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JAN 2022 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1663,10 +1663,6 @@ Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page2 used
  on input line 66.
 (pdftex.def)             Requested size: 156.5165pt x 141.45502pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 75--469
-
- []
-
 (./figures/B//DeltaF_vs_mesh_level_tex.pdf_tex
 <figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19463, page=1, 452.24368pt x 314.1
 9728pt>
@@ -1683,10 +1679,6 @@ Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page2 used o
 n input line 64.
 (pdftex.def)             Requested size: 156.5165pt x 108.73856pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 73--477
-
- []
-
 (./figures/B//F_vs_mesh_level_tex.pdf_tex
 <figures/B//F_vs_mesh_level_tex.pdf, id=19465, page=1, 471.96033pt x 313.18785p
 t>
@@ -1702,24 +1694,75 @@ File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page2 used on inp
 ut line 65.
 (pdftex.def)             Requested size: 156.5165pt x 103.86363pt.
+) [7 <./figures/B//mesh_first_test_tex.pdf>] (./figures/B//gamma_pre_wfeed_tex.
+pdf_tex
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19474, page=1, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 239.66309pt x 179.75116pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19475, page=2, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page2 used on inp
+ut line 64.
+(pdftex.def)             Requested size: 239.66309pt x 179.75116pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19476, page=3, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page3 used on inp
+ut line 74.
+(pdftex.def)             Requested size: 239.66309pt x 179.75116pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19477, page=4, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page4 used on inp
+ut line 76.
+(pdftex.def)             Requested size: 239.66309pt x 179.75116pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 74--485
-
- []
-
-[7 <./figures/B//mesh_first_test_tex.pdf>]
-<figures//gamma.png, id=19474, 1164.5106pt x 627.7854pt>
-File: figures//gamma.png Graphic file (type png)
-<use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 509.
-(pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
-<figures//impedances.png, id=19475, 1163.0652pt x 636.4578pt>
-File: figures//impedances.png Graphic file (type png)
-<use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 510.
-(pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
- [8 <./figures/B//minGamma_vs_mesh_level_tex.pdf> <./figures/B//minGamma_vs_mes
-h_level_tex.pdf
+(./figures/B//impedence_pre_wfeed_tex.pdf_tex
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19478, page=1, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 229.87894pt x 169.91837pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19479, page=2, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page2 used on
+ input line 64.
+(pdftex.def)             Requested size: 229.87894pt x 169.91837pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19480, page=3, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page3 used on
+ input line 75.
+(pdftex.def)             Requested size: 229.87894pt x 169.91837pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19481, page=4, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page4 used on
+ input line 77.
+(pdftex.def)             Requested size: 229.87894pt x 169.91837pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19482, page=5, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page5 used on
+ input line 79.
+(pdftex.def)             Requested size: 229.87894pt x 169.91837pt.
+) [8 <./figures/B//minGamma_vs_mesh_level_tex.pdf> <./figures/B//minGamma_vs_me
+sh_level_tex.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//minGamma_vs_mesh_level_tex.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
@@ -1739,135 +1782,191 @@ nclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//F_vs_mesh_level_tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->]
-
-pdfTeX warning: pdflatex.exe (file ./figures//First_Contour_LOG.pdf): PDF inclu
-sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//First_Contour_LOG.pdf, id=19483, 1065.9825pt x 651.43375pt>
-File: figures//First_Contour_LOG.pdf Graphic file (type pdf)
-<use figures//First_Contour_LOG.pdf>
-Package pdftex.def Info: figures//First_Contour_LOG.pdf  used on input line 536
-.
-(pdftex.def)             Requested size: 266.49496pt x 162.85803pt.
-
-Overfull \hbox (21.94353pt too wide) in paragraph at lines 536--537
-[][] 
- []
-
-
-
-pdfTeX warning: pdflatex.exe (file ./figures//Second_Contour_LOG.pdf): PDF incl
-usion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures//Second_Contour_LOG.pdf, id=19484, 1028.84375pt x 610.28pt>
-File: figures//Second_Contour_LOG.pdf Graphic file (type pdf)
-<use figures//Second_Contour_LOG.pdf>
-Package pdftex.def Info: figures//Second_Contour_LOG.pdf  used on input line 54
-1.
-(pdftex.def)             Requested size: 257.21031pt x 152.56963pt.
-
-Overfull \hbox (12.65887pt too wide) in paragraph at lines 541--542
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//gamma1.pdf, id=19485, 939.51pt x 494.84875pt>
+>] (./figures/B//First_Contour_LOG_tex.pdf_tex
+<figures/B//First_Contour_LOG_tex.pdf, id=19490, page=1, 736.05305pt x 452.0240
+2pt>
+File: figures/B//First_Contour_LOG_tex.pdf Graphic file (type pdf)
+<use figures/B//First_Contour_LOG_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//First_Contour_LOG_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 234.76729pt x 144.17473pt.
+)
+(./figures/B//Second_Contour_LOG_2_tex.pdf_tex
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19491, page=1, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 234.76729pt x 139.65793pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19492, page=2, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page2 used o
+n input line 58.
+(pdftex.def)             Requested size: 234.76729pt x 139.65793pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19493, page=3, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page3 used o
+n input line 68.
+(pdftex.def)             Requested size: 234.76729pt x 139.65793pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19494, page=4, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page4 used o
+n input line 74.
+(pdftex.def)             Requested size: 234.76729pt x 139.65793pt.
+)
+<figures//gamma1.pdf, id=19495, 939.51pt x 494.84875pt>
 File: figures//gamma1.pdf Graphic file (type pdf)
 <use figures//gamma1.pdf>
-Package pdftex.def Info: figures//gamma1.pdf  used on input line 552.
+Package pdftex.def Info: figures//gamma1.pdf  used on input line 565.
 (pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
-<figures//gamma3.pdf, id=19486, 941.5175pt x 521.95pt>
+<figures//gamma3.pdf, id=19496, 941.5175pt x 521.95pt>
 File: figures//gamma3.pdf Graphic file (type pdf)
 <use figures//gamma3.pdf>
-Package pdftex.def Info: figures//gamma3.pdf  used on input line 555.
+Package pdftex.def Info: figures//gamma3.pdf  used on input line 568.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-<figures//gamma_wfeed.pdf, id=19487, 941.5175pt x 521.95pt>
+<figures//gamma_wfeed.pdf, id=19497, 941.5175pt x 521.95pt>
 File: figures//gamma_wfeed.pdf Graphic file (type pdf)
 <use figures//gamma_wfeed.pdf>
-Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 565.
+Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 578.
 (pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-<figures//matching_wfeed.pdf, id=19488, 939.51pt x 504.88625pt>
+<figures//matching_wfeed.pdf, id=19498, 939.51pt x 504.88625pt>
 File: figures//matching_wfeed.pdf Graphic file (type pdf)
 <use figures//matching_wfeed.pdf>
-Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 568.
+Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 581.
 (pdftex.def)             Requested size: 234.87692pt x 126.22124pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gain_3D_pifa.pdf, id=19489, 421.575pt x 316.18124pt>
+<figures//gain_3D_pifa.pdf, id=19499, 421.575pt x 316.18124pt>
 File: figures//gain_3D_pifa.pdf Graphic file (type pdf)
 <use figures//gain_3D_pifa.pdf>
-Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 579.
+Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 592.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-<figures//gain_azimuth_pifa.pdf, id=19490, 421.575pt x 316.18124pt>
+<figures//gain_azimuth_pifa.pdf, id=19500, 421.575pt x 316.18124pt>
 File: figures//gain_azimuth_pifa.pdf Graphic file (type pdf)
 <use figures//gain_azimuth_pifa.pdf>
-Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 583
+Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 596
 .
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-<figures//gain_elevation_pifa.pdf, id=19491, 421.575pt x 317.185pt>
+<figures//gain_elevation_pifa.pdf, id=19501, 421.575pt x 317.185pt>
 File: figures//gain_elevation_pifa.pdf Graphic file (type pdf)
 <use figures//gain_elevation_pifa.pdf>
 Package pdftex.def Info: figures//gain_elevation_pifa.pdf  used on input line 5
-86.
+99.
 (pdftex.def)             Requested size: 210.78697pt x 158.5921pt.
-<figures//pifa_currents.pdf, id=19492, 421.575pt x 316.18124pt>
+<figures//pifa_currents.pdf, id=19502, 421.575pt x 316.18124pt>
 File: figures//pifa_currents.pdf Graphic file (type pdf)
 <use figures//pifa_currents.pdf>
-Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 589.
+Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 602.
 (pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
 
-LaTeX Warning: Float too large for page by 26.00716pt on input line 595.
+LaTeX Warning: Float too large for page by 26.00716pt on input line 608.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./figures//gamma.png (PNG copy)> <./figures//impedances.png (PNG copy)>]
-<figures//mesh_levels.png, id=19496, 1143.3114pt x 627.3036pt>
+[9 <./figures/B//gamma_pre_wfeed_tex.pdf> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures//mesh_levels.png, id=19603, 1143.3114pt x 627.3036pt>
 File: figures//mesh_levels.png Graphic file (type png)
 <use figures//mesh_levels.png>
-Package pdftex.def Info: figures//mesh_levels.png  used on input line 615.
+Package pdftex.def Info: figures//mesh_levels.png  used on input line 628.
 (pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gain_patch.png, id=19497, 776.1798pt x 509.7444pt>
+<figures//gain_patch.png, id=19604, 776.1798pt x 509.7444pt>
 File: figures//gain_patch.png Graphic file (type png)
 <use figures//gain_patch.png>
-Package pdftex.def Info: figures//gain_patch.png  used on input line 621.
+Package pdftex.def Info: figures//gain_patch.png  used on input line 634.
 (pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-<figures//gain_patch_v.png, id=19498, 391.2216pt x 285.2256pt>
+<figures//gain_patch_v.png, id=19605, 391.2216pt x 285.2256pt>
 File: figures//gain_patch_v.png Graphic file (type png)
 <use figures//gain_patch_v.png>
-Package pdftex.def Info: figures//gain_patch_v.png  used on input line 622.
+Package pdftex.def Info: figures//gain_patch_v.png  used on input line 635.
 (pdftex.def)             Requested size: 146.73235pt x 106.97673pt.
-<figures//gain_patch_h.png, id=19499, 776.1798pt x 509.7444pt>
+<figures//gain_patch_h.png, id=19606, 776.1798pt x 509.7444pt>
 File: figures//gain_patch_h.png Graphic file (type png)
 <use figures//gain_patch_h.png>
-Package pdftex.def Info: figures//gain_patch_h.png  used on input line 623.
+Package pdftex.def Info: figures//gain_patch_h.png  used on input line 636.
 (pdftex.def)             Requested size: 146.73235pt x 96.36241pt.
-[10 <./figures//First_Contour_LOG.pdf> <./figures//Second_Contour_LOG.pdf>]
-[11 <./figures//gamma1.pdf> <./figures//gamma3.pdf>]
-<figures//pcb_shorting_pins_3d_view.pdf, id=19547, 1156.32pt x 564.1075pt>
+[10 <./figures/B//First_Contour_LOG_tex.pdf> <./figures/B//Second_Contour_LOG_2
+_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<figures//pcb_shorting_pins_3d_view.pdf, id=19632, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_3d_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_3d_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_3d_view.pdf  used on input 
-line 639.
+line 652.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
-<figures//pcb_shorting_pins_top_view.pdf, id=19548, 1156.32pt x 564.1075pt>
+<figures//pcb_shorting_pins_top_view.pdf, id=19633, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_top_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_top_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_top_view.pdf  used on input
- line 640.
+ line 653.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 6
-46.
+59.
 (c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 )
@@ -1875,70 +1974,72 @@ File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_azymuth_comparison.
 pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
-<figures//pifa_pcb_null_azymuth_comparison.pdf, id=19549, 763.85374pt x 703.628
+<figures//pifa_pcb_null_azymuth_comparison.pdf, id=19634, 763.85374pt x 703.628
 75pt>
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 667.
+ input line 680.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_elevation_compariso
 n.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<figures//pifa_pcb_null_elevation_comparison.pdf, id=19550, 673.51625pt x 627.3
+<figures//pifa_pcb_null_elevation_comparison.pdf, id=19635, 673.51625pt x 627.3
 4375pt>
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 671.
+on input line 684.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//pifa_pcb_array_azimuth_comparison.pdf, id=19551, 1156.32pt x 564.1075
+<figures//pifa_pcb_array_azimuth_comparison.pdf, id=19636, 1156.32pt x 564.1075
 pt>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 680.
+n input line 693.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 680--681
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 693--694
 [][] 
  []
 
-<figures//pifa_pcb_array_elevation_comparison.pdf, id=19552, 1156.32pt x 564.10
+<figures//pifa_pcb_array_elevation_comparison.pdf, id=19637, 1156.32pt x 564.10
 75pt>
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 684.
+ on input line 697.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (102.34724pt too wide) in paragraph at lines 684--685
+Overfull \hbox (102.34724pt too wide) in paragraph at lines 697--698
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<figures//gamma.png, id=19638, 1164.5106pt x 627.7854pt>
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 693.
+Package pdftex.def Info: figures//gamma.png  used on input line 706.
 (pdftex.def)             Requested size: 244.55144pt x 131.82924pt.
+<figures//impedances.png, id=19639, 1163.0652pt x 636.4578pt>
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 694.
+Package pdftex.def Info: figures//impedances.png  used on input line 707.
 (pdftex.def)             Requested size: 244.55144pt x 133.82516pt.
 
-Overfull \hbox (2.556pt too wide) in paragraph at lines 693--695
+Overfull \hbox (2.556pt too wide) in paragraph at lines 706--708
 [][] [] 
  []
 
-[12 <./figures//gamma_wfeed.pdf> <./figures//matching_wfeed.pdf>] [13]
-
+[11 <./figures//gamma1.pdf> <./figures//gamma3.pdf>] [12 <./figures//gamma_wfee
+d.pdf> <./figures//matching_wfeed.pdf>] [13] 
 AED: lastpage setting LastPage
 [14] [15 <./figures//gain_3D_pifa.pdf> <./figures//gain_azimuth_pifa.pdf> <./fi
 gures//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>] [16 <./figures/
@@ -1947,8 +2048,8 @@ gures//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>] [16 <./figures/
 es//pcb_shorting_pins_3d_view.pdf> <./figures//pcb_shorting_pins_top_view.pdf>]
 [17 <./figures//pifa_pcb_null_azymuth_comparison.pdf> <./figures//pifa_pcb_null
 _elevation_comparison.pdf>] [18 <./figures//pifa_pcb_array_azimuth_comparison.p
-df> <./figures//pifa_pcb_array_elevation_comparison.pdf>]
-(./relazione_wet_copia.aux)
+df> <./figures//pifa_pcb_array_elevation_comparison.pdf> <./figures//gamma.png 
+(PNG copy)> <./figures//impedances.png (PNG copy)>] (./relazione_wet_copia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1957,10 +2058,10 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45462 strings out of 478579
- 1045228 string characters out of 5857457
- 1698555 words of memory out of 5000000
- 62624 multiletter control sequences out of 15000+600000
+ 45528 strings out of 478579
+ 1048542 string characters out of 5857457
+ 1700555 words of memory out of 5000000
+ 62680 multiletter control sequences out of 15000+600000
  538009 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,23n,97p,3079b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1982,10 +2083,10 @@ c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/
 2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-
 dist/fonts/type1/public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts
 /type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (18 pages, 4085328 bytes).
+Output written on relazione_wet_copia.pdf (18 pages, 4114745 bytes).
 PDF statistics:
- 19882 PDF objects out of 22161 (max. 8388607)
- 13156 compressed objects within 132 object streams
+ 20003 PDF objects out of 22161 (max. 8388607)
+ 13230 compressed objects within 133 object streams
  0 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
