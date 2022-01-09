@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JAN 2022 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  9 JAN 2022 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1514,13 +1514,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
-Underfull \hbox (badness 3965) in paragraph at lines 251--251
-[]|\T1/lmss/m/n/12 Normalized feed coef-fi-cients to
- []
-
-(./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=24, page=1, 255.
+[2] (./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=26, page=1, 255.
 60243pt x 254.99266pt>
 File: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf Graphic file (t
 ype pdf)
@@ -1530,7 +1525,7 @@ pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 218.76385pt x 218.24664pt.
 )
 (./figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=25, page=1
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=27, page=1
 , 347.93489pt x 274.64857pt>
 File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
 ile (type pdf)
@@ -1540,7 +1535,7 @@ z_tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 300.80656pt x 237.46298pt.
 )
 (./figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=26, page=1, 256.
+<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=28, page=1, 256.
 97256pt x 256.00142pt>
 File: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf Graphic file (t
 ype pdf)
@@ -1550,7 +1545,7 @@ pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 218.76385pt x 217.93816pt.
 )
 (./figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=27, page=1
+<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=29, page=1
 , 347.93489pt x 274.64857pt>
 File: figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf Graphic f
 ile (type pdf)
@@ -1559,26 +1554,15 @@ Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_e
 l_tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 300.80656pt x 237.46298pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
 |\T1/qag/b/n/17.28 Rectangular fol-ded patch
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-07.
+12.
 (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 308.
-
-
-LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/m/n' instead on input line 308.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1588,6 +1572,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 313.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/m/n' instead on input line 313.
+
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1596,22 +1594,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5 <./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf> <./figures/A//
+[4 <./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf> <./figures/A//
 pcb_array_factor_with_toolbox_rectangular_az_tex.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
@@ -1628,25 +1611,25 @@ pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
 ectangular_el_tex.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >] (./figures/B//patch_structure_tex.pdf_tex
-<figures/B//patch_structure_tex.pdf, id=47, page=1, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=43, page=1, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
-<figures/B//patch_structure_tex.pdf, id=48, page=2, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=44, page=2, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page2 used on inp
 ut line 58.
 (pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
-<figures/B//patch_structure_tex.pdf, id=49, page=3, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=45, page=3, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page3 used on inp
 ut line 60.
 (pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
-<figures/B//patch_structure_tex.pdf, id=50, page=4, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=46, page=4, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page4 used on inp
@@ -1654,7 +1637,7 @@ ut line 62.
 (pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
 )
 (./figures/B//patch_structure_2_tex.pdf_tex
-<figures/B//patch_structure_2_tex.pdf, id=51, page=1, 272.80156pt x 145.316pt>
+<figures/B//patch_structure_2_tex.pdf, id=47, page=1, 272.80156pt x 145.316pt>
 File: figures/B//patch_structure_2_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_2_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//patch_structure_2_tex.pdf , page1 used on i
@@ -1662,7 +1645,7 @@ nput line 56.
 (pdftex.def)             Requested size: 164.07706pt x 87.40091pt.
 )
 (./figures/B//patch_structure_3_tex.pdf_tex
-<figures/B//patch_structure_3_tex.pdf, id=52, page=1, 268.78304pt x 54.53905pt>
+<figures/B//patch_structure_3_tex.pdf, id=48, page=1, 268.78304pt x 54.53905pt>
 
 File: figures/B//patch_structure_3_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_3_tex.pdf, page 1>
@@ -1670,27 +1653,27 @@ Package pdftex.def Info: figures/B//patch_structure_3_tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 164.07706pt x 33.2929pt.
 )
-Overfull \hbox (7.43228pt too wide) in paragraph at lines 368--368
+Overfull \hbox (7.43228pt too wide) in paragraph at lines 353--353
 []|\T1/lmss/bx/n/12 Parameter/Component| 
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 372--372
+Underfull \hbox (badness 5460) in paragraph at lines 357--357
 []|\T1/lmss/m/n/12 Matched in-put res-ist-
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 401--402
+Underfull \hbox (badness 6412) in paragraph at lines 386--387
 []|$\LS1/stix/m/it/12 L[]  \LS1/stix/m/n/12 ö  []  =
  []
 
 
-Overfull \hbox (0.54393pt too wide) in paragraph at lines 363--421
+Overfull \hbox (0.54393pt too wide) in paragraph at lines 348--406
  [] 
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 421--421
+Underfull \hbox (badness 2261) in paragraph at lines 406--406
 \T1/lmss/m/n/12 ing and sub-strate fea-tures) and the-or-et-ical (pre-
  []
 
@@ -1698,6 +1681,10 @@ Underfull \hbox (badness 2261) in paragraph at lines 421--421
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \hbox (0.68521pt too wide) in paragraph at lines 447--458
+ [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1706,300 +1693,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6]
-Overfull \vbox (32.8083pt too high) has occurred while \output is active []
-
-
-(./figures/B//mesh_first_test_tex.pdf_tex
-<figures/B//mesh_first_test_tex.pdf, id=56, page=1, 804.75227pt x 427.8564pt>
+[5] (./figures/B//mesh_first_test_tex.pdf_tex
+<figures/B//mesh_first_test_tex.pdf, id=52, page=1, 804.75227pt x 427.8564pt>
 File: figures/B//mesh_first_test_tex.pdf Graphic file (type pdf)
 <use figures/B//mesh_first_test_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//mesh_first_test_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 268.459pt x 142.72725pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 76--508
+Underfull \hbox (badness 10000) in paragraph at lines 76--480
 
  []
 
-(./figures/B//minGamma_vs_mesh_level_tex.pdf_tex
-<figures/B//minGamma_vs_mesh_level_tex.pdf, id=57, page=1, 450.3618pt x 407.025
-77pt>
-File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page1 used
- on input line 56.
-(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
-<figures/B//minGamma_vs_mesh_level_tex.pdf, id=58, page=2, 450.3618pt x 407.025
-77pt>
-File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page2 used
- on input line 66.
-(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
-)
-(./figures/B//DeltaF_vs_mesh_level_tex.pdf_tex
-<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=59, page=1, 452.24368pt x 314.1972
-8pt>
-File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page1 used o
-n input line 56.
-(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
-<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=60, page=2, 452.24368pt x 314.1972
-8pt>
-File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page2 used o
-n input line 64.
-(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
-)
-(./figures/B//F_vs_mesh_level_tex.pdf_tex
-<figures/B//F_vs_mesh_level_tex.pdf, id=61, page=1, 471.96033pt x 313.18785pt>
-File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//F_vs_mesh_level_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page1 used on inp
-ut line 56.
-(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
-<figures/B//F_vs_mesh_level_tex.pdf, id=62, page=2, 471.96033pt x 313.18785pt>
-File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
-<use figures/B//F_vs_mesh_level_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page2 used on inp
-ut line 65.
-(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
-)
-(./figures/B//gamma_pre_wfeed_tex.pdf_tex
-<figures/B//gamma_pre_wfeed_tex.pdf, id=63, page=1, 316.18124pt x 237.13594pt>
-File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//gamma_pre_wfeed_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page1 used on inp
-ut line 56.
-(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=64, page=2, 316.18124pt x 237.13594pt>
-File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//gamma_pre_wfeed_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page2 used on inp
-ut line 64.
-(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=65, page=3, 316.18124pt x 237.13594pt>
-File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//gamma_pre_wfeed_tex.pdf, page 3>
-Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page3 used on inp
-ut line 74.
-(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=66, page=4, 316.18124pt x 237.13594pt>
-File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//gamma_pre_wfeed_tex.pdf, page 4>
-Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page4 used on inp
-ut line 76.
-(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
-)
-(./figures/B//impedence_pre_wfeed_tex.pdf_tex
-<figures/B//impedence_pre_wfeed_tex.pdf, id=67, page=1, 300.2586pt x 221.93477p
-t>
-File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//impedence_pre_wfeed_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page1 used on
- input line 56.
-(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=68, page=2, 300.2586pt x 221.93477p
-t>
-File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//impedence_pre_wfeed_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page2 used on
- input line 64.
-(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=69, page=3, 300.2586pt x 221.93477p
-t>
-File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//impedence_pre_wfeed_tex.pdf, page 3>
-Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page3 used on
- input line 75.
-(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=70, page=4, 300.2586pt x 221.93477p
-t>
-File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//impedence_pre_wfeed_tex.pdf, page 4>
-Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page4 used on
- input line 77.
-(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=71, page=5, 300.2586pt x 221.93477p
-t>
-File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
-<use figures/B//impedence_pre_wfeed_tex.pdf, page 5>
-Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page5 used on
- input line 79.
-(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
-)
-(./figures/B//First_Contour_LOG_tex.pdf_tex
-<figures/B//First_Contour_LOG_tex.pdf, id=72, page=1, 736.05305pt x 452.02402pt
->
-File: figures/B//First_Contour_LOG_tex.pdf Graphic file (type pdf)
-<use figures/B//First_Contour_LOG_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//First_Contour_LOG_tex.pdf , page1 used on i
-nput line 56.
-(pdftex.def)             Requested size: 262.5183pt x 161.218pt.
-)
-(./figures/B//Second_Contour_LOG_2_tex.pdf_tex
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=73, page=1, 719.58173pt x 428.0737
-6pt>
-File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
-<use figures/B//Second_Contour_LOG_2_tex.pdf, page 1>
-Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page1 used o
-n input line 56.
-(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=74, page=2, 719.58173pt x 428.0737
-6pt>
-File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
-<use figures/B//Second_Contour_LOG_2_tex.pdf, page 2>
-Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page2 used o
-n input line 58.
-(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=75, page=3, 719.58173pt x 428.0737
-6pt>
-File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
-<use figures/B//Second_Contour_LOG_2_tex.pdf, page 3>
-Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page3 used o
-n input line 68.
-(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=76, page=4, 719.58173pt x 428.0737
-6pt>
-File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
-<use figures/B//Second_Contour_LOG_2_tex.pdf, page 4>
-Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page4 used o
-n input line 74.
-(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
-)
-<figures//gamma1.pdf, id=77, 939.51pt x 494.84875pt>
-File: figures//gamma1.pdf Graphic file (type pdf)
-<use figures//gamma1.pdf>
-Package pdftex.def Info: figures//gamma1.pdf  used on input line 608.
-(pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
 
-Overfull \hbox (100.64743pt too wide) in paragraph at lines 608--609
-[][] 
- []
+Underfull \vbox (badness 7362) has occurred while \output is active []
 
-<figures//gamma3.pdf, id=78, 941.5175pt x 521.95pt>
-File: figures//gamma3.pdf Graphic file (type pdf)
-<use figures//gamma3.pdf>
-Package pdftex.def Info: figures//gamma3.pdf  used on input line 611.
-(pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-
-Overfull \hbox (101.1493pt too wide) in paragraph at lines 611--612
-[][] 
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 614--614
-[][][]\T1/lmss/bx/n/12 Figure 7[][]: []|[]\T1/lmss/m/n/12 The two best $\LS1/st
-ix/m/n/12 ^^@$ \T1/lmss/m/n/12 plots de-pend-ing on
- []
-
-<figures//gamma_wfeed.pdf, id=79, 941.5175pt x 521.95pt>
-File: figures//gamma_wfeed.pdf Graphic file (type pdf)
-<use figures//gamma_wfeed.pdf>
-Package pdftex.def Info: figures//gamma_wfeed.pdf  used on input line 621.
-(pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
-
-Overfull \hbox (101.1493pt too wide) in paragraph at lines 621--622
-[][] 
- []
-
-<figures//matching_wfeed.pdf, id=80, 939.51pt x 504.88625pt>
-File: figures//matching_wfeed.pdf Graphic file (type pdf)
-<use figures//matching_wfeed.pdf>
-Package pdftex.def Info: figures//matching_wfeed.pdf  used on input line 624.
-(pdftex.def)             Requested size: 234.87692pt x 126.22124pt.
-
-Overfull \hbox (100.64743pt too wide) in paragraph at lines 624--625
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//gain_3D_pifa.pdf, id=81, 421.575pt x 316.18124pt>
-File: figures//gain_3D_pifa.pdf Graphic file (type pdf)
-<use figures//gain_3D_pifa.pdf>
-Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 635.
-(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (76.55748pt too wide) in paragraph at lines 635--636
-[][] 
- []
-
-<figures//gain_azimuth_pifa.pdf, id=82, 421.575pt x 316.18124pt>
-File: figures//gain_azimuth_pifa.pdf Graphic file (type pdf)
-<use figures//gain_azimuth_pifa.pdf>
-Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 639
-.
-(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (76.55748pt too wide) in paragraph at lines 639--640
-[][] 
- []
-
-<figures//gain_elevation_pifa.pdf, id=83, 421.575pt x 317.185pt>
-File: figures//gain_elevation_pifa.pdf Graphic file (type pdf)
-<use figures//gain_elevation_pifa.pdf>
-Package pdftex.def Info: figures//gain_elevation_pifa.pdf  used on input line 6
-42.
-(pdftex.def)             Requested size: 210.78697pt x 158.5921pt.
-
-Overfull \hbox (76.55748pt too wide) in paragraph at lines 642--643
-[][] 
- []
-
-<figures//pifa_currents.pdf, id=84, 421.575pt x 316.18124pt>
-File: figures//pifa_currents.pdf Graphic file (type pdf)
-<use figures//pifa_currents.pdf>
-Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 645.
-(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (76.55748pt too wide) in paragraph at lines 645--646
-[][] 
- []
-
-
-LaTeX Warning: Float too large for page by 78.5996pt on input line 651.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//mesh_levels.png, id=85, 1143.3114pt x 627.3036pt>
-File: figures//mesh_levels.png Graphic file (type png)
-<use figures//mesh_levels.png>
-Package pdftex.def Info: figures//mesh_levels.png  used on input line 656.
-(pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
-
-Overfull \hbox (74.53706pt too wide) in paragraph at lines 656--657
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures//gain_patch.png, id=86, 776.1798pt x 509.7444pt>
-File: figures//gain_patch.png Graphic file (type png)
-<use figures//gain_patch.png>
-Package pdftex.def Info: figures//gain_patch.png  used on input line 662.
-(pdftex.def)             Requested size: 80.53851pt x 52.89082pt.
-<figures//gain_patch_v.png, id=87, 391.2216pt x 285.2256pt>
-File: figures//gain_patch_v.png Graphic file (type png)
-<use figures//gain_patch_v.png>
-Package pdftex.def Info: figures//gain_patch_v.png  used on input line 663.
-(pdftex.def)             Requested size: 80.53851pt x 58.71533pt.
-<figures//gain_patch_h.png, id=88, 776.1798pt x 509.7444pt>
-File: figures//gain_patch_h.png Graphic file (type png)
-<use figures//gain_patch_h.png>
-Package pdftex.def Info: figures//gain_patch_h.png  used on input line 664.
-(pdftex.def)             Requested size: 80.53851pt x 52.89082pt.
-
-Underfull \hbox (badness 1259) in paragraph at lines 669--670
-\T1/lmss/m/n/12 gen-er-ate an ar-ray of PI-FAs , the []\T1/cmtt/m/n/12 Sensor A
-rray
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2009,7 +1717,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./figures/B//patch_structure_tex.pdf> <./figures/B//patch_structure_tex.pdf
+[6 <./figures/B//patch_structure_tex.pdf> <./figures/B//patch_structure_tex.pdf
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_tex.pdf): PDF i
@@ -2030,12 +1738,285 @@ pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_2_tex.pdf): PDF
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_3_tex.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
-> <./figures/B//mesh_first_test_tex.pdf
+>] (./figures/B//minGamma_vs_mesh_level_tex.pdf_tex
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19461, page=1, 450.3618pt x 407.
+02577pt>
+File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19462, page=2, 450.3618pt x 407.
+02577pt>
+File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page2 used
+ on input line 66.
+(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
+)
+(./figures/B//DeltaF_vs_mesh_level_tex.pdf_tex
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19463, page=1, 452.24368pt x 314.1
+9728pt>
+File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19464, page=2, 452.24368pt x 314.1
+9728pt>
+File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page2 used o
+n input line 64.
+(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
+)
+(./figures/B//F_vs_mesh_level_tex.pdf_tex
+<figures/B//F_vs_mesh_level_tex.pdf, id=19465, page=1, 471.96033pt x 313.18785p
+t>
+File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//F_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
+<figures/B//F_vs_mesh_level_tex.pdf, id=19466, page=2, 471.96033pt x 313.18785p
+t>
+File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//F_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page2 used on inp
+ut line 65.
+(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
+)
+(./figures/B//gamma_pre_wfeed_tex.pdf_tex
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19467, page=1, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19468, page=2, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page2 used on inp
+ut line 64.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19469, page=3, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page3 used on inp
+ut line 74.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19470, page=4, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page4 used on inp
+ut line 76.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+)
+(./figures/B//impedence_pre_wfeed_tex.pdf_tex
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19471, page=1, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19472, page=2, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page2 used on
+ input line 64.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19473, page=3, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page3 used on
+ input line 75.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19474, page=4, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page4 used on
+ input line 77.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19475, page=5, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page5 used on
+ input line 79.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+)
+(./figures/B//First_Contour_LOG_tex.pdf_tex
+<figures/B//First_Contour_LOG_tex.pdf, id=19476, page=1, 736.05305pt x 452.0240
+2pt>
+File: figures/B//First_Contour_LOG_tex.pdf Graphic file (type pdf)
+<use figures/B//First_Contour_LOG_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//First_Contour_LOG_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 262.5183pt x 161.218pt.
+)
+(./figures/B//Second_Contour_LOG_2_tex.pdf_tex
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19477, page=1, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19478, page=2, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page2 used o
+n input line 58.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19479, page=3, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page3 used o
+n input line 68.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19480, page=4, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page4 used o
+n input line 74.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+)
+(./figures/B//gamma_wfeed_tex.pdf_tex
+<figures/B//gamma_wfeed_tex.pdf, id=19481, page=1, 751.83044pt x 411.18036pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 246.11142pt x 134.59824pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19482, page=2, 751.83044pt x 411.18036pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page2 used on input l
+ine 64.
+(pdftex.def)             Requested size: 246.11142pt x 134.59824pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19483, page=3, 751.83044pt x 411.18036pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page3 used on input l
+ine 73.
+(pdftex.def)             Requested size: 246.11142pt x 134.59824pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19484, page=4, 751.83044pt x 411.18036pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page4 used on input l
+ine 75.
+(pdftex.def)             Requested size: 246.11142pt x 134.59824pt.
+) (./figures/B//matching_wfeed_tex.pdf_tex
+<figures/B//matching_wfeed_tex.pdf, id=19485, page=1, 746.94176pt x 385.9083pt>
 
-pdfTeX warning: pdflatex.exe (file ./figures/B//mesh_first_test_tex.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->]
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 262.5183pt x 135.62932pt.
+<figures/B//matching_wfeed_tex.pdf, id=19486, page=2, 746.94176pt x 385.9083pt>
+
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page2 used on inpu
+t line 64.
+(pdftex.def)             Requested size: 262.5183pt x 135.62932pt.
+<figures/B//matching_wfeed_tex.pdf, id=19487, page=3, 746.94176pt x 385.9083pt>
+
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page3 used on inpu
+t line 75.
+(pdftex.def)             Requested size: 262.5183pt x 135.62932pt.
+<figures/B//matching_wfeed_tex.pdf, id=19488, page=4, 746.94176pt x 385.9083pt>
+
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page4 used on inpu
+t line 77.
+(pdftex.def)             Requested size: 262.5183pt x 135.62932pt.
+<figures/B//matching_wfeed_tex.pdf, id=19489, page=5, 746.94176pt x 385.9083pt>
+
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page5 used on inpu
+t line 79.
+(pdftex.def)             Requested size: 262.5183pt x 135.62932pt.
+)
+<figures//gain_azimuth_pifa.pdf, id=19490, 421.575pt x 316.18124pt>
+File: figures//gain_azimuth_pifa.pdf Graphic file (type pdf)
+<use figures//gain_azimuth_pifa.pdf>
+Package pdftex.def Info: figures//gain_azimuth_pifa.pdf  used on input line 595
+.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+Overfull \hbox (46.70992pt too wide) in paragraph at lines 595--596
+[][] 
+ []
+
+<figures//gain_elevation_pifa.pdf, id=19491, 421.575pt x 317.185pt>
+File: figures//gain_elevation_pifa.pdf Graphic file (type pdf)
+<use figures//gain_elevation_pifa.pdf>
+Package pdftex.def Info: figures//gain_elevation_pifa.pdf  used on input line 5
+98.
+(pdftex.def)             Requested size: 210.78697pt x 158.5921pt.
+
+Overfull \hbox (46.70992pt too wide) in paragraph at lines 598--599
+[][] 
+ []
+
+<figures//pifa_currents.pdf, id=19492, 421.575pt x 316.18124pt>
+File: figures//pifa_currents.pdf Graphic file (type pdf)
+<use figures//pifa_currents.pdf>
+Package pdftex.def Info: figures//pifa_currents.pdf  used on input line 601.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+Overfull \hbox (46.70992pt too wide) in paragraph at lines 601--602
+[][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <./figures/B//mesh_first_test_tex.pdf>]
+<figures//mesh_levels.png, id=19500, 1143.3114pt x 627.3036pt>
+File: figures//mesh_levels.png Graphic file (type png)
+<use figures//mesh_levels.png>
+Package pdftex.def Info: figures//mesh_levels.png  used on input line 651.
+(pdftex.def)             Requested size: 342.99606pt x 188.19252pt.
+
+Overfull \hbox (74.53706pt too wide) in paragraph at lines 651--652
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 657--658
+\T1/lmss/m/n/12 gen-er-ate an ar-ray of PI-FAs , the []\T1/cmtt/m/n/12 Sensor A
+rray
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2107,7 +2088,10 @@ DF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \vbox (badness 1057) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2135,86 +2119,112 @@ PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <./figures//gamma1.pdf> <./figures//gamma3.pdf> <./figures//gamma_wfeed.pdf> 
-<./figures//matching_wfeed.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 677--677
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures//gain_azimuth_pifa.pdf> <./figures//gain_elevation_pifa.pdf> <./fi
+gures//pifa_currents.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 665--665
 []|\T1/lmss/m/n/12 Broadside
  []
 
 
-Overfull \hbox (55.78088pt too wide) in paragraph at lines 678--685
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 666--673
 [][] 
  []
 
 
-Overfull \hbox (52.78088pt too wide) in paragraph at lines 686--693
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 674--681
 [][] 
  []
 
 
-Overfull \hbox (55.78088pt too wide) in paragraph at lines 694--701
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 682--689
 [][] 
  []
 
 
-Overfull \hbox (52.78088pt too wide) in paragraph at lines 702--709
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 690--697
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
 []|\T1/lmss/m/n/12 Off
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
 \T1/lmss/m/n/12 Boresight
  []
 
 
-Overfull \hbox (55.78088pt too wide) in paragraph at lines 720--727
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 708--715
 [][] 
  []
 
 
-Overfull \hbox (52.78088pt too wide) in paragraph at lines 728--735
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 716--723
 [][] 
  []
 
 
-Overfull \hbox (55.78088pt too wide) in paragraph at lines 736--743
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 724--731
 [][] 
  []
 
 
-Overfull \hbox (46.78088pt too wide) in paragraph at lines 744--751
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 732--739
 [][] 
  []
 
-
-Overfull \hbox (259.67633pt too wide) in paragraph at lines 673--754
- [] 
- []
-
-
-Overfull \hbox (232.24261pt too wide) in paragraph at lines 768--783
- [] 
- []
-
-<figures//pcb_shorting_pins_3d_view.pdf, id=19691, 1156.32pt x 564.1075pt>
+<figures//pcb_shorting_pins_3d_view.pdf, id=19779, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_3d_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_3d_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_3d_view.pdf  used on input 
-line 789.
+line 777.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
-<figures//pcb_shorting_pins_top_view.pdf, id=19692, 1156.32pt x 564.1075pt>
+<figures//pcb_shorting_pins_top_view.pdf, id=19780, 1156.32pt x 564.1075pt>
 File: figures//pcb_shorting_pins_top_view.pdf Graphic file (type pdf)
 <use figures//pcb_shorting_pins_top_view.pdf>
 Package pdftex.def Info: figures//pcb_shorting_pins_top_view.pdf  used on input
- line 790.
+ line 778.
 (pdftex.def)             Requested size: 231.2599pt x 112.81949pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--791
+Underfull \hbox (badness 10000) in paragraph at lines 777--779
 [][]
  []
 
@@ -2226,15 +2236,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_azymuth_comparison.
 pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
-<figures//pifa_pcb_null_azymuth_comparison.pdf, id=19693, 763.85374pt x 703.628
+<figures//pifa_pcb_null_azymuth_comparison.pdf, id=19781, 763.85374pt x 703.628
 75pt>
 File: figures//pifa_pcb_null_azymuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_azymuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_azymuth_comparison.pdf  used on
- input line 798.
+ input line 786.
 (pdftex.def)             Requested size: 229.15788pt x 211.09026pt.
 
-Overfull \hbox (94.92839pt too wide) in paragraph at lines 798--799
+Overfull \hbox (94.92839pt too wide) in paragraph at lines 786--787
 [][] 
  []
 
@@ -2243,65 +2253,65 @@ Overfull \hbox (94.92839pt too wide) in paragraph at lines 798--799
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_pcb_null_elevation_compariso
 n.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<figures//pifa_pcb_null_elevation_comparison.pdf, id=19694, 673.51625pt x 627.3
+<figures//pifa_pcb_null_elevation_comparison.pdf, id=19782, 673.51625pt x 627.3
 4375pt>
 File: figures//pifa_pcb_null_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_null_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_null_elevation_comparison.pdf  used 
-on input line 802.
+on input line 790.
 (pdftex.def)             Requested size: 202.05643pt x 188.20457pt.
 
-Overfull \hbox (67.82693pt too wide) in paragraph at lines 802--803
+Overfull \hbox (67.82693pt too wide) in paragraph at lines 790--791
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//pifa_pcb_array_azimuth_comparison.pdf, id=19695, 1156.32pt x 564.1075
+<figures//pifa_pcb_array_azimuth_comparison.pdf, id=19783, 1156.32pt x 564.1075
 pt>
 File: figures//pifa_pcb_array_azimuth_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_azimuth_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_azimuth_comparison.pdf  used o
-n input line 811.
+n input line 799.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (212.66919pt too wide) in paragraph at lines 811--812
+Overfull \hbox (212.66919pt too wide) in paragraph at lines 799--800
 [][] 
  []
 
-<figures//pifa_pcb_array_elevation_comparison.pdf, id=19696, 1156.32pt x 564.10
+<figures//pifa_pcb_array_elevation_comparison.pdf, id=19784, 1156.32pt x 564.10
 75pt>
 File: figures//pifa_pcb_array_elevation_comparison.pdf Graphic file (type pdf)
 <use figures//pifa_pcb_array_elevation_comparison.pdf>
 Package pdftex.def Info: figures//pifa_pcb_array_elevation_comparison.pdf  used
- on input line 815.
+ on input line 803.
 (pdftex.def)             Requested size: 346.89868pt x 169.23355pt.
 
-Overfull \hbox (212.66919pt too wide) in paragraph at lines 815--816
+Overfull \hbox (212.66919pt too wide) in paragraph at lines 803--804
 [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures//gamma.png, id=19697, 1164.5106pt x 627.7854pt>
+<figures//gamma.png, id=19785, 1164.5106pt x 627.7854pt>
 File: figures//gamma.png Graphic file (type png)
 <use figures//gamma.png>
-Package pdftex.def Info: figures//gamma.png  used on input line 824.
+Package pdftex.def Info: figures//gamma.png  used on input line 812.
 (pdftex.def)             Requested size: 134.22949pt x 72.36143pt.
-<figures//impedances.png, id=19698, 1163.0652pt x 636.4578pt>
+<figures//impedances.png, id=19786, 1163.0652pt x 636.4578pt>
 File: figures//impedances.png Graphic file (type png)
 <use figures//impedances.png>
-Package pdftex.def Info: figures//impedances.png  used on input line 825.
+Package pdftex.def Info: figures//impedances.png  used on input line 813.
 (pdftex.def)             Requested size: 134.22949pt x 73.44846pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 824--826
+Underfull \hbox (badness 10000) in paragraph at lines 812--814
 [][]
  []
 
 
-Underfull \hbox (badness 8075) in paragraph at lines 830--830
+Underfull \hbox (badness 8075) in paragraph at lines 818--818
 |\T1/qag/b/n/17.28 Overall patch an-tenna ar-ray
  []
 
@@ -2313,56 +2323,68 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
-<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=19702, 317.185pt x 316.1
+[10 <./figures//mesh_levels.png (PNG copy)> <./figures//pcb_shorting_pins_3d_vi
+ew.pdf> <./figures//pcb_shorting_pins_top_view.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+Underfull \vbox (badness 4779) has occurred while \output is active []
+
+<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=19835, 317.185pt x 316.1
 8124pt>
 File: figures//pcb_pifa_array_azimuth_90_comparison.pdf Graphic file (type pdf)
 
 <use figures//pcb_pifa_array_azimuth_90_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_azimuth_90_comparison.pdf  use
-d on input line 840.
+d on input line 828.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (91.47736pt too wide) in paragraph at lines 840--841
+Overfull \hbox (91.47736pt too wide) in paragraph at lines 828--829
 [][] 
  []
 
-<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=19703, 317.185pt x 316
+<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=19836, 317.185pt x 316
 .18124pt>
 File: figures//pcb_pifa_array_elevation_90_comparison.pdf Graphic file (type pd
 f)
 <use figures//pcb_pifa_array_elevation_90_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_elevation_90_comparison.pdf  u
-sed on input line 844.
+sed on input line 832.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (91.47736pt too wide) in paragraph at lines 844--845
+Overfull \hbox (91.47736pt too wide) in paragraph at lines 832--833
 [][] 
  []
 
-<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=19704, 317.185pt x 316.1
+<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=19837, 317.185pt x 316.1
 8124pt>
 File: figures//pcb_pifa_array_azimuth_45_comparison.pdf Graphic file (type pdf)
 
 <use figures//pcb_pifa_array_azimuth_45_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_azimuth_45_comparison.pdf  use
-d on input line 849.
+d on input line 837.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (91.47736pt too wide) in paragraph at lines 849--850
+Overfull \hbox (91.47736pt too wide) in paragraph at lines 837--838
 [][] 
  []
 
-<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=19705, 317.185pt x 316
+<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=19838, 317.185pt x 316
 .18124pt>
 File: figures//pcb_pifa_array_elevation_45_comparison.pdf Graphic file (type pd
 f)
 <use figures//pcb_pifa_array_elevation_45_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_elevation_45_comparison.pdf  u
-sed on input line 853.
+sed on input line 841.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (91.47736pt too wide) in paragraph at lines 853--854
+Overfull \hbox (91.47736pt too wide) in paragraph at lines 841--842
 [][] 
  []
 
@@ -2374,10 +2396,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
-Underfull \hbox (badness 1803) in paragraph at lines 880--880
+[12]
+Underfull \hbox (badness 1803) in paragraph at lines 868--868
 []\T1/qbk/m/n/12 Sophocles J. Or-fandis. \T1/qbk/m/it/12 Elec-tro-mag-netic
  []
+
+<figures//gamma1.pdf, id=19842, 939.51pt x 494.84875pt>
+File: figures//gamma1.pdf Graphic file (type pdf)
+<use figures//gamma1.pdf>
+Package pdftex.def Info: figures//gamma1.pdf  used on input line 874.
+(pdftex.def)             Requested size: 234.87692pt x 123.71188pt.
+<figures//gamma3.pdf, id=19843, 941.5175pt x 521.95pt>
+File: figures//gamma3.pdf Graphic file (type pdf)
+<use figures//gamma3.pdf>
+Package pdftex.def Info: figures//gamma3.pdf  used on input line 877.
+(pdftex.def)             Requested size: 235.3788pt x 130.48717pt.
+<figures//gain_patch.png, id=19844, 776.1798pt x 509.7444pt>
+File: figures//gain_patch.png Graphic file (type png)
+<use figures//gain_patch.png>
+Package pdftex.def Info: figures//gain_patch.png  used on input line 888.
+(pdftex.def)             Requested size: 164.07706pt x 107.7495pt.
+<figures//gain_patch_v.png, id=19845, 391.2216pt x 285.2256pt>
+File: figures//gain_patch_v.png Graphic file (type png)
+<use figures//gain_patch_v.png>
+Package pdftex.def Info: figures//gain_patch_v.png  used on input line 889.
+(pdftex.def)             Requested size: 164.07706pt x 119.61983pt.
+<figures//gain_patch_h.png, id=19846, 776.1798pt x 509.7444pt>
+File: figures//gain_patch_h.png Graphic file (type png)
+<use figures//gain_patch_h.png>
+Package pdftex.def Info: figures//gain_patch_h.png  used on input line 890.
+(pdftex.def)             Requested size: 164.07706pt x 107.7495pt.
+<figures//gain_3D_pifa.pdf, id=19847, 421.575pt x 316.18124pt>
+File: figures//gain_3D_pifa.pdf Graphic file (type pdf)
+<use figures//gain_3D_pifa.pdf>
+Package pdftex.def Info: figures//gain_3D_pifa.pdf  used on input line 897.
+(pdftex.def)             Requested size: 210.78697pt x 158.09023pt.
+
+Overfull \hbox (76.55748pt too wide) in paragraph at lines 897--898
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 AED: lastpage setting LastPage
@@ -2389,21 +2449,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12 <./figures//gain_3D_pifa.pdf> <./figures//gain_azimuth_pifa.pdf> <./figures
-//gain_elevation_pifa.pdf> <./figures//pifa_currents.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[13 <./figures//mesh_levels.png (PNG copy)> <./figures//gain_patch.png (PNG cop
-y)> <./figures//gain_patch_v.png (PNG copy)> <./figures//gain_patch_h.png (PNG 
-copy)> <./figures//pcb_shorting_pins_3d_view.pdf> <./figures//pcb_shorting_pins
-_top_view.pdf> <./figures//pifa_pcb_null_azymuth_comparison.pdf> <./figures//pi
-fa_pcb_null_elevation_comparison.pdf>]
+[13 <./figures//pifa_pcb_null_azymuth_comparison.pdf> <./figures//pifa_pcb_null
+_elevation_comparison.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2417,7 +2464,29 @@ ay_elevation_comparison.pdf> <./figures//gamma.png (PNG copy)> <./figures//impe
 dances.png (PNG copy)> <./figures//pcb_pifa_array_azimuth_90_comparison.pdf> <.
 /figures//pcb_pifa_array_elevation_90_comparison.pdf> <./figures//pcb_pifa_arra
 y_azimuth_45_comparison.pdf> <./figures//pcb_pifa_array_elevation_45_comparison
-.pdf>] (./relazione_wet_copia.aux)
+.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 <./figures//gamma1.pdf> <./figures//gamma3.pdf> <./figures//gain_patch.png 
+(PNG copy)> <./figures//gain_patch_v.png (PNG copy)> <./figures//gain_patch_h.p
+ng (PNG copy)>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16
+
+ <./figures//gain_3D_pifa.pdf>] (./relazione_wet_copia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2426,10 +2495,10 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45633 strings out of 478579
- 1051315 string characters out of 5857457
- 1751733 words of memory out of 5000000
- 62780 multiletter control sequences out of 15000+600000
+ 45664 strings out of 478579
+ 1052836 string characters out of 5857457
+ 1723739 words of memory out of 5000000
+ 62807 multiletter control sequences out of 15000+600000
  546669 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,22n,97p,3079b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2449,10 +2518,10 @@ onts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 x/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-math
 rm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:
 /texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (14 pages, 4215094 bytes).
+Output written on relazione_wet_copia.pdf (16 pages, 4227175 bytes).
 PDF statistics:
- 19992 PDF objects out of 22161 (max. 8388607)
- 13222 compressed objects within 133 object streams
+ 20059 PDF objects out of 22161 (max. 8388607)
+ 13252 compressed objects within 133 object streams
  0 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
