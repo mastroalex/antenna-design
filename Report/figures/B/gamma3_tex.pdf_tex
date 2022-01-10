@@ -1,0 +1,76 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'gamma3_tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{618.26850414bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.66680904)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{gamma3_tex.pdf}}%
+    \put(0.12070479,0.03598281){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.32937626,0.03598281){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.05\end{tabular}}}}%
+    \put(0.54969316,0.03598281){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.1\end{tabular}}}}%
+    \put(0.76345947,0.03598281){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.15\end{tabular}}}}%
+    \put(0.98377644,0.03598281){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.2\end{tabular}}}}%
+    \put(0.48801034,0.00280817){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Frequency (GHz)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{gamma3_tex.pdf}}%
+    \put(0.05446088,0.07072398){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30\end{tabular}}}}%
+    \put(0.05446088,0.16861832){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-25\end{tabular}}}}%
+    \put(0.05446088,0.2665127){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
+    \put(0.05446088,0.36440707){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-15\end{tabular}}}}%
+    \put(0.05446088,0.46230141){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0.06173927,0.56019578){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-5\end{tabular}}}}%
+    \put(0.06537846,0.65809014){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.00971459,0.32562586){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnitude (dB)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{gamma3_tex.pdf}}%
+    \put(0.77162848,0.39790511){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$ (dB)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{gamma3_tex.pdf}}%
+  \end{picture}%
+\endgroup%

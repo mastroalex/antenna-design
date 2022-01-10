@@ -1,0 +1,97 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pcb_structure_tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{859.79393702bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.55329603)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pcb_structure_tex.pdf}}%
+    \put(0.02788073,0.38399505){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pcb_structure_tex.pdf}}%
+    \put(0.02875303,0.41791015){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pcb_structure_tex.pdf}}%
+    \put(0.00558853,0.3833652){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}z (mm)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{pcb_structure_tex.pdf}}%
+    \put(0.05965152,0.32704897){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{pcb_structure_tex.pdf}}%
+    \put(0.14002542,0.27560932){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{pcb_structure_tex.pdf}}%
+    \put(0.22039933,0.2241784){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{pcb_structure_tex.pdf}}%
+    \put(0.21012998,0.10529613){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}y (mm)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{pcb_structure_tex.pdf}}%
+    \put(0.30425373,0.17273875){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{pcb_structure_tex.pdf}}%
+    \put(0.99251728,0.12063734){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.37764921,0.12130783){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{pcb_structure_tex.pdf}}%
+    \put(0.94108639,0.10054825){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{pcb_structure_tex.pdf}}%
+    \put(0.88964676,0.08045038){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{pcb_structure_tex.pdf}}%
+    \put(0.86782548,0.02662433){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}x (mm)\end{tabular}}}}%
+    \put(0.45802313,0.06986818){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
+    \put(0.83821582,0.06036129){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{pcb_structure_tex.pdf}}%
+    \put(0.78677619,0.04027215){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{pcb_structure_tex.pdf}}%
+    \put(0.73534525,0.02017433){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0.53838829,0.01843723){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{pcb_structure_tex.pdf}}%
+    \put(0.68390562,0.00008519){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-15\end{tabular}}}}%
+    \put(0.84556277,0.53133533){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Copper\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{pcb_structure_tex.pdf}}%
+    \put(0.84542099,0.5023743){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}feed\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{pcb_structure_tex.pdf}}%
+    \put(0.84735699,0.47321177){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FR4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{pcb_structure_tex.pdf}}%
+  \end{picture}%
+\endgroup%

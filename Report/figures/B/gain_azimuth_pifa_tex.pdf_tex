@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{188.82054023bp}%
+    \setlength{\unitlength}{188.56060547bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,25 +50,25 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.99049669)%
+  \begin{picture}(1,0.99083357)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{gain_azimuth_pifa_tex.pdf}}%
-    \put(0.47816068,0.48546758){\rotatebox{-15.00486333}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-14\end{tabular}}}}}%
-    \put(0.51120873,0.60879897){\rotatebox{-15.00486333}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-12\end{tabular}}}}}%
-    \put(0.54425559,0.73208905){\rotatebox{-15.00486333}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}}%
-    \put(0.58735246,0.85272145){\rotatebox{-15.00486333}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-8\end{tabular}}}}}%
-    \put(0.71493551,0.06494686){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
-    \put(0.89069763,0.24070898){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
-    \put(0.97736644,0.48085765){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
-    \put(0.90261371,0.72096738){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
-    \put(0.72685158,0.89672951){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
-    \put(0.48674185,0.9610362){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
-    \put(0.23467711,0.89672951){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
-    \put(0.05891498,0.72096738){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
-    \put(-0.00539171,0.48085765){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
-    \put(0.05891498,0.24070898){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
-    \put(0.23467711,0.06494686){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
-    \put(0.47482577,0.00060123){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
+    \put(0.47989,0.48601908){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-14\end{tabular}}}}}%
+    \put(0.51298281,0.60952049){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-12\end{tabular}}}}}%
+    \put(0.54607562,0.73298212){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}}%
+    \put(0.58923151,0.85377883){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-8\end{tabular}}}}}%
+    \put(0.71698884,0.06492105){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0.89299326,0.24092547){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
+    \put(0.97978233,0.48140518){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.90492576,0.72184512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.72892134,0.89784954){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0.48848141,0.96224528){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.23606919,0.89784954){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0.06006477,0.72184512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(-0.00433097,0.48140518){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
+    \put(0.06006477,0.24092547){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
+    \put(0.23606919,0.06492105){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
+    \put(0.4765489,0.00048553){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
   \end{picture}%
 \endgroup%

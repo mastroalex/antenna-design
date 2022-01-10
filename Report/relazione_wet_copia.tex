@@ -15,6 +15,8 @@
 %\usepackage{wasysym}
 %\usepackage{booktabs}
 \usepackage{caption}
+\usepackage{stfloats}
+
 %\usepackage{lmodern}
 \usepackage{multicol}
 \usepackage[includeheadfoot,margin=0.35in,bottom=0.7in]{geometry}
@@ -34,7 +36,6 @@
 %\addfont[1.5]{OT1}{simfon}{\simfon}
 \usepackage{listings}
 \usepackage{cleveref}
-
 \usepackage{caption}
 \DeclareCaptionFont{quack}{\fontfamily{lmss}\selectfont}
 \captionsetup{font={color=gray,quack},labelfont={color=black,bf}}
@@ -98,6 +99,7 @@
 	\fancyfoot{}
 }
 \usepackage{lastpage}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 
 \usepackage{lipsum}
 \usepackage[
@@ -606,9 +608,7 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 			\tiny{\input{pifa_currents_tex.pdf_tex}}
 			\caption{} \end{subfigure}
 		\hfill
-		\caption{\fontfamily{lmss}\selectfont
-			\color{gray}
-			Gain patterns (a) in 3D, (b) in the nulle elevation plane, (c) in the null azimuth plane and (d) 3D current plot on the patch antenna }
+		\caption{Gain patterns (a) in 3D, (b) in the nulle elevation plane, (c) in the null azimuth plane and (d) 3D current plot on the patch antenna }
 \end{figure*}
 
 
@@ -652,119 +652,124 @@ A set of 20 values of $\Gamma$ and respective coupled values ($L_{patch},W_{patc
 
 %%% le seguenti 3 figure le faremo più grandi una volta che sapremo dove effettivamente saranno posizionate nella relazione finale %%% 
 %% w_{feed} = 0.001 
-\begin{center}
-	\begin{figure}[h]
-		\includegraphics[scale=0.3]{mesh_levels.png}
-		\caption{{Minimum of the reflection coefficient $\Gamma\, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}}
-	\end{figure}
-\end{center}
+
 
 	\paragraph{\fontfamily{qag}\selectfont\color{Turquoise}From the PIFA to a PCB stack approximation}
-Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Analyzer} has been used to create that type of structure, starting from the Tchebyshev array factor design made in the first part and from the previous optimization process of a single PIFA. In the last part the overall array of PIFAs needs to be analyzed by means of beamsteering for particular angles, total gain, electric and magnetic field patterns. Unfortunately, not all of this information can be extracted by using uniquely the the \texttt{\color{Mahogany}Sensor Array Analyzer} tool. This fact led to the use of another tool, the \texttt{\color{Mahogany}PCB Antenna Designer}, so that all the parameters required for the project could be analyzed. With this last tool, a similar structure to that of the PIFA has been realized and introduced as the antenna element of the array distribution. Just before moving to the array analysis, a comparison between the single antenna being a PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. Thus, the PIFA and the PCB stack designed are not perfectly identical, but their single and overall performance inside the array had shown a slight quantifiable difference. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins (see \textbf{\cref{fig:pcb shorting}}) close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D gain patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Analyzer} allows the plotting of some patterns such as the directivity (but not of the gain), a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. In that case the error is presented as a comparison between the main lobe levels in the PIFA array and the PCB array cases, but also in terms of a first side lobe levels of the two arrays. This discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
+	
+	
+	
+Since the \texttt{\color{Mahogany}Antenna Array Designer} is not able to generate an array of PIFAs , the \texttt{\color{Mahogany}Sensor Array Analyzer} has been used to create that type of structure, starting from the Tchebyshev array factor design made in the first part and from the previous optimization process of a single PIFA. In the last part the overall array of PIFAs needs to be analyzed by means of beamsteering for particular angles, total gain, electric and magnetic field patterns. Unfortunately, not all of this information can be extracted by using uniquely the the \texttt{\color{Mahogany}Sensor Array Analyzer} tool. This fact led to the use of another tool, the \texttt{\color{Mahogany}PCB Antenna Designer}, so that all the parameters required for the project could be analyzed. With this last tool, a similar structure to that of the PIFA has been realized and introduced as the antenna element of the array distribution. Just before moving to the array analysis, a comparison between the single antenna being a PIFA structure and the antenna created by using a PCB stack was performed. A single limitation in the use of the \texttt{\color{Mahogany}PCB Antenna Designer} has been encountered, but it has been overcome with an approximation strategy. Thus, the PIFA and the PCB stack designed are not perfectly identical, but their single and overall performance inside the array had shown a slight quantifiable difference. The limitation consisted in the absence of a specific option or combination of commands that would allow to realize the rectangular shorting pin between the patch and the ground. The only thing the designer can do is to replace this kind of shorting pin with a series of small diameter (e.g. $0.4\,mm$) cylindrical shorting pins (see \textbf{\cref{fig:pcb shorting}}) and \textbf{\cref{fig:pcb shorting zoom}} close to one edge of the patch, across the patch width direction. With this design choice, a very similar behaviour to that of the PIFA structure was possible to simulate. To support this results, a comparison of the 2D gain patterns (elevation and azymuth cut) of the PIFA to those of the PCB stack antenna has been realized in terms of the mean square error values, shorten $MSE$, related to the two specific two-dimensional patterns considered ($MSE_{el}$ in the elevation cut directivity pattern and $MSE_{az}$ in the azimuth cut directivity pattern). Furthermore, since the \texttt{\color{Mahogany}Sensor Array Analyzer} allows the plotting of some patterns such as the directivity (but not of the gain), a comparison between the 2D patterns of the antenna array of PIFAs and the array of PCBs has been presented. In that case the error is presented as a comparison between the main lobe levels in the PIFA array and the PCB array cases, but also in terms of a first side lobe levels of the two arrays. This discussion was necessary, because moving to the last part of the project required a deeper study of the array of antennas, that will be displayed by using the PCB antenna as the element of the array. 
 
-\begin{table*}
+\begin{figure}[bt!]
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pcb_structure_zoom_tex.pdf_tex}}
+	\caption{Cropped zoom over PCB via holes. For an overall picture see \cref{fig:pcb shorting}}
+	\label{fig:pcb shorting zoom}
+\end{figure}
+
+
+
+
+
+
+\section*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
+In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that their total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in \textbf{\cref{eq:phase coefficients}}. Just before moving to the last part of the analysis, where only the characteristics of the array of PCBs will be considered, a last comparison between the array of PCBs and the array of PIFAs will be made in terms of 2D directivity patterns (both in broadside and in $45^\circ$ off the boreside direction, see \textbf{\cref{fig:pcb pifa array comparison}}). An error analysis based on the difference between the PCBs array main lobe and that of the PIFAs array, but also on the difference between the PCBs array main side lobe and that of the PIFAs array will be shown. The patterns and the numerical results according to the numerical error values illustrate how the array of PCBs represent a good enough approximation of the array of PIFAs. 
+
+\begin{table*}[bt!]
 	\begin{center}
 		{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{1.8cm}|m{3.6cm}|m{3.6cm}|m{3.6cm}|m{3.6cm}||}
 				\hline
 				\textbf{Direction} & \textbf{$D_{ML,az}$ error} & \textbf{$D_{SL,az}$} & \textbf{$D_{ML,el}$ error} & \textbf{$D_{SL,el}$} \\
 				\hline 
-		Broadside ($90^\circ$) & \begin{subtable}{1.8cm} 
-			\begin{tabular}{|l|l|}
+				Broadside ($90^\circ$) & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{ML}$ & $\Delta D_{ML}^r$\%  \\
+						\hline
+						$2.39\,dB$ & $3.3\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
+						\hline
+						$0.96\,dB$ & $2.7\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
+						\hline
+						$0.81\,dB$ & $1.1\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
+						\hline
+						$0.35\,dB$ & $1.6\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} \\
 				\hline
-				$\Delta D_{ML}$ & $\Delta D_{ML}^r$\%  \\
+				
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+				\hline 
+				Off Boresight ($45^\circ$) & \begin{subtable}{1.8cm}\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
+						\hline
+						$0.05\,dB$ & $0.07\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
+						\hline
+						$1.37\,dB$ & $3.4\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
+						\hline
+						$0.03\,dB$ & $0.04\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} & \begin{subtable}{1.8cm} 
+					\begin{tabular}{|l|l|}
+						\hline
+						$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
+						\hline
+						$4.1\,dB$ & $1.4\,\%$ \\
+						\hline
+					\end{tabular} 
+				\end{subtable} \\
 				\hline
-				$2.39\,dB$ & $3.3\,\%$ \\
-					\hline
-			\end{tabular} 
-			\end{subtable} & \begin{subtable}{1.8cm} 
-			\begin{tabular}{|l|l|}
-					\hline
-				$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
-				\hline
-				$0.96\,dB$ & $2.7\,\%$ \\
-					\hline
-			\end{tabular} 
-		\end{subtable} & \begin{subtable}{1.8cm} 
-		\begin{tabular}{|l|l|}
-				\hline
-			$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
-			\hline
-			$0.81\,dB$ & $1.1\,\%$ \\
-				\hline
-		\end{tabular} 
-	\end{subtable} & \begin{subtable}{1.8cm} 
-	\begin{tabular}{|l|l|}
-			\hline
-		$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
-		\hline
-		$0.35\,dB$ & $1.6\,\%$ \\
-			\hline
-	\end{tabular} 
-\end{subtable} \\
-\hline
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-			\hline 
-Off Boresight ($45^\circ$) & \begin{subtable}{1.8cm}\begin{tabular}{|l|l|}
-			\hline
-		$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
-		\hline
-		$0.05\,dB$ & $0.07\,\%$ \\
-			\hline
-	\end{tabular} 
-\end{subtable} & \begin{subtable}{1.8cm} 
-	\begin{tabular}{|l|l|}
-			\hline
-		$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
-		\hline
-		$1.37\,dB$ & $3.4\,\%$ \\
-			\hline
-	\end{tabular} 
-\end{subtable} & \begin{subtable}{1.8cm} 
-	\begin{tabular}{|l|l|}
-			\hline
-		$\Delta D_{ML}$ & $\Delta D_{ML}^r$\% \\
-		\hline
-		$0.03\,dB$ & $0.04\,\%$ \\
-			\hline
-	\end{tabular} 
-\end{subtable} & \begin{subtable}{1.8cm} 
-	\begin{tabular}{|l|l|}
-			\hline
-		$\Delta D_{SL}$ & $\Delta D_{SL}^r$\% \\
-		\hline
-		$4.1\,dB$ & $1.4\,\%$ \\
-			\hline
-	\end{tabular} 
-\end{subtable} \\
-\hline
 		\end{tabular}}
 		\caption{Comparison between the array of PIFAs and the array of PCBs in terms of the directivity evaluated in their main lobes and first side lobes, both in the broadside and $45^\circ$ off the boresight direction, both in the azimuth cut ($az$) and elevation cut ($el$) planes. The comparison has been made in terms of the directivity difference ($\Delta D_{\#}=D_{PIFAs}-D_{PCBs}$ in $dB$) in the corresponding positions and also as a relative percentage error ($\Delta D^r_{\#}$\%, the ratio between $\Delta D_{\#}$ and the directivity in the array of PIFAs case ($D_{PIFAs}$)}
 		\label{table:array comparison error}
 	\end{center}
 \end{table*}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% creare una tabella  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% in cui inserire i corretti dati di confronto %%%%%%%%
-%%% inseriti in una tabella dopo che comincia %%%%%%%%%%%
-%%% "Overall patch antenna array performante" %%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table*}
+\begin{table*}[bt!]
 	\begin{center}
 		{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{1.8cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}||}
 				\hline
 				*** & Position & $E$-field ($90^\circ$) & $H$-field ($90^\circ$) & $E$-field ($45^\circ$) & $45$-field ($90^\circ$) \\
-						\hline 
-			$PCB_{-2}$ & $(0,-2d_{opt},z_{fre})$ & $0.1027$ & $0.0139$ & $0.2071$ & $0.0269$ \\ 
-			\hline
+				\hline 
+				$PCB_{-2}$ & $(0,-2d_{opt},z_{fre})$ & $0.1027$ & $0.0139$ & $0.2071$ & $0.0269$ \\ 
+				\hline
 				$PCB_{-1}$ & $(0,-d_{opt},z_{fre})$ & $0.2923$ & $0.0377$ & $0.1889$ & $0.0100$ \\
 				\hline
 				$PCB_0$ & $(0,0,z_{fre})$& $0.4189$& $0.0522$& $0.2422$ & $0.0174$ \\
@@ -773,84 +778,33 @@ Off Boresight ($45^\circ$) & \begin{subtable}{1.8cm}\begin{tabular}{|l|l|}
 				\hline 
 				$PCB_2$ & $(0,2d_{opt},z_{fre})$ & $0.1350$ & $0.0143$ & $0.2922$ & $0.0270$ \\ 
 				\hline
-			\end{tabular}}
+		\end{tabular}}
 		\caption{Particular electric ($E$) and magnetic ($H$) field values measured in both broadside ($90^\circ$) and in the $45^\circ$ off the boresight directions. The $E$-field is measured in $\left[\frac{V}{m}\right]$ while the $H$-field in $\left[\frac{A}{m}\right]$. The fields have been measured with respect to the centers of each element antenna vertically off the array plane at a height distance of $z_{fresnel}$, the limit of the radiative, near field region, in a global reference system.}
 		\label{table:EH fields}
-		\end{center}
-	\end{table*} 
-\begin{center}
-	\begin{figure}[h]
-		\includegraphics[scale=0.2]{pcb_shorting_pins_3d_view.pdf}
-			\includegraphics[scale=0.2]{pcb_shorting_pins_top_view.pdf}
-		\caption{3D view and top view of the PIFA approximation realized with a PCB stack and cylindrical shorting pins}
-		\label{fig:pcb shorting}
-	\end{figure}
-\end{center}
-\begin{figure}[h]
-	\begin{center}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_null_azymuth_comparison.pdf}
-			\caption{}
-		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_null_elevation_comparison.pdf}
-			\caption{}	\end{subfigure}
-		\caption{
-			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
-	\end{center}  
-\end{figure}
-\begin{figure}[h]
-	\begin{center}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_array_azimuth_comparison.pdf}
-			\caption{}
-		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_array_elevation_comparison.pdf}
-			\caption{}	\end{subfigure}
-		\caption{
-			PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
-	\end{center}  
-\end{figure}
+	\end{center}
+\end{table*} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% creare una tabella  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% in cui inserire i corretti dati di confronto %%%%%%%%
+%%% inseriti in una tabella dopo che comincia %%%%%%%%%%%
+%%% "Overall patch antenna array performante" %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{center}
-	\begin{figure}
-		\includegraphics[width = 0.5\linewidth]{gamma.png}
-		\includegraphics[width = 0.5\linewidth]{impedances.png}
-		\caption{Reflection coefficient (left) and impedances (right) plots depending on $f\,\in\,2.0\div 2.1\,GHz$. This are the resulting plots before $W_{feed}$ optimization. }
-	\end{figure}
-\end{center}
 
-\section*{\fontfamily{qag}\selectfont\color{Turquoise}Overall patch antenna array performance}
-In this last part of the project, the array factor and the the element antenna (PIFA or PCB stack) designs will be combined so that their total effect will be examined. As it's been already mentioned in the previous paragraph, some of the information describing the overall array performance can be asked from both the \texttt{\color{Mahogany}Sensor Array Analyzer} (where the array of PIFAs was designed) and the \texttt{\color{Mahogany}PCB/Antenna Array Designer} (where the single patch antenna made starting from the PCB stack and also the whole array can be constructed). The performance of the overall array will be evaluated in two cases: in the broadside case ($90^\circ$) but also at $45^\circ$ off the boresight direction. First of all, it is very simple to identify the phase shift coefficients in the broadside case because they all equal $0^\circ$ (there's no actual phase shift between antennas). In the second case, some manual calculation can be made in order to insert the phase shifts between the single antennas (this is the case of the PCB stack array), and it can be also automatically computed by using the array of PIFAs. The generic procedure is shown in \textbf{\cref{eq:phase coefficients}}. Just before moving to the last part of the analysis, where only the characteristics of the array of PCBs will be considered, a last comparison between the array of PCBs and the array of PIFAs will be made in terms of 2D directivity patterns (both in broadside and in $45^\circ$ off the boreside direction, see \textbf{\cref{fig:pcb pifa array comparison}}). An error analysis based on the difference between the PCBs array main lobe and that of the PIFAs array, but also on the difference between the PCBs array main side lobe and that of the PIFAs array will be shown. The patterns and the numerical results according to the numerical error values illustrate how the array of PCBs represent a good enough approximation of the array of PIFAs. 
+
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
 In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by means of a fullwave model (with no approximation) and by using the pattern multiplication principle. This second case is idealistic because it makes an approximation of the real patterns by not considering the mutual induced interactions between the single antennas of the array; however, a "mathematical" interaction is considered in this model because it comes out of a formulation that mixes the single element effect (which gives an element gain factor $G_0$) on the gain pattern with the angular filtering influence of the array factor, weighted by a combination of the current coefficients (which gives an array gain factor $G_F$). The overall idealistic case is based on the pattern multiplication principle, which (in a case such as the Tchebyshev array synthesis model, thus with non uniform amplitude feed), will take into account also the effect of the tapering efficiency ($\eta_T$) in its formulation (see \textbf{\cref{eq:pattern multiplication}}). Thus, the pattern multiplication principle can be applied angle by angle and this will provide a set of values that can be computed and inserted in matrices by using \texttt{\color{BurntOrange}MatLab}. Starting from the matrices, the 2D patterns can be represented. On the other hand, an easier way is to use the \texttt{\color{Turquoise}patternMultiply} command and get the ideal. 
+
+
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Electric and magnetic near fields}
+
+
+
 The near field characteristics (specifically those of the radiative field, also called the Fresnel region) have been analyzed in both the broadside and by beamsteering to $45^\circ$ off the boresight conditions. Two situations have been analyzed: the general near field behaviour (in its electric and magnetic field components) but also the specific orientation of the fields in the center position of each of the five elements composing the antenna (so considering the $x$ and $y$ coordinates of each patch corresponding to the length and width directions of its planar development and the $z$ coordinate corresponding to the verical Fresnel distance component from the origin in a global reference). 
 
-\begin{figure}
-	\begin{center}
-		\begin{subfigure}{0.25\linewidth}
-			\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_90_comparison.pdf}
-			\caption{}
-		\end{subfigure}
-		\begin{subfigure}{0.25\linewidth}
-		\includegraphics[scale=0.5]{pcb_pifa_array_elevation_90_comparison.pdf}
-		\caption{}
-	\end{subfigure}
 
-		\begin{subfigure}{0.25\linewidth}
-	\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_45_comparison.pdf}
-	\caption{}
-\end{subfigure}
-\begin{subfigure}{0.25\linewidth}
-	\includegraphics[scale=0.5]{pcb_pifa_array_elevation_45_comparison.pdf}
-	\caption{}
-\end{subfigure}
-\caption{2D patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
-\label{fig:pcb pifa array comparison}
-	\end{center}
-\end{figure}
 \begin{equation}
 	\begin{aligned}
 		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\
@@ -867,26 +821,61 @@ The near field characteristics (specifically those of the radiative field, also 
 
 
 
-\newpage 
+
 %\section*{References}
 
-\printbibliography
 
-\section*{Appendix}
-\subsection*{Figure}
-\begin{figure*}
-	\begin{center}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.25]{gamma1.pdf}
+
+
+\twocolumn[{
+	\begin{@twocolumnfalse} 
+		\printbibliography
+
+	\listoffigures
+	\end{@twocolumnfalse}
+}
+]
+\clearpage
+
+	\section*{Appendix}
+
+
+	\subsection*{Figures}
+
+
+	\begin{figure*}[H]
+		\begin{subfigure}{0.48\linewidth}
+			\def\svgwidth{\linewidth}
+			\tiny{\input{gamma1_tex.pdf_tex}}
+						\caption{}
 		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.25]{gamma3.pdf}
+	\hfill
+		\begin{subfigure}{0.48\linewidth}
+			\def\svgwidth{\linewidth}
+			\tiny{\input{gamma3_tex.pdf_tex}}
+			\caption{}
 		\end{subfigure}
-		\caption{\fontfamily{lmss}\selectfont
-			\color{gray}The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
+		\caption{			\color{gray}The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
 		\label{fig:Gamma couple LpWp}
-	\end{center}  
-\end{figure*}
+	\end{figure*}
+	\begin{figure*}[H]
+		\begin{subfigure}{0.45\linewidth}
+			\def\svgwidth{\linewidth}
+			\tiny{\input{pcb_structure_tex.pdf_tex}}
+		\end{subfigure}
+	\hfill
+		\begin{subfigure}{0.45\linewidth}
+			\def\svgwidth{\linewidth}
+			\tiny{\input{pcb_structure_top_tex.pdf_tex}}
+		\end{subfigure}
+		\caption{3D view and top view of the PIFA approximation realized with a PCB stack and cylindrical shorting pins}
+		\label{fig:pcb shorting}
+	\end{figure*}
+
+
+\clearpage
+
+
 \subsection*{Pattern}
 
 
@@ -898,13 +887,61 @@ The near field characteristics (specifically those of the radiative field, also 
 	\end{figure*}
 
 
-\begin{figure}[h]
+\begin{figure}[bt!]
 		\begin{subfigure}{0.5\linewidth}
 			\includegraphics[scale=0.5]{gain_3D_pifa.pdf}
 			\caption{}
 		\end{subfigure}
 \end{figure}
 
+\begin{figure*}[bt!]
+
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_azymuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_null_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{
+			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+
+\end{figure*}
+\begin{figure*}[bt!]
+
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_azimuth_comparison.pdf}
+			\caption{}
+		\end{subfigure}
+		\begin{subfigure}{0.5\linewidth}
+			\includegraphics[scale=0.3]{pifa_pcb_array_elevation_comparison.pdf}
+			\caption{}	\end{subfigure}
+		\caption{
+			PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+\end{figure*}
+
+\begin{figure}[bt!]
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_90_comparison.pdf}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[scale=0.5]{pcb_pifa_array_elevation_90_comparison.pdf}
+		\caption{}
+	\end{subfigure}
+	
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_45_comparison.pdf}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[scale=0.5]{pcb_pifa_array_elevation_45_comparison.pdf}
+		\caption{}
+	\end{subfigure}
+	\caption{2D patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
+	\label{fig:pcb pifa array comparison}
+\end{figure}
+\clearpage
 \subsection*{Code}
 }
 

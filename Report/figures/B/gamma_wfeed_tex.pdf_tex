@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{749.02158165bp}%
+    \setlength{\unitlength}{612.5902462bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,28 +50,27 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.54690572)%
+  \begin{picture}(1,0.66725034)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{gamma_wfeed_tex.pdf}}%
-    \put(0.09205308,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
-    \put(0.2642978,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.05\end{tabular}}}}%
-    \put(0.44615504,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.1\end{tabular}}}}%
-    \put(0.6226052,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.15\end{tabular}}}}%
-    \put(0.80446244,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.2\end{tabular}}}}%
-    \put(0.9809126,0.03383112){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.25\end{tabular}}}}%
-    \put(0.4552743,0.00231797){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Frequency (GHz)\end{tabular}}}}%
+    \put(0.11255443,0.03990775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.32316015,0.03990775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.05\end{tabular}}}}%
+    \put(0.54551922,0.03990775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.1\end{tabular}}}}%
+    \put(0.76126699,0.03990775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.15\end{tabular}}}}%
+    \put(0.98362606,0.03990775){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.2\end{tabular}}}}%
+    \put(0.48231246,0.0028342){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Frequency (GHz)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{gamma_wfeed_tex.pdf}}%
-    \put(0.03429766,0.05487634){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}%
-    \put(0.03429766,0.13568177){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-50\end{tabular}}}}%
-    \put(0.03429766,0.21648716){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}%
-    \put(0.03429766,0.29729259){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30\end{tabular}}}}%
-    \put(0.03429766,0.378098){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
-    \put(0.03429766,0.45890341){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
-    \put(0.04330941,0.53970883){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
-    \put(0.00801876,0.26573314){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnitude (dB)\end{tabular}}}}}%
+    \put(0.04193617,0.06563999){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}%
+    \put(0.04193617,0.16444178){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-50\end{tabular}}}}%
+    \put(0.04193617,0.26324352){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}%
+    \put(0.04193617,0.36204531){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-30\end{tabular}}}}%
+    \put(0.04193617,0.46084707){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}%
+    \put(0.04193617,0.55964884){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-10\end{tabular}}}}%
+    \put(0.05295495,0.65845061){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.00980464,0.32345718){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Magnitude (dB)\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{gamma_wfeed_tex.pdf}}%
-    \put(0.83167439,0.48445127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$ (dB)\end{tabular}}}}%
+    \put(0.77487368,0.38822725){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$ (dB)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{gamma_wfeed_tex.pdf}}%
   \end{picture}%
 \endgroup%

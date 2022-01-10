@@ -1,0 +1,32 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {british}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces {Array factor polar, in azimuth (a) and elevation (c) cut, and rectangular in azimuth (b) and elevation (d) cut, diagrams}\relax }}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces PIFA realized with a dielectric substrate\relax }}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces {Minimum of the reflection coefficient $\Gamma \, [dB]$ in the frequency range $2.0\div 2.2\,GHz$ depending on the varying mesh density level}\relax }}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Comparison of the meshing parameter $e_{\qopname \relax m{max}}$ with minimum of reflection coefficient (a), variation of the resonant frequency with respect to the design one (the dotted line represents the value with respect to automatic meshing) (b), resonant frequency identified by the minimum of $\Gamma $ (c)\relax }}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Reflection coefficient (a) and impedance (b) plots depending on $f\,\in \,[2.0,2.1\,GHz]$\relax }}{8}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces First (a) and second (b) contour plots depending on the patch size ($L_{patch}$ and $W_{patch}$ variations)\relax }}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Final $\Gamma $ (a) and impedance matching (b) plots after further refinement including $w_{feed}$ change\relax }}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Gain patterns (a) in 3D, (b) in the nulle elevation plane, (c) in the null azimuth plane and (d) 3D current plot on the patch antenna \relax }}{9}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Cropped zoom over PCB via holes. For an overall picture see \cref {fig:pcb shorting}\relax }}{10}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces \color {gray}The two best $\Gamma $ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$\relax }}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces 3D view and top view of the PIFA approximation realized with a PCB stack and cylindrical shorting pins\relax }}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)\relax }}{15}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {14}{\ignorespaces PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut ($\theta _{el}=0^\circ $, (a)) and in the Elevation cut ($\phi _{az}=0^\circ $, (b))\relax }}{16}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut ($\theta _{el}=0^\circ $, (a)) and in the Elevation cut ($\phi _{az}=0^\circ $, (b))\relax }}{16}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces 2D patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ $ off the boresight direction ((c) azimuth cut and (d) elevation cut).\relax }}{17}{}%

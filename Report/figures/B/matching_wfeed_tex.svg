@@ -19,14 +19,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.83972969"
-     inkscape:cx="616.86517"
-     inkscape:cy="281.04282"
-     inkscape:window-width="1718"
-     inkscape:window-height="1360"
-     inkscape:window-x="1713"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.6794594"
+     inkscape:cx="772.86776"
+     inkscape:cy="258.71421"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
      inkscape:current-layer="Livello_1" />
   <defs
      id="defs4">
@@ -70,70 +70,70 @@
      id="line18" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="499.8"
-     x2="1042.8"
+     x1="864.23999"
+     y1="499.79999"
+     x2="864.23999"
      y2="42"
      id="line20" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="499.8"
+     x1="864.23999"
+     y1="499.79999"
      x2="150"
-     y2="499.8"
+     y2="499.79999"
      id="line22" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="442.58"
+     x1="864.23999"
+     y1="442.57999"
      x2="150"
-     y2="442.58"
+     y2="442.57999"
      id="line24" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="385.35"
+     x1="864.23999"
+     y1="385.35001"
      x2="150"
-     y2="385.35"
+     y2="385.35001"
      id="line26" />
   <line
      class="cls-2"
-     x1="1042.8"
+     x1="864.23999"
      y1="328.13"
      x2="150"
      y2="328.13"
      id="line28" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="270.9"
+     x1="864.23999"
+     y1="270.89999"
      x2="150"
-     y2="270.9"
+     y2="270.89999"
      id="line30" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="213.68"
+     x1="864.23999"
+     y1="213.67999"
      x2="150"
-     y2="213.68"
+     y2="213.67999"
      id="line32" />
   <line
      class="cls-2"
-     x1="1042.8"
+     x1="864.23999"
      y1="156.45"
      x2="150"
      y2="156.45"
      id="line34" />
   <line
      class="cls-2"
-     x1="1042.8"
-     y1="99.23"
+     x1="864.23999"
+     y1="99.230003"
      x2="150"
-     y2="99.23"
+     y2="99.230003"
      id="line36" />
   <line
      class="cls-2"
-     x1="1042.8"
+     x1="864.23999"
      y1="42"
      x2="150"
      y2="42"
@@ -141,15 +141,15 @@
   <line
      class="cls-3"
      x1="150"
-     y1="499.8"
-     x2="1042.8"
-     y2="499.8"
+     y1="499.79999"
+     x2="864.23999"
+     y2="499.79999"
      id="line40" />
   <line
      class="cls-3"
      x1="150"
      y1="42"
-     x2="1042.8"
+     x2="864.23999"
      y2="42"
      id="line42" />
   <line
@@ -189,9 +189,9 @@
      id="line52" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="499.8"
-     x2="1042.8"
+     x1="864.23999"
+     y1="499.79999"
+     x2="864.23999"
      y2="490.87"
      id="line54" />
   <line
@@ -231,9 +231,9 @@
      id="line64" />
   <line
      class="cls-3"
-     x1="1042.8"
+     x1="864.23999"
      y1="42"
-     x2="1042.8"
+     x2="864.23999"
      y2="50.93"
      id="line66" />
   <text
@@ -262,15 +262,10 @@
      x="857.03998"
      y="525.46661">2.2</text>
   <text
-     class="cls-4"
-     id="text78"
-     x="1032.9"
-     y="525.46661">2.25</text>
-  <text
      class="cls-5"
      id="text80"
-     x="508.00021"
-     y="548.51666">Frequency (GHz)</text>
+     x="458.57956"
+     y="550.89838">Frequency (GHz)</text>
   <line
      class="cls-3"
      x1="150"
@@ -280,9 +275,9 @@
      id="line82" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="499.8"
-     x2="1042.8"
+     x1="864.23999"
+     y1="499.79999"
+     x2="864.23999"
      y2="42"
      id="line84" />
   <line
@@ -350,65 +345,65 @@
      id="line102" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="499.8"
-     x2="1033.87"
-     y2="499.8"
+     x1="864.23999"
+     y1="499.79999"
+     x2="855.30994"
+     y2="499.79999"
      id="line104" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="442.58"
-     x2="1033.87"
-     y2="442.58"
+     x1="864.23999"
+     y1="442.57999"
+     x2="855.30994"
+     y2="442.57999"
      id="line106" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="385.35"
-     x2="1033.87"
-     y2="385.35"
+     x1="864.23999"
+     y1="385.35001"
+     x2="855.30994"
+     y2="385.35001"
      id="line108" />
   <line
      class="cls-3"
-     x1="1042.8"
+     x1="864.23999"
      y1="328.13"
-     x2="1033.87"
+     x2="855.30994"
      y2="328.13"
      id="line110" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="270.9"
-     x2="1033.87"
-     y2="270.9"
+     x1="864.23999"
+     y1="270.89999"
+     x2="855.30994"
+     y2="270.89999"
      id="line112" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="213.68"
-     x2="1033.87"
-     y2="213.68"
+     x1="864.23999"
+     y1="213.67999"
+     x2="855.30994"
+     y2="213.67999"
      id="line114" />
   <line
      class="cls-3"
-     x1="1042.8"
+     x1="864.23999"
      y1="156.45"
-     x2="1033.87"
+     x2="855.30994"
      y2="156.45"
      id="line116" />
   <line
      class="cls-3"
-     x1="1042.8"
-     y1="99.23"
-     x2="1033.87"
-     y2="99.23"
+     x1="864.23999"
+     y1="99.230003"
+     x2="855.30994"
+     y2="99.230003"
      id="line118" />
   <line
      class="cls-3"
-     x1="1042.8"
+     x1="864.23999"
      y1="42"
-     x2="1033.87"
+     x2="855.30994"
      y2="42"
      id="line120" />
   <text
@@ -474,38 +469,38 @@
      style="stroke:#fe5a00;stroke-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
   <rect
      class="cls-12"
-     x="798.52502"
-     y="60.940571"
+     x="615.72809"
+     y="75.826317"
      width="203.97128"
      height="77.004654"
      id="rect165"
-     style="fill:#ffffff;stroke:#262626;stroke-width:1.32172;stroke-miterlimit:10;stroke-dasharray:1.32172, 2.64343;stroke-dashoffset:0;fill-opacity:1" />
+     style="fill:#ffffff;fill-opacity:1;stroke:#262626;stroke-width:1.32172;stroke-miterlimit:10;stroke-dasharray:1.32172, 2.64343;stroke-dashoffset:0" />
   <text
      class="cls-11"
      id="text157"
-     x="852.18744"
-     y="88.213936"
+     x="680.70367"
+     y="103.09968"
      style="font-size:9px;font-family:ArialMT, Arial">Resistance</text>
   <line
      class="cls-9"
-     x1="819.93744"
-     y1="84.463936"
-     x2="849.93744"
-     y2="84.463936"
+     x1="637.1405"
+     y1="99.349678"
+     x2="667.1405"
+     y2="99.349678"
      id="line159"
      style="fill:none;stroke:#0072bd;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <text
      class="cls-11"
      id="text161"
-     x="852.78937"
-     y="118.47263"
+     x="682.49646"
+     y="133.95381"
      style="font-size:9px;font-family:ArialMT, Arial">Reactance</text>
   <line
      class="cls-10"
-     x1="820.53937"
-     y1="114.72263"
-     x2="850.53937"
-     y2="114.72263"
+     x1="637.74243"
+     y1="129.60838"
+     x2="667.74243"
+     y2="129.60838"
      id="line163"
      style="fill:none;stroke:#fe5a00;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>
