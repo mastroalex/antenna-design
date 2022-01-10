@@ -14,7 +14,7 @@
 
 # Patch image
 <p align="center">
-<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/gain_patch2.png" alt="Patch" style="width:60%; border:0;">
+<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/gain_patch2.png" alt="Patch" style="width:40%; border:0;">
 </p>
 
 # Design
