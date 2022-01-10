@@ -1,0 +1,16 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {british}{}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {1}{\ignorespaces Table trial\relax }}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2}{\ignorespaces Tchebyshev array design results\relax }}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3}{\ignorespaces Project input parameters (frequency, matching and substrate features) and theoretical (pre-optimized) features of the patch and ground PIFA components\relax }}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4}{\ignorespaces Three levels of $FR4$ substrate thickness are shown above. In the antenna industry, the $FR4$ substrate thickness generally ranges from $0.8\,mm$ and $3.6\,mm$\relax }}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {5}{\ignorespaces Final $\Gamma $ and impedance matching values after $w_{feed}$ change\relax }}{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {6}{\ignorespaces Comparison between the array of PIFAs and the array of PCBs in terms of the directivity evaluated in their main lobes and first side lobes, both in the broadside and $45^\circ $ off the boresight direction, both in the azimuth cut ($az$) and elevation cut ($el$) planes. The comparison has been made in terms of the directivity difference ($\Delta D_{\#}=D_{PIFAs}-D_{PCBs}$ in $dB$) in the corresponding positions and also as a relative percentage error ($\Delta D^r_{\#}$\%, the ratio between $\Delta D_{\#}$ and the directivity in the array of PIFAs case ($D_{PIFAs}$)\relax }}{11}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {7}{\ignorespaces Particular electric ($E$) and magnetic ($H$) field values measured in both broadside ($90^\circ $) and in the $45^\circ $ off the boresight directions. The $E$-field is measured in $\left [\frac {V}{m}\right ]$ while the $H$-field in $\left [\frac {A}{m}\right ]$. The fields have been measured with respect to the centers of each element antenna vertically off the array plane at a height distance of $z_{fresnel}$, the limit of the radiative, near field region, in a global reference system.\relax }}{11}{}%

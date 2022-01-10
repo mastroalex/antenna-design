@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  10 JAN 2022 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  10 JAN 2022 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,4 +524,2580 @@ File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box108
 \AM@global@opts=\toks27
 \AM@pagecnt=\count303
-\
+\AM@toc@title=\toks28
+\c@AM@survey=\count304
+\AM@templatesizebox=\box109
+)
+(c:/texlive/2021/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen194
+\pgfutil@tempdimb=\dimen195
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box110
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen196
+\pgf@y=\dimen197
+\pgf@xa=\dimen198
+\pgf@ya=\dimen199
+\pgf@xb=\dimen256
+\pgf@yb=\dimen257
+\pgf@xc=\dimen258
+\pgf@yc=\dimen259
+\pgf@xd=\dimen260
+\pgf@yd=\dimen261
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count305
+\c@pgf@countb=\count306
+\c@pgf@countc=\count307
+\c@pgf@countd=\count308
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count309
+ (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count310
+\pgfsyssoftpath@bigbuffer@items=\count311
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count312
+\pgfmath@box=\box111
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count313
+))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box112
+\pgf@hbox=\box113
+\pgf@layerbox@main=\box114
+\pgf@picture@serial@count=\count314
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen281
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen285
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count315
+\pgf@shadingcount=\count316
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box115
+))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box116
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+)
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count317
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikz@lastmovetox=\dimen296
+\tikz@lastmovetoy=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box117
+\tikz@figbox@bg=\box118
+\tikz@tempbox=\box119
+\tikz@tempbox@bg=\box120
+\tikztreelevel=\count318
+\tikznumberofchildren=\count319
+\tikznumberofcurrentchild=\count320
+\tikz@fig@count=\count321
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count322
+\pgfmatrixcurrentcolumn=\count323
+\pgf@matrix@numberofcolumns=\count324
+)
+\tikz@expandcount=\count325
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen300
+\c@pgfplots@coordindex=\count326
+\c@pgfplots@scanlineindex=\count327
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
+x))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfs
+upp_loader.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+cture.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststru
+ctureext.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
+de.tex
+\c@pgfplotsarray@tmp=\count328
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
+ode.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
+ode.tex
+\c@pgfplotstable@counta=\count329
+\t@pgfplotstable@a=\toks44
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
+de.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.
+tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.te
+x)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
+ading.code.tex
+\c@pgfplotslibrarysurf@no=\count330
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
+ding.pgfsys-pdftex.def)))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.t
+ex
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex
+))) (c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.t
+ex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
+ex
+\pgfdecoratedcompleteddistance=\dimen301
+\pgfdecoratedremainingdistance=\dimen302
+\pgfdecoratedinputsegmentcompleteddistance=\dimen303
+\pgfdecoratedinputsegmentremainingdistance=\dimen304
+\pgf@decorate@distancetomove=\dimen305
+\pgf@decorate@repeatstate=\count331
+\pgfdecorationsegmentamplitude=\dimen306
+\pgfdecorationsegmentlength=\dimen307
+)
+\tikz@lib@dec@box=\box121
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathmorphing.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathmorphing.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarydecorations.pathreplacing.code.tex
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
+orations.pathreplacing.code.tex))
+(c:/texlive/2021/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.conto
+urlua.code.tex)
+\pgfplots@numplots=\count332
+\pgfplots@xmin@reg=\dimen308
+\pgfplots@xmax@reg=\dimen309
+\pgfplots@ymin@reg=\dimen310
+\pgfplots@ymax@reg=\dimen311
+\pgfplots@zmin@reg=\dimen312
+\pgfplots@zmax@reg=\dimen313
+)
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+braryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.
+tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/tgbonum.sty
+Package: tgbonum 2009/09/27 v1.2 TeX Gyre Bonum as default roman family
+
+(c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
+(c:/texlive/2021/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks45
+\minrowclearance=\skip59
+)
+(c:/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count333
+\lst@gtempboxa=\box122
+\lst@token=\toks46
+\lst@length=\count334
+\lst@currlwidth=\dimen314
+\lst@column=\count335
+\lst@pos=\count336
+\lst@lostspace=\dimen315
+\lst@width=\dimen316
+\lst@newlines=\count337
+\lst@lineno=\count338
+\lst@maxwidth=\dimen317
+
+(c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
+\lst@framebox=\box123
+)
+(c:/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(c:/texlive/2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `listings' support loaded on input line 3131.
+)
+(c:/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count341
+\c@subtable=\count342
+)
+(c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box124
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen318
+\ttl@minus=\dimen319
+\ttl@toksa=\toks47
+\titlewidth=\dimen320
+\titlewidthlast=\dimen321
+\titlewidthfirst=\dimen322
+)
+(c:/texlive/2021/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)
+\figureheight=\skip62
+\figurewidth=\skip63
+
+(c:/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count343
+\float@exts=\toks48
+\float@box=\box125
+\@float@everytoks=\toks49
+\@floatcapt=\box126
+)
+(c:/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count344
+\c@Blindtext=\count345
+\c@blind@countparstart=\count346
+\blind@countxx=\count347
+\blindtext@numBlindtext=\count348
+\blind@countyy=\count349
+\c@blindlist=\count350
+\c@blindlistlevel=\count351
+\c@blindlist@level=\count352
+\blind@listitem=\count353
+\c@blind@listcount=\count354
+\c@blind@levelcount=\count355
+\blind@mathformula=\count356
+\blind@Mathformula=\count357
+\c@blind@randomcount=\count358
+\c@blind@randommax=\count359
+\c@blind@pangramcount=\count360
+\c@blind@pangrammax=\count361
+)
+(c:/texlive/2021/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip64
+\@affilsep=\skip65
+\c@Maxaffil=\count362
+\c@authors=\count363
+\c@affil=\count364
+)
+(c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
+)
+(c:/texlive/2021/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
+(c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count365
+\l__lipsum_a_int=\count366
+\l__lipsum_b_int=\count367
+
+(c:/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count368
+
+(c:/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count369
+\c@listtotal=\count370
+\c@listcount=\count371
+\c@liststart=\count372
+\c@liststop=\count373
+\c@citecount=\count374
+\c@citetotal=\count375
+\c@multicitecount=\count376
+\c@multicitetotal=\count377
+\c@instcount=\count378
+\c@maxnames=\count379
+\c@minnames=\count380
+\c@maxitems=\count381
+\c@minitems=\count382
+\c@citecounter=\count383
+\c@maxcitecounter=\count384
+\c@savedcitecounter=\count385
+\c@uniquelist=\count386
+\c@uniquename=\count387
+\c@refsection=\count388
+\c@refsegment=\count389
+\c@maxextratitle=\count390
+\c@maxextratitleyear=\count391
+\c@maxextraname=\count392
+\c@maxextradate=\count393
+\c@maxextraalpha=\count394
+\c@abbrvpenalty=\count395
+\c@highnamepenalty=\count396
+\c@lownamepenalty=\count397
+\c@maxparens=\count398
+\c@parenlevel=\count399
+\blx@tempcnta=\count400
+\blx@tempcntb=\count401
+\blx@tempcntc=\count402
+\blx@maxsection=\count403
+\blx@maxsegment@0=\count404
+\blx@notetype=\count405
+\blx@parenlevel@text=\count406
+\blx@parenlevel@foot=\count407
+\blx@sectionciteorder@0=\count408
+\blx@entrysetcounter=\count409
+\blx@biblioinstance=\count410
+\labelnumberwidth=\skip75
+\labelalphawidth=\skip76
+\biblabelsep=\skip77
+\bibitemsep=\skip78
+\bibnamesep=\skip79
+\bibinitsep=\skip80
+\bibparsep=\skip81
+\bibhang=\skip82
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language88
+\c@mincomprange=\count411
+\c@maxcomprange=\count412
+\c@mincompwidth=\count413
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count414
+\c@savedafterword=\count415
+\c@annotator=\count416
+\c@savedannotator=\count417
+\c@author=\count418
+\c@savedauthor=\count419
+\c@bookauthor=\count420
+\c@savedbookauthor=\count421
+\c@commentator=\count422
+\c@savedcommentator=\count423
+\c@editor=\count424
+\c@savededitor=\count425
+\c@editora=\count426
+\c@savededitora=\count427
+\c@editorb=\count428
+\c@savededitorb=\count429
+\c@editorc=\count430
+\c@savededitorc=\count431
+\c@foreword=\count432
+\c@savedforeword=\count433
+\c@holder=\count434
+\c@savedholder=\count435
+\c@introduction=\count436
+\c@savedintroduction=\count437
+\c@namea=\count438
+\c@savednamea=\count439
+\c@nameb=\count440
+\c@savednameb=\count441
+\c@namec=\count442
+\c@savednamec=\count443
+\c@translator=\count444
+\c@savedtranslator=\count445
+\c@shortauthor=\count446
+\c@savedshortauthor=\count447
+\c@shorteditor=\count448
+\c@savedshorteditor=\count449
+\c@labelname=\count450
+\c@savedlabelname=\count451
+\c@institution=\count452
+\c@savedinstitution=\count453
+\c@lista=\count454
+\c@savedlista=\count455
+\c@listb=\count456
+\c@savedlistb=\count457
+\c@listc=\count458
+\c@savedlistc=\count459
+\c@listd=\count460
+\c@savedlistd=\count461
+\c@liste=\count462
+\c@savedliste=\count463
+\c@listf=\count464
+\c@savedlistf=\count465
+\c@location=\count466
+\c@savedlocation=\count467
+\c@organization=\count468
+\c@savedorganization=\count469
+\c@origlocation=\count470
+\c@savedoriglocation=\count471
+\c@origpublisher=\count472
+\c@savedorigpublisher=\count473
+\c@publisher=\count474
+\c@savedpublisher=\count475
+\c@language=\count476
+\c@savedlanguage=\count477
+\c@origlanguage=\count478
+\c@savedoriglanguage=\count479
+\c@pageref=\count480
+\c@savedpageref=\count481
+\shorthandwidth=\skip83
+\shortjournalwidth=\skip84
+\shortserieswidth=\skip85
+\shorttitlewidth=\skip86
+\shortauthorwidth=\skip87
+\shorteditorwidth=\skip88
+\locallabelnumberwidth=\skip89
+\locallabelalphawidth=\skip90
+\localshorthandwidth=\skip91
+\localshortjournalwidth=\skip92
+\localshortserieswidth=\skip93
+\localshorttitlewidth=\skip94
+\localshortauthorwidth=\skip95
+\localshorteditorwidth=\skip96
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count482
+\c@textcitetotal=\count483
+\c@textcitemaxnames=\count484
+\c@biburlbigbreakpenalty=\count485
+\c@biburlbreakpenalty=\count486
+\c@biburlnumpenalty=\count487
+\c@biburlucpenalty=\count488
+\c@biburllcpenalty=\count489
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count490
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count491
+\c@bbx:relatedtotal=\count492
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count493
+\@quotereset=\count494
+LaTeX Font Info:    Trying to load font information for T1+qbk on input line 11
+1.
+(c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qbk.fd
+File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
+)
+(./relazione_wet_copia.aux)
+\openout1 = `relazione_wet_copia.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 111.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
+111.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 111.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
+111.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stix.fd
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 111.
+
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count495
+\scratchdimen=\dimen323
+\scratchbox=\box127
+\nofMPsegments=\count496
+\nofMParguments=\count497
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count498
+\MPscratchDim=\dimen324
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
+\everyMPtoPDFconversion=\toks51
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(c:/texlive/2021/texmf-dist/tex/latex/translations/translations-basic-dictionar
+y-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(25.29494pt, 546.918pt, 25.29494pt)
+* v-part:(T,H,B)=(25.29494pt, 769.16313pt, 50.58878pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=546.918pt
+* \textheight=702.16313pt
+* \oddsidemargin=-46.97505pt
+* \evensidemargin=-46.97505pt
+* \topmargin=-46.97505pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(c:/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+\c@lstlisting=\count501
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 111.
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-10-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(c:/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2021-08-27 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout4 = `relazione_wet_copia-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'relazione_wet_copia.bbl' found.
+
+(./relazione_wet_copia.bbl)
+Package biblatex Info: Reference section=0 on input line 111.
+Package biblatex Info: Reference segment=0 on input line 111.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+13.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for T1+qag on input line 14
+3.
+(c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qag.fd
+File: t1qag.fd 2009/09/25 v1.2 font definition file for T1/qag
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 143.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+)
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 143.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 148.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 152.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 152.
+<figures//logo.png, id=4, 336.384pt x 337.698pt>
+File: figures//logo.png Graphic file (type png)
+<use figures//logo.png>
+Package pdftex.def Info: figures//logo.png  used on input line 153.
+(pdftex.def)             Requested size: 59.76631pt x 60.0pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 64.35004pt, for example:
+(fancyhdr)                \setlength{\headheight}{64.35004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-52.35004pt}.
+
+[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures//logo.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2] (./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=26, page=1, 255.
+60243pt x 254.99266pt>
+File: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf Graphic file (t
+ype pdf)
+<use figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 218.76385pt x 218.24664pt.
+)
+(./figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=27, page=1
+, 347.93489pt x 274.64857pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_a
+z_tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 300.80656pt x 237.46298pt.
+)
+(./figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=28, page=1, 256.
+97256pt x 256.00142pt>
+File: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf Graphic file (t
+ype pdf)
+<use figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.
+pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 218.76385pt x 217.93816pt.
+)
+(./figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=29, page=1
+, 347.93489pt x 274.64857pt>
+File: figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf Graphic f
+ile (type pdf)
+<use figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, page 1>
+Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_e
+l_tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 300.80656pt x 237.46298pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+|\T1/qag/b/n/17.28 Rectangular fol-ded patch
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+14.
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 315.
+
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/m/n' instead on input line 315.
+
+
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1259) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf> <./figures/A//
+pcb_array_factor_with_toolbox_rectangular_az_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_az_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_p
+olar_el_tex.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+> <./figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
+ectangular_el_tex.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>] (./figures/B//patch_structure_tex.pdf_tex
+<figures/B//patch_structure_tex.pdf, id=43, page=1, 389.05644pt x 238.96077pt>
+File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
+<figures/B//patch_structure_tex.pdf, id=44, page=2, 389.05644pt x 238.96077pt>
+File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page2 used on inp
+ut line 58.
+(pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
+<figures/B//patch_structure_tex.pdf, id=45, page=3, 389.05644pt x 238.96077pt>
+File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page3 used on inp
+ut line 60.
+(pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
+<figures/B//patch_structure_tex.pdf, id=46, page=4, 389.05644pt x 238.96077pt>
+File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page4 used on inp
+ut line 62.
+(pdftex.def)             Requested size: 164.07706pt x 100.7785pt.
+)
+(./figures/B//patch_structure_2_tex.pdf_tex
+<figures/B//patch_structure_2_tex.pdf, id=47, page=1, 272.80156pt x 145.316pt>
+File: figures/B//patch_structure_2_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_2_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//patch_structure_2_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 164.07706pt x 87.40091pt.
+)
+(./figures/B//patch_structure_3_tex.pdf_tex
+<figures/B//patch_structure_3_tex.pdf, id=48, page=1, 268.78304pt x 54.53905pt>
+
+File: figures/B//patch_structure_3_tex.pdf Graphic file (type pdf)
+<use figures/B//patch_structure_3_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//patch_structure_3_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 164.07706pt x 33.2929pt.
+)
+Overfull \hbox (7.43228pt too wide) in paragraph at lines 355--355
+[]|\T1/lmss/bx/n/12 Parameter/Component| 
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 359--359
+[]|\T1/lmss/m/n/12 Matched in-put res-ist-
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 388--389
+[]|$\LS1/stix/m/it/12 L[]  \LS1/stix/m/n/12 ö  []  =
+ []
+
+
+Overfull \hbox (0.54393pt too wide) in paragraph at lines 350--408
+ [] 
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 408--408
+\T1/lmss/m/n/12 ing and sub-strate fea-tures) and the-or-et-ical (pre-
+ []
+
+
+Overfull \hbox (0.68521pt too wide) in paragraph at lines 449--460
+ [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <./figures/B//patch_structure_tex.pdf> <./figures/B//patch_structure_tex.pdf
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//patch_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//patch_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//patch_structure_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_2_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//patch_structure_3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_3_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] (./figures/B//mesh_first_test_tex.pdf_tex
+<figures/B//mesh_first_test_tex.pdf, id=19456, page=1, 804.75227pt x 427.8564pt
+>
+File: figures/B//mesh_first_test_tex.pdf Graphic file (type pdf)
+<use figures/B//mesh_first_test_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//mesh_first_test_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 268.459pt x 142.72725pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 76--482
+
+ []
+
+
+Underfull \vbox (badness 8113) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6] (./figures/B//minGamma_vs_mesh_level_tex.pdf_tex
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19461, page=1, 450.3618pt x 407.
+02577pt>
+File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page1 used
+ on input line 56.
+(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19462, page=2, 450.3618pt x 407.
+02577pt>
+File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//minGamma_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page2 used
+ on input line 66.
+(pdftex.def)             Requested size: 175.01776pt x 158.17422pt.
+)
+(./figures/B//DeltaF_vs_mesh_level_tex.pdf_tex
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19463, page=1, 452.24368pt x 314.1
+9728pt>
+File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19464, page=2, 452.24368pt x 314.1
+9728pt>
+File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page2 used o
+n input line 64.
+(pdftex.def)             Requested size: 175.01776pt x 121.59196pt.
+)
+(./figures/B//F_vs_mesh_level_tex.pdf_tex
+<figures/B//F_vs_mesh_level_tex.pdf, id=19465, page=1, 471.96033pt x 313.18785p
+t>
+File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//F_vs_mesh_level_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
+<figures/B//F_vs_mesh_level_tex.pdf, id=19466, page=2, 471.96033pt x 313.18785p
+t>
+File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
+<use figures/B//F_vs_mesh_level_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page2 used on inp
+ut line 65.
+(pdftex.def)             Requested size: 175.01776pt x 116.14052pt.
+)
+(./figures/B//gamma_pre_wfeed_tex.pdf_tex
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19467, page=1, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page1 used on inp
+ut line 56.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19468, page=2, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page2 used on inp
+ut line 64.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19469, page=3, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page3 used on inp
+ut line 74.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19470, page=4, 316.18124pt x 237.13594p
+t>
+File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page4 used on inp
+ut line 76.
+(pdftex.def)             Requested size: 267.99281pt x 201.00925pt.
+)
+(./figures/B//impedence_pre_wfeed_tex.pdf_tex
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19471, page=1, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19472, page=2, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page2 used on
+ input line 64.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19473, page=3, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page3 used on
+ input line 75.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19474, page=4, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page4 used on
+ input line 77.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19475, page=5, 300.2586pt x 221.934
+77pt>
+File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//impedence_pre_wfeed_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page5 used on
+ input line 79.
+(pdftex.def)             Requested size: 257.05212pt x 190.00339pt.
+)
+(./figures/B//First_Contour_LOG_tex.pdf_tex
+<figures/B//First_Contour_LOG_tex.pdf, id=19476, page=1, 736.05305pt x 452.0240
+2pt>
+File: figures/B//First_Contour_LOG_tex.pdf Graphic file (type pdf)
+<use figures/B//First_Contour_LOG_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//First_Contour_LOG_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 262.5183pt x 161.218pt.
+)
+(./figures/B//Second_Contour_LOG_2_tex.pdf_tex
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19477, page=1, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page1 used o
+n input line 56.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19478, page=2, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page2 used o
+n input line 58.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19479, page=3, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page3 used o
+n input line 68.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19480, page=4, 719.58173pt x 428.0
+7376pt>
+File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
+<use figures/B//Second_Contour_LOG_2_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page4 used o
+n input line 74.
+(pdftex.def)             Requested size: 262.5183pt x 156.1705pt.
+)
+(./figures/B//gamma_wfeed_tex.pdf_tex
+<figures/B//gamma_wfeed_tex.pdf, id=19481, page=1, 614.88748pt x 410.28386pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 246.11142pt x 164.21706pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19482, page=2, 614.88748pt x 410.28386pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page2 used on input l
+ine 63.
+(pdftex.def)             Requested size: 246.11142pt x 164.21706pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19483, page=3, 614.88748pt x 410.28386pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page3 used on input l
+ine 72.
+(pdftex.def)             Requested size: 246.11142pt x 164.21706pt.
+<figures/B//gamma_wfeed_tex.pdf, id=19484, page=4, 614.88748pt x 410.28386pt>
+File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page4 used on input l
+ine 74.
+(pdftex.def)             Requested size: 246.11142pt x 164.21706pt.
+) (./figures/B//matching_wfeed_tex.pdf_tex
+<figures/B//matching_wfeed_tex.pdf, id=19485, page=1, 610.26978pt x 387.70128pt
+>
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page1 used on inpu
+t line 56.
+(pdftex.def)             Requested size: 262.5183pt x 166.77928pt.
+<figures/B//matching_wfeed_tex.pdf, id=19486, page=2, 610.26978pt x 387.70128pt
+>
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page2 used on inpu
+t line 63.
+(pdftex.def)             Requested size: 262.5183pt x 166.77928pt.
+<figures/B//matching_wfeed_tex.pdf, id=19487, page=3, 610.26978pt x 387.70128pt
+>
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page3 used on inpu
+t line 74.
+(pdftex.def)             Requested size: 262.5183pt x 166.77928pt.
+<figures/B//matching_wfeed_tex.pdf, id=19488, page=4, 610.26978pt x 387.70128pt
+>
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page4 used on inpu
+t line 76.
+(pdftex.def)             Requested size: 262.5183pt x 166.77928pt.
+<figures/B//matching_wfeed_tex.pdf, id=19489, page=5, 610.26978pt x 387.70128pt
+>
+File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
+<use figures/B//matching_wfeed_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page5 used on inpu
+t line 78.
+(pdftex.def)             Requested size: 262.5183pt x 166.77928pt.
+) (./figures/B//gain_azimuth_pifa_tex.pdf_tex
+<figures/B//gain_azimuth_pifa_tex.pdf, id=19490, page=1, 189.26772pt x 187.5328
+pt>
+File: figures/B//gain_azimuth_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_azimuth_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_azimuth_pifa_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 153.13637pt x 151.73189pt.
+)
+(./figures/B//gain_elevation_pifa_tex.pdf_tex
+<figures/B//gain_elevation_pifa_tex.pdf, id=19491, page=1, 189.26772pt x 187.53
+28pt>
+File: figures/B//gain_elevation_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_elevation_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_elevation_pifa_tex.pdf , page1 used on
+ input line 56.
+(pdftex.def)             Requested size: 153.13637pt x 151.73189pt.
+)
+(./figures/B//pifa_currents_tex.pdf_tex
+<figures/B//pifa_currents_tex.pdf, id=19492, page=1, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page1 used on input
+ line 56.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19493, page=2, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page2 used on input
+ line 58.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19494, page=3, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page3 used on input
+ line 60.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19495, page=4, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page4 used on input
+ line 62.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19496, page=5, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page5 used on input
+ line 64.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19497, page=6, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 6>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page6 used on input
+ line 67.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19498, page=7, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 7>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page7 used on input
+ line 69.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19499, page=8, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 8>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page8 used on input
+ line 71.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19500, page=9, 262.37065pt x 156.8233pt>
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 9>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page9 used on input
+ line 74.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19501, page=10, 262.37065pt x 156.8233pt>
+
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 10>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page10 used on inpu
+t line 76.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19502, page=11, 262.37065pt x 156.8233pt>
+
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 11>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page11 used on inpu
+t line 78.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19503, page=12, 262.37065pt x 156.8233pt>
+
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 12>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page12 used on inpu
+t line 81.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+<figures/B//pifa_currents_tex.pdf, id=19504, page=13, 262.37065pt x 156.8233pt>
+
+File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
+<use figures/B//pifa_currents_tex.pdf, page 13>
+Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page13 used on inpu
+t line 88.
+(pdftex.def)             Requested size: 185.9501pt x 111.1491pt.
+)
+Underfull \hbox (badness 1259) in paragraph at lines 661--662
+\T1/lmss/m/n/12 gen-er-ate an ar-ray of PI-FAs , the []\T1/cmtt/m/n/12 Sensor A
+rray
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <./figures/B//mesh_first_test_tex.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8 <./figures/B//minGamma_vs_mesh_level_tex.pdf> <./figures/B//minGamma_vs_mesh
+_level_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//minGamma_vs_mesh_level_tex.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//DeltaF_vs_mesh_level_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//DeltaF_vs_mesh_level_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//DeltaF_vs_mesh_level_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//DeltaF_vs_mesh_level_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//F_vs_mesh_level_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//F_vs_mesh_level_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//F_vs_mesh_level_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//F_vs_mesh_level_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_pre_wfeed_tex.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//impedence_pre_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//impedence_pre_wfeed_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9 <./figures/B//First_Contour_LOG_tex.pdf> <./figures/B//Second_Contour_LOG_2_
+tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//Second_Contour_LOG_2_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//Second_Contour_LOG_2_tex.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//gamma_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma_wfeed_tex.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//matching_wfeed_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./figures/B//gain_azimuth_pifa_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gain_azimuth_pifa_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//gain_elevation_pifa_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gain_elevation_pifa_tex.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pifa_currents_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_currents_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] (./figures/B//pcb_structure_zoom_tex.pdf_tex
+<figures/B//pcb_structure_zoom_tex.pdf, id=19774, page=1, 1156.80043pt x 614.85
+838pt>
+File: figures/B//pcb_structure_zoom_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_zoom_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pcb_structure_zoom_tex.pdf , page1 used on 
+input line 56.
+(pdftex.def)             Requested size: 268.459pt x 142.6904pt.
+)
+Underfull \hbox (badness 8075) in paragraph at lines 675--675
+|\T1/qag/b/n/17.28 Overall patch an-tenna ar-ray
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--684
+[]|\T1/lmss/m/n/12 Broadside
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 685--692
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 693--700
+[][] 
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 701--708
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 709--716
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+[]|\T1/lmss/m/n/12 Off
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\T1/lmss/m/n/12 Boresight
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 727--734
+[][] 
+ []
+
+
+Overfull \hbox (52.78088pt too wide) in paragraph at lines 735--742
+[][] 
+ []
+
+
+Overfull \hbox (55.78088pt too wide) in paragraph at lines 743--750
+[][] 
+ []
+
+
+Overfull \hbox (46.78088pt too wide) in paragraph at lines 751--758
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10 <./figures/B//pcb_structure_zoom_tex.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11] (./relazione_wet_copia.lof)
+\tf@lof=\write5
+\openout5 = `relazione_wet_copia.lof'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+
+
+] (./figures/B//gamma1_tex.pdf_tex
+<figures/B//gamma1_tex.pdf, id=26984, page=1, 616.4937pt x 390.98997pt>
+File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma1_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma1_tex.pdf , page1 used on input line 5
+6.
+(pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
+<figures/B//gamma1_tex.pdf, id=26985, page=2, 616.4937pt x 390.98997pt>
+File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma1_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma1_tex.pdf , page2 used on input line 6
+3.
+(pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
+<figures/B//gamma1_tex.pdf, id=26986, page=3, 616.4937pt x 390.98997pt>
+File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma1_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma1_tex.pdf , page3 used on input line 7
+2.
+(pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
+<figures/B//gamma1_tex.pdf, id=26987, page=4, 616.4937pt x 390.98997pt>
+File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma1_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma1_tex.pdf , page4 used on input line 7
+4.
+(pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
+) (./figures/B//gamma3_tex.pdf_tex
+<figures/B//gamma3_tex.pdf, id=26988, page=1, 620.587pt x 413.81303pt>
+File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma3_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gamma3_tex.pdf , page1 used on input line 5
+6.
+(pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
+<figures/B//gamma3_tex.pdf, id=26989, page=2, 620.587pt x 413.81303pt>
+File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma3_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gamma3_tex.pdf , page2 used on input line 6
+3.
+(pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
+<figures/B//gamma3_tex.pdf, id=26990, page=3, 620.587pt x 413.81303pt>
+File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma3_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gamma3_tex.pdf , page3 used on input line 7
+2.
+(pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
+<figures/B//gamma3_tex.pdf, id=26991, page=4, 620.587pt x 413.81303pt>
+File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
+<use figures/B//gamma3_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gamma3_tex.pdf , page4 used on input line 7
+4.
+(pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
+)
+(./figures/B//pcb_structure_tex.pdf_tex
+<figures/B//pcb_structure_tex.pdf, id=26992, page=1, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page1 used on input
+ line 56.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26993, page=2, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page2 used on input
+ line 58.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26994, page=3, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page3 used on input
+ line 60.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26995, page=4, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page4 used on input
+ line 62.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26996, page=5, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 5>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page5 used on input
+ line 64.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26997, page=6, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 6>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page6 used on input
+ line 66.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26998, page=7, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 7>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page7 used on input
+ line 68.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=26999, page=8, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 8>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page8 used on input
+ line 70.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27000, page=9, 863.01817pt x 477.50453pt>
+
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 9>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page9 used on input
+ line 72.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27001, page=10, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 10>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page10 used on inpu
+t line 75.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27002, page=11, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 11>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page11 used on inpu
+t line 77.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27003, page=12, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 12>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page12 used on inpu
+t line 79.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27004, page=13, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 13>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page13 used on inpu
+t line 83.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27005, page=14, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 14>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page14 used on inpu
+t line 85.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27006, page=15, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 15>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page15 used on inpu
+t line 88.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27007, page=16, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 16>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page16 used on inpu
+t line 91.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27008, page=17, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 17>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page17 used on inpu
+t line 93.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+<figures/B//pcb_structure_tex.pdf, id=27009, page=18, 863.01817pt x 477.50453pt
+>
+File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_tex.pdf, page 18>
+Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page18 used on inpu
+t line 95.
+(pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
+)
+(./figures/B//pcb_structure_top_tex.pdf_tex
+<figures/B//pcb_structure_top_tex.pdf, id=27010, page=1, 788.55841pt x 410.0022
+3pt>
+File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_top_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page1 used on i
+nput line 56.
+(pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
+<figures/B//pcb_structure_top_tex.pdf, id=27011, page=2, 788.55841pt x 410.0022
+3pt>
+File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_top_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page2 used on i
+nput line 65.
+(pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
+<figures/B//pcb_structure_top_tex.pdf, id=27012, page=3, 788.55841pt x 410.0022
+3pt>
+File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
+<use figures/B//pcb_structure_top_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page3 used on i
+nput line 74.
+(pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13
+
+
+ <./figures/B//gamma1_tex.pdf> <./figures/B//gamma1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma1_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma1_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma1_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma1_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma3_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma3_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma3_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//gamma3_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gamma3_tex.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_tex.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_top_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_top_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_top_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_top_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+> <./figures/B//pcb_structure_top_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_top_tex.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] (./figures/B//gain_3D_pifa_tex.pdf_tex
+<figures/B//gain_3D_pifa_tex.pdf, id=39428, page=1, 213.88275pt x 167.53345pt>
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+<figures/B//gain_3D_pifa_tex.pdf, id=39429, page=2, 213.88275pt x 167.53345pt>
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page2 used on input 
+line 70.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+<figures/B//gain_3D_pifa_tex.pdf, id=39430, page=3, 213.88275pt x 167.53345pt>
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page3 used on input 
+line 80.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+<figures/B//gain_3D_pifa_tex.pdf, id=39431, page=4, 213.88275pt x 167.53345pt>
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page4 used on input 
+line 86.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+)
+(./figures/B//gain_3D_pifa_tex.pdf_tex
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page2 used on input 
+line 70.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page3 used on input 
+line 80.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page4 used on input 
+line 86.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+) (./figures/B//gain_3D_pifa_tex.pdf_tex
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page2 used on input 
+line 70.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page3 used on input 
+line 80.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page4 used on input 
+line 86.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+) (./figures/B//gain_3D_pifa_tex.pdf_tex
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page1 used on input 
+line 56.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page2 used on input 
+line 70.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page3 used on input 
+line 80.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
+<use figures/B//gain_3D_pifa_tex.pdf, page 4>
+Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page4 used on input 
+line 86.
+(pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
+)
+(./figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf_tex
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39432, page=1, 486.843
+11pt x 445.13666pt>
+File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
+f)
+<use figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf , 
+page1 used on input line 56.
+(pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39433, page=2, 486.843
+11pt x 445.13666pt>
+File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
+f)
+<use figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf , 
+page2 used on input line 88.
+(pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39434, page=3, 486.843
+11pt x 445.13666pt>
+File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
+f)
+<use figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf , 
+page3 used on input line 90.
+(pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
+)
+(./figures/B//pifa_pcb_null_elevation_comparison_tex.pdf_tex
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39435, page=1, 450.9
+3965pt x 399.87004pt>
+File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
+pdf)
+<use figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, page 1>
+Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf 
+, page1 used on input line 56.
+(pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39436, page=2, 450.9
+3965pt x 399.87004pt>
+File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
+pdf)
+<use figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, page 2>
+Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf 
+, page2 used on input line 86.
+(pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39437, page=3, 450.9
+3965pt x 399.87004pt>
+File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
+pdf)
+<use figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, page 3>
+Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf 
+, page3 used on input line 88.
+(pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
+)
+(./figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf_tex
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39438, page=1, 397.11
+916pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
+df)
+<use figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, page 1>
+Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
+ page1 used on input line 56.
+(pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39439, page=2, 397.11
+916pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
+df)
+<use figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, page 2>
+Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
+ page2 used on input line 86.
+(pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39440, page=3, 397.11
+916pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
+df)
+<use figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, page 3>
+Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
+ page3 used on input line 88.
+(pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
+)
+(./figures/C//pifa_pcb_array_elevation_comparison_tex.pdf_tex
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39441, page=1, 396.
+83012pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
+ pdf)
+<use figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, page 1>
+Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+ , page1 used on input line 56.
+(pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39442, page=2, 396.
+83012pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
+ pdf)
+<use figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, page 2>
+Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+ , page2 used on input line 87.
+(pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39443, page=3, 396.
+83012pt x 336.46819pt>
+File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
+ pdf)
+<use figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, page 3>
+Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+ , page3 used on input line 89.
+(pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
+)
+<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=39444, 317.185pt x 316.1
+8124pt>
+File: figures//pcb_pifa_array_azimuth_90_comparison.pdf Graphic file (type pdf)
+
+<use figures//pcb_pifa_array_azimuth_90_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_azimuth_90_comparison.pdf  use
+d on input line 941.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 941--942
+[][] 
+ []
+
+<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=39445, 317.185pt x 316
+.18124pt>
+File: figures//pcb_pifa_array_elevation_90_comparison.pdf Graphic file (type pd
+f)
+<use figures//pcb_pifa_array_elevation_90_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_elevation_90_comparison.pdf  u
+sed on input line 945.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 945--946
+[][] 
+ []
+
+<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=39446, 317.185pt x 316.1
+8124pt>
+File: figures//pcb_pifa_array_azimuth_45_comparison.pdf Graphic file (type pdf)
+
+<use figures//pcb_pifa_array_azimuth_45_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_azimuth_45_comparison.pdf  use
+d on input line 950.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 950--951
+[][] 
+ []
+
+<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=39447, 317.185pt x 316
+.18124pt>
+File: figures//pcb_pifa_array_elevation_45_comparison.pdf Graphic file (type pd
+f)
+<use figures//pcb_pifa_array_elevation_45_comparison.pdf>
+Package pdftex.def Info: figures//pcb_pifa_array_elevation_45_comparison.pdf  u
+sed on input line 954.
+(pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
+
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 954--955
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14
+
+
+ <./figures/B//gain_3D_pifa_tex.pdf> <./figures/B//gain_3D_pifa_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gain_3D_pifa_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures/B//gain_3D_pifa_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gain_3D_pifa_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./figures/B//gain_3D_pifa_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//gain_3D_pifa_tex.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 <./figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf> <./figures/B//pifa_
+pcb_null_azymuth_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_azymuth_compariso
+n_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_azymuth_compariso
+n_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+> <./figures/B//pifa_pcb_null_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_elevation_compari
+son_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./figures/B//pifa_pcb_null_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_elevation_compari
+son_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./figures/B//pifa_pcb_null_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_elevation_compari
+son_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+> <./figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_azimuth_comparis
+on_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+> <./figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_azimuth_comparis
+on_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+> <./figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_azimuth_comparis
+on_tex.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+> <./figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_elevation_compar
+ison_tex.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+> <./figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_elevation_compar
+ison_tex.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+> <./figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_elevation_compar
+ison_tex.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16 <./figures//pcb_pifa_array_azimuth_90_comparison.pdf> <./figures//pcb_pifa_
+array_elevation_90_comparison.pdf> <./figures//pcb_pifa_array_azimuth_45_compar
+ison.pdf> <./figures//pcb_pifa_array_elevation_45_comparison.pdf>]
+
+AED: lastpage setting LastPage
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17
+
+
+
+] (./relazione_wet_copia.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
+\openout1 = `relazione_wet_copia.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 45880 strings out of 478579
+ 1063888 string characters out of 5857457
+ 1737461 words of memory out of 5000000
+ 62987 multiletter control sequences out of 15000+600000
+ 546669 words of font info for 179 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,22n,97p,3122b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/202
+1/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2021/texmf-di
+st/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/
+lm/lmss10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/
+texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2021/tex
+mf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2021/texmf-dist/fonts/typ
+e1/public/tex-gyre/qagb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-
+gyre/qbkr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qbkri.pfb
+><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texli
+ve/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/texlive/2021/te
+xmf-dist/fonts/type1/public/cm-super/sftt1440.pfb><c:/texlive/2021/texmf-dist/f
+onts/type1/public/stix/stix-mathcal.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
+x/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-math
+rm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb><c:
+/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on relazione_wet_copia.pdf (17 pages, 5942564 bytes).
+PDF statistics:
+ 39550 PDF objects out of 45951 (max. 8388607)
+ 26129 compressed objects within 262 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+

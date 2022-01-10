@@ -54,7 +54,7 @@
 %% 
 %\graphicspath{{figures/}} %Setting the graphicspat%h
 %\graphicspath{{figures/}} %Setting the graphicspath
-\graphicspath{{figures/}{figures/A/}{figures/B/}} %Setting the graphicspath
+\graphicspath{{figures/}{figures/A/}{figures/B/}{figures/C/}} %Setting the graphicspath
 \makeatletter
 %\providecommand*{\input@path}{}
 %\edef\input@path{{figures/}{}\input@path}% prepend
@@ -832,7 +832,7 @@ The near field characteristics (specifically those of the radiative field, also 
 		\printbibliography
 
 	\listoffigures
-	\end{@twocolumnfalse}
+\end{@twocolumnfalse}
 }
 ]
 \clearpage
@@ -843,7 +843,7 @@ The near field characteristics (specifically those of the radiative field, also 
 	\subsection*{Figures}
 
 
-	\begin{figure*}[H]
+	\begin{figure*}[b!]
 		\begin{subfigure}{0.48\linewidth}
 			\def\svgwidth{\linewidth}
 			\tiny{\input{gamma1_tex.pdf_tex}}
@@ -855,10 +855,10 @@ The near field characteristics (specifically those of the radiative field, also 
 			\tiny{\input{gamma3_tex.pdf_tex}}
 			\caption{}
 		\end{subfigure}
-		\caption{			\color{gray}The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
+		\caption{The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
 		\label{fig:Gamma couple LpWp}
 	\end{figure*}
-	\begin{figure*}[H]
+	\begin{figure*}[b!]
 		\begin{subfigure}{0.45\linewidth}
 			\def\svgwidth{\linewidth}
 			\tiny{\input{pcb_structure_tex.pdf_tex}}
@@ -879,48 +879,64 @@ The near field characteristics (specifically those of the radiative field, also 
 \subsection*{Pattern}
 
 
-	\begin{figure*}
-		\includegraphics[width = 0.3\linewidth]{gain_patch.png}
-			\includegraphics[width = 0.3\linewidth]{gain_patch_v.png}
-		\includegraphics[width = 0.3\linewidth]{gain_patch_h.png}
-		\caption{Gain pattern (left), gain pattern with vertical polarization (center) and with the horizontal one (right)}
-	\end{figure*}
+\begin{figure*}[b!]
+	\centering
+			\begin{subfigure}{0.45\linewidth}
+		\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{0.45\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+	\begin{subfigure}{0.45\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+	\begin{subfigure}{0.45\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
 
+	\caption{Gain pattern for PIFA (a) !!!!! SOSTITUIRE QUESTI PATTERN CON GLI ALTRI !!!}
+\end{figure*}
 
-\begin{figure}[bt!]
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.5]{gain_3D_pifa.pdf}
+\begin{figure*}[b!]
+		\begin{subfigure}{0.45\linewidth}
+				\def\svgwidth{\linewidth}
+			\tiny{\input{pifa_pcb_null_azymuth_comparison_tex.pdf_tex}}
 			\caption{}
 		\end{subfigure}
-\end{figure}
-
-\begin{figure*}[bt!]
-
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_null_azymuth_comparison.pdf}
-			\caption{}
-		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_null_elevation_comparison.pdf}
-			\caption{}	\end{subfigure}
+	\hfill
+		\begin{subfigure}{0.45\linewidth}
+				\def\svgwidth{\linewidth}
+			\tiny{\input{pifa_pcb_null_elevation_comparison_tex.pdf_tex}}
+			\caption{}	\end{subfigure}	\hfill
 		\caption{
 			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
 
 \end{figure*}
-\begin{figure*}[bt!]
 
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_array_azimuth_comparison.pdf}
-			\caption{}
-		\end{subfigure}
-		\begin{subfigure}{0.5\linewidth}
-			\includegraphics[scale=0.3]{pifa_pcb_array_elevation_comparison.pdf}
-			\caption{}	\end{subfigure}
-		\caption{
-			PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
+\begin{figure*}[b!]
+	\begin{subfigure}{0.45\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pifa_pcb_array_azimuth_comparison_tex.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.45\linewidth}
+		\def\svgwidth{\linewidth}
+		\tiny{\input{pifa_pcb_array_elevation_comparison_tex.pdf_tex}}
+		\caption{}	\end{subfigure}
+	\caption{PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
 \end{figure*}
 
-\begin{figure}[bt!]
+
+\begin{figure*}[b!]
 	\begin{subfigure}{0.25\linewidth}
 		\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_90_comparison.pdf}
 		\caption{}
@@ -940,7 +956,7 @@ The near field characteristics (specifically those of the radiative field, also 
 	\end{subfigure}
 	\caption{2D patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
 	\label{fig:pcb pifa array comparison}
-\end{figure}
+\end{figure*}
 \clearpage
 \subsection*{Code}
 }
