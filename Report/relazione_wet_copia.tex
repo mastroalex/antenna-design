@@ -45,7 +45,9 @@
 \titleformat*{\subsection}{\large\bfseries\fontfamily{qag}\selectfont\color{Turquoise}}
 \titleformat*{\subsubsection}{\itshape\bfseries\fontfamily{qag}\selectfont\color{Turquoise}}
 
-
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
 %\fontfamily{qag}\selectfont\color{Turquoise}
 %\fontfamily{qag}\selectfont\color{Turquoise}
 %\color{Turquoise} 
@@ -400,8 +402,6 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 				\rowcolor{lightgray}\multicolumn{2}{|c|}{\textbf{Folded patch design parameters}} 
 				\\
 				\hline
-				\cellcolor{mintbg}\textbf{Parameter/Component} & \cellcolor{mintbg}\textbf{Value/Type/Material}\\
-				\hline
 				Frequency & $2.1\,GHz$ \\
 				\hline
 				Matched input resistance & $R_{in}\,=\,50\,\Omega$\\
@@ -413,12 +413,17 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 				Relative permeability & $\mu_{FR4}\,\cong\,1$\\
 				
 				Loss tangent & $\{\tan(\delta)\}_{FR4}\,=\,0.0260$\\
+				\hline 
 				
-				Thickness & $h_{FR4}\,=\,0.8\,mm$\\
+			Available thicknesses &\\ 
+				(1) & $h_{FR4}\,=\,0.8\,mm$ 
+				
+				(optimal choice)\\
+				(2) & $h_{FR4}\,=\,1.0\,mm$ \\
+				(3) & $h_{FR4}\,=\,1.6\,mm$ \\
 				\hline
 				\cellcolor{pink} Patch
-				
-				(pre-optimized features) & \cellcolor{pink} Copper \\
+				  & \cellcolor{pink} Copper \\
 				\hline
 				%\begin{subtable}{0.25\textwidth}
 				%	\begin{tabular}{|c|c|}
@@ -432,11 +437,25 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 			Conductivity & $\kappa_{copper}\,=\,5.96^.10^7\,S/m$ \\
 			
 			Thickness & $h_{patch}\,=\,3.556\,^.\,10^{-5}\,m$\\
+			\hline 
+			Length & \\
+			(pre-opt) & $L_{patch}\,\cong\,\frac{\lambda_{FR4}}{4}\,=\,0.0171\,m$\\
+			(post-opt) & $L_{patch}=0.0158\,m$\\
+			\hline
+			Width & \\
+			(pre-opt) & $W_{patch}\,\cong\,0.0419\,m$\\
+			(post-opt) & $W_{patch}\,\cong\,0.0358\,m$\\
+		\hline
 			
-			Length & $L_{patch}\,\cong\,\frac{\lambda_{FR4}}{4}\,=\,0.0171\,m$\\
+			Half-power beamwidth 
 			
-			Width & $W_{patch}\,\cong\,0.419\,m$\\
-			
+			(pre-optimization) & 
+		$\Theta_E=360^\circ$ (E-cut) \\
+		& $\Theta_H=121^\circ$ (H-cut)\\
+		Half-power beamwidth
+	
+	(after optimization) & $\Theta_E=109^\circ$ (E-cut)\\
+	& $\Theta_H=325^\circ$ (H-cut)\\
 			\hline
 			\cellcolor{pink}Ground 
 			
@@ -447,13 +466,27 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 			\hline
 			Thickness & $h_{GND}\,=\,h_{patch}$
 			\\
-			Length & $L_{GND}\,=\,0.04\,m$\\
-			Width & $W_{GND}\,=\,0.06\,m$\\
+			\hline
+			Length & \\ 
+			(pre-opt) & $L_{GND}\,=\,0.04\,m$\\
+			(post-opt) & $L_{GND}\,=\,0.0296\,m$\\
+			\hline 
+		Width &  	\\
+		(pre-opt) & $W_{GND}\,=\,0.06\,m$\\
+		(post-opt) & $W_{GND}\,=\,0.0580\,m$ \\
 			\hline
 			\cellcolor{pink}Feed & \cellcolor{pink} Coaxial cable \\
 			\hline
+			Position across $L_{patch}$ &\\
+			(pre-opt) & $0.0066\,m$ \\
+			(post-opt) & $0.0000\,m$ \\
+			\hline
+			Position across $W_{patch}$ & \\
+			(pre-opt) & $0.0067\,m$\\
+			(post-opt) & $0.001\,m$\\
+			\hline
 	\end{tabular}}
-	\caption{Project input parameters (frequency, matching and substrate features) and theoretical (pre-optimized) features of the patch and ground PIFA components}
+	\caption{Project input parameters (frequency, matching and substrate features), theoretical (pre-optimized, shorted "pre-opt") and optimized ("post-opt") features of the patch and ground PIFA components}
 	\label{table:pifa design parameters}
 \end{center}
 
@@ -894,7 +927,7 @@ The near field characteristics (specifically those of the radiative field, also 
 \section*{Methods}
 In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} commands that are not available for all the tools that have been used will be pointed out. Next, the computational costs related to the different parts of the project will be discussed. In the end, a comparison between the array of PIFAs realized in \texttt{\color{BurntOrange}Matlab} and the \texttt{\color{Periwinkle}CST Studio Suite (Student edition)} will be shown. 
 
-\indent Explaining what are the limitations of every tool and our previous suggestions about how to combine them (this made it possible to get conclusive results) may help the reader who wants to engage himself into doing some similar studies about array of antennas. Four different \texttt{\color{BurntOrange}MatLab} tools belonging to two different toolboxes have been used for this project. Through \texttt{\color{Mahogany}Antenna Designer} to PIFA structure has been generated and analyzed, while the PCB stack has been created and studied through the \texttt{\color{Mahogany}PCB Antenna Designer} and we got the array of PCBs out of the \texttt{\color{Mahogany}Antenna Array Designer}. All these tools belong to the \texttt{\color{ForestGreen}Antenna Toolbox} (\textbf{\cite{AntennaToolbox}}), while the \texttt{\color{Mahogany}Sensor Array Analyzer} (by which the study of the array of PIFAs is possible) is part of the \texttt{\color{ForestGreen}Phased Sensor Array Analyzer} (\textbf{\cite{PhasedArraySystemToolbox}}). 
+\indent Explaining what are the limitations of every tool and our previous suggestions about how to combine them (this made it possible to get conclusive results) may help the reader who wants to engage himself into doing some similar studies about array of antennas. Four different \texttt{\color{BurntOrange}MatLab} tools belonging to two different toolboxes have been used for this project. By using the \texttt{\color{Mahogany}Antenna Designer} tool, the PIFA structure has been generated and analyzed, while the PCB stack has been created and studied through the \texttt{\color{Mahogany}PCB Antenna Designer} and we got the array of PCBs out of the \texttt{\color{Mahogany}Antenna Array Designer}. All these tools belong to the \texttt{\color{ForestGreen}Antenna Toolbox} (\textbf{\cite{AntennaToolbox}}), while the \texttt{\color{Mahogany}Sensor Array Analyzer} (by which the study of the array of PIFAs is possible) is part of the \texttt{\color{ForestGreen}Phased Sensor Array Analyzer} (\textbf{\cite{PhasedArraySystemToolbox}}). 
 \begin{equation}
 	\begin{aligned}
 		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\
@@ -907,8 +940,51 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 	G_{total}=\,\eta_T\,G_0\,G_T
 	\label{eq:pattern multiplication}
 \end{equation}
-
-\section*{Conlusion}
+\begin{table*}
+	\begin{center}
+		{\fontfamily{lmss}\selectfont
+		\begin{tabular}{||m{14cm}|m{1.6cm}|m{1.6cm}||}
+			\hline
+	\textbf{Commands} & \texttt{\color{Mahogany}Sensor Array Analyzer} & \texttt{\color{Mahogany}Antenna Array Designer} \\
+	\hline
+	\cellcolor{pink} \underline{\texttt{pattern(\dots)}}
+	
+{\small{(it makes 2D or 3D patterns - i.e. gain, directivity, power -  starting from different different inputs; 
+	specifying the object and the frequency are two absolutely necessary inputs)}}
+	& \cmark
+	
+	(only 3D)& \cmark 
+	
+	{} \\
+	\hline
+		\cellcolor{YellowGreen}\underline{\texttt{patternAzimuth(\dots)/patternElevation(\dots)}}
+		
+		{\small{(they create 2D patterns - i.e. directivity, power, ecc. - in the azimuth and elevation cut planes, respectively. Syntax specs to the privious command)}} & \cmark & \xmark \\
+	\hline
+			\cellcolor{pink}\underline{\texttt{patternMultiply}}
+		
+		{\small{(the several patterns coming out of this command - i.e. gain, directivity, power - are computed by means of the pattern multiplication principle, a mathematical approximation of the radiation diagrams which doesn't take into account mutual coupling between the elements of the array)}} & \xmark &\cmark  \\
+	\hline
+			\cellcolor{YellowGreen}\underline{\texttt{arrayFactor(\dots)}}
+		
+		{\small{(it shows different patterns - i.e. gain, directivity, power - by disregarding completely their influence from the specific element used in the array )}} &\xmark & \cmark \\
+	\hline
+		\cellcolor{pink}	\underline{\texttt{phased.SteeringVector}}
+		
+		{\small{(it allows running beamsteering analysis by specifying the two spatial angles; it's the input of another command which gives all the weights related to possible phase shifts between the elements of the array)}} & \cmark & \xmark \\
+	\hline
+	\cellcolor{YellowGreen}	\underline{\texttt{conformalArray(\dots)}}
+	
+	{\small{(any element frtom the antenna ora array library can be used to generat an antenna array, except of the PIFA and some other cases)}} & \cmark & \xmark \\
+	\hline
+	\cellcolor{pink}	\underline{\texttt{polarpattern(\dots)}}
+	
+	{\small{(different patterns from all the tools can be extracted as 2D matrices data objects. This gives the opportunity to overlap and compare patterns coming from different tools, by introducing the matrices as inputs of this command.)}} & \cmark & \cmark \\
+	\hline
+		\end{tabular}}
+	\end{center}
+	\end{table*} 
+\section*{Conclusions}
 
 \section*{Data availability}
 
