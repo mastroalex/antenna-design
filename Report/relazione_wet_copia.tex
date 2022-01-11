@@ -149,9 +149,9 @@ style=numeric
 \tikzstyle{io} = [trapezium, trapezium left angle=80, trapezium right angle=100, minimum width=7cm, minimum height=1cm, text centered,text width=6.5 cm,  fill=backcolour,draw=gray]
 \tikzstyle{io2} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
 \tikzstyle{process} = [rectangle, minimum width=7cm, minimum height=1cm, text centered,text width=6.5cm,  fill=backcolour,text badly centered,draw=gray]
-\tikzstyle{decision} = [diamond, minimum width=2cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
+\tikzstyle{decision} = [diamond, minimum width=1cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray,text width=2cm]
 \tikzstyle{arrow} = [thick,->,>=stealth]
-\tikzstyle{process2} = [rectangle, minimum width=3.5cm, text width=3.2cm,minimum height=1cm, text centered,  fill=backcolour,draw=gray]
+\tikzstyle{process2} = [rectangle, minimum width=3.5cm, text width=3.2cm,minimum height=1cm, text centered, dashed, fill=backcolour,draw=gray]
 \tikzstyle{process3} = [rectangle, minimum width=4cm,text width=4cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
 \tikzstyle{process4} = [rectangle, minimum width=6cm,text width=5.5cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
 
@@ -1061,29 +1061,29 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\label{fig:flowchart}
 		\node (startp) [startstop,xshift=0.4\linewidth] {\textbf{INPUT VARIABLES}
 			
-			frequency, matched input impedance, FR4 substrate, patch and ground features, PIFA condition on shorting to reach equivalence between folded structure and PIFA};		
+			\small frequency, matched input impedance, FR4 substrate, patch and ground features, PIFA condition on shorting to reach equivalence between folded structure and PIFA};		
 		\node (pro1) [process, below of=startp ,yshift=-2.2cm] {
 			\textbf{	THEORY}
 			
-			theoretical formulation to evaluate patch parameters – i.e. pre-optimized PIFA features 
+			\small theoretical formulation to evaluate patch parameters – i.e. pre-optimized PIFA features 
 		};
 		\node (pro2) [process, below of=pro1,yshift=-1.8cm ] {
 			\textbf{SUBSTRATE (thickness selection)}
 			
-			based on radiative theoretical behaviour and tool instructions
+		\small 	based on radiative theoretical behaviour and tool instructions
 		};
 		\node (pro3) [process, below of=pro2,yshift=-2.2cm] {
 			\textbf{MATLAB (mesh refinement)}
 			
-			Study of the influence of the mesh density level parameter (maximum edge length) to the reflection coefficient and the resonant frequence. Mesh level selection so that best accuracy can be reached.
+		\small 	study of the influence of the mesh density level parameter (maximum edge length) to the reflection coefficient and the resonant frequence. Mesh level selection so that best accuracy can be reached.
 		};
 		\node (pro4) [process, below of=pro3,yshift=-2.8cm] {\textbf{ MATLAB (parametrical study)}
 			
-			study of the influence of some of the patch parameters (i.e. length, width, feed location) on the reflection coefficient.
+		\small 	study of the influence of some of the patch parameters (i.e. length, width, feed location) on the reflection coefficient.
 		};
 		\node (out1p) [io, below of=pro4,yshift=-2cm] {\textbf{ OPTIMIZED PIFA}
 			
-			resonant at the operating frequency input and impedance matching};
+		\small 	resonant at the operating frequency input and impedance matching};
 		
 		\node (A) [above  of=  startp,yshift=1cm]  {\textbf{\textcolor{orange_work}{Folded patch antenna design}}};
 		\node[fit= (A) (startp) (pro1) (pro2) (pro3) (pro4) (out1p), dashed,draw,inner sep=0.45cm] (Box){};
@@ -1097,10 +1097,11 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\node (start) [startstop,left of=startp,xshift=-0.4\linewidth]
 		{\textbf{INPUT VARIABLES}
 			
-			no. of elements, mean to side lobe ratio, operating frequency};
+		\small 	no. of elements, mean to side lobe ratio, operating frequency};
 		
-		\node (out1) [io, below of=start,yshift=-2cm] {\textbf{OUTPUT VARIABLES}
-			optimal inter-spacing between elements to minimize the beamwidth; feed coefficients and tapering efficiency};
+		\node (out1) [io, below of=start,yshift=-1.5cm] {\textbf{OUTPUT VARIABLES}
+			
+		\small 	optimal inter-spacing between elements to minimize the beamwidth; feed coefficients and tapering efficiency};
 		\draw [arrow] (start) -- (out1);
 		
 		\node (B) [above  of=  start,yshift=1cm]  {\textbf{\textcolor{orange_work}{Array factor design}}};
@@ -1111,7 +1112,7 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\node[draw,
 		circle,
 		minimum size=0.6cm,
-		fill=backcolour,below of=out1,yshift=-2cm] (sum) {};
+		fill=backcolour,below of=out1,yshift=-1.5cm] (sum) {};
 		
 		\draw (sum.north east) -- (sum.south west)
 		(sum.north west) -- (sum.south east);
@@ -1120,34 +1121,34 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\draw [arrow] (Box1.south) -- (sum.north);
 		
 		
-		\node (start_T) [startstop,below of=sum,yshift=-1cm]
-		{\textbf{TOOL LIMITATIONS}};
+		\node (start_T) [decision,below of=sum,yshift=-1.5cm]
+		{\textbf{\small TOOL LIMITATIONS}};
 		
 		\node (pro2a) [process3, below of=start_T,yshift=- 2 cm,xshift=-2.8cm] {\textbf{PCB ANTENNA DESIGNER}
 			
-			PCB stack (patch, substrate, ground, feed, cylindrical shorting pins) approximating the PIFA structure};
+		\small 	PCB stack (patch, substrate, ground, feed, cylindrical shorting pins) approximating the PIFA structure};
 		\node (pro2b) [process3, below of=start_T,yshift=- 2 cm,xshift=2.4cm] 
 		{ \textbf{SENSOR ARRAY ANALYZER}
 			
-			array of PIFAs, broadside and 45° to boresight conditions};
+		\small 	array of PIFAs, broadside and 45° to boresight conditions};
 		
 		\node (pro2c) [process4, below of=pro2a,yshift=- 6 cm,xshift=2.8 cm] 
 		{ \textbf{PCB ARRAY ANALYZER}
 			
-			array of PCBs, Broadside and 45° to boresight conditions, 2D gain patterns, electric and magnetic near fields};
+		\small 	array of PCBs, Broadside and 45° to boresight conditions, 2D gain patterns, electric and magnetic near fields};
 		
 		\node (pro2e) [process2, below of=pro2a,yshift=- 2.5cm] 
 		{ \textbf{COMPARISON}
-			in terms of gain/directivity patterns and error analysis};
+		\small 	in terms of gain/directivity patterns and error analysis};
 		
 		\node (pro2d) [process2, below of=pro2b,yshift=- 2.1 cm] 
 		{ \textbf{COMPARISON}
 			
-			in terms of directivity patterns and error analysis};
+		\small 	in terms of directivity patterns and error analysis};
 		
 		
-		\draw [arrow] (start_T) -- (pro2a);
-		\draw [arrow] (start_T) -- (pro2b);
+		\draw [arrow] (start_T.west) -| (pro2a.north);
+		\draw [arrow] (start_T.east) -| (pro2b.north);
 		\draw [arrow] (pro2a.east) -| (pro2c.north);
 		\draw [arrow] (pro2a) -- (pro2e);
 		\draw [arrow] (pro2b) -- (pro2d);
@@ -1162,18 +1163,10 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 \end{figure*}
 \begin{figure*}
 	\begin{lstlisting}[language=Matlab,caption=Code,label=code]
-		SMTAddEssentialBoundary[Line[{{0, 0}, {0, Ly}}],
-		1 -> Function[{n, X, Y}, b Y],
-		2 -> Function[{n, X, Y}, c Y], 	"Set" -> True];
-		SMTAddEssentialBoundary[Line[{{0, Ly}, {Lx, Ly}}],
-		1 -> Function[{n, X, Y}, b*Ly + a*X],
-		2 -> Function[{n, X, Y}, c*Ly + b*X], "Set" -> True];
-		SMTAddEssentialBoundary[Line[{{Lx, Ly}, {Lx, 0}}], 
-		1 -> Function[{n, X, Y}, a*Lx + b*Y],
-		2 -> Function[{n, X, Y}, b*Lx + c*Y], "Set" -> True];
-		SMTAddEssentialBoundary[Line[{{0, 0}, {Lx, 0}}],
-		1 -> Function[{n, X, Y}, a*X],
-		2 -> Function[{n, X, Y}, b*X], 	"Set" -> True];
+	a=pattern();
+		a=pattern()
+			a=pattern()
+			mypath
 	\end{lstlisting}
 \end{figure*}
 }

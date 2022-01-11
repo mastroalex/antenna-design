@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  11 JAN 2022 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  11 JAN 2022 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3075,7 +3075,7 @@ AED: lastpage setting LastPage
 [16
 
 
- <./workflow.pdf>] [17] [18] (./relazione_wet_copia.aux)
+ <./workflow.pdf>] [17] (./relazione_wet_copia.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3084,11 +3084,11 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46224 strings out of 478994
- 1049912 string characters out of 5858184
- 1970289 words of memory out of 5000000
- 62883 multiletter control sequences out of 15000+600000
- 531300 words of font info for 150 fonts, out of 8000000 for 9000
+ 46212 strings out of 478994
+ 1049819 string characters out of 5858184
+ 1918143 words of memory out of 5000000
+ 62871 multiletter control sequences out of 15000+600000
+ 534731 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,22n,102p,3122b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -3113,10 +3113,10 @@ ist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/stix/stix-mathsf.pfb>
-Output written on relazione_wet_copia.pdf (18 pages, 6911342 bytes).
+Output written on relazione_wet_copia.pdf (17 pages, 6904861 bytes).
 PDF statistics:
- 40141 PDF objects out of 45951 (max. 8388607)
- 26532 compressed objects within 266 object streams
+ 40138 PDF objects out of 45951 (max. 8388607)
+ 26530 compressed objects within 266 object streams
  0 named destinations out of 1000 (max. 500000)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
