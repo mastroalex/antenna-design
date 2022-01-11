@@ -56,11 +56,11 @@
 %% 
 %\graphicspath{{figures/}} %Setting the graphicspat%h
 %\graphicspath{{figures/}} %Setting the graphicspath
-\graphicspath{{figures/}{figures/A/}{figures/B/}{figures/C/}} %Setting the graphicspath
+\graphicspath{{figures/}{figures/A/}{figures/B/}{figures/C/}{figures/C/new_fields/}} %Setting the graphicspath
 \makeatletter
 %\providecommand*{\input@path}{}
 %\edef\input@path{{figures/}{}\input@path}% prepend
-\def\input@path{{figures/}{figures/A/}{figures/B/}{figures/C/}}
+\def\input@path{{figures/}{figures/A/}{figures/B/}{figures/C/}{figures/C/new_fields/}}
 \makeatother
 \usepackage{import}
 
@@ -393,7 +393,7 @@ The main components of a rectangular folded patch are: the patch, the substrate 
 	\label{eq:shorting condition}
 \end{equation}
 
-\begin{table}[b!]
+\begin{table}[t!]
 	\begin{center}
 		% \FloatBarrier
 		{\fontfamily{lmss}\selectfont
@@ -906,6 +906,34 @@ In this last part of the project, the array factor and the the element antenna (
 
 
 \subsection*{Total array gain}
+
+\begin{figure*}[bt!]
+
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+		\fontsize{4}{4}\selectfont{\input{pcb_array_azimuth_45_gain_real_vs_ideal.pdf_tex}}
+		\caption{}
+	\end{subfigure}	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pcb_array_elevation_gain_real_vs_ideal.pdf_tex}}
+		\caption{}
+	\end{subfigure}	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pcb_array_elevation_45_gain_real_vs_ideal.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pcb_array_azimuth_45_gain_real_vs_ideal.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{2D gain patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
+	\label{fig:array gain}
+\end{figure*}
+
 In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by means of a fullwave model (with no approximation) and by using the pattern multiplication principle. This second case is idealistic because it makes an approximation of the real patterns by not considering the mutual induced interactions between the single antennas of the array; however, a "mathematical" interaction is considered in this model because it comes out of a formulation that mixes the single element effect (which gives an element gain factor $G_0$) on the gain pattern with the angular filtering influence of the array factor, weighted by a combination of the current coefficients (which gives an array gain factor $G_F$). The overall idealistic case is based on the pattern multiplication principle, which (in a case such as the Tchebyshev array synthesis model, thus with non uniform amplitude feed), will take into account also the effect of the tapering efficiency ($\eta_T$) in its formulation (see \textbf{\cref{eq:pattern multiplication}}). Thus, the pattern multiplication principle can be applied angle by angle and this will provide a set of values that can be computed and inserted in matrices by using \texttt{\color{BurntOrange}MatLab}. Starting from the matrices, the 2D patterns can be represented. On the other hand, an easier way is to use the \texttt{\color{Turquoise}patternMultiply} command and get the ideal patterns. 
 
 
@@ -988,30 +1016,27 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 
 \section*{Data availability}
 
-
-
-%\section*{References}
-
-
-
-
-\twocolumn[{
-	\begin{@twocolumnfalse} 
 		\printbibliography
 
-	\listoffigures
-\end{@twocolumnfalse}
-}
-]
-\clearpage
-
-	\section*{Appendix}
-
-
-	\subsection*{Figures}
-
-
+%\section*{References}
+\pagebreak
+\appendix
+\section*{Appendix}
+%	\subsection*{Figures and patterns}
 	\begin{figure*}[b!]
+			\begin{subfigure}{0.48\linewidth}
+		%	\def\svgwidth{\linewidth}
+		%	\tiny{\input{gamma1_tex.pdf_tex}}
+			\caption{}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.48\linewidth}
+		%	\def\svgwidth{\linewidth}
+		%	\tiny{\input{gamma3_tex.pdf_tex}}
+			\caption{}
+		\end{subfigure}
+		\caption{EH Fields}
+		\label{}
 		\begin{subfigure}{0.48\linewidth}
 			\def\svgwidth{\linewidth}
 			\tiny{\input{gamma1_tex.pdf_tex}}
@@ -1025,8 +1050,6 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\end{subfigure}
 		\caption{The two best $\Gamma$ plots depending on the specific patch size expressed coupled variations ($L_{patch},W_{patch}$) and represented in a frequency range of $[2.0,2.1]\,GHz$}
 		\label{fig:Gamma couple LpWp}
-	\end{figure*}
-	\begin{figure*}[b!]
 		\begin{subfigure}{0.45\linewidth}
 			\def\svgwidth{\linewidth}
 			\tiny{\input{pcb_structure_tex.pdf_tex}}
@@ -1040,97 +1063,95 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 		\label{fig:pcb shorting}
 	\end{figure*}
 
-
-\clearpage
-
-
-\subsection*{Pattern}
-
-
 \begin{figure*}[b!]
-	\centering
-			\begin{subfigure}{0.45\linewidth}
-		\def\svgwidth{\linewidth}
-	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
-		\caption{}
-	\end{subfigure}
-	\begin{subfigure}{0.45\linewidth}
+		\begin{subfigure}{0.45\linewidth}
 	\def\svgwidth{\linewidth}
-	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
-	\caption{}
+	\tiny{\input{pcb_array_tex.pdf_tex}}
 \end{subfigure}
+\caption{PCB array}
+\hfill
 	\begin{subfigure}{0.45\linewidth}
-	\def\svgwidth{\linewidth}
-	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
-	\caption{}
+%	\def\svgwidth{\linewidth}
+%	\tiny{\input{pcb_array_tex.pdf_tex}}
 \end{subfigure}
-	\begin{subfigure}{0.45\linewidth}
-	\def\svgwidth{\linewidth}
-	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
-	\caption{}
-\end{subfigure}
-
-	\caption{Gain pattern for PIFA (a) !!!!! SOSTITUIRE QUESTI PATTERN CON GLI ALTRI !!!}
+\caption{Smith chart}
 \end{figure*}
 
+
 \begin{figure*}[b!]
-		\begin{subfigure}{0.45\linewidth}
-				\def\svgwidth{\linewidth}
-			\tiny{\input{pifa_pcb_null_azymuth_comparison_tex.pdf_tex}}
-			\caption{}
-		\end{subfigure}
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_azimuth_broadside.pdf_tex}}
+		\caption{}
+	\end{subfigure}
 	\hfill
-		\begin{subfigure}{0.45\linewidth}
-				\def\svgwidth{\linewidth}
-			\tiny{\input{pifa_pcb_null_elevation_comparison_tex.pdf_tex}}
-			\caption{}	\end{subfigure}	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_elevation_broadside.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_azimuth_45.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.24\linewidth}
+		\def\svgwidth{\linewidth}
+		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_elevation_45.pdf_tex}}
+		\caption{}
+	\end{subfigure}
+	\caption{2D gain patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut). The curve with the dashed line has not been calculated regularly but mirrored (see methods)}
+	\begin{subfigure}{0.24\linewidth}
+	\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pifa_pcb_null_azymuth_comparison_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}	\hfill
+\begin{subfigure}{0.24\linewidth}
+	\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pifa_pcb_null_elevation_comparison_tex.pdf_tex}}
+	\caption{}	\end{subfigure}	\hfill
+\begin{subfigure}{0.24\linewidth}
+	\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pifa_pcb_array_azimuth_comparison_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.24\linewidth}
+	\def\svgwidth{\linewidth}
+	\fontsize{4}{4}\selectfont{\input{pifa_pcb_array_elevation_comparison_tex.pdf_tex}}
+	\caption{}	\end{subfigure}
+
 		\caption{
-			PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
-
-\end{figure*}
-
-\begin{figure*}[b!]
-	\begin{subfigure}{0.45\linewidth}
-		\def\svgwidth{\linewidth}
-		\tiny{\input{pifa_pcb_array_azimuth_comparison_tex.pdf_tex}}
-		\caption{}
-	\end{subfigure}
-	\hfill
-	\begin{subfigure}{0.45\linewidth}
-		\def\svgwidth{\linewidth}
-		\tiny{\input{pifa_pcb_array_elevation_comparison_tex.pdf_tex}}
-		\caption{}	\end{subfigure}
-	\caption{PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b))}
-\end{figure*}
-
-
-\begin{figure*}[b!]
-	\begin{subfigure}{0.25\linewidth}
-		\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_90_comparison.pdf}
-		\caption{}
-	\end{subfigure}
-	\begin{subfigure}{0.25\linewidth}
-		\includegraphics[scale=0.5]{pcb_pifa_array_elevation_90_comparison.pdf}
-		\caption{}
-	\end{subfigure}
-	
-	\begin{subfigure}{0.25\linewidth}
-		\includegraphics[scale=0.5]{pcb_pifa_array_azimuth_45_comparison.pdf}
-		\caption{}
-	\end{subfigure}
-	\begin{subfigure}{0.25\linewidth}
-		\includegraphics[scale=0.5]{pcb_pifa_array_elevation_45_comparison.pdf}
-		\caption{}
-	\end{subfigure}
-	\caption{2D patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
+		PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b)). PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (c)) and in the Elevation cut ($\phi_{az}=0^\circ$, (d))}
 	\label{fig:pcb pifa array comparison}
-\end{figure*}
-\clearpage
-\subsection*{Code}
-\begin{figure}
-		\includegraphics[scale=0.48]{workflow.pdf}
-\end{figure}
 
+	\begin{subfigure}{0.3\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+\begin{subfigure}{0.3\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}	\hfill
+\begin{subfigure}{0.3\linewidth}
+	\def\svgwidth{\linewidth}
+	\tiny{\input{gain_3D_pifa_tex.pdf_tex}}
+	\caption{}
+\end{subfigure}
+
+\caption{Gain pattern for PIFA (a) !!!!! SOSTITUIRE QUESTI PATTERN CON GLI ALTRI !!!}
+
+\end{figure*}
+
+
+
+
+\clearpage
+%\subsection*{Code}
 \begin{figure*}[b!]
 	\centering
 	\begin{tikzpicture}

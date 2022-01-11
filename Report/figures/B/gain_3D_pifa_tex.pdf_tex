@@ -54,19 +54,6 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{gain_3D_pifa_tex.pdf}}%
-    \put(-0.0537249,0.84098428){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Output\end{tabular}}}}%
-    \put(-0.0537249,0.79346774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Frequency\end{tabular}}}}%
-    \put(-0.0537249,0.7459512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Max value\end{tabular}}}}%
-    \put(-0.0537249,0.69843466){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Min value\end{tabular}}}}%
-    \put(-0.0537249,0.65091812){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Azimuth\end{tabular}}}}%
-    \put(-0.04316566,0.84098428){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}:\end{tabular}}}}%
-    \put(-0.04316566,0.79346774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}:\end{tabular}}}}%
-    \put(-0.04316566,0.7459512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}:\end{tabular}}}}%
-    \put(-0.04316566,0.65091812){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}:\end{tabular}}}}%
-    \put(-0.03260643,0.84098428){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Gain          \end{tabular}}}}%
-    \put(-0.03260643,0.79346774){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.1 GHz       \end{tabular}}}}%
-    \put(-0.03260643,0.7459512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}35.2 dBi      \end{tabular}}}}%
-    \put(-0.03260643,0.69843466){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}27.3 dBi      \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{gain_3D_pifa_tex.pdf}}%
     \put(0.91779473,0.06125552){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}28\end{tabular}}}}%
     \put(0.91779473,0.15984352){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}29\end{tabular}}}}%
