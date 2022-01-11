@@ -764,22 +764,51 @@ In this last part of the project, the array factor and the the element antenna (
 \end{table*}
 \begin{table*}[bt!]
 	\begin{center}
-		{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{1.8cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}|m{2.6cm}||}
+		{\fontfamily{lmss}\selectfont	\begin{tabular}{||m{4cm}|m{2.6cm}|m{2cm}|m{2cm}|m{2.3cm}|m{2.3cm}||}
 				\hline
-				*** & Position & $E$-field ($90^\circ$) & $H$-field ($90^\circ$) & $E$-field ($45^\circ$) & $45$-field ($90^\circ$) \\
+				$fre\leadsto\text{Fresnel region}$ 
+				
+				$fraun\leadsto\text{Fresnel region}$
+			
+				& Position & $E$-field ($90^\circ$) & $H$-field ($90^\circ$) & $E$-field ($45^\circ$) & $45$-field ($90^\circ$) \\
 				\hline 
-				$PCB_{-2}$ & $(0,-2d_{opt},z_{fre})$ & $0.1027$ & $0.0139$ & $0.2071$ & $0.0269$ \\ 
+				%%%%%%%%%%%%%%%%%%%%%
+				%%%%%% || 1 || %%%%%%
+				%%%%%%%%%%%%%%%%%%%%%
+				\cellcolor{pink}$PCB$ fed by $C_{-2}$ & $(0,-2d_{opt},z_{fre}/2)$ & $0.1027$ & $0.0139$ & $0.2071$ & $0.0269$ \\ 
+				\cellcolor{pink} &  $(0,-2d_{opt},z_{fraun}/2)$ & $0.0848$ & $0.0114$ &$0.2071$	 & $0.0269$ \\
+				\cellcolor{pink} & $(0,-2d_{opt},4z_{fraun})$& $0.0161$& $0.0020$ &$0.1651^.10^{-3}$ & $0.1360^.10^{-3}$ \\
 				\hline
-				$PCB_{-1}$ & $(0,-d_{opt},z_{fre})$ & $0.2923$ & $0.0377$ & $0.1889$ & $0.0100$ \\
+				%%%%%%%%%%%%%%%%%%%%%
+				%%%%%% || 2 || %%%%%%
+				%%%%%%%%%%%%%%%%%%%%%
+				\cellcolor{GreenYellow} $PCB$ fed by $C_{-1}$ & $(0,-d_{opt})$ & $0.2923$ & $0.0377$ & $0.1889$ & $0.0100$ \\
+				\cellcolor{GreenYellow} &$(0,-d_{opt},z_{fraun}/2)$ &$0.1144$ & $0.0143$&$0.1889$ & $0.0100$\\
+					\cellcolor{GreenYellow} & $(0,-d_{opt},4z_{fraun})$& $0.163$& $0.0020$& $0.1493^.10^{-3}$& $0.1365^.10^{-3}$\\
 				\hline
-				$PCB_0$ & $(0,0,z_{fre})$& $0.4189$& $0.0522$& $0.2422$ & $0.0174$ \\
+				%%%%%%%%%%%%%%%%%%%%%
+				%%%%%% || 3 || %%%%%%
+				%%%%%%%%%%%%%%%%%%%%%
+			\cellcolor{pink}	Mid $PCB$, fed by $C_{0}$ & $(0,0,z_{fre}/2)$& $0.4189$& $0.0522$& $0.2422$ & $0.0174$ \\
+			\cellcolor{pink} & $(0,0,z_{fraun}/2)$& $0.1258$& $0.0155$& $0.2492$& $0.0174$\\
+				\cellcolor{pink} & $(0,0,4z_{fraun})$ & $0.163$& $0.0020$& $0.1285^.10^{-3}$& $0.1364^.10^{-3}$\\
 				\hline 
-				$PCB_1$ & $(0,d_{opt},z_{fre})$ & $0.3306$ & $0.0367$ & $0.2619$ & $0.0215$ \\
+				%%%%%%%%%%%%%%%%%%%%%
+				%%%%%% || 4 || %%%%%%
+				%%%%%%%%%%%%%%%%%%%%%
+				\cellcolor{GreenYellow} $PCB$ fed by $C_{1}$ & $(0,d_{opt},z_{fre}/2)$ & $0.3306$ & $0.0367$ & $0.2619$ & $0.0215$ \\
+				\cellcolor{GreenYellow} & $(0,d_{opt},z_{fraun}/2)$& 0.1191& 0.0145&0.2619& 0.0215\\
+					\cellcolor{GreenYellow} & $(0,d_{opt},4z_{fraun})$& $0.162$& $0.0020$& $0.1053^.10^{-3}$& $0.1357^.10^{-3}$\\
 				\hline 
-				$PCB_2$ & $(0,2d_{opt},z_{fre})$ & $0.1350$ & $0.0143$ & $0.2922$ & $0.0270$ \\ 
+				%%%%%%%%%%%%%%%%%%%%%
+				%%%%%% || 5 || %%%%%%
+				%%%%%%%%%%%%%%%%%%%%%
+				\cellcolor{pink} $PCB$ fed by $C_{2}$& $(0,2d_{opt},z_{fre}/2)$ & $0.1350$ & $0.0143$ & $0.2922$ & $0.0270$ \\
+				\cellcolor{pink} & $(0,2d_{opt},z_{fraun}/2)$&$0.0971$ & $0.0116$&$0.2922$ & $0.0270$\\ 
+					\cellcolor{pink} & $(0,2d_{opt},4z_{fraun})$& $0.162$ & $0.0020$ & $0.0744^.10^{-3}$&$0.1343^.10^{-3}$ \\
 				\hline
 		\end{tabular}}
-		\caption{Particular electric ($E$) and magnetic ($H$) field values measured in both broadside ($90^\circ$) and in the $45^\circ$ off the boresight directions. The $E$-field is measured in $\left[\frac{V}{m}\right]$ while the $H$-field in $\left[\frac{A}{m}\right]$. The fields have been measured with respect to the centers of each element antenna vertically off the array plane at a height distance of $z_{fresnel}$, the limit of the radiative, near field region, in a global reference system.}
+		\caption{Particular electric ($E$) and magnetic ($H$) field values measured in both broadside ($90^\circ$) and in the $45^\circ$ off the boresight directions. The $E$-field is measured in $\left[\frac{V}{m}\right]$ while the $H$-field in $\left[\frac{A}{m}\right]$. The fields have been measured with respect to the centers of each element antenna vertically off the array plane at different height levels of $z_{fre}$ (inductive region), $z_{fraun}$ (radiative region) and $4^.z_{fraun}$ (particular coordinate in the far field region).}  
 		\label{table:EH fields}
 	\end{center}
 \end{table*} 
@@ -795,16 +824,28 @@ In this last part of the project, the array factor and the the element antenna (
 
 
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Total array gain}
-In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by means of a fullwave model (with no approximation) and by using the pattern multiplication principle. This second case is idealistic because it makes an approximation of the real patterns by not considering the mutual induced interactions between the single antennas of the array; however, a "mathematical" interaction is considered in this model because it comes out of a formulation that mixes the single element effect (which gives an element gain factor $G_0$) on the gain pattern with the angular filtering influence of the array factor, weighted by a combination of the current coefficients (which gives an array gain factor $G_F$). The overall idealistic case is based on the pattern multiplication principle, which (in a case such as the Tchebyshev array synthesis model, thus with non uniform amplitude feed), will take into account also the effect of the tapering efficiency ($\eta_T$) in its formulation (see \textbf{\cref{eq:pattern multiplication}}). Thus, the pattern multiplication principle can be applied angle by angle and this will provide a set of values that can be computed and inserted in matrices by using \texttt{\color{BurntOrange}MatLab}. Starting from the matrices, the 2D patterns can be represented. On the other hand, an easier way is to use the \texttt{\color{Turquoise}patternMultiply} command and get the ideal. 
+In order to get and describe the last plots of the project, it is not possible to recur to the \texttt{\color{Mahogany}Sensor Array Analyzer} because some of the commands, such as  and \texttt{\color{Turquoise}EHfields} and \texttt{\color{Turquoise}patternMultiply}, are not available in this tool. Thus, in this last part, only the array of PCBs will be used, because it's compatible with these commands. The total array gain will be computed and displayed in two different cases: by means of a fullwave model (with no approximation) and by using the pattern multiplication principle. This second case is idealistic because it makes an approximation of the real patterns by not considering the mutual induced interactions between the single antennas of the array; however, a "mathematical" interaction is considered in this model because it comes out of a formulation that mixes the single element effect (which gives an element gain factor $G_0$) on the gain pattern with the angular filtering influence of the array factor, weighted by a combination of the current coefficients (which gives an array gain factor $G_F$). The overall idealistic case is based on the pattern multiplication principle, which (in a case such as the Tchebyshev array synthesis model, thus with non uniform amplitude feed), will take into account also the effect of the tapering efficiency ($\eta_T$) in its formulation (see \textbf{\cref{eq:pattern multiplication}}). Thus, the pattern multiplication principle can be applied angle by angle and this will provide a set of values that can be computed and inserted in matrices by using \texttt{\color{BurntOrange}MatLab}. Starting from the matrices, the 2D patterns can be represented. On the other hand, an easier way is to use the \texttt{\color{Turquoise}patternMultiply} command and get the ideal patterns. 
 
 
 \subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Electric and magnetic near fields}
 
 
 
-The near field characteristics (specifically those of the radiative field, also called the Fresnel region) have been analyzed in both the broadside and by beamsteering to $45^\circ$ off the boresight conditions. Two situations have been analyzed: the general near field behaviour (in its electric and magnetic field components) but also the specific orientation of the fields in the center position of each of the five elements composing the antenna (so considering the $x$ and $y$ coordinates of each patch corresponding to the length and width directions of its planar development and the $z$ coordinate corresponding to the verical Fresnel distance component from the origin in a global reference). 
+The near field characteristics (specifically those of the radiative field, also called the Fresnel region) have been analyzed in both the broadside and by beamsteering to $45^\circ$ off the boresight conditions. Two situations have been analyzed: the general near field behaviour (in its electric and magnetic field components) but also the specific orientation of the fields in the center position of each of the five elements composing the antenna (so considering the $x$ and $y$ coordinates of each patch corresponding to the length and width directions of its planar development and the $z$ coordinate representing the vertical component of the distance between the observation point and the array. The vertical distance $z$ has been considered in three different cases. First, the Fresnel region (inductive near field region) has been analyzed at $z_{fre}=0.62\sqrt{L_{\max}^3/\lambda}$ (where $L_{\max}$ is the maximum size of the array, thus $L_{\max}=4d_{opt}+L_{patch}$), while the inductive near field region was measured, starting from the Fraunhofer limit expression ($z_{fraun}$), at $z_{fraun}/2$. Moreover, it's been considered an observation point at a generic distance from the array in the far field region ($4z_{fraun}$). The three cases can were compared both in the broadside and in the $45^\circ$ off the boresight direction examples. In the broadside case, the inductive and radiative near electric and magnetic fields can be ordered by following the increasing of their intensities as a criterion. It can be noted that the order of these intensities (calling them $E_i$, $H_k$, with $i,j=\overline{-2,2}$) is the same of that of the feed currents (the relationship is shown or the $E$ field intensities - see \textbf{\cref{eq:current and fields}} - but it works analogously for the $H$ field). In the far field, a totally different phaenomenon is observable (at least in the broadside case and with good approximation in the $45^\circ$ direction too): the $E$ field components are all equal, as those relative to the magnetic field $H$. This can be interpreted as follows: in the near field, the elements of the array still don't behave completely as one radiating object so that their individual radiative effect can be observed, prevailing on the mutual interactions that will make them work as a whole at a further distance (i.e. in the far field). This fact can be explicitly analyzed by looking at the electric and magnetic fields registered at the specific distances: everything is shown in ...
+%% \textbf{\cref{fig:EHfields}}
+\begin{equation}
+	\begin{aligned}
+	&\text{\color{Mahogany}If}\quad &C_0\,>\,C_{1}\,>\,C_2\\
+	&\text{\color{Mahogany}and} \quad &C_0>C_{-1}>C_{-2}\\
+	&\text{\color{ForestGreen}then} \quad &E_0\,>\,E_{1}\,>\,E_2\\
+	&\text{\color{ForestGreen}then} \quad  &E_0>E_{-1}>E_{-2}\\
+	\end{aligned}
+\label{eq:current and fields}
+\end{equation}
+\subsection*{\fontfamily{qag}\selectfont\color{Turquoise}Methods}
+In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} commands that are not available for all the tools that have been used will be pointed out. Next, the computational costs related to the different parts of the project will be discussed. In the end, a comparison between the array of PIFAs realized in \texttt{\color{BurntOrange}Matlab} and the \texttt{\color{Periwinkle}CST Studio Suite (Student edition)} will be shown. 
 
-
+\indent Explaining what are the limitations of every tool and our previous suggestions about how to combine them (this made it possible to get conclusive results) may help the reader who wants to engage himself into doing some similar studies about array of antennas. Four different \texttt{\color{BurntOrange}MatLab} tools belonging to two different toolboxes have been used for this project. Through \texttt{\color{Mahogany}Antenna Designer} to PIFA structure has been generated and analyzed, while the PCB stack has been created and studied through the \texttt{\color{Mahogany}PCB Antenna Designer} and we got the array of PCBs out of the \texttt{\color{Mahogany}Antenna Array Designer}. All these tools belong to the \texttt{\color{ForestGreen}Antenna Toolbox} (\textbf{\cite{AntennaToolbox}}), while the \texttt{\color{Mahogany}Sensor Array Analyzer} (by which the study of the array of PIFAs is possible) is part of the \texttt{\color{ForestGreen}Phased Sensor Array Analyzer} (\textbf{\cite{PhasedArraySystemToolbox}}). 
 \begin{equation}
 	\begin{aligned}
 		u_0&=\alpha d_{opt}\,=\,2\pi\frac{d_{opt}}{\lambda}\,\cos(\theta_0)\\

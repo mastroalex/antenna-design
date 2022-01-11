@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  10 JAN 2022 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  11 JAN 2022 13:09
 entering extended mode
 **./relazione_wet_copia.tex
 (relazione_wet_copia.tex
@@ -2275,37 +2275,67 @@ Overfull \hbox (36.0945pt too wide) in paragraph at lines 751--758
 [][] 
  []
 
+
+Overfull \hbox (8.02583pt too wide) in paragraph at lines 779--779
+[]|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *2\LS1/stix/m/it/10
+ d[]; z[]\LS1/stix/m/n/10 _2/$| 
+ []
+
+
+Overfull \hbox (2.79584pt too wide) in paragraph at lines 780--780
+[]|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *2\LS1/stix/m/it/10
+ d[]; \LS1/stix/m/n/10 4\LS1/stix/m/it/10 z[]\LS1/stix/m/n/10 /$| 
+ []
+
+
+Overfull \hbox (3.02583pt too wide) in paragraph at lines 786--786
+[]|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *\LS1/stix/m/it/10 
+d[]; z[]\LS1/stix/m/n/10 _2/$| 
+ []
+
+
+Overfull \hbox (1.17584pt too wide) in paragraph at lines 807--807
+[]|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 2\LS1/stix/m/it/10 
+d[]; z[]\LS1/stix/m/n/10 _2/$| 
+ []
+
 [8 <./figures/B//pcb_structure_zoom_tex.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1609) has occurred while \output is active []
 
  [9]
+[10]
+LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 8
+78.
+ (C:\Program Files\MiKTeX 2.9\tex/latex/tex-gyre\ts1qbk.fd
+File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
+)
 (relazione_wet_copia.lof)
 \tf@lof=\write5
 \openout5 = `relazione_wet_copia.lof'.
 
- [10
+ [11
 
 
 ] (figures/B//gamma1_tex.pdf_tex
-<figures/B//gamma1_tex.pdf, id=26799, page=1, 616.4937pt x 390.98997pt>
+<figures/B//gamma1_tex.pdf, id=26804, page=1, 616.4937pt x 390.98997pt>
 File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma1_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//gamma1_tex.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
-<figures/B//gamma1_tex.pdf, id=26800, page=2, 616.4937pt x 390.98997pt>
+<figures/B//gamma1_tex.pdf, id=26805, page=2, 616.4937pt x 390.98997pt>
 File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma1_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//gamma1_tex.pdf , page2 used on input line 6
 3.
 (pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
-<figures/B//gamma1_tex.pdf, id=26801, page=3, 616.4937pt x 390.98997pt>
+<figures/B//gamma1_tex.pdf, id=26806, page=3, 616.4937pt x 390.98997pt>
 File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma1_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//gamma1_tex.pdf , page3 used on input line 7
 2.
 (pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
-<figures/B//gamma1_tex.pdf, id=26802, page=4, 616.4937pt x 390.98997pt>
+<figures/B//gamma1_tex.pdf, id=26807, page=4, 616.4937pt x 390.98997pt>
 File: figures/B//gamma1_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma1_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//gamma1_tex.pdf , page4 used on input line 7
@@ -2313,151 +2343,151 @@ Package pdftex.def Info: figures/B//gamma1_tex.pdf , page4 used on input line 7
 (pdftex.def)             Requested size: 262.5183pt x 166.49368pt.
 )
 (figures/B//gamma3_tex.pdf_tex
-<figures/B//gamma3_tex.pdf, id=26803, page=1, 620.587pt x 413.81303pt>
+<figures/B//gamma3_tex.pdf, id=26808, page=1, 620.587pt x 413.81303pt>
 File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma3_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//gamma3_tex.pdf , page1 used on input line 5
 6.
 (pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
-<figures/B//gamma3_tex.pdf, id=26804, page=2, 620.587pt x 413.81303pt>
+<figures/B//gamma3_tex.pdf, id=26809, page=2, 620.587pt x 413.81303pt>
 File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma3_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//gamma3_tex.pdf , page2 used on input line 6
 3.
 (pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
-<figures/B//gamma3_tex.pdf, id=26805, page=3, 620.587pt x 413.81303pt>
+<figures/B//gamma3_tex.pdf, id=26810, page=3, 620.587pt x 413.81303pt>
 File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma3_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//gamma3_tex.pdf , page3 used on input line 7
 2.
 (pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
-<figures/B//gamma3_tex.pdf, id=26806, page=4, 620.587pt x 413.81303pt>
+<figures/B//gamma3_tex.pdf, id=26811, page=4, 620.587pt x 413.81303pt>
 File: figures/B//gamma3_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma3_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//gamma3_tex.pdf , page4 used on input line 7
 4.
 (pdftex.def)             Requested size: 262.5183pt x 175.0505pt.
 ) (figures/B//pcb_structure_tex.pdf_tex
-<figures/B//pcb_structure_tex.pdf, id=26807, page=1, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26812, page=1, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26808, page=2, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26813, page=2, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page2 used on input
  line 58.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26809, page=3, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26814, page=3, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page3 used on input
  line 60.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26810, page=4, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26815, page=4, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page4 used on input
  line 62.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26811, page=5, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26816, page=5, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 5>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page5 used on input
  line 64.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26812, page=6, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26817, page=6, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 6>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page6 used on input
  line 66.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26813, page=7, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26818, page=7, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 7>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page7 used on input
  line 68.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26814, page=8, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26819, page=8, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 8>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page8 used on input
  line 70.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26815, page=9, 863.01817pt x 477.50453pt>
+<figures/B//pcb_structure_tex.pdf, id=26820, page=9, 863.01817pt x 477.50453pt>
 
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 9>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page9 used on input
  line 72.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26816, page=10, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26821, page=10, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 10>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page10 used on inpu
 t line 75.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26817, page=11, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26822, page=11, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 11>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page11 used on inpu
 t line 77.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26818, page=12, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26823, page=12, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 12>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page12 used on inpu
 t line 79.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26819, page=13, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26824, page=13, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 13>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page13 used on inpu
 t line 83.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26820, page=14, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26825, page=14, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 14>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page14 used on inpu
 t line 85.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26821, page=15, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26826, page=15, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 15>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page15 used on inpu
 t line 88.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26822, page=16, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26827, page=16, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 16>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page16 used on inpu
 t line 91.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26823, page=17, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26828, page=17, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 17>
 Package pdftex.def Info: figures/B//pcb_structure_tex.pdf , page17 used on inpu
 t line 93.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
-<figures/B//pcb_structure_tex.pdf, id=26824, page=18, 863.01817pt x 477.50453pt
+<figures/B//pcb_structure_tex.pdf, id=26829, page=18, 863.01817pt x 477.50453pt
 >
 File: figures/B//pcb_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_tex.pdf, page 18>
@@ -2466,28 +2496,28 @@ t line 95.
 (pdftex.def)             Requested size: 246.11142pt x 136.17035pt.
 )
 (figures/B//pcb_structure_top_tex.pdf_tex
-<figures/B//pcb_structure_top_tex.pdf, id=26825, page=1, 788.55841pt x 410.0022
+<figures/B//pcb_structure_top_tex.pdf, id=26830, page=1, 788.55841pt x 410.0022
 3pt>
 File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_top_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
-<figures/B//pcb_structure_top_tex.pdf, id=26826, page=2, 788.55841pt x 410.0022
+<figures/B//pcb_structure_top_tex.pdf, id=26831, page=2, 788.55841pt x 410.0022
 3pt>
 File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_top_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page2 used on i
 nput line 65.
 (pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
-<figures/B//pcb_structure_top_tex.pdf, id=26827, page=3, 788.55841pt x 410.0022
+<figures/B//pcb_structure_top_tex.pdf, id=26832, page=3, 788.55841pt x 410.0022
 3pt>
 File: figures/B//pcb_structure_top_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_top_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//pcb_structure_top_tex.pdf , page3 used on i
 nput line 74.
 (pdftex.def)             Requested size: 246.11142pt x 127.9627pt.
-) [11
+) [12
 
 
  <./figures/B//gamma1_tex.pdf> <./figures/B//gamma1_tex.pdf
@@ -2603,25 +2633,25 @@ pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_top_tex.pdf): PDF
 pdfTeX warning: pdflatex.exe (file ./figures/B//pcb_structure_top_tex.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >] (figures/B//gain_3D_pifa_tex.pdf_tex
-<figures/B//gain_3D_pifa_tex.pdf, id=39160, page=1, 213.88275pt x 167.53345pt>
+<figures/B//gain_3D_pifa_tex.pdf, id=39165, page=1, 213.88275pt x 167.53345pt>
 File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_3D_pifa_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
-<figures/B//gain_3D_pifa_tex.pdf, id=39161, page=2, 213.88275pt x 167.53345pt>
+<figures/B//gain_3D_pifa_tex.pdf, id=39166, page=2, 213.88275pt x 167.53345pt>
 File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_3D_pifa_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page2 used on input 
 line 70.
 (pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
-<figures/B//gain_3D_pifa_tex.pdf, id=39162, page=3, 213.88275pt x 167.53345pt>
+<figures/B//gain_3D_pifa_tex.pdf, id=39167, page=3, 213.88275pt x 167.53345pt>
 File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_3D_pifa_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page3 used on input 
 line 80.
 (pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
-<figures/B//gain_3D_pifa_tex.pdf, id=39163, page=4, 213.88275pt x 167.53345pt>
+<figures/B//gain_3D_pifa_tex.pdf, id=39168, page=4, 213.88275pt x 167.53345pt>
 File: figures/B//gain_3D_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_3D_pifa_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//gain_3D_pifa_tex.pdf , page4 used on input 
@@ -2693,7 +2723,7 @@ line 86.
 (pdftex.def)             Requested size: 246.11142pt x 192.7821pt.
 )
 (figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf_tex
-<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39164, page=1, 486.843
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39169, page=1, 486.843
 11pt x 445.13666pt>
 File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
 f)
@@ -2701,7 +2731,7 @@ f)
 Package pdftex.def Info: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf , 
 page1 used on input line 56.
 (pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
-<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39165, page=2, 486.843
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39170, page=2, 486.843
 11pt x 445.13666pt>
 File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
 f)
@@ -2709,7 +2739,7 @@ f)
 Package pdftex.def Info: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf , 
 page2 used on input line 88.
 (pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
-<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39166, page=3, 486.843
+<figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf, id=39171, page=3, 486.843
 11pt x 445.13666pt>
 File: figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf Graphic file (type pd
 f)
@@ -2719,7 +2749,7 @@ page3 used on input line 90.
 (pdftex.def)             Requested size: 246.11142pt x 225.03336pt.
 )
 (figures/B//pifa_pcb_null_elevation_comparison_tex.pdf_tex
-<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39167, page=1, 450.9
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39172, page=1, 450.9
 3965pt x 399.87004pt>
 File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
 pdf)
@@ -2727,7 +2757,7 @@ pdf)
 Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf 
 , page1 used on input line 56.
 (pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
-<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39168, page=2, 450.9
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39173, page=2, 450.9
 3965pt x 399.87004pt>
 File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
 pdf)
@@ -2735,7 +2765,7 @@ pdf)
 Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf 
 , page2 used on input line 86.
 (pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
-<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39169, page=3, 450.9
+<figures/B//pifa_pcb_null_elevation_comparison_tex.pdf, id=39174, page=3, 450.9
 3965pt x 399.87004pt>
 File: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf Graphic file (type 
 pdf)
@@ -2745,7 +2775,7 @@ Package pdftex.def Info: figures/B//pifa_pcb_null_elevation_comparison_tex.pdf
 (pdftex.def)             Requested size: 246.11142pt x 218.23907pt.
 )
 (figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf_tex
-<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39170, page=1, 397.11
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39175, page=1, 397.11
 916pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
 df)
@@ -2753,7 +2783,7 @@ df)
 Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
  page1 used on input line 56.
 (pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
-<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39171, page=2, 397.11
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39176, page=2, 397.11
 916pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
 df)
@@ -2761,7 +2791,7 @@ df)
 Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
  page2 used on input line 86.
 (pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
-<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39172, page=3, 397.11
+<figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf, id=39177, page=3, 397.11
 916pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf Graphic file (type p
 df)
@@ -2771,7 +2801,7 @@ Package pdftex.def Info: figures/C//pifa_pcb_array_azimuth_comparison_tex.pdf ,
 (pdftex.def)             Requested size: 246.11142pt x 208.52597pt.
 )
 (figures/C//pifa_pcb_array_elevation_comparison_tex.pdf_tex
-<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39173, page=1, 396.
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39178, page=1, 396.
 83012pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
  pdf)
@@ -2779,7 +2809,7 @@ File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
 Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
  , page1 used on input line 56.
 (pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
-<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39174, page=2, 396.
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39179, page=2, 396.
 83012pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
  pdf)
@@ -2787,7 +2817,7 @@ File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
 Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
  , page2 used on input line 87.
 (pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
-<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39175, page=3, 396.
+<figures/C//pifa_pcb_array_elevation_comparison_tex.pdf, id=39180, page=3, 396.
 83012pt x 336.46819pt>
 File: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf Graphic file (type
  pdf)
@@ -2796,59 +2826,59 @@ Package pdftex.def Info: figures/C//pifa_pcb_array_elevation_comparison_tex.pdf
  , page3 used on input line 89.
 (pdftex.def)             Requested size: 246.11142pt x 208.67485pt.
 )
-<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=39176, 317.185pt x 316.1
+<figures//pcb_pifa_array_azimuth_90_comparison.pdf, id=39181, 317.185pt x 316.1
 8124pt>
 File: figures//pcb_pifa_array_azimuth_90_comparison.pdf Graphic file (type pdf)
 
 <use figures//pcb_pifa_array_azimuth_90_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_azimuth_90_comparison.pdf  use
-d on input line 941.
+d on input line 982.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (21.86261pt too wide) in paragraph at lines 941--942
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 982--983
 [][] 
  []
 
-<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=39177, 317.185pt x 316
+<figures//pcb_pifa_array_elevation_90_comparison.pdf, id=39182, 317.185pt x 316
 .18124pt>
 File: figures//pcb_pifa_array_elevation_90_comparison.pdf Graphic file (type pd
 f)
 <use figures//pcb_pifa_array_elevation_90_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_elevation_90_comparison.pdf  u
-sed on input line 945.
+sed on input line 986.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (21.86261pt too wide) in paragraph at lines 945--946
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 986--987
 [][] 
  []
 
-<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=39178, 317.185pt x 316.1
+<figures//pcb_pifa_array_azimuth_45_comparison.pdf, id=39183, 317.185pt x 316.1
 8124pt>
 File: figures//pcb_pifa_array_azimuth_45_comparison.pdf Graphic file (type pdf)
 
 <use figures//pcb_pifa_array_azimuth_45_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_azimuth_45_comparison.pdf  use
-d on input line 950.
+d on input line 991.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (21.86261pt too wide) in paragraph at lines 950--951
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 991--992
 [][] 
  []
 
-<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=39179, 317.185pt x 316
+<figures//pcb_pifa_array_elevation_45_comparison.pdf, id=39184, 317.185pt x 316
 .18124pt>
 File: figures//pcb_pifa_array_elevation_45_comparison.pdf Graphic file (type pd
 f)
 <use figures//pcb_pifa_array_elevation_45_comparison.pdf>
 Package pdftex.def Info: figures//pcb_pifa_array_elevation_45_comparison.pdf  u
-sed on input line 954.
+sed on input line 995.
 (pdftex.def)             Requested size: 158.5921pt x 158.09023pt.
 
-Overfull \hbox (21.86261pt too wide) in paragraph at lines 954--955
+Overfull \hbox (21.86261pt too wide) in paragraph at lines 995--996
 [][] 
  []
 
-[12
+[13
 
 
  <./figures/B//gain_3D_pifa_tex.pdf> <./figures/B//gain_3D_pifa_tex.pdf
@@ -2863,7 +2893,7 @@ usion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//gain_3D_pifa_tex.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [13 <./figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf> <./figures/B//pi
+>] [14 <./figures/B//pifa_pcb_null_azymuth_comparison_tex.pdf> <./figures/B//pi
 fa_pcb_null_azymuth_comparison_tex.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//pifa_pcb_null_azymuth_compariso
@@ -2919,22 +2949,22 @@ e page
 pdfTeX warning: pdflatex.exe (file ./figures/C//pifa_pcb_array_elevation_compar
 ison_tex.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
->] [14 <./figures//pcb_pifa_array_azimuth_90_comparison.pdf> <./figures//pcb_pi
+>] [15 <./figures//pcb_pifa_array_azimuth_90_comparison.pdf> <./figures//pcb_pi
 fa_array_elevation_90_comparison.pdf> <./figures//pcb_pifa_array_azimuth_45_com
 parison.pdf> <./figures//pcb_pifa_array_elevation_45_comparison.pdf>]
-<workflow.pdf, id=39209, 592.44347pt x 459.67734pt>
+<workflow.pdf, id=39214, 592.44347pt x 459.67734pt>
 File: workflow.pdf Graphic file (type pdf)
 <use workflow.pdf>
-Package pdftex.def Info: workflow.pdf  used on input line 963.
+Package pdftex.def Info: workflow.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 284.36963pt x 220.64261pt.
 
-Overfull \hbox (15.91063pt too wide) in paragraph at lines 963--964
+Overfull \hbox (15.91063pt too wide) in paragraph at lines 1004--1005
 [][] 
  []
 
 
 AED: lastpage setting LastPage
-[15
+[16
 
 
  <./workflow.pdf>] (relazione_wet_copia.aux)
@@ -2946,34 +2976,35 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46696 strings out of 478647
- 1097353 string characters out of 2853193
- 1735599 words of memory out of 3000000
- 64012 multiletter control sequences out of 15000+600000
- 527215 words of font info for 147 fonts, out of 8000000 for 9000
+ 46730 strings out of 478647
+ 1098099 string characters out of 2853193
+ 1735788 words of memory out of 3000000
+ 64041 multiletter control sequences out of 15000+600000
+ 530987 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,22n,94p,3124b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
-les/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTe
-X 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/tex-gyre/qagb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/tex-gyre/qbkr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/
-qbkri.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/sleon/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathcal.pfb><C:/Users/sl
-eon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathex.pfb><C:/User
-s/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/
-Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb>
-<C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr
-.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-ma
-thsf.pfb>
-Output written on relazione_wet_copia.pdf (15 pages, 8519947 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{C:/Program
+ Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2
+.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
+ps/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsso10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qa
+gb.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/cm-super/sftt1200.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fo
+nts/type1/public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2
+.9/fonts/type1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKT
+eX/2.9/fonts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roam
+ing/MiKTeX/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData
+/Roaming/MiKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb>
+Output written on relazione_wet_copia.pdf (16 pages, 8531922 bytes).
 PDF statistics:
- 39867 PDF objects out of 45951 (max. 8388607)
+ 39878 PDF objects out of 45951 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
