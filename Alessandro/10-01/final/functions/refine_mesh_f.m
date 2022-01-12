@@ -14,7 +14,8 @@ testo = strcat('\Gamma_{dB} for mesh ='," ", string(v(i)));
 %rfplot(s)
 title(testo,'Interpreter','tex');
 stringa_salvataggio=strcat('S11_mesh_',string(v(i)),'.mat');
-save(stringa_salvataggio,'s')
+%save(stringa_salvataggio,'s') uncomment for debug and read single
+%sparameters 
 slog=20*log10(abs(s.Parameters));
 ssintax=slog(:,:);
 frequenza(i)=s.Frequencies(ssintax==min(ssintax));
@@ -31,4 +32,8 @@ plot(v,frequenza);
 title('Resonance F. vs mesh level')
 figure;
 plot(v,abs(frequenza-2.1e9));
+assignin('base','smin3',smin)
+assignin('base','v3',v)
+assignin('base','frequenza_v3',frequenza)
+
 end

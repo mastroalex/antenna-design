@@ -19,5 +19,9 @@ disp(length(v)-i);
 end
 figure();
 plot(v,smin);
+p_plot=plot(v,smin);
 refinement_time2=toc;
+assignin('base','smin2',smin)
+assignin('base','v2',v)
+assignin('base','plot_smin_vs_mesh_2',p_plot)
 end
