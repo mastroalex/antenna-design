@@ -1,8 +1,15 @@
 function my_gain_pattern(kfa,dotchy,chebc)
 
 etaT = (1/5)*(abs(chebc(3)+2*chebc(4)+2*chebc(5))^2/(chebc(3)^2+2*chebc(4)^2+2*chebc(5)^2));
+tic
 pcb_gain_azimuth_broadside = pattern(dotchy,2.1e9,-180:180,0,'Type','gain');
+pcb_pattern_time=toc;
+assignin('base','pcb_pattern_time',pcb_pattern_time)
+tic
 pcb_array_real_gain_azimuth_broadside = pattern(kfa,2.1e9,-180:180,0,'Type','gain');
+array_pcb_pattern_time=toc;
+assignin('base','array_pcb_pattern_time',array_pcb_pattern_time)
+
 pcb_array_ideal_gain_azimuth_broadside = patternMultiply(kfa,2.1e9,-180:180,0,'Type','gain');
 pcb_arf_azimuth_broadside = 2*arrayFactor(kfa,2.1e9,-180:180,0);
 pcb_arf_azimuth_broadside = (10.^((pcb_arf_azimuth_broadside)/20));
