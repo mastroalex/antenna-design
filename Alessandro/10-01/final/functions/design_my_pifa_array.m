@@ -23,7 +23,11 @@ assignin('base','chebc',chebc)
 tcheB.Element = p;
 
 Frequency = 2.1e9;
+assignin('base','Frequency',Frequency)
+
 PropagationSpeed = 300000000;
+assignin('base','PropagationSpeed',PropagationSpeed)
+
 
 % Assign Steering Angles
 % SteeringAngles = [0;90];
@@ -31,6 +35,7 @@ SteeringAngles = [0;90];
 
 % Assign Phase shift quantization bits
 PhaseShiftBits = 0;
+assignin('base','PhaseShiftBits',PhaseShiftBits)
 
 % Create Figure
 
@@ -53,6 +58,7 @@ SteerVector = phased.SteeringVector('SensorArray', tcheB,...
 for idx = 1:length(Frequency)
     w(:, idx) = step(SteerVector, Frequency(idx), SteeringAngles(:, idx));
 end
+assignin('base','w',w)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -62,7 +62,12 @@ figure;
 EHfields(kfa,2.1e9,pfresnel_broadside);
 EH_90_center = EHfields(kfa,2.1e9,pfresnel_broadside);
 
-%% BEAMSTEERING 45° of boresight
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% BEAMSTEETING %%%%%%%%%%%%%
+%%%%%% AT 45° OFF %%%%%%%%%%%%%%%
+%%%%%% BORESIGHT %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % PIFAs beamsteering at 45°
 format = 'polar';
