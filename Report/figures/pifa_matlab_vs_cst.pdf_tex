@@ -1,0 +1,88 @@
+%% Creator: Inkscape 1.1.1 (3bf5ae0d25, 2021-09-20), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'pifa_matlab_vs_cst.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{189.65648438bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.9851083)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pifa_matlab_vs_cst.pdf}}%
+    \put(0.56198105,0.73677445){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
+    \put(0.58499634,0.82274568){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}}%
+    \put(0.60457121,0.89578563){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}}%
+    \put(0.48716156,0.48048214){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1\end{tabular}}}}}%
+    \put(0.51591091,0.5649111){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}}%
+    \put(0.53892621,0.65084278){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
+    \put(0.97416047,0.47858397){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.94746747,0.60232084){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.89969689,0.71763459){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.8237306,0.81665572){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
+    \put(0.72470947,0.89262201){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0.60939572,0.94039259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}75\end{tabular}}}}%
+    \put(0.48565885,0.95668521){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.35005842,0.94039259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}105\end{tabular}}}}%
+    \put(0.23474467,0.89262201){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0.13572354,0.81665572){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}135\end{tabular}}}}%
+    \put(0.05975725,0.71763459){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.01198667,0.60232084){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}165\end{tabular}}}}%
+    \put(-0.00430595,0.47858397){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
+    \put(0.01198667,0.3548471){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}195\end{tabular}}}}%
+    \put(0.05975725,0.23953335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
+    \put(0.13572354,0.14051222){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}225\end{tabular}}}}%
+    \put(0.23474467,0.06454592){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
+    \put(0.35005842,0.01677534){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}255\end{tabular}}}}%
+    \put(0.47379529,0.00048273){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
+    \put(0.59753216,0.01677534){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}285\end{tabular}}}}%
+    \put(0.71284591,0.06454592){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0.81186705,0.14051222){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}315\end{tabular}}}}%
+    \put(0.88783334,0.23953335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
+    \put(0.93560392,0.3548471){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}345\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
