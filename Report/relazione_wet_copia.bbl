@@ -84,6 +84,29 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{meshing}{online}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks\textregistered},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Meshing}
+    \verb{url}
+    \verb https://it.mathworks.com/help/antenna/ug/meshing.html
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{11}
+    \field{urlmonth}{01}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{PhasedArraySystemToolbox}{online}{}
     \name{author}{1}{}{%
       {{hash=M}{%
