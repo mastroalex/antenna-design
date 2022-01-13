@@ -10,8 +10,14 @@
 > Blasi Luca<br>
 > Mastrofini Alessandro<br>
 > Mucenica Leonard Stefan
+
+> ABSTRACT COMPLETA 
+>
 ---
 # Design
+
+Read more on report. 
+Read `Methods` for single function analyze. 
 
 ```matlab
 % load('myworkspace.mat')
