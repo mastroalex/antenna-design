@@ -65,7 +65,7 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 
 # Array
 <p align="center">
-<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.png" alt="Array" style="width:90%; border:0;">
+<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.svg" alt="Array" style="width:90%; border:0;">
 </p>
 
 
