@@ -1,6 +1,6 @@
 # Design of folded patch
 
-**Wireless Electromagnetic Technologies** - University of Rome Tor Vergata
+**Wireless Electromagnetic Technologies**  - University of Rome Tor Vergata
 
 <p align="center">
 <img src="https://www.baicr.it/wp-content/uploads/2017/06/Logo_Tor_Vergata-1.png" alt="Tor Vergata" style="width:10%; border:0;">
@@ -12,7 +12,10 @@
 > Mucenica Leonard Stefan
 
 > ABSTRACT COMPLETA 
->
+
+
+Read full [report](https://github.com/mastroalex/antenna-design/blob/main/report.pdf) .
+
 ---
 # Design
 
@@ -20,7 +23,7 @@ Read more on report.
 
 Read `Methods` for single function analyze. 
 
-Complete file [final_wet_project.m](https://github.com/mastroalex/antenna-design/blob/main/final_wet_project.m)
+Complete file [final_wet_project.m](https://github.com/mastroalex/antenna-design/blob/main/final_wet_project.m) .
 
 ```matlab
 % load('myworkspace.mat')
@@ -58,18 +61,21 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 ```
 --- 
 
-# Patch 
+## Patch 
 <p align="center">
 <img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/gain_patch2.png" alt="Patch" style="width:40%; border:0;">
 </p>
 
-# Array
+## Array
 <p align="center">
 <img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.svg" alt="Array" style="width:90%; border:0;">
 </p>
 
-
 # Requirements
+
+<details>
+  <summary><b> Project parameters </b></summary>
+  <br/>
 
 ## A. Design a Tchebyshev array factor of five elements with a main lobe / side lobe ratio of R=120. Optimize the inter-element spacing to minimize the beamwidth
 1.	Determine the current coefficients (normalized to maximum)
@@ -90,3 +96,4 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 4.	Plot of the near field just over the array plane to analyze the fringing field from the edges and observe possible non-uniformity due to the inter-antenna coupling.
 
 
+</details>  
