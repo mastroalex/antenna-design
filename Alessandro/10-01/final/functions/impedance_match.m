@@ -1,5 +1,5 @@
 function impedance_match(p,f,L,lfeed)
-
+tic
 %lfeed = 0.0060:0.0001:0.008;
 wfeed = -0.005:0.0001:0.005;
 figure();
@@ -16,5 +16,7 @@ disp('Step: ');
 disp(length(wfeed)-i);
 end
 disp('Done!');
+impedanceMatch_time=toc;
+assignin('base','impedanceMatch_time',impedanceMatch_time)
 
 end

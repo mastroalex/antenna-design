@@ -6,7 +6,7 @@
 %%% Pleas visit: https://github.com/mastroalex/antenna-design 
 
 %% Please, first of all, set Current Folder to script path!
-
+% load('myworkspace.mat')
 addpath(strcat(pwd,'/functions')); %load function from subfolder
 %clear all
 load(strcat(pwd,'/data_and_calculations/antenna_variables.mat'))
