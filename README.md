@@ -1,6 +1,6 @@
 # Design of folded patch
 
-**Wireless Electromagnetic Technologies** - University of Rome Tor Vergata
+**Wireless Electromagnetic Technologies 📡 ** - University of Rome Tor Vergata
 
 <p align="center">
 <img src="https://www.baicr.it/wp-content/uploads/2017/06/Logo_Tor_Vergata-1.png" alt="Tor Vergata" style="width:10%; border:0;">
@@ -68,8 +68,10 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 <img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.svg" alt="Array" style="width:90%; border:0;">
 </p>
 
+# Requirements
+
 <details>
-  <summary><b> # Requirements </b></summary>
+  <summary><b> Project parameters </b></summary>
   <br/>
 
 ## A. Design a Tchebyshev array factor of five elements with a main lobe / side lobe ratio of R=120. Optimize the inter-element spacing to minimize the beamwidth
