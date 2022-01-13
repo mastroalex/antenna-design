@@ -68,8 +68,9 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 <img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.svg" alt="Array" style="width:90%; border:0;">
 </p>
 
-
-# Requirements
+<details>
+  <summary><b> # Requirements </b></summary>
+  <br/>
 
 ## A. Design a Tchebyshev array factor of five elements with a main lobe / side lobe ratio of R=120. Optimize the inter-element spacing to minimize the beamwidth
 1.	Determine the current coefficients (normalized to maximum)
@@ -90,3 +91,4 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 4.	Plot of the near field just over the array plane to analyze the fringing field from the edges and observe possible non-uniformity due to the inter-antenna coupling.
 
 
+</details>  
