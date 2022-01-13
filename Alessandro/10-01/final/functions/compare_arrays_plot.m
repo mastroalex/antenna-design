@@ -21,7 +21,10 @@ assignin('base','pcb_array_azimuth_broadside',pcb_array_azimuth_broadside)
 assignin('base','pcb_array_elevation_broadside',pcb_array_elevation_broadside)
 
 % PIFAs
+tic
 pifa_array_azimuth_broadside = patternAzimuth(tcheB,2.1e9,0,'Type','directivity','weights',w);
+array_pifa_pattern_time=toc;
+assignin('base','array_pifa_pattern_time',array_pifa_pattern_time)
 pifa_array_elevation_broadside = patternElevation(tcheB,2.1e9,0,'Type','directivity','weights',w); 
 
 assignin('base','pifa_array_azimuth_broadside',pifa_array_azimuth_broadside)
