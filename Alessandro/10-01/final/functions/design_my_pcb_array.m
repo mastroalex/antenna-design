@@ -54,6 +54,14 @@ dotchy.FeedDiameter = 4e-4;
 %loc1 = [0.0075 0.0075];
 % loc2 = [0 0.01];
 
+% tic
+% freqRange = 2.0e9:0.0025e9:2.2e9;
+% figure; 
+% s = sparameters(dotchy, freqRange); 
+% rfplot(s)
+% pcb_sparameters_time=toc;
+%assignin('base','pcb_sparameters_time',pcb_sparameters_time)
+
 % Inserting multiple shorting pins loop
 
 num_pin = 30;

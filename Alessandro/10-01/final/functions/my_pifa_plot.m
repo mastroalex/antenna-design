@@ -17,8 +17,18 @@ subfigure(3,2,5);
 impedance(p, freqRange); 
 title('Impedance matched')
 
+tic
 freqRange = 2.0e9:0.0025e9:2.2e9;
 subfigure(3,2,6); 
 s = sparameters(p, freqRange); 
 rfplot(s)
+pifa_sparameters_time=toc;
+assignin('base','pifa_sparameters_time',pifa_sparameters_time)
+
+% tic
+% figure;
+% pattern(p,2.1e9,0,-180:180,'Type','gain');
+% pifa_pattern_time=toc;
+% assignin('base','pifa_pattern_time',pifa_pattern_time)
+
 end 
