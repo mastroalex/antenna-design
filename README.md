@@ -1,6 +1,6 @@
 # Design of folded patch
 
-**Wireless Electromagnetic Technologies 📡 ** - University of Rome Tor Vergata
+**Wireless Electromagnetic Technologies** 📡  - University of Rome Tor Vergata
 
 <p align="center">
 <img src="https://www.baicr.it/wp-content/uploads/2017/06/Logo_Tor_Vergata-1.png" alt="Tor Vergata" style="width:10%; border:0;">
