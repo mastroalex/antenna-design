@@ -10,10 +10,19 @@
 > Blasi Luca<br>
 > Mastrofini Alessandro<br>
 > Mucenica Leonard Stefan
+
+> ABSTRACT COMPLETA 
+>
 ---
 # Design
 
-```mathematica
+Read more on report. 
+
+Read `Methods` for single function analyze. 
+
+Complete file [final_wet_project.m](https://github.com/mastroalex/antenna-design/blob/main/final_wet_project.m)
+
+```matlab
 % load('myworkspace.mat')
 addpath(strcat(pwd,'/functions')); %load function from subfolder
 %clear all
@@ -56,7 +65,7 @@ my_array_factor(kfa,dotchy,chebc,chebn)
 
 # Array
 <p align="center">
-<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.png" alt="Array" style="width:60%; border:0;">
+<img src="https://github.com/mastroalex/antenna-design/blob/main/Report/figures/array.png" alt="Array" style="width:90%; border:0;">
 </p>
 
 
