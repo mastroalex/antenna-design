@@ -173,19 +173,18 @@ style=numeric
 
 \twocolumn[{
 \begin{@twocolumnfalse} 
-		\vspace*{10 pt}
+		\vspace*{20 pt}
 	\begingroup
 	\let\center\flushleft
 	\maketitle
-
 	\let\endcenter\endflushleft
-	
 	\endgroup
-		\vspace*{2 pt}
-		
-		
 	\begin{abstract}
-	\textcolor{blue}{\lipsum[1-2]}
+The design of an antenna through Computer Aided Engineering allows to optimize the parameters in such a way as to have the best desired behavior. In this case, an array of five antennas for 2.1 GHz is designed using \texttt{Matlab} and the \texttt{Antenna Design Toolbox}. 
+The design followed all the important steps, starting with the design of the array factor and the folded patch. The folded patch also requires some properties to be optimized in order to obtain the best behavior and the matching at 50 Ohms. 
+This is followed by several tests on the overall behavior of the five folded patch array. The phase coefficients were also calculated to have the beamsteering in both directions and 45 ° out of the pointing direction. 
+All the parameters to physically create the array are shown in the report together with some considerations on the simulation of folded patches with \texttt{Matlab}.
+
 	\end{abstract}
 	\vspace*{20 pt}
 \end{@twocolumnfalse}
@@ -196,7 +195,17 @@ style=numeric
 
 
 \section*{Introduction}
-	\textcolor{blue}{\lipsum[1]}
+All the parameters to physically create the array are shown in the report together with some considerations on the simulation of folded patches with Matlab.
+
+The design of an array start with the design of the array factor. The array factor is the complex-valued far field radiation pattern obtained by considering the elements to be point source. the total field can be formed by multiplying the array factor of the isotropic sources by the field of a single element by the pattern multiplication rule.
+This allows you to have an idea of how the behavior of the single antenna is affected by the other antennas of the array.
+
+Then a folded rectangular patch was design by following theoretical procedure \textbf{\cite{Balanis1}}. The obtained parameters require to be optimized to obtain the best behavior. This was possible using the \texttt{Antenna Design Toolbox} in \texttt{Matlab}.
+
+Subsequently, several tests were conducted on the overall behavior of the array in order to verify that the requirements were actually met. 
+
+This step requires a different computational approach to avoid the limitations of the software used. The \texttt{Sensor Array Toolbox} was also used to create a linear array of folded patches and the \texttt{PCB Antenna Design} was used to create an approximation of the folded patch that can be used with the \texttt{Array Design Toolbox}. These steps made it possible to evaluate the overall behavior of the array and to verify that all the design parameters are respected
+
 	
 \section*{Tchebyshev array factor design}
 
