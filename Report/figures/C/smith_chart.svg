@@ -19,9 +19,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="1.7046786"
-     inkscape:cx="266.91248"
-     inkscape:cy="162.20066"
+     inkscape:zoom="9.6431184"
+     inkscape:cx="-5.7035492"
+     inkscape:cy="352.63489"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="3432"
@@ -32,6 +32,13 @@
      id="defs4">
     <style
        id="style2">.cls-1{fill:#fff;}.cls-11,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{fill:none;}.cls-2,.cls-3,.cls-4,.cls-5{stroke:#666;}.cls-2{stroke-linecap:square;}.cls-11,.cls-2,.cls-3{stroke-miterlimit:10;}.cls-11,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6{stroke-width:0.5px;}.cls-3,.cls-4{stroke-linecap:round;}.cls-4,.cls-5{stroke-linejoin:round;}.cls-6{stroke:#ccc;stroke-dasharray:6 2.25 1.5 2.25;}.cls-6,.cls-7{stroke-linejoin:bevel;}.cls-7{stroke:#0072bd;stroke-dasharray:7.5 4.5;}.cls-8{font-size:19px;}.cls-10,.cls-8,.cls-9{font-family:ArialMT, Arial;}.cls-9{font-size:17.1px;}.cls-10{font-size:6.79px;}.cls-11{stroke:#262626;}</style>
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
   </defs>
   <polygon
      class="cls-1"
@@ -121915,25 +121922,27 @@
      id="text34846">0.2</text>
   <text
      class="cls-10"
-     transform="scale(1.1532563,0.86710997)"
+     transform="scale(1.1532563,0.86710995)"
      id="text34848"
-     x="32.794098"
-     y="88.468376"
+     x="-21.877308"
+     y="387.93103"
      style="stroke-width:1.15326">$S_{11}$</text>
   <line
      class="cls-7"
-     x1="3.25"
-     y1="75.08181"
-     x2="33.25"
-     y2="75.08181"
-     id="line34850" />
+     x1="-59.800144"
+     y1="332.77853"
+     x2="-29.800144"
+     y2="332.77853"
+     id="line34850"
+     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
   <rect
      class="cls-11"
-     x="0.25"
-     y="62.431808"
+     x="-62.800144"
+     y="322.09885"
      width="80.43"
      height="20.15"
-     id="rect34852" />
+     id="rect34852"
+     style="stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:0.5,1;stroke-dashoffset:0" />
   <text
      xml:space="preserve"
      style="font-size:16px;line-height:1.25;font-family:sans-serif"
@@ -121944,4 +121953,60 @@
        id="tspan71012"
        x="477.50937"
        y="283.9245">$\infty$</tspan></text>
+  <path
+     style="fill:#000000;stroke:#a6a6a6;stroke-width:0.684699px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:0.03424658"
+     d="m -64.810472,496.97714 v 0.39898 0.39897 0.39897 0.39899 l 0.293757,0.39897 v 0.39897 0.39899 l 0.293757,0.39897 v 0.39897 h 0.293765 l 0.293757,0.39899 v 0.39897 h 0.293757 l 0.293766,0.39897 v 0.39899 h 0.293756 l 0.293757,0.39897 h 0.293766 0.293757 l 0.293757,0.39897 h 0.293765 0.293757 0.293757 0.293766 144.823562 0.293766 0.293757 0.293757 0.293765 l 0.293757,-0.39897 h 0.293757 0.293766 l 0.293757,-0.39897 v 0 l 0.293756,-0.39899 0.293766,-0.39897 h 0.293757 v -0.39897 l 0.293757,-0.39899 v 0 l 0.293765,-0.39897 v -0.39897 l 0.293757,-0.39899 v -0.39897 -0.39897 l 0.293757,-0.39899 v -0.39897 -0.39897 -0.39898 -105.72873 -0.39897 -0.39898 -0.39898 l -0.293757,-0.39897 v -0.39898 -0.39898 l -0.293757,-0.39897 v -0.39898 h -0.293765 v -0.39897 l -0.293757,-0.39898 v -0.39898 h -0.293757 l -0.293766,-0.39897 h -0.293756 v -0.39898 h -0.293757 l -0.293766,-0.39898 h -0.293757 -0.293757 l -0.293765,-0.39897 h -0.293757 -0.293757 -0.293766 -144.823562 -0.293766 -0.293757 -0.293757 l -0.293765,0.39897 h -0.293757 -0.293757 l -0.293766,0.39898 h -0.293757 l -0.293756,0.39898 v 0 l -0.293766,0.39897 h -0.293757 v 0.39898 l -0.293757,0.39898 -0.293765,0.39897 v 0 l -0.293757,0.39898 v 0.39897 0.39898 l -0.293757,0.39898 v 0.39897 0.39898 0.39898 0.39897 z"
+     id="path18249" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;line-height:127.7%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="-53.456287"
+     y="403.22906"
+     id="text18271"><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="403.22906"
+       id="tspan18253"><tspan
+         dx="0 0"
+         dy="0 0"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan18251">$S_{11} = |0.0018|$, </tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="420.22913"
+       id="tspan38666"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan38668">140.4 [deg]</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="437.22919"
+       id="tspan18257"><tspan
+         dx="0"
+         dy="0"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan18255">Freq = 2.1 GHz</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="454.22925"
+       id="tspan18261"><tspan
+         dx="0"
+         dy="0"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan18259">VSWR = 1.0036</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="471.22931"
+       id="tspan18265"><tspan
+         dx="0"
+         dy="0"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan18263">Z = 0.997 + j0.002</tspan></tspan><tspan
+       sodipodi:role="line"
+       x="-53.456287"
+       y="488.22937"
+       id="tspan18269"><tspan
+         dx="0"
+         dy="0"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:13.3125px;font-family:Arial;fill:#404040"
+         id="tspan18267">Y = 1.003 - j0.002</tspan></tspan></text>
 </svg>

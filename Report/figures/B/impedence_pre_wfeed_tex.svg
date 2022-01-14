@@ -22,10 +22,10 @@
      inkscape:zoom="2.7714286"
      inkscape:cx="210"
      inkscape:cy="157.5"
-     inkscape:window-width="3440"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="3432"
+     inkscape:window-y="344"
      inkscape:window-maximized="1"
      inkscape:current-layer="Livello_1" />
   <defs
@@ -165,14 +165,16 @@
      y1="280.5"
      x2="380.25"
      y2="280.5"
-     id="line47" />
+     id="line47"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
      y1="23.25"
      x2="380.25"
      y2="23.25"
-     id="line49" />
+     id="line49"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
@@ -291,14 +293,16 @@
      y1="280.5"
      x2="54.75"
      y2="23.25"
-     id="line89" />
+     id="line89"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="380.25"
      y1="280.5"
      x2="380.25"
      y2="23.25"
-     id="line91" />
+     id="line91"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
@@ -471,12 +475,12 @@
      class="cls-9"
      points="54.75 196.86 58.01 195.91 61.26 194.88 64.52 193.78 67.77 192.6 71.03 191.33 74.28 189.96 77.53 188.49 80.79 186.9 84.05 185.19 87.3 183.33 90.56 181.32 93.81 179.15 97.06 176.78 100.32 174.22 103.58 171.43 106.83 168.4 110.08 165.1 113.34 161.5 116.59 157.59 119.85 153.34 123.11 148.71 126.36 143.7 129.62 138.26 132.87 132.4 136.13 126.11 139.38 119.39 142.63 112.27 145.89 104.79 149.15 97.06 152.4 89.17 155.66 81.29 158.91 73.63 162.16 66.42 165.42 59.93 168.68 54.45 171.93 50.23 175.19 47.5 178.44 46.39 181.69 46.97 184.95 49.19 188.21 52.92 191.46 57.93 194.72 63.99 197.97 70.82 201.22 78.14 204.48 85.73 207.74 93.37 210.99 100.91 214.25 108.22 217.5 115.22 220.75 121.85 224.01 128.09 227.26 133.92 230.52 139.34 233.78 144.36 237.03 149 240.28 153.29 243.54 157.24 246.79 160.88 250.05 164.24 253.31 167.33 256.56 170.18 259.81 172.81 263.07 175.24 266.32 177.49 269.58 179.56 272.83 181.48 276.09 183.27 279.35 184.92 282.6 186.46 285.86 187.89 289.11 189.22 292.37 190.47 295.62 191.63 298.88 192.71 302.13 193.73 305.38 194.68 308.64 195.57 311.89 196.41 315.15 197.2"
      id="polyline151"
-     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#0072bd;stroke-opacity:1" />
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#0072bd;stroke-opacity:1" />
   <polyline
      class="cls-10"
      points="54.75 141.38 58.01 140.2 61.26 138.98 64.52 137.73 67.77 136.43 71.03 135.1 74.28 133.72 77.53 132.31 80.79 130.87 84.05 129.38 87.3 127.86 90.56 126.32 93.81 124.74 97.06 123.15 100.32 121.55 103.58 119.95 106.83 118.36 110.08 116.81 113.34 115.31 116.59 113.89 119.85 112.59 123.11 111.45 126.36 110.52 129.62 109.85 132.87 109.54 136.13 109.65 139.38 110.29 142.63 111.58 145.89 113.62 149.15 116.55 152.4 120.49 155.66 125.55 158.91 131.81 162.16 139.31 165.42 148.04 168.68 157.89 171.93 168.69 175.19 180.18 178.44 192.06 181.69 203.96 184.95 215.55 188.21 226.5 191.46 236.55 194.72 245.52 197.97 253.31 201.22 259.89 204.48 265.28 207.74 269.56 210.99 272.84 214.25 275.23 217.5 276.85 220.75 277.82 224.01 278.25 227.26 278.23 230.52 277.85 233.78 277.18 237.03 276.29 240.28 275.22 243.54 274.02 246.79 272.72 250.05 271.35 253.31 269.94 256.56 268.5 259.81 267.05 263.07 265.59 266.32 264.15 269.58 262.72 272.83 261.31 276.09 259.93 279.35 258.58 282.6 257.26 285.86 255.97 289.11 254.71 292.37 253.49 295.62 252.3 298.88 251.15 302.13 250.03 305.38 248.94 308.64 247.88 311.89 246.85 315.15 245.86"
      id="polyline153"
-     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
   <rect
      class="cls-3"
      x="284.25"
@@ -496,7 +500,7 @@
      x2="293.63144"
      y2="43.300003"
      id="line159"
-     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#0072bd;stroke-opacity:1" />
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#0072bd;stroke-opacity:1" />
   <text
      class="cls-11"
      id="text161"
@@ -509,7 +513,7 @@
      x2="293.63144"
      y2="55.5"
      id="line163"
-     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
   <rect
      class="cls-12"
      x="260.61679"

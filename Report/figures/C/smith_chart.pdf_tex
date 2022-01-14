@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{404.8839798bp}%
+    \setlength{\unitlength}{453.74859592bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,31 +50,33 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.84930772)%
+  \begin{picture}(1,0.75784497)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{smith_chart.pdf}}%
-    \put(0.87952974,0.44290194){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j30\end{tabular}}}}%
-    \put(0.858746,0.57275396){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j5\end{tabular}}}}%
-    \put(0.72683785,0.7423581){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j2\end{tabular}}}}%
-    \put(0.48186026,0.82401112){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j1\end{tabular}}}}%
-    \put(0.2222859,0.7423581){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.5\end{tabular}}}}%
-    \put(0.09037774,0.57275396){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.2\end{tabular}}}}%
-    \put(0.8836976,0.38851599){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j30\end{tabular}}}}%
-    \put(0.86291387,0.25866398){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j5\end{tabular}}}}%
-    \put(0.73100571,0.08905984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j2\end{tabular}}}}%
-    \put(0.48602812,0.00740682){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j1\end{tabular}}}}%
-    \put(0.22645376,0.08905984){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.5\end{tabular}}}}%
-    \put(0.0945456,0.25866398){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.2\end{tabular}}}}%
-    \put(0.0728542,0.41570897){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
-    \put(0.84548295,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}}%
-    \put(0.74558396,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
-    \put(0.62171514,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
-    \put(0.4978278,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
-    \put(0.37394046,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}}%
-    \put(0.25007164,0.42960184){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}}%
-    \put(0.07005711,0.80252013){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$\end{tabular}}}}%
+    \put(0.89250329,0.39520541){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j30\end{tabular}}}}%
+    \put(0.87395778,0.51107354){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j5\end{tabular}}}}%
+    \put(0.75625494,0.66241285){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j2\end{tabular}}}}%
+    \put(0.53765922,0.73527258){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j1\end{tabular}}}}%
+    \put(0.30603867,0.66241285){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.5\end{tabular}}}}%
+    \put(0.18833582,0.51107354){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.2\end{tabular}}}}%
+    \put(0.89622231,0.34667634){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j30\end{tabular}}}}%
+    \put(0.8776768,0.23080821){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j5\end{tabular}}}}%
+    \put(0.75997396,0.0794689){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j2\end{tabular}}}}%
+    \put(0.54137824,0.00660917){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j1\end{tabular}}}}%
+    \put(0.30975769,0.0794689){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.5\end{tabular}}}}%
+    \put(0.19205484,0.23080821){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.2\end{tabular}}}}%
+    \put(0.17269941,0.37094088){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
+    \put(0.86212303,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}}%
+    \put(0.77298226,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
+    \put(0.66245299,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
+    \put(0.5519072,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
+    \put(0.4413614,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}}%
+    \put(0.33083213,0.38333761){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}}%
+    \put(0.0659881,0.28689292){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{smith_chart.pdf}}%
-    \put(0.88453,0.41868297){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\infty$\end{tabular}}}}%
+    \put(0.89696507,0.3735946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\infty$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{smith_chart.pdf}}%
+    \put(0.01933317,0.17639636){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.27699983}\smash{\begin{tabular}[t]{l}$S_{11} = |0.0018|$, \\140.4 [deg]\\Freq = 2.1 GHz\\VSWR = 1.0036\\Z = 0.997 + j0.002\\Y = 1.003 - j0.002\end{tabular}}}}%
   \end{picture}%
 \endgroup%

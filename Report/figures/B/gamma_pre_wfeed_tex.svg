@@ -21,11 +21,11 @@
      showgrid="false"
      inkscape:zoom="2.2486095"
      inkscape:cx="209.9075"
-     inkscape:cy="157.43062"
+     inkscape:cy="157.43063"
      inkscape:window-width="1718"
      inkscape:window-height="1360"
-     inkscape:window-x="-7"
-     inkscape:window-y="0"
+     inkscape:window-x="1646"
+     inkscape:window-y="86"
      inkscape:window-maximized="0"
      inkscape:current-layer="Livello_1" />
   <defs
@@ -158,14 +158,16 @@
      y1="280.5"
      x2="380.25"
      y2="280.5"
-     id="line45" />
+     id="line45"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
      y1="23.25"
      x2="380.25"
      y2="23.25"
-     id="line47" />
+     id="line47"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
@@ -284,14 +286,16 @@
      y1="280.5"
      x2="54.75"
      y2="23.25"
-     id="line87" />
+     id="line87"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="380.25"
      y1="280.5"
      x2="380.25"
      y2="23.25"
-     id="line89" />
+     id="line89"
+     style="stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
      class="cls-5"
      x1="54.75"
@@ -444,7 +448,7 @@
      class="cls-8"
      points="54.75 35.88 58.01 36.43 61.26 37.02 64.52 37.64 67.77 38.3 71.03 39.01 74.28 39.76 77.53 40.56 80.79 41.41 84.05 42.33 87.3 43.31 90.56 44.35 93.81 45.48 97.06 46.68 100.32 47.98 103.58 49.37 106.83 50.88 110.08 52.5 113.34 54.25 116.59 56.15 119.85 58.2 123.11 60.43 126.36 62.86 129.62 65.51 132.87 68.4 136.13 71.57 139.38 75.05 142.63 78.89 145.89 83.14 149.15 87.86 152.4 93.15 155.66 99.1 158.91 105.86 162.16 113.63 165.42 122.69 168.68 133.47 171.93 146.65 175.19 163.46 178.44 186.34 181.69 221.26 184.95 276.08 188.21 241.59 191.46 198.56 194.72 172.04 197.97 153.34 201.22 139.02 204.48 127.5 207.74 117.92 210.99 109.78 214.25 102.74 217.5 96.58 220.75 91.13 224.01 86.28 227.26 81.92 230.52 77.99 233.78 74.44 237.03 71.21 240.28 68.26 243.54 65.56 246.79 63.09 250.05 60.82 253.31 58.72 256.56 56.79 259.81 55 263.07 53.35 266.32 51.81 269.58 50.39 272.83 49.06 276.09 47.82 279.35 46.67 282.6 45.59 285.86 44.59 289.11 43.64 292.37 42.76 295.62 41.93 298.88 41.15 302.13 40.42 305.38 39.73 308.64 39.08 311.89 38.47 315.15 37.89"
      id="polyline141"
-     style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
+     style="stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe5a00;stroke-opacity:1" />
   <rect
      class="cls-3"
      x="263.64175"

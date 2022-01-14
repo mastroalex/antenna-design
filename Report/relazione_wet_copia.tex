@@ -38,7 +38,7 @@
 \usepackage{cleveref}
 \usepackage{caption}
 \DeclareCaptionFont{quack}{}
-\captionsetup{font={color=gray,quack},labelfont={color=black}}
+\captionsetup{font={color=gray,small},labelfont={color=black,sc}}
 \usepackage{subcaption}
 \usepackage{titlesec}
 \titleformat*{\section}{\LARGE\bfseries\color{orange_work}}
@@ -86,8 +86,8 @@
 \author[]{Blasi Luca}
 \author[2]{Mastrofini Alessandro}
 \author[3]{Mucenica Stefan Leonard}
-\affil[2]{alessandro.mastrofini@alumni.uniroma2.eu}
-\affil[3]{stefanleonard.mucenica@alumni.uniroma2.eu}
+\affil[2]{\small alessandro.mastrofini@alumni.uniroma2.eu}
+\affil[3]{\small stefanleonard.mucenica@alumni.uniroma2.eu}
 
 \date{}
 \usepackage{fancyhdr}
@@ -120,10 +120,12 @@ style=numeric
 \usepackage{listings}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codestring}{rgb}{0.4,0.4,0.4}
+\definecolor{codestring}{rgb}{0.623, 0.176, 0.588}
 \definecolor{backcolour}{rgb}{0.96,0.96,0.96}
 \definecolor{bbcolour}{rgb}{0.01,0.03,0.35}
 \definecolor{indexcolour}{rgb}{0,0.4,0.4}
+\definecolor{myOrange}{rgb}{0.933, 0.313, 0.066}
+\definecolor{myBlue}{rgb}{0, 0.298, 0.8}
 \lstdefinestyle{mystyle}{
 	backgroundcolor=\color{backcolour},   
 	commentstyle=\color{codegreen},
@@ -187,7 +189,8 @@ style=numeric
 	\let\endcenter\endflushleft
 	\endgroup
 	\begin{abstract}
-The latest developments in Computer Aided Engineering, by means of the remarkable progress that several softwares have been made in terms of computational speed and of enlarged ranges of phaenomena that can be simulated and accurately analyzed, represent an immense span to inventiveness. For this particular instance, it is also a great opportunity for who wants to reach or already has an expertise in the Antenna Design field. In this article, among a vast amount of possibilities, some of the \texttt{Matlab} toolboxes dedicated to antenna designing have been adopted in such a way as to create the structure of a coaxial-fed folded patch antenna combined with a low performance dielectric substrate (i.e. $FR4$). The main purpose was to obtain an antenna resonating at $2.1\,GHz$ and with an input impedance matched at $50\,Ohms$. Subsequently, this designed radiating object has been introduced in a broader structure, that is a linear array of five antennas, as its representative single element. The Tchebyshev array synthesis has been used in order to reach particular design and radiating behaviour. Specifically, the beam-steering in the broadside and at $45^\circ$ off the boresight direction have been analyzed by means of the overall gain and the electric and magnetic field behaviour close and far from the array. All the mathematical models which have been used together with the software feedback represent the structure of an overall process of development, optimization and analysis which have been very carefully performed and shown in the following paragraphs. 
+		\large{
+The latest developments in Computer Aided Engineering, by means of the remarkable progress that several softwares have been made in terms of computational speed and of enlarged ranges of phaenomena that can be simulated and accurately analyzed, represent an immense span to inventiveness. For this particular instance, it is also a great opportunity for who wants to reach or already has an expertise in the Antenna Design field. In this article, among a vast amount of possibilities, some of the \texttt{Matlab} toolboxes dedicated to antenna designing have been adopted in such a way as to create the structure of a coaxial-fed folded patch antenna combined with a low performance dielectric substrate (i.e. $FR4$). The main purpose was to obtain an antenna resonating at $2.1\,GHz$ and with an input impedance matched at $50\,Ohms$. Subsequently, this designed radiating object has been introduced in a broader structure, that is a linear array of five antennas, as its representative single element. The Tchebyshev array synthesis has been used in order to reach particular design and radiating behaviour. Specifically, the beam-steering in the broadside and at $45^\circ$ off the boresight direction have been analyzed by means of the overall gain and the electric and magnetic field behaviour close and far from the array. All the mathematical models which have been used together with the software feedback represent the structure of an overall process of development, optimization and analysis which have been very carefully performed and shown in the following paragraphs.}
 
 %The design of an antenna through Computer Aided Engineering allows to optimize the parameters in such a way as to have the best desired behavior. In this case, an array of five antennas for 2.1 GHz is designed using \texttt{Matlab} and the \texttt{Antenna Design Toolbox}. 
 %The design followed all the important steps, starting with the design of the array factor and the folded patch. The folded patch also requires some properties to be optimized in order to obtain the best behavior and the matching at 50 Ohms. 
@@ -235,7 +238,7 @@ Starting from the optimal inter-element spacing, it requires some secondary vari
 				\hline
 				\# elements & $n_{el}=2N+1=5$\\
 				\hline
-				Mean lobe/side lobe
+				Main lobe/side lobe
 				ratio  & $R = 120 \cong\, 41.58\,dB$\\
 				\hline 
 				Frequency & $f\,=\,2.1\,GHz$\\
@@ -593,14 +596,14 @@ Thus, considering the frequency $f^*$ at which $\min(\Gamma)$ is actually obtain
 
 \begin{figure*}[bt!]
 	\centering
-	\begin{subfigure}[b]{0.42\linewidth}
+	\begin{subfigure}[b]{0.48\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{gamma_pre_wfeed_tex.pdf_tex}}
 		%\includegraphics[scale=0.25]{First_Contour_LOG.pdf}
 		\caption{}
 	\end{subfigure}
-\hspace{0.1\linewidth}
-	\begin{subfigure}[b]{0.4\linewidth}
+%\hspace{0.1\linewidth}
+	\begin{subfigure}[b]{0.48\linewidth}
 		\def\svgwidth{\linewidth}
 		\tiny{\input{impedence_pre_wfeed_tex.pdf_tex}}
 		%\includegraphics[scale=0.25]{Second_Contour_LOG.pdf}
@@ -898,7 +901,7 @@ In this last part of the project, the array factor and the the element antenna (
 
 	\begin{subfigure}{0.24\linewidth}
 		\def\svgwidth{\linewidth}
-		\fontsize{4}{4}\selectfont{\input{pcb_array_azimuth_45_gain_real_vs_ideal.pdf_tex}}
+		\fontsize{4}{4}\selectfont{\input{pcb_array_azimuth_gain_real_vs_ideal.pdf_tex}}
 		\caption{}
 	\end{subfigure}	\hfill
 	\begin{subfigure}{0.24\linewidth}
@@ -917,7 +920,7 @@ In this last part of the project, the array factor and the the element antenna (
 	\fontsize{4}{4}\selectfont{\input{pcb_array_azimuth_45_gain_real_vs_ideal.pdf_tex}}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{2D gain patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
+	\caption{2D gain patterns (ideal \textcolor{myOrange}{$\blacksquare$} and real \textcolor{myBlue}{$\blacksquare$} ) in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut).}
 	\label{fig:array gain}
 \end{figure*}
 
@@ -982,7 +985,7 @@ In this conclusive paragraph, a list of the \texttt{\color{BurntOrange}MatLab} c
 	\centering
 	\def\svgwidth{0.9\linewidth}
 	\tiny{\input{pifa_matlab_vs_cst.pdf_tex}}
-	\caption{2D gain patterns in the azimuth cut: comparison between the PIFA created in \texttt{\color{BurntOrange}Matlab} and that designed in \texttt{\color{Periwinkle}CST Studio Suite}.}
+	\caption{2D gain patterns in the azimuth cut: comparison between the PIFA created in \texttt{Matlab} (\textcolor{myOrange}{$\blacksquare$}) and that designed in \texttt{CST Studio Suite} (\textcolor{myBlue}{$\blacksquare$}).}
 \end{figure}
 \indent 
 
@@ -1084,7 +1087,7 @@ The different analysis conducted in this paper have fulfilled the project requir
 The toolbox
 I toolbox which have been used made possible to reach the final results (related to electric and magnetic fields) using the PCB structure as the antenna element of the array since the array of PIFAs isn't compatible for this type of study. Using the array of PCBs introduced an admissible set of errors. The use of the array of PCBs led to a notable increase of the computational costs  and this may represent an obstacle to users that would like to replicate the results but having machines who don't have enough hard disk resources. 
 
-
+%\pagebreak
 \section*{Data availability}
 
 All the \texttt{Matlab} code is available in the online repository (file 	\colorbox{backcolour}{\texttt{final\_wet\_project.m}}) at the following link: \url{https://github.com/mastroalex/antenna-design}.
@@ -1095,7 +1098,7 @@ There are all the raw data for plot and calculation.
 
 In the appendix there are different patterns (for PCB and PIFA comparison), 3D gain patterns, Smith diagram, and different antenna / array diagrams. There is also a project workflow and some code snippets. 
 
-		\printbibliography
+\printbibliography
 
 %\section*{References}
 \pagebreak
@@ -1131,7 +1134,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 	\tiny{\input{EHfield_pfarfield_45.pdf_tex}}
 	\caption{}
 \end{subfigure}
-\caption{EH Fields in Fraunhover region for broadside (a) and 45° off boresight direction (b) and in far field region for broadside (c) and 45° off boresight direction (d) }				
+\caption{EH Fields in radiative near field region for broadside (a) and 45° off boresight direction (b) and in far field region for broadside (c) and 45° off boresight direction (d) }				
 		\begin{subfigure}{0.35\linewidth}
 			\def\svgwidth{\linewidth}
 			\tiny{\input{gamma1_tex.pdf_tex}}
@@ -1190,7 +1193,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_elevation_45.pdf_tex}}
 		\caption{}
 	\end{subfigure}
-	\caption{2D gain patterns in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut). The curve with the dashed line has not been calculated regularly but mirrored (see methods)}
+	\caption{2D gain patterns (PIFA (\textcolor{myBlue}{$\blacksquare$}) and PCB (\textcolor{myOrange}{$\blacksquare$})) in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut). The curve with the dashed line has not been calculated regularly but mirrored, due to the limitation in the maximum elevation angle range which can be asked for in the \texttt{SAA} patterns.}
 	\begin{subfigure}{0.24\linewidth}
 	\def\svgwidth{\linewidth}
 	\fontsize{4}{4}\selectfont{\input{pifa_pcb_null_azymuth_comparison_tex.pdf_tex}}
@@ -1212,7 +1215,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 	\caption{}	\end{subfigure}
 
 		\caption{
-		PIFA and PCB single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b)). PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (c)) and in the Elevation cut ($\phi_{az}=0^\circ$, (d))}
+		PIFA (\textcolor{myBlue}{$\blacksquare$}) and PCB (\textcolor{myOrange}{$\blacksquare$}) single antenna directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (a)) and in the Elevation cut ($\phi_{az}=0^\circ$, (b)). PIFA and PCB arrays directivity patterns (dB) in the Azimuth cut  ($\theta_{el}=0^\circ$, (c)) and in the Elevation cut ($\phi_{az}=0^\circ$, (d))}
 	\label{fig:pcb pifa array comparison}
 
 	\begin{subfigure}{0.28\linewidth}
@@ -1244,7 +1247,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 	\centering
 	\begin{tikzpicture}
 		\label{fig:flowchart}
-		\node (startp) [startstop,xshift=0.4\linewidth] {\textmd{INPUT VARIABLES}
+		\node (startp) [startstop,xshift=0.45\linewidth] {\textmd{INPUT VARIABLES}
 			
 				\fontsize{6}{4}\selectfont frequency, matched input impedance, FR4 substrate, patch and ground features, PIFA condition on shorting to reach equivalence between folded structure and PIFA};		
 		\node (pro1) [process, below of=startp ,yshift=-1.4cm] {
@@ -1279,7 +1282,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 		\draw [arrow] (pro3) -- (pro4);
 		\draw [arrow] (pro4) -- (out1p);
 		
-		\node (start) [startstop,left of=startp,xshift=-0.4\linewidth]
+		\node (start) [startstop,left of=startp,xshift=-0.45\linewidth]
 		{\textmd{INPUT VARIABLES}
 			
 			\fontsize{6}{4}\selectfont 	no. of elements, mean to side lobe ratio, operating frequency};
