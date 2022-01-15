@@ -1352,15 +1352,18 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 \begin{figure*}
 	\centering
 	\begin{subfigure}{0.45\linewidth}
-		\begin{lstlisting}[language=Matlab,caption=Calculation of array factor to avoid Toolbox incompatibility,label=code1]
-	pat_dotchy_az=pattern(dotchy,2.1e9,-180:180,0,'Type','directivity');
-	pat_kfa_az=pattern(kfa,2.1e9,-180:180,0,'Type','directivity');
-	Df_az=10.^((pat_kfa_az-pat_dotchy_az)/10);
-	F=sqrt(Df_az*(dot(chebc,chebc)/0.79));
-	Fn=sqrt(Df_az*(dot(chebn,chebn)/0.79));
-	FdB=20*log10(Fn);
-	subfigure(3,4,3); 
-	polarpattern(FdB); 
+		\begin{lstlisting}[language=Matlab,caption=Cycle over \texttt{MaxEdgeLength} parameter for mesh optimization,label=code1]
+for i=1:length(v)
+mesh(p,'MaxEdgeLength',v(i));
+s = sparameters(p,freqRange);
+slog=20*log10(abs(s.Parameters));
+ssi=slog(:,:);
+freq(i)=s.Frequencies(ssi==min(ssi));
+smin(i)=min(ssintax);
+disp('Step: ');
+disp(length(v)+1-i);
+close all
+end 
 	\end{lstlisting}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.45\linewidth}
