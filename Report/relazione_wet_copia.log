@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  15 JAN 2022 09:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  15 JAN 2022 10:09
 entering extended mode
 **./relazione_wet_copia.tex
 (relazione_wet_copia.tex
@@ -1543,10 +1543,6 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 210.
 
-
-LaTeX Warning: Citation 'Balanis1' on page 1 undefined on input line 218.
-
-
 Underfull \vbox (badness 1831) has occurred while \output is active []
 
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
@@ -1566,18 +1562,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1{C:/Users/sleon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./figures//logo.png>]
-
-LaTeX Warning: Citation 'Balanis1' on page 2 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'ewa' on page 2 undefined on input line 296.
-
-
-LaTeX Warning: Citation 'Balanis1' on page 2 undefined on input line 318.
-
-[2] (figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=27, page=1, 255.
+ <./figures//logo.png>] [2] (figures/A//pcb_array_factor_with_toolbox_polar_az_
+tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf, id=26, page=1, 255.
 60243pt x 254.99266pt>
 File: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf Graphic file (t
 ype pdf)
@@ -1585,9 +1572,8 @@ ype pdf)
 Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_polar_az_tex.
 pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 188.89575pt x 188.45036pt.
-)
-(figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=28, page=1
+) (figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf_tex
+<figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf, id=27, page=1
 , 347.93489pt x 274.64857pt>
 File: figures/A//pcb_array_factor_with_toolbox_rectangular_az_tex.pdf Graphic f
 ile (type pdf)
@@ -1597,7 +1583,7 @@ z_tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 242.86009pt x 191.71207pt.
 )
 (figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=29, page=1, 256.
+<figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf, id=28, page=1, 256.
 97256pt x 256.00142pt>
 File: figures/A//pcb_array_factor_with_toolbox_polar_el_tex.pdf Graphic file (t
 ype pdf)
@@ -1607,7 +1593,7 @@ pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 188.89575pt x 188.18416pt.
 )
 (figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf_tex
-<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=30, page=1
+<figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf, id=29, page=1
 , 347.93489pt x 274.64857pt>
 File: figures/A//pcb_array_factor_with_toolbox_rectangular_el_tex.pdf Graphic f
 ile (type pdf)
@@ -1616,10 +1602,6 @@ Package pdftex.def Info: figures/A//pcb_array_factor_with_toolbox_rectangular_e
 l_tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 242.86009pt x 191.71207pt.
 )
-
-LaTeX Warning: Citation 'Balanis1' on page 3 undefined on input line 393.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./figures/A//pcb_array_factor_with_toolbox_polar_az_tex.pdf> <./figures/A/
@@ -1639,25 +1621,25 @@ pdfTeX warning: pdflatex.exe (file ./figures/A//pcb_array_factor_with_toolbox_r
 ectangular_el_tex.pdf): PDF inclusion: multiple pdfs with page group included i
 n a single page
 >] (figures/B//patch_structure_tex.pdf_tex
-<figures/B//patch_structure_tex.pdf, id=39, page=1, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=38, page=1, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 161.90947pt x 99.44762pt.
-<figures/B//patch_structure_tex.pdf, id=40, page=2, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=39, page=2, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page2 used on inp
 ut line 58.
 (pdftex.def)             Requested size: 161.90947pt x 99.44762pt.
-<figures/B//patch_structure_tex.pdf, id=41, page=3, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=40, page=3, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page3 used on inp
 ut line 60.
 (pdftex.def)             Requested size: 161.90947pt x 99.44762pt.
-<figures/B//patch_structure_tex.pdf, id=42, page=4, 389.05644pt x 238.96077pt>
+<figures/B//patch_structure_tex.pdf, id=41, page=4, 389.05644pt x 238.96077pt>
 File: figures/B//patch_structure_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//patch_structure_tex.pdf , page4 used on inp
@@ -1665,7 +1647,7 @@ ut line 62.
 (pdftex.def)             Requested size: 161.90947pt x 99.44762pt.
 )
 (figures/B//patch_structure_2_tex.pdf_tex
-<figures/B//patch_structure_2_tex.pdf, id=43, page=1, 272.80156pt x 145.316pt>
+<figures/B//patch_structure_2_tex.pdf, id=42, page=1, 272.80156pt x 145.316pt>
 File: figures/B//patch_structure_2_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_2_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//patch_structure_2_tex.pdf , page1 used on i
@@ -1673,7 +1655,7 @@ nput line 56.
 (pdftex.def)             Requested size: 161.90947pt x 86.24567pt.
 )
 (figures/B//patch_structure_3_tex.pdf_tex
-<figures/B//patch_structure_3_tex.pdf, id=44, page=1, 268.78304pt x 54.53905pt>
+<figures/B//patch_structure_3_tex.pdf, id=43, page=1, 268.78304pt x 54.53905pt>
 
 File: figures/B//patch_structure_3_tex.pdf Graphic file (type pdf)
 <use figures/B//patch_structure_3_tex.pdf, page 1>
@@ -1688,15 +1670,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
 Underfull \vbox (badness 7963) has occurred while \output is active []
 
-
-
-LaTeX Warning: Citation 'makarov' on page 4 undefined on input line 579.
-
-
-LaTeX Warning: Citation 'meshing' on page 4 undefined on input line 579.
-
-[4 <./figures/B//patch_structure_tex.pdf> <./figures/B//patch_structure_tex.pdf
-
+ [4 <./figures/B//patch_structure_tex.pdf> <./figures/B//patch_structure_tex.pd
+f
 
 pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_tex.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -1717,7 +1692,7 @@ pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_2_tex.pdf): PDF
 pdfTeX warning: pdflatex.exe (file ./figures/B//patch_structure_3_tex.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
 >] (figures/B//mesh_first_test_tex.pdf_tex
-<figures/B//mesh_first_test_tex.pdf, id=19325, page=1, 804.75227pt x 427.8564pt
+<figures/B//mesh_first_test_tex.pdf, id=19324, page=1, 804.75227pt x 427.8564pt
 >
 File: figures/B//mesh_first_test_tex.pdf Graphic file (type pdf)
 <use figures/B//mesh_first_test_tex.pdf, page 1>
@@ -1730,28 +1705,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--591
  []
 
 (figures/B//gamma_pre_wfeed_tex.pdf_tex
-<figures/B//gamma_pre_wfeed_tex.pdf, id=19326, page=1, 284.56628pt x 222.07933p
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19325, page=1, 284.56628pt x 222.07933p
 t>
 File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_pre_wfeed_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 237.46613pt x 185.32205pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=19327, page=2, 284.56628pt x 222.07933p
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19326, page=2, 284.56628pt x 222.07933p
 t>
 File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_pre_wfeed_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page2 used on inp
 ut line 63.
 (pdftex.def)             Requested size: 237.46613pt x 185.32205pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=19328, page=3, 284.56628pt x 222.07933p
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19327, page=3, 284.56628pt x 222.07933p
 t>
 File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_pre_wfeed_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//gamma_pre_wfeed_tex.pdf , page3 used on inp
 ut line 73.
 (pdftex.def)             Requested size: 237.46613pt x 185.32205pt.
-<figures/B//gamma_pre_wfeed_tex.pdf, id=19329, page=4, 284.56628pt x 222.07933p
+<figures/B//gamma_pre_wfeed_tex.pdf, id=19328, page=4, 284.56628pt x 222.07933p
 t>
 File: figures/B//gamma_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_pre_wfeed_tex.pdf, page 4>
@@ -1760,35 +1735,35 @@ ut line 75.
 (pdftex.def)             Requested size: 237.46613pt x 185.32205pt.
 )
 (figures/B//impedence_pre_wfeed_tex.pdf_tex
-<figures/B//impedence_pre_wfeed_tex.pdf, id=19330, page=1, 299.34865pt x 221.33
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19329, page=1, 299.34865pt x 221.33
 377pt>
 File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//impedence_pre_wfeed_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page1 used on
  input line 56.
 (pdftex.def)             Requested size: 248.2623pt x 183.56175pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=19331, page=2, 299.34865pt x 221.33
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19330, page=2, 299.34865pt x 221.33
 377pt>
 File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//impedence_pre_wfeed_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page2 used on
  input line 63.
 (pdftex.def)             Requested size: 248.2623pt x 183.56175pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=19332, page=3, 299.34865pt x 221.33
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19331, page=3, 299.34865pt x 221.33
 377pt>
 File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//impedence_pre_wfeed_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page3 used on
  input line 74.
 (pdftex.def)             Requested size: 248.2623pt x 183.56175pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=19333, page=4, 299.34865pt x 221.33
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19332, page=4, 299.34865pt x 221.33
 377pt>
 File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//impedence_pre_wfeed_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page4 used on
  input line 76.
 (pdftex.def)             Requested size: 248.2623pt x 183.56175pt.
-<figures/B//impedence_pre_wfeed_tex.pdf, id=19334, page=5, 299.34865pt x 221.33
+<figures/B//impedence_pre_wfeed_tex.pdf, id=19333, page=5, 299.34865pt x 221.33
 377pt>
 File: figures/B//impedence_pre_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//impedence_pre_wfeed_tex.pdf, page 5>
@@ -1797,7 +1772,7 @@ Package pdftex.def Info: figures/B//impedence_pre_wfeed_tex.pdf , page5 used on
 (pdftex.def)             Requested size: 248.2623pt x 183.56175pt.
 )
 (figures/B//First_Contour_LOG_tex.pdf_tex
-<figures/B//First_Contour_LOG_tex.pdf, id=19335, page=1, 736.05305pt x 452.0240
+<figures/B//First_Contour_LOG_tex.pdf, id=19334, page=1, 736.05305pt x 452.0240
 2pt>
 File: figures/B//First_Contour_LOG_tex.pdf Graphic file (type pdf)
 <use figures/B//First_Contour_LOG_tex.pdf, page 1>
@@ -1806,28 +1781,28 @@ nput line 56.
 (pdftex.def)             Requested size: 259.05022pt x 159.08673pt.
 )
 (figures/B//Second_Contour_LOG_2_tex.pdf_tex
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=19336, page=1, 719.58173pt x 428.0
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19335, page=1, 719.58173pt x 428.0
 7376pt>
 File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
 <use figures/B//Second_Contour_LOG_2_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 259.05022pt x 154.10643pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=19337, page=2, 719.58173pt x 428.0
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19336, page=2, 719.58173pt x 428.0
 7376pt>
 File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
 <use figures/B//Second_Contour_LOG_2_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page2 used o
 n input line 58.
 (pdftex.def)             Requested size: 259.05022pt x 154.10643pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=19338, page=3, 719.58173pt x 428.0
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19337, page=3, 719.58173pt x 428.0
 7376pt>
 File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
 <use figures/B//Second_Contour_LOG_2_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//Second_Contour_LOG_2_tex.pdf , page3 used o
 n input line 68.
 (pdftex.def)             Requested size: 259.05022pt x 154.10643pt.
-<figures/B//Second_Contour_LOG_2_tex.pdf, id=19339, page=4, 719.58173pt x 428.0
+<figures/B//Second_Contour_LOG_2_tex.pdf, id=19338, page=4, 719.58173pt x 428.0
 7376pt>
 File: figures/B//Second_Contour_LOG_2_tex.pdf Graphic file (type pdf)
 <use figures/B//Second_Contour_LOG_2_tex.pdf, page 4>
@@ -1836,60 +1811,60 @@ n input line 74.
 (pdftex.def)             Requested size: 259.05022pt x 154.10643pt.
 )
 (figures/B//gamma_wfeed_tex.pdf_tex
-<figures/B//gamma_wfeed_tex.pdf, id=19340, page=1, 614.88748pt x 410.28386pt>
+<figures/B//gamma_wfeed_tex.pdf, id=19339, page=1, 614.88748pt x 410.28386pt>
 File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_wfeed_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page1 used on input l
 ine 56.
 (pdftex.def)             Requested size: 242.86009pt x 162.05095pt.
-<figures/B//gamma_wfeed_tex.pdf, id=19341, page=2, 614.88748pt x 410.28386pt>
+<figures/B//gamma_wfeed_tex.pdf, id=19340, page=2, 614.88748pt x 410.28386pt>
 File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_wfeed_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page2 used on input l
 ine 63.
 (pdftex.def)             Requested size: 242.86009pt x 162.05095pt.
-<figures/B//gamma_wfeed_tex.pdf, id=19342, page=3, 614.88748pt x 410.28386pt>
+<figures/B//gamma_wfeed_tex.pdf, id=19341, page=3, 614.88748pt x 410.28386pt>
 File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_wfeed_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page3 used on input l
 ine 72.
 (pdftex.def)             Requested size: 242.86009pt x 162.05095pt.
-<figures/B//gamma_wfeed_tex.pdf, id=19343, page=4, 614.88748pt x 410.28386pt>
+<figures/B//gamma_wfeed_tex.pdf, id=19342, page=4, 614.88748pt x 410.28386pt>
 File: figures/B//gamma_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//gamma_wfeed_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//gamma_wfeed_tex.pdf , page4 used on input l
 ine 74.
 (pdftex.def)             Requested size: 242.86009pt x 162.05095pt.
 ) (figures/B//matching_wfeed_tex.pdf_tex
-<figures/B//matching_wfeed_tex.pdf, id=19344, page=1, 610.26978pt x 387.70128pt
+<figures/B//matching_wfeed_tex.pdf, id=19343, page=1, 610.26978pt x 387.70128pt
 >
 File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//matching_wfeed_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page1 used on inpu
 t line 56.
 (pdftex.def)             Requested size: 259.05022pt x 164.57268pt.
-<figures/B//matching_wfeed_tex.pdf, id=19345, page=2, 610.26978pt x 387.70128pt
+<figures/B//matching_wfeed_tex.pdf, id=19344, page=2, 610.26978pt x 387.70128pt
 >
 File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//matching_wfeed_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page2 used on inpu
 t line 63.
 (pdftex.def)             Requested size: 259.05022pt x 164.57268pt.
-<figures/B//matching_wfeed_tex.pdf, id=19346, page=3, 610.26978pt x 387.70128pt
+<figures/B//matching_wfeed_tex.pdf, id=19345, page=3, 610.26978pt x 387.70128pt
 >
 File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//matching_wfeed_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page3 used on inpu
 t line 74.
 (pdftex.def)             Requested size: 259.05022pt x 164.57268pt.
-<figures/B//matching_wfeed_tex.pdf, id=19347, page=4, 610.26978pt x 387.70128pt
+<figures/B//matching_wfeed_tex.pdf, id=19346, page=4, 610.26978pt x 387.70128pt
 >
 File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//matching_wfeed_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//matching_wfeed_tex.pdf , page4 used on inpu
 t line 76.
 (pdftex.def)             Requested size: 259.05022pt x 164.57268pt.
-<figures/B//matching_wfeed_tex.pdf, id=19348, page=5, 610.26978pt x 387.70128pt
+<figures/B//matching_wfeed_tex.pdf, id=19347, page=5, 610.26978pt x 387.70128pt
 >
 File: figures/B//matching_wfeed_tex.pdf Graphic file (type pdf)
 <use figures/B//matching_wfeed_tex.pdf, page 5>
@@ -1898,7 +1873,7 @@ t line 78.
 (pdftex.def)             Requested size: 259.05022pt x 164.57268pt.
 )
 (figures/B//gain_azimuth_pifa_tex.pdf_tex
-<figures/B//gain_azimuth_pifa_tex.pdf, id=19349, page=1, 189.26772pt x 187.5328
+<figures/B//gain_azimuth_pifa_tex.pdf, id=19348, page=1, 189.26772pt x 187.5328
 pt>
 File: figures/B//gain_azimuth_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_azimuth_pifa_tex.pdf, page 1>
@@ -1907,7 +1882,7 @@ nput line 56.
 (pdftex.def)             Requested size: 151.11331pt x 149.72884pt.
 )
 (figures/B//gain_elevation_pifa_tex.pdf_tex
-<figures/B//gain_elevation_pifa_tex.pdf, id=19350, page=1, 189.26772pt x 187.53
+<figures/B//gain_elevation_pifa_tex.pdf, id=19349, page=1, 189.26772pt x 187.53
 28pt>
 File: figures/B//gain_elevation_pifa_tex.pdf Graphic file (type pdf)
 <use figures/B//gain_elevation_pifa_tex.pdf, page 1>
@@ -1916,82 +1891,82 @@ Package pdftex.def Info: figures/B//gain_elevation_pifa_tex.pdf , page1 used on
 (pdftex.def)             Requested size: 151.11331pt x 149.72884pt.
 )
 (figures/B//pifa_currents_tex.pdf_tex
-<figures/B//pifa_currents_tex.pdf, id=19351, page=1, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19350, page=1, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page1 used on input
  line 56.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19352, page=2, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19351, page=2, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 2>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page2 used on input
  line 58.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19353, page=3, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19352, page=3, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 3>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page3 used on input
  line 60.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19354, page=4, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19353, page=4, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 4>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page4 used on input
  line 62.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19355, page=5, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19354, page=5, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 5>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page5 used on input
  line 64.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19356, page=6, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19355, page=6, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 6>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page6 used on input
  line 67.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19357, page=7, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19356, page=7, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 7>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page7 used on input
  line 69.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19358, page=8, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19357, page=8, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 8>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page8 used on input
  line 71.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19359, page=9, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19358, page=9, 262.37065pt x 156.8233pt>
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 9>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page9 used on input
  line 74.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19360, page=10, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19359, page=10, 262.37065pt x 156.8233pt>
 
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 10>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page10 used on inpu
 t line 76.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19361, page=11, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19360, page=11, 262.37065pt x 156.8233pt>
 
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 11>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page11 used on inpu
 t line 78.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19362, page=12, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19361, page=12, 262.37065pt x 156.8233pt>
 
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 12>
 Package pdftex.def Info: figures/B//pifa_currents_tex.pdf , page12 used on inpu
 t line 81.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
-<figures/B//pifa_currents_tex.pdf, id=19363, page=13, 262.37065pt x 156.8233pt>
+<figures/B//pifa_currents_tex.pdf, id=19362, page=13, 262.37065pt x 156.8233pt>
 
 File: figures/B//pifa_currents_tex.pdf Graphic file (type pdf)
 <use figures/B//pifa_currents_tex.pdf, page 13>
@@ -2000,14 +1975,14 @@ t line 88.
 (pdftex.def)             Requested size: 183.49356pt x 109.67982pt.
 )
 (figures/B//minGamma_vs_mesh_level_tex.pdf_tex
-<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19364, page=1, 450.3618pt x 407.
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19363, page=1, 450.3618pt x 407.
 02577pt>
 File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//minGamma_vs_mesh_level_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page1 used
  on input line 56.
 (pdftex.def)             Requested size: 172.70563pt x 156.08743pt.
-<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19365, page=2, 450.3618pt x 407.
+<figures/B//minGamma_vs_mesh_level_tex.pdf, id=19364, page=2, 450.3618pt x 407.
 02577pt>
 File: figures/B//minGamma_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//minGamma_vs_mesh_level_tex.pdf, page 2>
@@ -2016,14 +1991,14 @@ Package pdftex.def Info: figures/B//minGamma_vs_mesh_level_tex.pdf , page2 used
 (pdftex.def)             Requested size: 172.70563pt x 156.08743pt.
 )
 (figures/B//DeltaF_vs_mesh_level_tex.pdf_tex
-<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19366, page=1, 452.24368pt x 314.1
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19365, page=1, 452.24368pt x 314.1
 9728pt>
 File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//DeltaF_vs_mesh_level_tex.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 172.70563pt x 119.98589pt.
-<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19367, page=2, 452.24368pt x 314.1
+<figures/B//DeltaF_vs_mesh_level_tex.pdf, id=19366, page=2, 452.24368pt x 314.1
 9728pt>
 File: figures/B//DeltaF_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//DeltaF_vs_mesh_level_tex.pdf, page 2>
@@ -2032,14 +2007,14 @@ n input line 64.
 (pdftex.def)             Requested size: 172.70563pt x 119.98589pt.
 )
 (figures/B//F_vs_mesh_level_tex.pdf_tex
-<figures/B//F_vs_mesh_level_tex.pdf, id=19368, page=1, 471.96033pt x 313.18785p
+<figures/B//F_vs_mesh_level_tex.pdf, id=19367, page=1, 471.96033pt x 313.18785p
 t>
 File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//F_vs_mesh_level_tex.pdf, page 1>
 Package pdftex.def Info: figures/B//F_vs_mesh_level_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 172.70563pt x 114.6065pt.
-<figures/B//F_vs_mesh_level_tex.pdf, id=19369, page=2, 471.96033pt x 313.18785p
+<figures/B//F_vs_mesh_level_tex.pdf, id=19368, page=2, 471.96033pt x 313.18785p
 t>
 File: figures/B//F_vs_mesh_level_tex.pdf Graphic file (type pdf)
 <use figures/B//F_vs_mesh_level_tex.pdf, page 2>
@@ -2062,7 +2037,7 @@ y Analyzer
  []
 
 (figures/B//pcb_structure_zoom_tex.pdf_tex
-<figures/B//pcb_structure_zoom_tex.pdf, id=19373, page=1, 1156.80043pt x 614.85
+<figures/B//pcb_structure_zoom_tex.pdf, id=19372, page=1, 1156.80043pt x 614.85
 838pt>
 File: figures/B//pcb_structure_zoom_tex.pdf Graphic file (type pdf)
 <use figures/B//pcb_structure_zoom_tex.pdf, page 1>
@@ -2165,7 +2140,7 @@ clusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figures/B//matching_wfeed_tex.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] (figures/C/new_fields//pcb_array_azimuth_gain_real_vs_ideal.pdf_tex
-<figures/C/new_fields//pcb_array_azimuth_gain_real_vs_ideal.pdf, id=19587, page
+<figures/C/new_fields//pcb_array_azimuth_gain_real_vs_ideal.pdf, id=19586, page
 =1, 190.69893pt x 187.05853pt>
 File: figures/C/new_fields//pcb_array_azimuth_gain_real_vs_ideal.pdf Graphic fi
 le (type pdf)
@@ -2176,7 +2151,7 @@ deal.pdf , page1 used on input line 56.
 LaTeX Font Info:    Calculating math sizes for size <4> on input line 57.
 )
 (figures/C/new_fields//pcb_array_elevation_gain_real_vs_ideal.pdf_tex
-<figures/C/new_fields//pcb_array_elevation_gain_real_vs_ideal.pdf, id=19588, pa
+<figures/C/new_fields//pcb_array_elevation_gain_real_vs_ideal.pdf, id=19587, pa
 ge=1, 190.69893pt x 187.05853pt>
 File: figures/C/new_fields//pcb_array_elevation_gain_real_vs_ideal.pdf Graphic 
 file (type pdf)
@@ -2186,7 +2161,7 @@ _ideal.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 129.52922pt x 127.0611pt.
 )
 (figures/C/new_fields//pcb_array_elevation_45_gain_real_vs_ideal.pdf_tex
-<figures/C/new_fields//pcb_array_elevation_45_gain_real_vs_ideal.pdf, id=19589,
+<figures/C/new_fields//pcb_array_elevation_45_gain_real_vs_ideal.pdf, id=19588,
  page=1, 190.69893pt x 187.05853pt>
 File: figures/C/new_fields//pcb_array_elevation_45_gain_real_vs_ideal.pdf Graph
 ic file (type pdf)
@@ -2197,7 +2172,7 @@ _vs_ideal.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 129.52922pt x 127.0611pt.
 )
 (figures/C/new_fields//pcb_array_azimuth_45_gain_real_vs_ideal.pdf_tex
-<figures/C/new_fields//pcb_array_azimuth_45_gain_real_vs_ideal.pdf, id=19590, p
+<figures/C/new_fields//pcb_array_azimuth_45_gain_real_vs_ideal.pdf, id=19589, p
 age=1, 190.69893pt x 186.9983pt>
 File: figures/C/new_fields//pcb_array_azimuth_45_gain_real_vs_ideal.pdf Graphic
  file (type pdf)
@@ -2315,21 +2290,21 @@ pdfTeX warning: pdflatex.exe (file ./figures/C/new_fields//pcb_array_azimuth_45
 _gain_real_vs_ideal.pdf): PDF inclusion: multiple pdfs with page group included
  in a single page
 >] (figures/C//EHfield_prfe_broadside.pdf_tex
-<figures/C//EHfield_prfe_broadside.pdf, id=26803, page=1, 440.6514pt x 428.3437
+<figures/C//EHfield_prfe_broadside.pdf, id=26802, page=1, 440.6514pt x 428.3437
 5pt>
 File: figures/C//EHfield_prfe_broadside.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside.pdf, page 1>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 205.08588pt x 199.36078pt.
-<figures/C//EHfield_prfe_broadside.pdf, id=26804, page=2, 440.6514pt x 428.3437
+<figures/C//EHfield_prfe_broadside.pdf, id=26803, page=2, 440.6514pt x 428.3437
 5pt>
 File: figures/C//EHfield_prfe_broadside.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside.pdf, page 2>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside.pdf , page2 used on 
 input line 67.
 (pdftex.def)             Requested size: 205.08588pt x 199.36078pt.
-<figures/C//EHfield_prfe_broadside.pdf, id=26805, page=3, 440.6514pt x 428.3437
+<figures/C//EHfield_prfe_broadside.pdf, id=26804, page=3, 440.6514pt x 428.3437
 5pt>
 File: figures/C//EHfield_prfe_broadside.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside.pdf, page 3>
@@ -2338,19 +2313,19 @@ input line 77.
 (pdftex.def)             Requested size: 205.08588pt x 199.36078pt.
 )
 (figures/C//EHfield_prfe_45.pdf_tex
-<figures/C//EHfield_prfe_45.pdf, id=26806, page=1, 442.96574pt x 431.2977pt>
+<figures/C//EHfield_prfe_45.pdf, id=26805, page=1, 442.96574pt x 431.2977pt>
 File: figures/C//EHfield_prfe_45.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_45.pdf, page 1>
 Package pdftex.def Info: figures/C//EHfield_prfe_45.pdf , page1 used on input l
 ine 56.
 (pdftex.def)             Requested size: 205.08588pt x 199.68265pt.
-<figures/C//EHfield_prfe_45.pdf, id=26807, page=2, 442.96574pt x 431.2977pt>
+<figures/C//EHfield_prfe_45.pdf, id=26806, page=2, 442.96574pt x 431.2977pt>
 File: figures/C//EHfield_prfe_45.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_45.pdf, page 2>
 Package pdftex.def Info: figures/C//EHfield_prfe_45.pdf , page2 used on input l
 ine 67.
 (pdftex.def)             Requested size: 205.08588pt x 199.68265pt.
-<figures/C//EHfield_prfe_45.pdf, id=26808, page=3, 442.96574pt x 431.2977pt>
+<figures/C//EHfield_prfe_45.pdf, id=26807, page=3, 442.96574pt x 431.2977pt>
 File: figures/C//EHfield_prfe_45.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_45.pdf, page 3>
 Package pdftex.def Info: figures/C//EHfield_prfe_45.pdf , page3 used on input l
@@ -2358,49 +2333,49 @@ ine 78.
 (pdftex.def)             Requested size: 205.08588pt x 199.68265pt.
 )
 (figures/C//EHfield_prfe_broadside_center.pdf_tex
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26809, page=1, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26808, page=1, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 1>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page1 u
 sed on input line 56.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26810, page=2, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26809, page=2, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 2>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page2 u
 sed on input line 58.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26811, page=3, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26810, page=3, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 3>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page3 u
 sed on input line 61.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26812, page=4, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26811, page=4, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 4>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page4 u
 sed on input line 64.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26813, page=5, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26812, page=5, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 5>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page5 u
 sed on input line 66.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26814, page=6, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26813, page=6, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 6>
 Package pdftex.def Info: figures/C//EHfield_prfe_broadside_center.pdf , page6 u
 sed on input line 68.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
-<figures/C//EHfield_prfe_broadside_center.pdf, id=26815, page=7, 400.05199pt x 
+<figures/C//EHfield_prfe_broadside_center.pdf, id=26814, page=7, 400.05199pt x 
 202.93433pt>
 File: figures/C//EHfield_prfe_broadside_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_prfe_broadside_center.pdf, page 7>
@@ -2409,40 +2384,40 @@ sed on input line 77.
 (pdftex.def)             Requested size: 215.87381pt x 109.50548pt.
 )
 (figures/C//EH_legend.pdf_tex
-<figures/C//EH_legend.pdf, id=26816, page=1, 92.60522pt x 35.64075pt>
+<figures/C//EH_legend.pdf, id=26815, page=1, 92.60522pt x 35.64075pt>
 File: figures/C//EH_legend.pdf Graphic file (type pdf)
 <use figures/C//EH_legend.pdf, page 1>
 Package pdftex.def Info: figures/C//EH_legend.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 70.16269pt x 27.00403pt.
-<figures/C//EH_legend.pdf, id=26817, page=2, 92.60522pt x 35.64075pt>
+<figures/C//EH_legend.pdf, id=26816, page=2, 92.60522pt x 35.64075pt>
 File: figures/C//EH_legend.pdf Graphic file (type pdf)
 <use figures/C//EH_legend.pdf, page 2>
 Package pdftex.def Info: figures/C//EH_legend.pdf , page2 used on input line 58
 .
 (pdftex.def)             Requested size: 70.16269pt x 27.00403pt.
-<figures/C//EH_legend.pdf, id=26818, page=3, 92.60522pt x 35.64075pt>
+<figures/C//EH_legend.pdf, id=26817, page=3, 92.60522pt x 35.64075pt>
 File: figures/C//EH_legend.pdf Graphic file (type pdf)
 <use figures/C//EH_legend.pdf, page 3>
 Package pdftex.def Info: figures/C//EH_legend.pdf , page3 used on input line 60
 .
 (pdftex.def)             Requested size: 70.16269pt x 27.00403pt.
 ) (figures/C//EHfield_pfre_45_center.pdf_tex
-<figures/C//EHfield_pfre_45_center.pdf, id=26819, page=1, 235.98224pt x 143.486
+<figures/C//EHfield_pfre_45_center.pdf, id=26818, page=1, 235.98224pt x 143.486
 05pt>
 File: figures/C//EHfield_pfre_45_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_pfre_45_center.pdf, page 1>
 Package pdftex.def Info: figures/C//EHfield_pfre_45_center.pdf , page1 used on 
 input line 56.
 (pdftex.def)             Requested size: 215.87381pt x 131.26434pt.
-<figures/C//EHfield_pfre_45_center.pdf, id=26820, page=2, 235.98224pt x 143.486
+<figures/C//EHfield_pfre_45_center.pdf, id=26819, page=2, 235.98224pt x 143.486
 05pt>
 File: figures/C//EHfield_pfre_45_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_pfre_45_center.pdf, page 2>
 Package pdftex.def Info: figures/C//EHfield_pfre_45_center.pdf , page2 used on 
 input line 67.
 (pdftex.def)             Requested size: 215.87381pt x 131.26434pt.
-<figures/C//EHfield_pfre_45_center.pdf, id=26821, page=3, 235.98224pt x 143.486
+<figures/C//EHfield_pfre_45_center.pdf, id=26820, page=3, 235.98224pt x 143.486
 05pt>
 File: figures/C//EHfield_pfre_45_center.pdf Graphic file (type pdf)
 <use figures/C//EHfield_pfre_45_center.pdf, page 3>
@@ -2532,50 +2507,38 @@ F inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figures/C//EHfield_pfre_45_center.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >] (figures//time_bench.pdf_tex
-<figures//time_bench.pdf, id=27090, page=1, 338.96008pt x 208.47034pt>
+<figures//time_bench.pdf, id=27089, page=1, 338.96008pt x 208.47034pt>
 File: figures//time_bench.pdf Graphic file (type pdf)
 <use figures//time_bench.pdf, page 1>
 Package pdftex.def Info: figures//time_bench.pdf , page1 used on input line 56.
 
 (pdftex.def)             Requested size: 238.36012pt x 146.59943pt.
-<figures//time_bench.pdf, id=27091, page=2, 338.96008pt x 208.47034pt>
+<figures//time_bench.pdf, id=27090, page=2, 338.96008pt x 208.47034pt>
 File: figures//time_bench.pdf Graphic file (type pdf)
 <use figures//time_bench.pdf, page 2>
 Package pdftex.def Info: figures//time_bench.pdf , page2 used on input line 60.
 
 (pdftex.def)             Requested size: 238.36012pt x 146.59943pt.
-<figures//time_bench.pdf, id=27092, page=3, 338.96008pt x 208.47034pt>
+<figures//time_bench.pdf, id=27091, page=3, 338.96008pt x 208.47034pt>
 File: figures//time_bench.pdf Graphic file (type pdf)
 <use figures//time_bench.pdf, page 3>
 Package pdftex.def Info: figures//time_bench.pdf , page3 used on input line 70.
 
 (pdftex.def)             Requested size: 238.36012pt x 146.59943pt.
-<figures//time_bench.pdf, id=27093, page=4, 338.96008pt x 208.47034pt>
+<figures//time_bench.pdf, id=27092, page=4, 338.96008pt x 208.47034pt>
 File: figures//time_bench.pdf Graphic file (type pdf)
 <use figures//time_bench.pdf, page 4>
 Package pdftex.def Info: figures//time_bench.pdf , page4 used on input line 72.
 
 (pdftex.def)             Requested size: 238.36012pt x 146.59943pt.
 ) (figures//pifa_matlab_vs_cst.pdf_tex
-<figures//pifa_matlab_vs_cst.pdf, id=27094, page=1, 190.36769pt x 187.5328pt>
+<figures//pifa_matlab_vs_cst.pdf, id=27093, page=1, 190.36769pt x 187.5328pt>
 File: figures//pifa_matlab_vs_cst.pdf Graphic file (type pdf)
 <use figures//pifa_matlab_vs_cst.pdf, page 1>
 Package pdftex.def Info: figures//pifa_matlab_vs_cst.pdf , page1 used on input 
 line 56.
 (pdftex.def)             Requested size: 238.36012pt x 234.81888pt.
-)
-
-LaTeX Warning: Citation 'Balanis1' on page 11 undefined on input line 991.
-
-
-LaTeX Warning: Citation 'AntennaToolbox' on page 11 undefined on input line 993
-.
-
-
-LaTeX Warning: Citation 'PhasedArraySystemToolbox' on page 11 undefined on inpu
-t line 993.
-
-[11 <./figures//time_bench.pdf> <./figures//time_bench.pdf
+) [11 <./figures//time_bench.pdf> <./figures//time_bench.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//time_bench.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -2591,15 +2554,7 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//pifa_matlab_vs_cst.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Empty bibliography on input line 1100.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-(figures/C//EHfield_prfaun_broadside.pdf_tex
+>] [12] (figures/C//EHfield_prfaun_broadside.pdf_tex
 <figures/C//EHfield_prfaun_broadside.pdf, id=27106, page=1, 417.95108pt x 409.4
 4417pt>
 File: figures/C//EHfield_prfaun_broadside.pdf Graphic file (type pdf)
@@ -3401,46 +3356,38 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 
 AED: lastpage setting LastPage
 [15] (relazione_wet_copia.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                relazione_wet_copia
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 \openout1 = `relazione_wet_copia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49418 strings out of 478647
- 1159431 string characters out of 2853193
- 1971721 words of memory out of 3000000
- 66640 multiletter control sequences out of 15000+600000
- 578974 words of font info for 266 fonts, out of 8000000 for 9000
+ 49454 strings out of 478647
+ 1160556 string characters out of 2853193
+ 1974856 words of memory out of 3000000
+ 66676 multiletter control sequences out of 15000+600000
+ 582926 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,22n,94p,3186b,2235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
-gram Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKT
-eX 2.9/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{C:/Program Files/MiKTeX 2.9/fonts/
-enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-e
-c.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkb.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/cm-super/sftt0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/cm-super/sftt1095.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
-ublic/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/ty
-pe1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/font
-s/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/
-2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on relazione_wet_copia.pdf (15 pages, 11209059 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Program Fi
+les/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/tex-gyre/q-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/tex-gyre/q-ec-sc.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8
+r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkr.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/tex-gyre/qbkri.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/cm-super/sftt0800.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/cm-super/sftt0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/cm-super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sftt1095.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/type1/
+public/stix/stix-mathcal.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fonts/t
+ype1/public/stix/stix-mathex.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/public/stix/stix-mathit.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/stix/stix-mathrm.pfb><C:/Users/sleon/AppData/Roaming/MiKTeX
+/2.9/fonts/type1/public/stix/stix-mathscr.pfb><C:/Users/sleon/AppData/Roaming/M
+iKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on relazione_wet_copia.pdf (15 pages, 11210878 bytes).
 PDF statistics:
  58823 PDF objects out of 66169 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
