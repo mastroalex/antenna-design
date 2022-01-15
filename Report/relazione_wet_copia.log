@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  15 JAN 2022 10:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  15 JAN 2022 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3347,7 +3347,7 @@ Package logreq Info: Writing requests to 'relazione_wet_copia.run.xml'.
 Here is how much of TeX's memory you used:
  48608 strings out of 478579
  1125225 string characters out of 5857457
- 2001325 words of memory out of 5000000
+ 2001334 words of memory out of 5000000
  65622 multiletter control sequences out of 15000+600000
  582926 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3370,7 +3370,7 @@ public/stix/stix-mathsf.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
 ive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb><c:/texlive/2021/texmf-di
 st/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on relazione_wet_copia.pdf (15 pages, 8753698 bytes).
+Output written on relazione_wet_copia.pdf (15 pages, 8753672 bytes).
 PDF statistics:
  59216 PDF objects out of 66169 (max. 8388607)
  39126 compressed objects within 392 object streams

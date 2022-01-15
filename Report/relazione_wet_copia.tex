@@ -96,7 +96,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 	\lhead{\small\color{gray} University of Rome Tor Vergata}
-\fancyfoot[R]{\thepage\  of \pageref{LastPage}}
+\fancyfoot[R]{\tiny{\thepage\  of \pageref{LastPage}}}
 \renewcommand{\headrulewidth}{0.50pt}
 
 %\lhead{Guides and tutorials}
@@ -1192,7 +1192,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 		\fontsize{4}{4}\selectfont{\input{pcb_vs_pifa_array_gain_elevation_45.pdf_tex}}
 		\caption{}
 	\end{subfigure}
-	\caption{2D gain patterns (PIFA (\textcolor{myBlue}{$\blacksquare$}) and PCB (\textcolor{myOrange}{$\blacksquare$})) in both the broadside case ((a) azimuth cut and (b) elevation cut) and $45^\circ$ off the boresight direction ((c) azimuth cut and (d) elevation cut). The curve with the dashed line has not been calculated regularly but mirrored, due to the limitation in the maximum elevation angle range which can be asked for in the \texttt{SAA} patterns.}
+	\caption{2D gain patterns (PIFA (\textcolor{myBlue}{$\blacksquare$}) and PCB (\textcolor{myOrange}{$\blacksquare$})) in both the broadside case (azimuth (a) cut and elevation (b) cut) and $45^\circ$ off the boresight direction (azimuth (c) cut and elevation (d) cut). The curve with the dashed line has not been calculated regularly but mirrored, due to the limitation in the maximum elevation angle range which can be asked for in the \texttt{SAA} patterns.}
 	\begin{subfigure}{0.24\linewidth}
 	\def\svgwidth{\linewidth}
 	\fontsize{4}{4}\selectfont{\input{pifa_pcb_null_azymuth_comparison_tex.pdf_tex}}
@@ -1354,15 +1354,15 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 	\begin{subfigure}{0.45\linewidth}
 		\begin{lstlisting}[language=Matlab,caption=Cycle over \texttt{MaxEdgeLength} parameter for mesh optimization,label=code1]
 for i=1:length(v)
-mesh(p,'MaxEdgeLength',v(i));
-s = sparameters(p,freqRange);
-slog=20*log10(abs(s.Parameters));
-ssi=slog(:,:);
-freq(i)=s.Frequencies(ssi==min(ssi));
-smin(i)=min(ssintax);
-disp('Step: ');
-disp(length(v)+1-i);
-close all
+	mesh(p,'MaxEdgeLength',v(i));
+	s = sparameters(p,freqRange);
+	slog=20*log10(abs(s.Parameters));
+	ssi=slog(:,:);
+	freq(i)=s.Frequencies(ssi==min(ssi));
+	smin(i)=min(ssintax);
+	disp('Step: ');
+	disp(length(v)+1-i);
+	close all
 end 
 	\end{lstlisting}
 	\end{subfigure}\hfill
