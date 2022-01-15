@@ -99,7 +99,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 	\lhead{\small\color{gray} University of Rome Tor Vergata}
-\fancyfoot[R]{\tiny{\thepage\  of \pageref{LastPage}}}
+\fancyfoot[R]{\footnotesize{\thepage\  of \pageref{LastPage}}}
 \renewcommand{\headrulewidth}{0.50pt}
 
 %\lhead{Guides and tutorials}
@@ -951,21 +951,16 @@ In order to obtain and describe the last plots of the project, it is not possibl
 
 The near field characteristics (distinguishing between its inductive and radiative regions) have been analyzed in both the broadside and by beamsteering to $45^\circ$ off the boresight conditions. Two situations have been analyzed: the general near field behaviour (in its electric and magnetic field components) but also the specific orientation of the fields in the center position of each of the five elements composing the antenna (so, considering the $x$ and $y$ coordinates of each patch corresponding to the length and width directions of its planar development and the $z$ coordinate representing the vertical component of the distance between the observation point and the array). The vertical distance $z$ has been considered in three different cases. First, the Fresnel region (inductive near field region) has been analyzed at {\small$z_{fre}=0.62\sqrt{L_{\max}^3/\lambda}$ (where $L_{\max}$} is the maximum size of the array, thus $L_{\max}=4d_{opt}+L_{\operatorname{patch}}$), while the radiative near field region was measured, starting from the Fraunhofer limit expression ($z_{fraun}=2D^2/\lambda$), at $z_{fraun}/2$. Moreover, it's been considered an observation point at a generic distance from the array in the far field region ($4z_{fraun}$). The three cases can were compared both in the broadside and in the $45^\circ$ off the boresight direction examples. In the broadside case, the inductive and radiative near electric and magnetic fields can be ordered by following the increasing of their intensities as a criterion. It can be noted that the order of these intensities (calling them $E_i$, $H_j$, with {\small$i,j=\overline{-2,2}$}) is the same of that of the feed currents (the relationship is shown or the $E$ field intensities - see \textbf{\cref{eq:current and fields}} - but it works analogously for the $H$ field). In the far field, a totally different phaenomenon is observable (at least in the broadside case and with good approximation in the $45^\circ$ direction too): the $E$ field components are all equal, as those relative to the magnetic field $H$. This can be interpreted as follows: in the near field, the elements of the array still don't behave completely as one radiating object so that their individual radiative effect can be observed, prevailing on the mutual interactions that will make them work as a whole at a further distance (i.e. in the far field). This fact can be explicitly analyzed by looking at the electric and magnetic fields registered at the specific distances: everything is shown in \textbf{\cref{table:EH fields}}. The facts described above can be also observed in \textbf{\cref{fig:EH field}}.
 %% \textbf{\cref{fig:EHfields}}
-\begin{multicols}{2}
 \begin{equation}
 	\begin{aligned}
-		&\text{If}\quad &C_0\,>\,C_{1}\,>\,C_2\\
-		&\text{and} \quad &C_0>C_{-1}>C_{-2}\\
-	\end{aligned}
-\end{equation}
-\begin{equation}
-	\begin{aligned}
-		&\text{then} \quad &E_0\,>\,E_{1}\,>\,E_2\\
-		&\text{then} \quad  &E_0>E_{-1}>E_{-2}\\
+		&\text{If}\quad &C_0\,>\,C_{1}\,>\,C_2 
+	\quad	&\text{and} \quad &C_0>C_{-1}>C_{-2}\\ 
+		&\text{then} \quad &E_0\,>\,E_{1}\,>\,E_2\	
+		\quad		&\text{then} \quad  &E_0>E_{-1}>E_{-2}\\
 	\end{aligned}
 	\label{eq:current and fields}
 \end{equation}
-\end{multicols}
+
 
 \section*{Methods}
 In this conclusive paragraph, a list of the \texttt{MatLab} commands that are not available for all the tools that have been used will be pointed out. Next, the computational costs related to the different parts of the project will be discussed. In the end, a comparison between the array of PIFAs realized in \texttt{Matlab} and the \texttt{CST Studio Suite (Student edition)} will be shown. 
@@ -1115,9 +1110,7 @@ I toolbox which have been used made possible to reach the final results (related
 
 All the \texttt{Matlab} code is available in the online repository (file 	\colorbox{backcolour}{\texttt{final\_wet\_project.m}}) at the following link: \url{https://github.com/mastroalex/antenna-design}.
 
-There are also available more plot and information about antenna and array properties. 
-
-There are all the raw data for plot and calculation.
+There are also available more plot and information about antenna and array properties. There are all the raw data for plot and calculation.
 
 In the appendix there are different patterns (for PCB and PIFA comparison), 3D gain patterns, Smith diagram, and different antenna / array diagrams. There is also a project workflow and some code snippets. 
 
