@@ -13,8 +13,7 @@
 
 ## Abstract 
  
-COMPLETA 
-
+The latest developments in Computer Aided Engineering, by means of the remarkable progress that several softwares have been made in terms of computational speed and of enlarged ranges of phaenomena that can be simulated and accurately analyzed, represent an immense span to inventiveness. For this particular instance, it is also a great opportunity for who wants to reach or already has an expertise in the Antenna Design field. In this article, among a vast amount of possibilities, some of the Matlab toolboxes dedicated to antenna designing have been adopted in such a way as to create the structure of a coaxial-fed folded patch antenna combined with a low performance dielectric substrate (i.e. FR4). The main purpose was to obtain an antenna resonating at 2.1 GHz and with an input impedance matched at 50 Ohms. Subsequently, this designed radiating object has been introduced in a broader structure, that is a linear array of five antennas, as its representative single element. The Tchebyshev array synthesis has been used in order to reach particular design and radiating behaviour. Specifically, the beam- steering in the broadside and at 45◦ off the boresight direction have been analyzed by means of the overall gain and the electric and magnetic field behaviour close and far from the array. All the mathematical models which have been used together with the software feedback represent the structure of an overall process of development, optimization and analysis which have been very carefully performed and shown in the following paragraphs.
 
 Read full [report](https://github.com/mastroalex/antenna-design/blob/main/report.pdf) .
 
@@ -25,7 +24,7 @@ Read more on report.
 
 Read `Methods` for single function analyze. 
 
-Complete file [final_wet_project.m](https://github.com/mastroalex/antenna-design/blob/main/final_wet_project.m) .
+Complete file: [final_wet_project.m](https://github.com/mastroalex/antenna-design/blob/main/final_wet_project.m) .
 
 ```matlab
 % load('myworkspace.mat')
