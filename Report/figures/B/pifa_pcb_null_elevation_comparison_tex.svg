@@ -20,8 +20,8 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.4567238"
-     inkscape:cx="391.289"
-     inkscape:cy="295.52617"
+     inkscape:cx="383.73781"
+     inkscape:cy="226.87897"
      inkscape:window-width="3440"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -10068,36 +10068,4 @@
      class="cls-11"
      transform="translate(508.47 341.48)"
      id="text2896">345</text>
-  <text
-     class="cls-12"
-     id="text2898"
-     x="518.45117"
-     y="38.079533">PIFA</text>
-  <line
-     class="cls-7"
-     x1="485.45117"
-     y1="36.379543"
-     x2="515.45117"
-     y2="36.379543"
-     id="line2900" />
-  <text
-     class="cls-12"
-     id="text2902"
-     x="517.91315"
-     y="62.620888">PCB</text>
-  <line
-     class="cls-9"
-     x1="486.62936"
-     y1="59.891232"
-     x2="516.62933"
-     y2="59.891232"
-     id="line2904" />
-  <rect
-     class="cls-13"
-     x="470.01834"
-     y="21.433659"
-     width="130.88155"
-     height="48.046368"
-     id="rect2906"
-     style="stroke-width:0.35113502;stroke-miterlimit:10;stroke-dasharray:0.35113502,0.70227003;stroke-dashoffset:0" />
 </svg>

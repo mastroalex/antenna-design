@@ -9610,44 +9610,4 @@
      class="cls-11"
      transform="translate(7.38 205.36)"
      id="text2768">165</text>
-  <text
-     class="cls-12"
-     id="text2898"
-     x="446.57465"
-     y="51.402302"
-     style="font-size:9px;font-family:Helvetica"><tspan
-       style="font-weight:normal"
-       id="tspan3710">PIFA</tspan></text>
-  <line
-     class="cls-7"
-     x1="413.57465"
-     y1="49.702312"
-     x2="443.57465"
-     y2="49.702312"
-     id="line2900"
-     style="fill:none;stroke:#0072bd;stroke-linejoin:round" />
-  <text
-     class="cls-12"
-     id="text2902"
-     x="446.03662"
-     y="75.943657"
-     style="font-size:9px;font-family:Helvetica"><tspan
-       style="font-weight:normal"
-       id="tspan4600">PCB</tspan></text>
-  <line
-     class="cls-9"
-     x1="414.75284"
-     y1="73.213997"
-     x2="444.75281"
-     y2="73.213997"
-     id="line2904"
-     style="fill:none;stroke:#d95319;stroke-linejoin:round" />
-  <rect
-     class="cls-13"
-     x="398.14182"
-     y="34.756428"
-     width="130.88155"
-     height="48.046368"
-     id="rect2906"
-     style="fill:none;stroke:#262626;stroke-width:0.35113499;stroke-miterlimit:10;stroke-dasharray:0.35113499,0.70226997;stroke-dashoffset:0" />
 </svg>

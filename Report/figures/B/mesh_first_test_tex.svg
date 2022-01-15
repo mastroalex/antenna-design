@@ -20,14 +20,14 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.0381944"
-     inkscape:cx="576"
-     inkscape:cy="280.77592"
+     inkscape:cx="576.00002"
+     inkscape:cy="280.77593"
      inkscape:window-width="3440"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="Livello_1" />
   <defs
      id="defs4">
     <style
@@ -282,7 +282,7 @@
      class="cls-6"
      points="150 60.09 175.51 282.69 201.02 378.6 226.53 304.15 252.03 318.08 277.54 317.09 303.05 356.51 328.56 414.94 354.07 337.99 379.58 319.13 405.09 461.25 430.59 296.03 456.1 274.54 481.61 266.22 507.12 259.99 532.63 42.34 558.14 229.99 583.65 42.34 609.15 235.4 634.66 42.34 660.17 42.34 685.68 42.35 711.19 229.88 736.7 42.34 762.21 231.74 787.71 42.34 813.22 42.34 838.73 226.91 864.24 42.34 889.75 42.34 915.26 42.35 940.77 42.34 966.27 225.81 991.78 42.35 1017.29 221.72 1042.8 42.36"
      id="polyline114"
-     style="stroke:#fe5a00;stroke-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="stroke:#fe5a00;stroke-opacity:1;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
   <g
      inkscape:groupmode="layer"
      id="layer1"

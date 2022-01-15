@@ -65,7 +65,7 @@
     \put(0.0311117,0.40861988){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
     \put(0.0311117,0.50383189){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}250\end{tabular}}}}%
     \put(0.0311117,0.59906611){\color[rgb]{0.14901961,0.14901961,0.14901961}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
-    \put(0.01778601,0.28506857){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}time(s)\end{tabular}}}}}%
+    \put(0.01778601,0.28506857){\color[rgb]{0.14901961,0.14901961,0.14901961}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}time (s)\end{tabular}}}}}%
     \put(0.21356253,0.54642966){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PCB\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{time_bench.pdf}}%
     \put(0.21356253,0.51311545){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIFA\end{tabular}}}}%

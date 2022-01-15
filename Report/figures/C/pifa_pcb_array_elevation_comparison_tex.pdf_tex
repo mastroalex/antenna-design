@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{395.34756078bp}%
+    \setlength{\unitlength}{340.91332031bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,42 +50,38 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.84788973)%
+  \begin{picture}(1,0.98327381)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{pifa_pcb_array_elevation_comparison_tex.pdf}}%
-    \put(0.42158693,0.45700661){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}}%
-    \put(0.44347906,0.53869423){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}}%
-    \put(0.46537119,0.62040082){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}}%
-    \put(0.50099807,0.69840813){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}}%
-    \put(0.5109956,0.7714641){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}}%
-    \put(-0.00392474,0.41121147){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
-    \put(0.0100756,0.30489995){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}195\end{tabular}}}}%
-    \put(0.05110912,0.20583522){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
-    \put(0.11638712,0.12075185){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}225\end{tabular}}}}%
-    \put(0.20145151,0.05547385){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
-    \put(0.30053522,0.01444033){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}255\end{tabular}}}}%
-    \put(0.40684673,0.00043999){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
-    \put(0.51315825,0.01444033){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}285\end{tabular}}}}%
-    \put(0.61222299,0.05547385){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
-    \put(0.69730635,0.12075185){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}315\end{tabular}}}}%
-    \put(0.76258435,0.20583522){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
-    \put(0.80361787,0.30489995){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}345\end{tabular}}}}%
-    \put(0.83753739,0.41121147){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
-    \put(0.81357746,0.51752299){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
-    \put(0.77254395,0.61660669){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
-    \put(0.70726594,0.70167108){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
-    \put(0.62218258,0.76694909){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
-    \put(0.52311785,0.8079826){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}75\end{tabular}}}}%
-    \put(0.41680633,0.82198294){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
-    \put(0.30053522,0.8079826){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}105\end{tabular}}}}%
-    \put(0.20145151,0.76694909){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
-    \put(0.11638712,0.70167108){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}135\end{tabular}}}}%
-    \put(0.05110912,0.61660669){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
-    \put(0.0100756,0.51752299){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}165\end{tabular}}}}%
-    \put(0.84325637,0.80959074){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PIFA\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{pifa_pcb_array_elevation_comparison_tex.pdf}}%
-    \put(0.8422357,0.76303419){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PCB\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{pifa_pcb_array_elevation_comparison_tex.pdf}}%
+    \put(0.48890247,0.52997768){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-60\end{tabular}}}}}%
+    \put(0.51429015,0.6247085){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-40\end{tabular}}}}}%
+    \put(0.53967784,0.71946133){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-20\end{tabular}}}}}%
+    \put(0.58099333,0.80992421){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}}%
+    \put(0.59258718,0.89464515){\rotatebox{-15.00492038}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}}%
+    \put(-0.00455141,0.47687034){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}180\end{tabular}}}}%
+    \put(0.01168439,0.35358387){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}195\end{tabular}}}}%
+    \put(0.0592698,0.23870129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}210\end{tabular}}}}%
+    \put(0.13497086,0.14003252){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}225\end{tabular}}}}%
+    \put(0.23361764,0.06433146){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}240\end{tabular}}}}%
+    \put(0.34852221,0.01674605){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}255\end{tabular}}}}%
+    \put(0.47180868,0.00051025){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}270\end{tabular}}}}%
+    \put(0.59509515,0.01674605){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}285\end{tabular}}}}%
+    \put(0.70997773,0.06433146){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0.8086465,0.14003252){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}315\end{tabular}}}}%
+    \put(0.88434756,0.23870129){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}330\end{tabular}}}}%
+    \put(0.93193297,0.35358387){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}345\end{tabular}}}}%
+    \put(0.97126849,0.47687034){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.94348283,0.60015681){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.89589742,0.71506138){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.82019636,0.81370816){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
+    \put(0.72152758,0.88940922){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0.60664501,0.93699463){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}75\end{tabular}}}}%
+    \put(0.48335854,0.95323043){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.34852221,0.93699463){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}105\end{tabular}}}}%
+    \put(0.23361764,0.88940922){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0.13497086,0.81370816){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}135\end{tabular}}}}%
+    \put(0.0592698,0.71506138){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.01168439,0.60015681){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}165\end{tabular}}}}%
   \end{picture}%
 \endgroup%

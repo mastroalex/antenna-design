@@ -20,13 +20,13 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="2.6478337"
-     inkscape:cx="225.845"
+     inkscape:cx="135.3937"
      inkscape:cy="139.54804"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="3432"
-     inkscape:window-y="344"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1409"
+     inkscape:window-height="1081"
+     inkscape:window-x="2049"
+     inkscape:window-y="181"
+     inkscape:window-maximized="0"
      inkscape:current-layer="Livello_1" />
   <defs
      id="defs4">
@@ -44,7 +44,8 @@
      class="cls-2"
      d="M441.31,543.94V319.67h-31.6V543.94Zm-138.25,0v-1.41h-31.6v1.41Zm-138.25,0v-5.83h-31.6v5.83Z"
      transform="translate(-62.95 -282.24)"
-     id="path8" />
+     id="path8"
+     style="fill:#0072bd;fill-opacity:0.85000002" />
   <rect
      class="cls-3"
      x="70.26"
@@ -70,7 +71,8 @@
      class="cls-4"
      d="M480.81,543.94V492.72h-31.6v51.22Zm-138.25,0v-3.21H311v3.21Zm-138.25,0v-1.43h-31.6v1.43Z"
      transform="translate(-62.95 -282.24)"
-     id="path16" />
+     id="path16"
+     style="fill:#d95319;fill-opacity:0.85000002" />
   <rect
      class="cls-3"
      x="109.76"
@@ -302,8 +304,8 @@
      id="text90">300</text>
   <text
      class="cls-7"
-     transform="translate(9.44 149.96) rotate(-90)"
-     id="text92">time(s)</text>
+     transform="rotate(-90,79.7,70.26)"
+     id="text92">time (s)</text>
   <text
      class="cls-8"
      transform="translate(97.59 32.28)"
@@ -314,7 +316,8 @@
      y="24.09"
      width="30"
      height="8.88"
-     id="rect96" />
+     id="rect96"
+     style="fill:#0072bd;fill-opacity:0.85000002" />
   <rect
      class="cls-9"
      x="65.34"
@@ -332,7 +335,8 @@
      y="39.09"
      width="30"
      height="8.88"
-     id="rect102" />
+     id="rect102"
+     style="fill:#d95319;fill-opacity:0.85000002" />
   <rect
      class="cls-9"
      x="65.34"
@@ -342,9 +346,9 @@
      id="rect104" />
   <rect
      class="cls-10"
-     x="62.34"
-     y="19.13"
-     width="75.42"
-     height="31.8"
+     x="62.324665"
+     y="19.114664"
+     width="66.386658"
+     height="31.830671"
      id="rect106" />
 </svg>

@@ -22,10 +22,10 @@
      inkscape:zoom="0.78145979"
      inkscape:cx="337.82928"
      inkscape:cy="297.52011"
-     inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="3432"
-     inkscape:window-y="344"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="Livello_1" />
   <defs
@@ -238,44 +238,54 @@
      id="line62" />
   <text
      class="cls-4"
-     transform="translate(58.83 540.5)"
-     id="text64">-0.2</text>
+     id="text64"
+     x="57.550343"
+     y="550.73724">-0.2</text>
   <text
      class="cls-4"
-     transform="translate(115.41 540.5)"
-     id="text66">-0.15</text>
+     id="text66"
+     x="114.13034"
+     y="550.73724">-0.15</text>
   <text
      class="cls-4"
-     transform="translate(178 540.5)"
-     id="text68">-0.1</text>
+     id="text68"
+     x="176.72034"
+     y="550.73724">-0.1</text>
   <text
      class="cls-4"
-     transform="translate(234.59 540.5)"
-     id="text70">-0.05</text>
+     id="text70"
+     x="233.31035"
+     y="550.73724">-0.05</text>
   <text
      class="cls-4"
-     transform="translate(302.81 540.5)"
-     id="text72">0</text>
+     id="text72"
+     x="301.53033"
+     y="550.73724">0</text>
   <text
      class="cls-4"
-     transform="translate(355.65 540.5)"
-     id="text74">0.05</text>
+     id="text74"
+     x="354.37033"
+     y="550.73724">0.05</text>
   <text
      class="cls-4"
-     transform="translate(417.86 540.5)"
-     id="text76">0.1</text>
+     id="text76"
+     x="416.58035"
+     y="550.73724">0.1</text>
   <text
      class="cls-4"
-     transform="translate(474.82 540.5)"
-     id="text78">0.15</text>
+     id="text78"
+     x="473.54034"
+     y="550.73724">0.15</text>
   <text
      class="cls-4"
-     transform="translate(537.04 540.5)"
-     id="text80">0.2</text>
+     id="text80"
+     x="535.76031"
+     y="550.73724">0.2</text>
   <text
      class="cls-5"
-     transform="translate(299.38 555)"
-     id="text82">X</text>
+     id="text82"
+     x="298.10034"
+     y="572.91516">X</text>
   <line
      class="cls-3"
      x1="42.69"

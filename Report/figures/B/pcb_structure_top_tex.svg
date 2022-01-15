@@ -20,13 +20,13 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="1.1912469"
-     inkscape:cx="737.88228"
-     inkscape:cy="509.96983"
-     inkscape:window-width="3440"
-     inkscape:window-height="1369"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:cx="575.44746"
+     inkscape:cy="602.31007"
+     inkscape:window-width="1409"
+     inkscape:window-height="1081"
+     inkscape:window-x="2223"
+     inkscape:window-y="126"
+     inkscape:window-maximized="0"
      inkscape:current-layer="Livello_1" />
   <defs
      id="defs4">
@@ -253,44 +253,44 @@
   <text
      class="cls-4"
      id="text68"
-     x="1000.9559"
+     x="1014.3871"
      y="609.16052">-15</text>
   <text
      class="cls-4"
      id="text70"
-     x="1000.9559"
+     x="1014.3871"
      y="538.95056">-10</text>
   <text
      class="cls-4"
      id="text72"
-     x="1000.9559"
+     x="1014.3871"
      y="468.75055">-5</text>
   <text
      class="cls-4"
      id="text74"
-     x="1000.9559"
+     x="1014.3871"
      y="398.54056">0</text>
   <text
      class="cls-4"
      id="text76"
-     x="1000.9559"
+     x="1014.3871"
      y="328.33054">5</text>
   <text
      class="cls-4"
      id="text78"
-     x="1000.9559"
+     x="1014.3871"
      y="258.13055">10</text>
   <text
      class="cls-4"
      id="text80"
-     x="1000.9559"
+     x="1014.3871"
      y="187.92055">15</text>
   <text
      class="cls-5"
      transform="rotate(-90)"
      id="text82"
-     x="-409.42053"
-     y="1045.6312">x (mm)</text>
+     x="-442.99878"
+     y="1097.6775">x (mm)</text>
   <line
      class="cls-3"
      x1="977.54"
@@ -406,43 +406,43 @@
   <text
      class="cls-4"
      id="text116"
-     x="903.30054"
-     y="672.39911">-30</text>
+     x="901.62164"
+     y="689.18823">-30</text>
   <text
      class="cls-4"
      id="text118"
-     x="762.88055"
-     y="672.39911">-20</text>
+     x="761.20166"
+     y="689.18823">-20</text>
   <text
      class="cls-4"
      id="text120"
-     x="622.47052"
-     y="672.39911">-10</text>
+     x="620.79163"
+     y="689.18823">-10</text>
   <text
      class="cls-4"
      id="text122"
-     x="485.80054"
-     y="672.39911">0</text>
+     x="484.12161"
+     y="689.18823">0</text>
   <text
      class="cls-4"
      id="text124"
-     x="343.14053"
-     y="672.39911">10</text>
+     x="341.46161"
+     y="689.18823">10</text>
   <text
      class="cls-4"
      id="text126"
-     x="202.72055"
-     y="672.39911">20</text>
+     x="201.04164"
+     y="689.18823">20</text>
   <text
      class="cls-4"
      id="text128"
-     x="62.310543"
-     y="672.39911">30</text>
+     x="60.63163"
+     y="689.18823">30</text>
   <text
      class="cls-5"
      id="text130"
-     x="475.01999"
-     y="689.52533">y (mm)</text>
+     x="472.50162"
+     y="746.60834">y (mm)</text>
   <path
      class="cls-6"
      d="M313.92,400.4v.17l0,0h0l0,0h.1v-.18l0-.17H314l0,0h0l0,0Zm.33.13v-.17h0v0h-.11v.17l0,.18h.08v0h0v-.06Z"
