@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{433.13206146bp}%
+    \setlength{\unitlength}{450.29071821bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,34 +50,34 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.79685004)%
+  \begin{picture}(1,0.80068295)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{smith_chart.pdf}}%
-    \put(0.75270015,0.41401669){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j30\end{tabular}}}}%
-    \put(0.7332719,0.53539999){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j5\end{tabular}}}}%
-    \put(0.60996655,0.69394286){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j2\end{tabular}}}}%
-    \put(0.38096595,0.77027062){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j1\end{tabular}}}}%
-    \put(0.13832056,0.69394286){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.5\end{tabular}}}}%
-    \put(0.01501521,0.53539999){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.2\end{tabular}}}}%
-    \put(0.75659619,0.36317769){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j30\end{tabular}}}}%
-    \put(0.73716794,0.24179439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j5\end{tabular}}}}%
-    \put(0.61386259,0.08325152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j2\end{tabular}}}}%
-    \put(0.384862,0.00692376){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j1\end{tabular}}}}%
-    \put(0.1422166,0.08325152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.5\end{tabular}}}}%
-    \put(0.01891125,0.24179439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.2\end{tabular}}}}%
-    \put(-0.00136547,0.38859719){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
-    \put(0.72087383,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}}%
-    \put(0.62749007,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
-    \put(0.51169975,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
-    \put(0.39589212,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
-    \put(0.28008448,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}}%
-    \put(0.16429416,0.40158399){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}}%
-    \put(0.92473367,0.5246467){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$\end{tabular}}}}%
+    \put(0.72401796,0.39824028){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j30\end{tabular}}}}%
+    \put(0.70533004,0.51499818){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j5\end{tabular}}}}%
+    \put(0.58672333,0.66749966){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j2\end{tabular}}}}%
+    \put(0.36644897,0.7409189){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j1\end{tabular}}}}%
+    \put(0.13304975,0.66749966){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.5\end{tabular}}}}%
+    \put(0.01444305,0.51499818){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}+j0.2\end{tabular}}}}%
+    \put(0.72776554,0.34933854){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j30\end{tabular}}}}%
+    \put(0.70907762,0.23258064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j5\end{tabular}}}}%
+    \put(0.59047091,0.08007916){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j2\end{tabular}}}}%
+    \put(0.37019655,0.00665992){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j1\end{tabular}}}}%
+    \put(0.13679733,0.08007916){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.5\end{tabular}}}}%
+    \put(0.01819062,0.23258064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-j0.2\end{tabular}}}}%
+    \put(-0.00131344,0.37378941){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
+    \put(0.69340441,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}}%
+    \put(0.60357911,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
+    \put(0.49220106,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
+    \put(0.38080636,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
+    \put(0.26941166,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}}%
+    \put(0.15803361,0.38628134){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}}%
+    \put(0.92369345,0.49292982){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_{11}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{smith_chart.pdf}}%
-    \put(0.75737431,0.39137723){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\infty$\end{tabular}}}}%
+    \put(0.72851401,0.37646352){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\infty$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{smith_chart.pdf}}%
-    \put(0.75303512,0.76514899){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.27699983}\smash{\begin{tabular}[t]{l}$S_{11} = |0.0018|$, \\140.4 [deg]\\Freq = 2.1 GHz\\VSWR = 1.0036\\Z = 0.997 + j0.002\\Y = 1.003 - j0.002\end{tabular}}}}%
+    \put(0.72629432,0.77018989){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.27699983}\smash{\begin{tabular}[t]{l}$S_{11} = |0.0018|$, \\140.4 [deg]\\Freq = 2.1 GHz\\VSWR = 1.0036\\Z = 0.997 + j0.002\\Y = 1.003 - j0.002\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{smith_chart.pdf}}%
   \end{picture}%
 \endgroup%
