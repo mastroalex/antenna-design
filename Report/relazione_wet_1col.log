@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  16 JAN 2022 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.23)  16 JAN 2022 21:31
 entering extended mode
 **./relazione_wet_1col.tex
 (relazione_wet_1col.tex
@@ -2582,7 +2582,34 @@ F inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures/C//EHfield_pfre_45_center.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->] [11 <./figures//time_bench.pdf> <./figures//time_bench.pdf
+>]
+Overfull \hbox (1.61746pt too wide) in paragraph at lines 1089--1089
+[]|$\LS1/stix/m/n/10 *54\LS1/stix/m/it/10 :\LS1/stix/m/n/10 94 \LS1/stix/m/it/1
+0 dB$| 
+ []
+
+
+Overfull \hbox (3.15388pt too wide) in paragraph at lines 1089--1089
+[]|$\LS1/stix/m/n/10 49\LS1/stix/m/it/10 :\LS1/stix/m/n/10 86 
+$| 
+ []
+
+
+Overfull \hbox (2.94487pt too wide) in paragraph at lines 1089--1089
+[]|\T1/ptm/m/n/10 [2.075,2.125]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
+[]|\T1/ptm/m/n/10 [2.09,2.11]
+ []
+
+
+Overfull \hbox (15.8641pt too wide) in paragraph at lines 1085--1092
+[]  
+ []
+
+[11 <./figures//time_bench.pdf> <./figures//time_bench.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//time_bench.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -3407,7 +3434,7 @@ Package logreq Info: Writing requests to 'relazione_wet_1col.run.xml'.
 Here is how much of TeX's memory you used:
  50712 strings out of 478647
  1184049 string characters out of 2853193
- 1994448 words of memory out of 3000000
+ 1995448 words of memory out of 3000000
  67896 multiletter control sequences out of 15000+600000
  589521 words of font info for 283 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3431,7 +3458,7 @@ iKTeX/2.9/fonts/type1/public/stix/stix-mathsf.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on relazione_wet_1col.pdf (15 pages, 11236014 bytes).
+Output written on relazione_wet_1col.pdf (15 pages, 11236714 bytes).
 PDF statistics:
  58823 PDF objects out of 66169 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1082,18 +1082,14 @@ We realized a PIFA model also in \texttt{CST Studio Suite} and plotted its 2D ra
 			\end{minipage}\hspace{0.05\linewidth}
 		\begin{minipage}{0.45\linewidth}
 			\begin{center}
-				{\fontfamily{ptm}\selectfont	\begin{tabular}{|m{2cm}|m{2cm}|}
+				{\fontfamily{ptm}\selectfont	\begin{tabular}{|m{1.5cm}|m{1cm}|m{1cm}|m{1.8cm}|m{1.6cm}|}
 						\hline
-						\cellcolor{deepsaffron}\textbf{Parameter} & \cellcolor{deepsaffron}\textbf{Value}\\
+						\rowcolor{deepsaffron}\textbf{$\Gamma_{final}$} & \textbf{$R_{in}$} & $Y_{in}$ & $B_{|\Gamma|<-10\,dB}$ & $B_{|\Gamma|<-20\,dB}$\\
 						\hline
-						$\Gamma_{final}$ & $-54.94\,dB$\\
-						\hline
-						$R_{in}$ & $49.86\,\Omega$ \\
-						\hline
-						$Y_{in}$ & $ 0.11\,S$ \\
+						 $-54.94\,dB$&  $49.86\,\Omega$ & $ 0.11\,S$ & \small{[2.075,2.125]} GHz & \small{[2.09,2.11] GHz}\\
 						\hline
 				\end{tabular}}
-				\caption{Final $\Gamma$ and impedance matching values after last optimization choice: the $w_{\operatorname{feed}}$ change}
+				\caption{Final $\Gamma$ and impedance matching values after last optimization choice: the $w_{\operatorname{feed}}$ change. The band restriction is considered in two cases: when $10\%$ of the voltage signal is coming back (band of frequencies observing the condition $|\Gamma|<-20\,dB$) and when about $32\%$ of the voltage signal is returning (band observing $|\Gamma|<-10\,dB$) }
 				\label{table:Gamma and Z}
 			\end{center}
 		\end{minipage}
