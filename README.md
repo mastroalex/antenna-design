@@ -1,4 +1,4 @@
-# Design of folded patch
+# Development and Analysis of an Array of Folded Patch Antennas Using MatLab
 
 **Wireless Electromagnetic Technologies**  - University of Rome Tor Vergata
 
