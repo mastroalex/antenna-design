@@ -91,6 +91,7 @@
 \author[]{Blasi Luca}
 \author[2]{Mastrofini Alessandro}
 \author[3]{Mucenica Stefan Leonard}
+\affil[1]{\small luca.blasi.433064@alumni.uniroma2.eu}
 \affil[2]{\small alessandro.mastrofini@alumni.uniroma2.eu}
 \affil[3]{\small stefanleonard.mucenica@alumni.uniroma2.eu}
 
@@ -205,7 +206,7 @@ Subsequently, several tests were conducted in order to verify that the the overa
 	
 \section*{Tchebyshev array factor design}
 
- A Tchebyshev array factor will be designed in this part, so that the specific structure of the single element of the array is disregarded for the moment. The array is represented by a linear distribution of five elements ($n_{el}=5$), which are supposed to be uniformly spaced and with a non-uniform amplitude for the feed arrangement, that anyway is going to be symmetrical (starting from the element in the middle, located in the origin of the geometrical axes). Also the "\emph{mean lobe to side lobe ratio}" ($R$) will be one of the input design variables. Thus, the variables of this design part are the \emph{element inter-spacing} ($d_{opt}$, which needs to be optimal such that the beamwidth is minimized), the feed amplitude of the single antenna (each one represented by a $C_i$, with $i\in\{-2,-1,0,1,2\}$, the $i^{th}$ \emph{current coefficient} - these unknowns are actually just three and not five, due to the symmetrical amplitude distribution hyphotesis), the operating \emph{resonant frequency} required for the single antenna ($f$) and some other quantities related to them, such as the \emph{tapering efficiency} ($\eta_T$) and the \emph{beamwidth} ($BW_{\operatorname{fn}}$). Moreover, the difference between the beamwidth of the Tchebyshev array (\emph{Uniform Spacing Non Uniform Amplitude} case, shorten $NUA$) and  that of a uniform array having the same number of elements and inter-spacing value but a uniform amplitude feed distribution  (\emph{Uniform Spacing Uniform Amplitude}, shorten $UA$) will be discussed. The input design variables related to the Tchebyshev array factor (i.e. $n_{el}$, $R$ and $f$) are listed in \textbf{\cref{table:input_design_cheb}}. 
+ A Tchebyshev array factor will be designed in this part, so that the specific structure of the single element of the array is disregarded for the moment. The array is represented by a linear distribution of five elements ($n_{el}=5$), which are supposed to be uniformly spaced and with a non-uniform amplitude for the feed arrangement, that anyway is going to be symmetrical (starting from the element in the middle, located in the origin of the geometrical axes). Also the "\emph{|main lobe to side lobe ratio}" ($R$) will be one of the input design variables. Thus, the variables of this design part are the \emph{element inter-spacing} ($d_{opt}$, which needs to be optimal such that the beamwidth is minimized), the feed amplitude of the single antenna (each one represented by a $C_i$, with $i\in\{-2,-1,0,1,2\}$, the $i^{th}$ \emph{current coefficient} - these unknowns are actually just three and not five, due to the symmetrical amplitude distribution hyphotesis), the operating \emph{resonant frequency} required for the single antenna ($f$) and some other quantities related to them, such as the \emph{tapering efficiency} ($\eta_T$) and the \emph{beamwidth} ($BW_{\operatorname{fn}}$). Moreover, the difference between the beamwidth of the Tchebyshev array (\emph{Uniform Spacing Non Uniform Amplitude} case, shorten $NUA$) and  that of a uniform array having the same number of elements and inter-spacing value but a uniform amplitude feed distribution  (\emph{Uniform Spacing Uniform Amplitude}, shorten $UA$) will be discussed. The input design variables related to the Tchebyshev array factor (i.e. $n_{el}$, $R$ and $f$) are listed in \textbf{\cref{table:input_design_cheb}}. 
 
 Starting from the optimal inter-element spacing, it requires some secondary variables in orderer to be evaluated. Firstly, a coefficient ($\gamma$, depending on $R$ and indirectly on the number of array elements) neeeds to be calculated, among with the wavelength in the free space ($\lambda$, as the ratio between the light speed in the free space - $c$ - and the operating frequency $f$). Having those quantities, $d_{opt}$ minimizing the $BW_{\operatorname{fn}}$ can be computed by using the \textbf{\cref{eq:test}} group. 
 
@@ -1300,7 +1301,7 @@ In the appendix there are different patterns (for PCB and PIFA comparison), 3D g
 		\node (start) [startstop,left of=startp,xshift=-0.45\linewidth]
 		{\textmd{INPUT VARIABLES}
 			
-			\fontsize{6}{4}\selectfont 	no. of elements, mean to side lobe ratio, operating frequency};
+			\fontsize{6}{4}\selectfont 	no. of elements, |main to side lobe ratio, operating frequency};
 		
 		\node (out1) [io, below of=start,yshift=-1 cm] {\textmd{OUTPUT VARIABLES}
 			

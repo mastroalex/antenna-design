@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  16 JAN 2022 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.7)  17 JAN 2022 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1416,43 +1416,43 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count499
 \@quotereset=\count500
 LaTeX Font Info:    Trying to load font information for T1+qbk on input line 18
-1.
+2.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qbk.fd
 File: t1qbk.fd 2009/09/25 v1.2 font definition file for T1/qbk
 )
 (./relazione_wet_1col.aux)
 \openout1 = `relazione_wet_1col.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 181.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 182.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-181.
+182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 181.
+LaTeX Font Info:    ... okay on input line 182.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 182.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-181.
+182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 181.
+LaTeX Font Info:    ... okay on input line 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1547,7 +1547,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 \c@lstlisting=\count507
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 181.
+(lastpage)             ! on input line 182.
 Package biblatex Info: Trying to load language 'british'...
 Package biblatex Info: ... file 'british.lbx' found.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/british.lbx
@@ -1579,72 +1579,72 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'relazione_wet_1col.bbl' found.
 
 (./relazione_wet_1col.bbl)
-Package biblatex Info: Reference section=0 on input line 181.
-Package biblatex Info: Reference segment=0 on input line 181.
+Package biblatex Info: Reference section=0 on input line 182.
+Package biblatex Info: Reference segment=0 on input line 182.
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 181.
+ne 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 181.
+e 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 181.
+ine 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 181.
+e 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 181.
+ne 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 181.
+e 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 181.
+e 182.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 18
-2.
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-89.
+90.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 208.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 209.
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 209.
+Package pdftex.def Info: figures//logo.png  used on input line 210.
 (pdftex.def)             Requested size: 59.76631pt x 60.0pt.
 
 
@@ -1757,7 +1757,7 @@ Package pdftex.def Info: figures/B//patch_structure_3_tex.pdf , page1 used on i
 nput line 56.
 (pdftex.def)             Requested size: 161.90947pt x 32.85265pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 []\T1/ptm/m/n/10 (same con-duct-iv-ity lis-ted
  []
 
@@ -2320,7 +2320,7 @@ Package pdftex.def Info: figures/B//mesh_first_test_tex.pdf , page1 used on inp
 ut line 56.
 (pdftex.def)             Requested size: 215.87381pt x 114.77197pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 76--751
+Underfull \hbox (badness 10000) in paragraph at lines 76--752
 
  []
 
@@ -2333,25 +2333,25 @@ Package pdftex.def Info: figures/B//pcb_structure_zoom_tex.pdf , page1 used on
 input line 56.
 (pdftex.def)             Requested size: 215.87381pt x 114.73212pt.
 )
-Overfull \hbox (8.02583pt too wide) in paragraph at lines 839--839
+Overfull \hbox (8.02583pt too wide) in paragraph at lines 840--840
 []|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *2\LS1/stix/m/it/10
  d[]; z[]\LS1/stix/m/n/10 _2/$| 
  []
 
 
-Overfull \hbox (2.79584pt too wide) in paragraph at lines 840--840
+Overfull \hbox (2.79584pt too wide) in paragraph at lines 841--841
 []|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *2\LS1/stix/m/it/10
  d[]; \LS1/stix/m/n/10 4\LS1/stix/m/it/10 z[]\LS1/stix/m/n/10 /$| 
  []
 
 
-Overfull \hbox (3.02583pt too wide) in paragraph at lines 846--846
+Overfull \hbox (3.02583pt too wide) in paragraph at lines 847--847
 []|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 *\LS1/stix/m/it/10 
 d[]; z[]\LS1/stix/m/n/10 _2/$| 
  []
 
 
-Overfull \hbox (1.17584pt too wide) in paragraph at lines 867--867
+Overfull \hbox (1.17584pt too wide) in paragraph at lines 868--868
 []|$\LS1/stix/m/n/10 .0\LS1/stix/m/it/10 ; \LS1/stix/m/n/10 2\LS1/stix/m/it/10 
 d[]; z[]\LS1/stix/m/n/10 _2/$| 
  []
@@ -2542,7 +2542,7 @@ input line 75.
 (pdftex.def)             Requested size: 215.87381pt x 131.26434pt.
 )
 LaTeX Font Info:    Trying to load font information for TS1+qbk on input line 9
-47.
+48.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qbk.fd
 File: ts1qbk.fd 2009/09/25 v1.2 font definition file for TS1/qbk
@@ -2681,29 +2681,29 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/C//EHfield_pfre_45
 _center.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >]
-Overfull \hbox (1.61746pt too wide) in paragraph at lines 1089--1089
+Overfull \hbox (1.61746pt too wide) in paragraph at lines 1090--1090
 []|$\LS1/stix/m/n/10 *54\LS1/stix/m/it/10 :\LS1/stix/m/n/10 94 \LS1/stix/m/it/1
 0 dB$| 
  []
 
 
-Overfull \hbox (3.15388pt too wide) in paragraph at lines 1089--1089
+Overfull \hbox (3.15388pt too wide) in paragraph at lines 1090--1090
 []|$\LS1/stix/m/n/10 49\LS1/stix/m/it/10 :\LS1/stix/m/n/10 86 
 $| 
  []
 
 
-Overfull \hbox (2.94487pt too wide) in paragraph at lines 1089--1089
+Overfull \hbox (2.94487pt too wide) in paragraph at lines 1090--1090
 []|\T1/ptm/m/n/10 [2.075,2.125]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 []|\T1/ptm/m/n/10 [2.09,2.11]
  []
 
 
-Overfull \hbox (15.8641pt too wide) in paragraph at lines 1085--1092
+Overfull \hbox (15.8641pt too wide) in paragraph at lines 1086--1093
 []  
  []
 
@@ -3566,7 +3566,7 @@ Package logreq Info: Writing requests to 'relazione_wet_1col.run.xml'.
 Here is how much of TeX's memory you used:
  47794 strings out of 478994
  1084428 string characters out of 5858184
- 1981948 words of memory out of 5000000
+ 1982045 words of memory out of 5000000
  64349 multiletter control sequences out of 15000+600000
  589521 words of font info for 283 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3591,7 +3591,7 @@ f.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/202
 1/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on relazione_wet_1col.pdf (15 pages, 8763879 bytes).
+Output written on relazione_wet_1col.pdf (15 pages, 8763993 bytes).
 PDF statistics:
  59198 PDF objects out of 66169 (max. 8388607)
  39126 compressed objects within 392 object streams
