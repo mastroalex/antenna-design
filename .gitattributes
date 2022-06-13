@@ -1,2 +1,3 @@
 # ignore .tex file for languages
 Report/* linguist-vendored
+*.tex linguist-vendored
