@@ -7,3 +7,5 @@ working_dir/**/* linguist-vendored
 working_dir/**/*.m linguist-vendored=false
 working_dir/**/*.nb linguist-vendored
 *.tex linguist-vendored
+*.nb linguist-vendored
+data_and_calculations/*.nb linguist-vendored=false
