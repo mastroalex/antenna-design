@@ -1,4 +1,5 @@
 # ignore .tex file for languages
-Report/** linguist-vendored
+Report/**/* linguist-vendored
+Report/* linguist-vendored
 working_dir/* linguist-vendored
 *.tex linguist-vendored
