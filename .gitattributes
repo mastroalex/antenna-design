@@ -3,4 +3,5 @@ Report/**/* linguist-vendored
 Report/* linguist-vendored
 working_dir/* linguist-vendored
 working_dir/**/* linguist-vendored
+working_dir/**/*.nb linguist-vendored
 *.tex linguist-vendored
