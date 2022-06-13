@@ -2,6 +2,8 @@
 Report/**/* linguist-vendored
 Report/* linguist-vendored
 working_dir/* linguist-vendored
+working_dir/*.m linguist-vendored=false
 working_dir/**/* linguist-vendored
+working_dir/**/*.m linguist-vendored=false
 working_dir/**/*.nb linguist-vendored
 *.tex linguist-vendored
